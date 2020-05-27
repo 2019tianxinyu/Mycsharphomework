@@ -1,0 +1,7 @@
+E:\新桌面里的文件\homework10\program1\bin\Debug\program1.exe.config
+E:\新桌面里的文件\homework10\program1\bin\Debug\program1.exe
+E:\新桌面里的文件\homework10\program1\bin\Debug\program1.pdb
+E:\新桌面里的文件\homework10\program1\obj\Debug\program1.csprojAssemblyReference.cache
+E:\新桌面里的文件\homework10\program1\obj\Debug\program1.csproj.CoreCompileInputs.cache
+E:\新桌面里的文件\homework10\program1\obj\Debug\program1.exe
+E:\新桌面里的文件\homework10\program1\obj\Debug\program1.pdb

@@ -1,0 +1,15 @@
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\ADODataSet.exe.config
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\ADODataSet.exe
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\ADODataSet.pdb
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\BouncyCastle.Crypto.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\Google.Protobuf.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\MySql.Data.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\Renci.SshNet.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\Ubiety.Dns.Core.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\Google.Protobuf.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\MySql.Data.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\bin\Debug\Renci.SshNet.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\obj\Debug\ADODataSet.csprojAssemblyReference.cache
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\obj\Debug\ADODataSet.csproj.CopyComplete
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\obj\Debug\ADODataSet.exe
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODataSet\obj\Debug\ADODataSet.pdb

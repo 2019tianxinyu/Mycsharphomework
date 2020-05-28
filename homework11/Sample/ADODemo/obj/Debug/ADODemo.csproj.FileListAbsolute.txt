@@ -1,0 +1,14 @@
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\ADODemo.exe.config
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\ADODemo.exe
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\ADODemo.pdb
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\BouncyCastle.Crypto.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\Google.Protobuf.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\MySql.Data.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\Renci.SshNet.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\Ubiety.Dns.Core.dll
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\Google.Protobuf.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\MySql.Data.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\bin\Debug\Renci.SshNet.xml
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\obj\Debug\ADODemo.csproj.CopyComplete
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\obj\Debug\ADODemo.exe
+E:\File\软件构造基础\homework\c#\homework11\Sample\ADODemo\obj\Debug\ADODemo.pdb

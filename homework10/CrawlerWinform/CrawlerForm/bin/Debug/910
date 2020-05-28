@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>kun_行者 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/banlieue13/bundle-banlieue13.min.css?v=1J0RP_opHZcWv1yy974pRZewfj9S0p6tTP1QNRnmMiI" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/banlieue13/bundle-banlieue13-mobile.min.css?v=cTNtJQ6_6SB1QXNeWlP0QHJBE4K5SDodawH8t2CtJ3Y" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/kunjian/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/kunjian/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/kunjian/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 434811;
+        var currentBlogApp = 'kunjian';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Banlieue13';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <script>loadPageBeginHtml();</script>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/kunjian/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/kunjian/">MySQL技术</a>
+</h1>
+<h2>
+－－芝兰生于深林，不以无人而不芳。
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/kunjian/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/kun_%E8%A1%8C%E8%80%85">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/kunjian/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/kunjian/rss/">
+    <img src="/skins/banlieue13/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+40&nbsp;
+文章- 
+0&nbsp;
+评论- 
+1&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12767772.html">
+    MySQL如何快速插入数据
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 日常学习和工作中，经常会遇到导数据的需求。比如数据迁移、数据恢复、新建从库等，这些操作可能都会涉及大量数据的导入。有时候导入进度慢，电脑风扇狂转真的很让人崩溃，其实有些小技巧是可以让导入更快速的，本篇文章笔者会谈一谈如何快速的导入数据。 注：本篇文章只讨论如何快速导入由逻辑备份产生的SQL脚            <a href="https://www.cnblogs.com/kunjian/p/12767772.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 15:32 kun_行者 阅读 (8) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12767772" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/04/17.html">2020年4月17日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12720084.html">
+    教你用SQL实现统计排名
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 在某些应用场景中，我们经常会遇到一些排名的问题，比如按成绩或年龄排名。排名也有多种排名方式，如直接排名、分组排名，排名有间隔或排名无间隔等等，这篇文章将总结几种MySQL中常见的排名问题。 创建测试表 1.普通排名 按分数高低直接排名，从1开始，往下排，类似于row number。下面我们给            <a href="https://www.cnblogs.com/kunjian/p/12720084.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-17 15:03 kun_行者 阅读 (37) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12720084" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/04/10.html">2020年4月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12674080.html">
+    巧用SQL拼接语句
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 在日常数据库运维过程中，可能经常会用到各种拼接语句，巧用拼接SQL可以让我们的工作方便很多，达到事半功倍的效果。本篇文章将会分享几个日常会用到的SQL拼接案例，类似的SQL还可以举一反三，探索出更多的可能性哦。 _注意_：适用于5.7版本，其他版本可能稍许不同。 1.CONCAT函数介绍 授            <a href="https://www.cnblogs.com/kunjian/p/12674080.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-10 16:00 kun_行者 阅读 (51) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12674080" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/04/03.html">2020年4月3日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12626232.html">
+    Truncate用法详解
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 当我们想要清空某张表时，往往会使用truncate语句。大多时候我们只关心能否满足需求，而不去想这类语句的使用场景及注意事项。本篇文章主要介绍truncate语句的使用方法及注意事项。 1.truncate使用语法 truncate的作用是清空表或者说是截断表，只能作用于表。truncate            <a href="https://www.cnblogs.com/kunjian/p/12626232.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-03 14:17 kun_行者 阅读 (138) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12626232" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12581186.html">
+    utf8字符集下的比较规则
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 在MySQL中，比较常用的字符集是utf8和utf8mb4。这两个字符集是类似的，utf8是utf8mb3的别名，所以之后在MySQL中提到utf8就意味着使用1~3个字节来表示一个字符，如果大家有使用4字节编码一个字符的情况，比如存储一些emoji表情啥的，需要使用utf8mb4。其实每个            <a href="https://www.cnblogs.com/kunjian/p/12581186.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-27 14:21 kun_行者 阅读 (32) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12581186" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/03/20.html">2020年3月20日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12530653.html">
+    关于Aborted connection告警日志的分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 有时候，连接MySQL的会话经常会异常退出，错误日志里会看到&quot;_Got an error reading communication packets_&quot;类型的告警。本篇文章我们一起来讨论下该错误可能的原因以及如何来规避。 1.状态变量Aborted_clients和Aborted_conne            <a href="https://www.cnblogs.com/kunjian/p/12530653.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-20 11:39 kun_行者 阅读 (51) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12530653" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/01/17.html">2020年1月17日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12204738.html">
+    MySQL DDL详情揭露
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： MySQL中DDL语句，即数据定义语言，用于创建、删除、修改、库或表结构，对数据库或表的结构操作。常见的有create，alter，drop等。这类语句通常会耗费很大代价，特别是对于大表做表结构变更。本篇文章会揭露各类DDL语句执行的详细情况。 1.Online DDL简介 在MySQL的早            <a href="https://www.cnblogs.com/kunjian/p/12204738.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-17 10:55 kun_行者 阅读 (102) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12204738" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2020/01/13.html">2020年1月13日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12186006.html">
+    时间戳，这样用就对了
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 时间戳字段在MySQL中经常使用到，比如需要记录一行数据创建的时间或修改的时间时，我们通常会使用时间戳即timestamp字段。本篇文章主要介绍timestamp字段的使用方法及相关参数，希望大家读完能对timestamp有更深的认识。 1.TIMESTAMP字段类型简介 timestamp            <a href="https://www.cnblogs.com/kunjian/p/12186006.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-13 10:16 kun_行者 阅读 (9) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12186006" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2019/12/30.html">2019年12月30日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12118435.html">
+    在线修改主从复制选项
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： MySQL最常用的架构就是主从复制了，其实主从复制有很多选项，特别是在从库端，我们可以设置复制过滤，比如说忽略某张表或某个库。这些过滤选项都是可以在线修改而不用重启的。原来对这块了解不多，最近看了下相关资料，个人觉得这个功能还是很方便的，本篇文章会将这块内容分享给大家。 1.复制过滤参数介绍            <a href="https://www.cnblogs.com/kunjian/p/12118435.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-30 10:40 kun_行者 阅读 (22) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12118435" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/kunjian/archive/2019/12/23.html">2019年12月23日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12083943.html">
+    MySQL数据类型DECIMAL用法
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 当我们需要存储小数，并且有精度要求，比如存储金额时，通常会考虑使用DECIMAL字段类型，可能大部分同学只是对DECIMAL类型略有了解，其中的细节还不甚清楚，本篇文章将从零开始，为你讲述DECIMAL字段类型的使用场景及方法。 1.DECIMAL类型简介 DECIMAL从MySQL 5.1            <a href="https://www.cnblogs.com/kunjian/p/12083943.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-23 15:20 kun_行者 阅读 (1113) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12083943" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/kunjian/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 kun_行者
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'cnblogs_post_body',
+        blogId: '10130-1571197784157-834',
+        name: 'MySQL技术',
+        qrcode: 'https://img2018.cnblogs.com/blog/1118724/201910/1118724-20191016162559525-1962815820.jpg',
+        keyword: 'vip',
+    });
+</script>
+    </div>
+</body>
+</html>

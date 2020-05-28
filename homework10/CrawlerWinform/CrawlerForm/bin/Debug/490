@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_博客园官方博客</title>
+  <subtitle type="text">代码改变世界</subtitle>
+  <id>uuid:d858c38d-6e84-40b3-abe9-92648a344456;id=286</id>
+  <updated>2020-04-20T09:08:14Z</updated>
+  <author>
+    <name>博客园团队</name>
+    <uri>http://www.cnblogs.com/cmt/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12735800.html</id>
+    <title type="text">上周热点回顾（4.13-4.19） - 博客园团队</title>
+    <summary type="text">热点随笔： · 进大厂也就这回事，工作后2到3年进大厂操作指南 (hsm_computer)· .Net微服务实战之技术架构分层篇 (陈珙)· HTML5+tracking.js实现刷脸支付 (nd)· 大专学历以后就职会不会有瓶颈 (沉默王二)· 技术从业者的未来 (lex-wu)· 震撼！全网第</summary>
+    <published>2020-04-20T01:03:00Z</published>
+    <updated>2020-04-20T01:03:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12735800.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12735800.html" />
+    <content type="html">【摘要】热点随笔： · 进大厂也就这回事，工作后2到3年进大厂操作指南 (hsm_computer)· .Net微服务实战之技术架构分层篇 (陈珙)· HTML5+tracking.js实现刷脸支付 (nd)· 大专学历以后就职会不会有瓶颈 (沉默王二)· 技术从业者的未来 (lex-wu)· 震撼！全网第 &lt;a href="http://www.cnblogs.com/cmt/p/12735800.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12689281.html</id>
+    <title type="text">上周热点回顾（4.6-4.12） - 博客园团队</title>
+    <summary type="text">热点随笔： · 【高并发】高并发秒杀系统架构解密，不是所有的秒杀都是秒杀！ (冰河团队)· Java是未来的第一编程语言吗？ (黄钰朝)· .Net 微服务架构技术栈的那些事 (Jlion)· [一起读源码]走进C#并发队列ConcurrentQueue的内部世界 (balahoho)· 30岁开始</summary>
+    <published>2020-04-13T00:48:00Z</published>
+    <updated>2020-04-13T00:48:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12689281.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12689281.html" />
+    <content type="html">【摘要】热点随笔： · 【高并发】高并发秒杀系统架构解密，不是所有的秒杀都是秒杀！ (冰河团队)· Java是未来的第一编程语言吗？ (黄钰朝)· .Net 微服务架构技术栈的那些事 (Jlion)· [一起读源码]走进C#并发队列ConcurrentQueue的内部世界 (balahoho)· 30岁开始 &lt;a href="http://www.cnblogs.com/cmt/p/12689281.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12659449.html</id>
+    <title type="text">【故障公告】部署在 k8s 上的博客后台昨天与今天在访问高峰多次出现 502 - 博客园团队</title>
+    <summary type="text">非常抱歉，从昨天上午开始，部署在 k8s 集群上的博客后台（基于 .NET Core 3.1 + Angular 8.2 实现）出现奇怪问题，一到访问高峰就多次出现 502 ，有时能自动恢复，有时需要我们手动删除 pod ，由此给您带来麻烦，请您谅解。</summary>
+    <published>2020-04-08T05:45:00Z</published>
+    <updated>2020-04-08T05:45:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12659449.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12659449.html" />
+    <content type="html">【摘要】非常抱歉，从昨天上午开始，部署在 k8s 集群上的博客后台（基于 .NET Core 3.1 + Angular 8.2 实现）出现奇怪问题，一到访问高峰就多次出现 502 ，有时能自动恢复，有时需要我们手动删除 pod ，由此给您带来麻烦，请您谅解。 &lt;a href="http://www.cnblogs.com/cmt/p/12659449.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12640562.html</id>
+    <title type="text">上周热点回顾（3.30-4.5） - 博客园团队</title>
+    <summary type="text">热点随笔： · 你所不知道的 C# 中的细节 (hez2010)· 2020年了，跨平台开发框架现在怎样了？ (葡萄城技术团队)· 坚持写作快两年了，有些私藏工具跟你们分享 (楼下小黑哥)· 从入门到精通-Nginx，图文并茂、负载均衡、动静分离、虚拟主机 附案例源码 (陈彦斌)· 高效code r</summary>
+    <published>2020-04-06T00:59:00Z</published>
+    <updated>2020-04-06T00:59:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12640562.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12640562.html" />
+    <content type="html">【摘要】热点随笔： · 你所不知道的 C# 中的细节 (hez2010)· 2020年了，跨平台开发框架现在怎样了？ (葡萄城技术团队)· 坚持写作快两年了，有些私藏工具跟你们分享 (楼下小黑哥)· 从入门到精通-Nginx，图文并茂、负载均衡、动静分离、虚拟主机 附案例源码 (陈彦斌)· 高效code r &lt;a href="http://www.cnblogs.com/cmt/p/12640562.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12596477.html</id>
+    <title type="text">上周热点回顾（3.23-3.29） - 博客园团队</title>
+    <summary type="text">热点随笔： · .Net微服务实战之技术选型篇 (陈珙)· WTM 3.5发布，VUE来了！ (liuliang79)· 从草根到百万年薪程序员的二十年风雨之路 (码农有道)· 大龄个人开发者，我是如何活下来的，又将怎样活下去 (张晓衡)· .NET 5 Preview 1的深度解读和跟进 (Eri</summary>
+    <published>2020-03-30T00:54:00Z</published>
+    <updated>2020-03-30T00:54:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12596477.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12596477.html" />
+    <content type="html">【摘要】热点随笔： · .Net微服务实战之技术选型篇 (陈珙)· WTM 3.5发布，VUE来了！ (liuliang79)· 从草根到百万年薪程序员的二十年风雨之路 (码农有道)· 大龄个人开发者，我是如何活下来的，又将怎样活下去 (张晓衡)· .NET 5 Preview 1的深度解读和跟进 (Eri &lt;a href="http://www.cnblogs.com/cmt/p/12596477.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12550199.html</id>
+    <title type="text">上周热点回顾（3.16-3.22） - 博客园团队</title>
+    <summary type="text">热点随笔： · 开源项目在闲鱼、b 站上被倒卖？这是什么骚操作？ (我是13)· 【翻译】.NET 5 Preview 1 发布 (HueiFeng)· !大部分程序员只会写3年代码 (沉默王二)· 上海月薪 1w 和家乡月薪 5000 你选择哪？ (沉默王二)· 【.net core】电商平台升级</summary>
+    <published>2020-03-23T01:05:00Z</published>
+    <updated>2020-03-23T01:05:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12550199.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12550199.html" />
+    <content type="html">【摘要】热点随笔： · 开源项目在闲鱼、b 站上被倒卖？这是什么骚操作？ (我是13)· 【翻译】.NET 5 Preview 1 发布 (HueiFeng)· !大部分程序员只会写3年代码 (沉默王二)· 上海月薪 1w 和家乡月薪 5000 你选择哪？ (沉默王二)· 【.net core】电商平台升级 &lt;a href="http://www.cnblogs.com/cmt/p/12550199.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12501815.html</id>
+    <title type="text">上周热点回顾（3.9-3.15） - 博客园团队</title>
+    <summary type="text">热点随笔： · 200行代码，7个对象——让你了解ASP.NET Core框架的本质[3.x版] (Artech)· C#桌面开发的未来WebWindow (zeje)· 分享一个基于Net Core 3.1开发的模块化的项目(补充数据库脚本) (喻平勇)· Asp.Net Core 中Identi</summary>
+    <published>2020-03-16T01:04:00Z</published>
+    <updated>2020-03-16T01:04:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12501815.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12501815.html" />
+    <content type="html">【摘要】热点随笔： · 200行代码，7个对象——让你了解ASP.NET Core框架的本质[3.x版] (Artech)· C#桌面开发的未来WebWindow (zeje)· 分享一个基于Net Core 3.1开发的模块化的项目(补充数据库脚本) (喻平勇)· Asp.Net Core 中Identi &lt;a href="http://www.cnblogs.com/cmt/p/12501815.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12446751.html</id>
+    <title type="text">上周热点回顾（3.2-3.8） - 博客园团队</title>
+    <summary type="text">热点随笔： · 这么香的Chrome插件，你都安装了吗？ (有态度的小码甲)· .NET平台编程语言的衰败 (Z语言)· 《ASP.NET Core 3框架揭秘》读者群，欢迎加入 (Artech)· ASP.NET Core 反向代理部署知多少 (「圣杰」)· 树莓派3B安装OpenWrt打造超级路</summary>
+    <published>2020-03-09T01:00:00Z</published>
+    <updated>2020-03-09T01:00:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12446751.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12446751.html" />
+    <content type="html">【摘要】热点随笔： · 这么香的Chrome插件，你都安装了吗？ (有态度的小码甲)· .NET平台编程语言的衰败 (Z语言)· 《ASP.NET Core 3框架揭秘》读者群，欢迎加入 (Artech)· ASP.NET Core 反向代理部署知多少 (「圣杰」)· 树莓派3B安装OpenWrt打造超级路 &lt;a href="http://www.cnblogs.com/cmt/p/12446751.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12393810.html</id>
+    <title type="text">上周热点回顾（2.24-3.1） - 博客园团队</title>
+    <summary type="text">热点随笔： · 2020 年 中国.NET开发者调查报告 (张善友)· 10个用于C＃.NET开发的基本调试工具 (芝麻麻雀)· 工作五年的.neter的一些经历感想和对未来的一些疑惑 (Spring2Sun)· 在大学拼学业，搞副业，我也曾迷茫，但我一直在路上 (泰斗贤若如)· 风物长宜放眼量，人</summary>
+    <published>2020-03-02T00:51:00Z</published>
+    <updated>2020-03-02T00:51:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12393810.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12393810.html" />
+    <content type="html">【摘要】热点随笔： · 2020 年 中国.NET开发者调查报告 (张善友)· 10个用于C＃.NET开发的基本调试工具 (芝麻麻雀)· 工作五年的.neter的一些经历感想和对未来的一些疑惑 (Spring2Sun)· 在大学拼学业，搞副业，我也曾迷茫，但我一直在路上 (泰斗贤若如)· 风物长宜放眼量，人 &lt;a href="http://www.cnblogs.com/cmt/p/12393810.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/cmt/p/12355527.html</id>
+    <title type="text">上周热点回顾（2.17-2.23） - 博客园团队</title>
+    <summary type="text">热点随笔： · 7年加工作经验的程序员，从大厂跳槽出来，遭遇了什么？ (左潇龙)· 【5min+】 巨大的争议？C# 8 中的接口 (句幽)· 我快 30 了，前途在哪里？ (沉默王二)· 开源APM系统 HttpReports 在 .Net Core的应用 (SpringLeee)· 浅谈Acti</summary>
+    <published>2020-02-24T00:55:00Z</published>
+    <updated>2020-02-24T00:55:00Z</updated>
+    <author>
+      <name>博客园团队</name>
+      <uri>http://www.cnblogs.com/cmt/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/cmt/p/12355527.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/cmt/p/12355527.html" />
+    <content type="html">【摘要】热点随笔： · 7年加工作经验的程序员，从大厂跳槽出来，遭遇了什么？ (左潇龙)· 【5min+】 巨大的争议？C# 8 中的接口 (句幽)· 我快 30 了，前途在哪里？ (沉默王二)· 开源APM系统 HttpReports 在 .Net Core的应用 (SpringLeee)· 浅谈Acti &lt;a href="http://www.cnblogs.com/cmt/p/12355527.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

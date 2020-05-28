@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>操作系统 - 网站分类 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite.min.css?v=8EtC3FW8b5CR9KEStS4W8Mzvu2IDuuo5LFe0q-dL2Zc" />
+        <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/blog/sitecateogry/108724/rss" />
+    <script src="//common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/js/aggsite.min.js?v=SMfb3cvJ_BVQu17ffdyLH0AsFTOFX87b871AzEvWXNo"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/A1', [468, 60], 'div-gpt-ad-1547816814884-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B1', [300, 250], 'div-gpt-ad-1546331539224-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B2', [300, 250], 'div-gpt-ad-1539007469525-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B3', [300, 250], 'div-gpt-ad-1546331252242-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B4', [300, 250], 'div-gpt-ad-1546331385104-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+        /**/</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hd_info">
+            <div id="cnts">
+                <div id="site_nav_top">代码改变世界</div>
+                <div id="login_area"><span id="span_userinfo"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <p class="h_r_3"></p><p class="h_r_2"></p><p class="h_r_1"></p>
+            <div id="header_block">
+                <div id="logo">
+                    <h1>
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo_small.gif" alt="博客园Logo" width="142" height="55" /></a>
+                    </h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <p class="h_r_1"></p><p class="h_r_2"></p><p class="h_r_3"></p>
+        </div>
+        <div id="nav_menu"><a href="https://home.cnblogs.com/">园子</a><a href="https://news.cnblogs.com">新闻</a><a href="https://q.cnblogs.com/">博问</a><a href="https://ing.cnblogs.com/">闪存</a><a href="https://group.cnblogs.com/">小组</a><a href="https://wz.cnblogs.com/">收藏</a><a href="https://job.cnblogs.com/">招聘</a><a href="https://edu.cnblogs.com/">班级</a><a href="http://zzk.cnblogs.com/">找找看</a></div>
+        <div id="main">
+            <div class="post_nav_block_wrapper">
+                <ul class="post_nav_block">
+                        <li><a href="/" id="tabnav_" class="" title="">首页</a></li>
+                        <li><a href="/cate/108724/" id="tabnav_cate108724" class="current_nav" title="">操作系统</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="rss_link" id="rss_block">
+<span id="posts_refresh_tips"></span><a id="posts_refresh" href="#" class="refresh" title="刷新博文列表" onclick="aggSite.loadCategoryPostList();return false">刷新</a><a href="http://feed.cnblogs.com/blog/sitecateogry/108724/rss"><img src="//common.cnblogs.com/images/icon_rss.gif" alt="点击订阅" style="position:relative;top:2px;" title="订阅博客园文章" /></a>            </div>
+                <div id="headline_block" class="headline"><ul><li class="editor_pick"><a href="https://www.cnblogs.com/jlion/p/12897923.html" id="editor_pick_lnk" target="_blank">【编辑推荐】.net core HttpClient 使用之消息管道解析<span id="editor_pick_count"></span></a> <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/fehoney/p/12962280.html" target="_blank" title="阅读245, 评论9, 推荐18">[最多推荐]要小心 JavaScript 的事件代理(9/245)</a> <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/tiger-wang/p/12966882.html" target="_blank" title="阅读885, 评论11, 推荐16">[最多评论].Net Core实现区块链初探(11/885)</a> <a href="/aggsite/topcommented24h" title="查看24小时评论排行" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662829/" target="_blank" title="阅读1565, 评论9, 推荐15">[新闻头条]1千万年仅误差一秒，这台钟直接影响北斗卫星的导航定位精度(9/1565)</a> <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662890/" target="_blank" title="阅读358, 评论0, 推荐1">[推荐新闻]成功登顶！为珠峰“量身高”进行时：5G 助力、中国北斗导航系统发威(0/358)</a> <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a></li></ul></div>
+
+            <div id="pager_top" style="display:none"></div>
+            <div id="post_list_tips" class="hide"></div>
+            
+            <div id="post_list">
+                <div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('guizimo',12976682,586661,1)"> 
+	<span class="diggnum" id="digg_count_12976682">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12976682" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976682.html" target="_blank"> Debian修改IP地址</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/guizimo/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1973296/20200316115023.png" alt=""/></a>    Debian修改IP地址 博客说明 文章所涉及的资料来自互联网整理和个人总结，意在于个人学习和经验汇总，如有什么地方侵权，请联系本人删除，谢谢！ 步骤 cd /etc/network vi interfaces 修改配置文件之后重启网络服务 /etc/init.d/networking restar ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/guizimo/" class="lightblue">归子莫</a> 
+    发布于 2020-05-27 21:21 
+    <span class="article_comment"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976682.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976682.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('guizimo',12976626,586661,1)"> 
+	<span class="diggnum" id="digg_count_12976626">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12976626" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976626.html" target="_blank">Windows xp修改IP地址</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/guizimo/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1973296/20200316115023.png" alt=""/></a>    Windows xp修改IP地址 博客说明 文章所涉及的资料来自互联网整理和个人总结，意在于个人学习和经验汇总，如有什么地方侵权，请联系本人删除，谢谢！ 步骤 打开网上邻居，找到属性 在本地连接找到属性 进入配置IP协议 修改完地址点击确定 打开终端查看ip地址 感谢 万能的网络 以及勤劳的自己 关 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/guizimo/" class="lightblue">归子莫</a> 
+    发布于 2020-05-27 21:12 
+    <span class="article_comment"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976626.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/27/12976626.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('ustca',12965967,544361,1)"> 
+	<span class="diggnum" id="digg_count_12965967">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12965967" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/ustca/archive/2020/05/27/12965967.html" target="_blank">深入理解系统调用</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/ustca/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1805130/20200105181235.png" alt=""/></a>    实验内容： 找一个系统调用，系统调用号为学号最后 2位相同的系统调用【即 97号系统调用】 通过汇编指令触发该系统调用 通过 gdb 跟踪该系统调用的内核处理过程 重点阅读分析系统调用入口的保存现场、恢复现场和系统调用返回，以及重点关注系统调用过程中内核堆栈状态的变化 实验环境： VMWare虚拟机 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/ustca/" class="lightblue">东寻</a> 
+    发布于 2020-05-27 20:38 
+    <span class="article_comment"><a href="https://www.cnblogs.com/ustca/archive/2020/05/27/12965967.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/ustca/archive/2020/05/27/12965967.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('yychuyu',12975938,452427,1)"> 
+	<span class="diggnum" id="digg_count_12975938">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975938" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/yychuyu/archive/2020/05/27/12975938.html" target="_blank">在树莓派里搭建 Lighttpd 服务器</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/yychuyu/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1218435/20180617075429.png" alt=""/></a>    Lighttpd 像 Ngnix 一样，是被设计运行在低内存，低 CPU 负载的设备上，它们都非常适合在树莓派上运行。 本文将介绍如何在树莓派上运行基本配置的 Lighttpd ，以及如何与 PHP-FRM 一起使用。 安装 Lighthttpd 首先，我们先保证我们的树莓派软件都是最新的： $ s ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/yychuyu/" class="lightblue">良许Linux</a> 
+    发布于 2020-05-27 19:33 
+    <span class="article_comment"><a href="https://www.cnblogs.com/yychuyu/archive/2020/05/27/12975938.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/yychuyu/archive/2020/05/27/12975938.html" class="gray">阅读(22)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('zisefeizhu',12973635,474162,1)"> 
+	<span class="diggnum" id="digg_count_12973635">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12973635" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/zisefeizhu/archive/2020/05/27/12973635.html" target="_blank">由java程序引起的一次系统崩溃</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/zisefeizhu/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1464583/20181110121558.png" alt=""/></a>    问题来源 2020年5月3日星期天。晚上7点39分，正是结账的高峰期，然而就是在这个时候系统崩溃了。牵扯到钱的事没一件事小事，可以定性此为重大事故。 造成的后果： 有人必须要背锅了，先恢复再找问题源头，再找谁的问题（这种锅绝大多数是开发的问题）。 问题处理 常见思路：回滚、重启大法！！！ 先恢复再查 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/zisefeizhu/" class="lightblue">紫色飞猪</a> 
+    发布于 2020-05-27 15:56 
+    <span class="article_comment"><a href="https://www.cnblogs.com/zisefeizhu/archive/2020/05/27/12973635.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/zisefeizhu/archive/2020/05/27/12973635.html" class="gray">阅读(22)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('Renqy',12972071,510767,1)"> 
+	<span class="diggnum" id="digg_count_12972071">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12972071" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/Renqy/archive/2020/05/27/12972071.html" target="_blank">corosync v1 + pacemaker高可用集群部署（一）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/Renqy/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1132408/20190828201027.png" alt=""/></a>    corosync v1 + pacemakerCorosync： OpenAIS发展到Wilson版本后衍生出来的开放性集群引擎工程，提供心跳消息检测及成员管理。Pacemaker： 集群资源管理器。它利用集群基础构件（OpenAIS 、heartbeat或corosync）提供的消息和成员管理能力... ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/Renqy/" class="lightblue">Renqy</a> 
+    发布于 2020-05-27 12:42 
+    <span class="article_comment"><a href="https://www.cnblogs.com/Renqy/archive/2020/05/27/12972071.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/Renqy/archive/2020/05/27/12972071.html" class="gray">阅读(17)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('scywkl',12972069,543174,1)"> 
+	<span class="diggnum" id="digg_count_12972069">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12972069" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/scywkl/archive/2020/05/27/12972069.html" target="_blank">Linux系统CentOS6.9 x64 配置jdk和MySQL8.0环境，授予MySQL远程访问权限</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/scywkl/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1754248/20190911103137.png" alt=""/></a>    Linux系统CentOS6.9 x64 配置jdk和MySQL8.0环境，授予MySQL远程访问权限 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/scywkl/" class="lightblue">自闭酸菜鱼</a> 
+    发布于 2020-05-27 12:41 
+    <span class="article_comment"><a href="https://www.cnblogs.com/scywkl/archive/2020/05/27/12972069.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/scywkl/archive/2020/05/27/12972069.html" class="gray">阅读(14)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('Jingkunliu',12971511,114946,1)"> 
+	<span class="diggnum" id="digg_count_12971511">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12971511" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/Jingkunliu/archive/2020/05/27/12971511.html" target="_blank">CentOS挂载mount: unknown filesystem type 'ext4'错误</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/Jingkunliu/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u315861.gif?id=16142831" alt=""/></a>    问题：对磁盘进行分区，分区后使用mount命令进行挂接，提示mount: unknown filesystem type &#39;ext4&#39;错误，无法完成挂接。问题分析：查看当前服务器支持的文件系统，命令：cat /proc/filesystems图1为产生上述错误的服务器，图2为可以正常挂接的服务器，对... ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/Jingkunliu/" class="lightblue">jingkunliu</a> 
+    发布于 2020-05-27 11:27 
+    <span class="article_comment"><a href="https://www.cnblogs.com/Jingkunliu/archive/2020/05/27/12971511.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/Jingkunliu/archive/2020/05/27/12971511.html" class="gray">阅读(15)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alidydb',12971157,603606,1)"> 
+	<span class="diggnum" id="digg_count_12971157">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12971157" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alidydb/archive/2020/05/27/12971157.html" target="_blank">查询局域网指定段内存活IP</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alidydb/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2037376/20200514100034.png" alt=""/></a>    () 批量ping for /L %i IN (起始,扫描间距,结束) DO ping -w 2 -n 1 10.224.131.%i 如 for /L %i IN (55,1,80) DO ping -w 2 -n 1 10.224.131.%i 输出到指定文件 arp -a &gt; 111.txt ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alidydb/" class="lightblue">燕赵歌</a> 
+    发布于 2020-05-27 10:50 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alidydb/archive/2020/05/27/12971157.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alidydb/archive/2020/05/27/12971157.html" class="gray">阅读(11)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('jfzhu',12970295,127522,1)"> 
+	<span class="diggnum" id="digg_count_12970295">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12970295" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/jfzhu/archive/2020/05/27/12970295.html" target="_blank">文本处理三剑客与正则表达式详解</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/jfzhu/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/442200/20200517005019.png" alt=""/></a>    我们知道在 Linux 中，“一切皆文件”，作为系统管理员或者程序员我们每天都需要和大量的文本文件打交道。Linux 系统为我们提供了三个文本处理工具：grep, sed, 和 awk，它们也被称为 Linux 文本处理的三剑客被大家广泛使用。今天先和大家介绍一下 grep 的以及正则表达式的用法， ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/jfzhu/" class="lightblue">JF Zhu</a> 
+    发布于 2020-05-27 08:42 
+    <span class="article_comment"><a href="https://www.cnblogs.com/jfzhu/archive/2020/05/27/12970295.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/jfzhu/archive/2020/05/27/12970295.html" class="gray">阅读(62)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('wx1899325',12970284,537574,1)"> 
+	<span class="diggnum" id="digg_count_12970284">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12970284" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/wx1899325/archive/2020/05/27/12970284.html" target="_blank">Mycat-多实例的搭建</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/wx1899325/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1784060/20200520135134.png" alt=""/></a>    1. 基础环境准备1.1 环境准备：两台虚拟机 db01 db02每台创建四个mysql实例：3307 3308 3309 33101.2 删除历史环境：pkill mysqldrm -rf /data/33{07..10} mv /etc/my.cnf /etc/my.cnf.bak 1.3 创建 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/wx1899325/" class="lightblue">小乔啊</a> 
+    发布于 2020-05-27 08:40 
+    <span class="article_comment"><a href="https://www.cnblogs.com/wx1899325/archive/2020/05/27/12970284.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/wx1899325/archive/2020/05/27/12970284.html" class="gray">阅读(23)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('iziyang',12970270,552295,1)"> 
+	<span class="diggnum" id="digg_count_12970270">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12970270" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/iziyang/archive/2020/05/27/12970270.html" target="_blank">Nginx 的过滤模块是干啥用的？</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/iziyang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1833725/20191013211138.png" alt=""/></a>    上一篇文章我写了 Nginx 的 11 个阶段，很多人都说太长了。这是出于文章完整性的考虑的，11 个阶段嘛，一次性说完就完事了。今天这篇文章比较短，看完没问题。 过滤模块的位置 之前我们介绍了 Nginx 的 11 个阶段，在 content 阶段时，Nginx 会生成返回给用户的响应内容，对用户 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/iziyang/" class="lightblue">原少子杨</a> 
+    发布于 2020-05-27 08:33 
+    <span class="article_comment"><a href="https://www.cnblogs.com/iziyang/archive/2020/05/27/12970270.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/iziyang/archive/2020/05/27/12970270.html" class="gray">阅读(127)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('embInn',12969681,601451,1)"> 
+	<span class="diggnum" id="digg_count_12969681">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12969681" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/embInn/archive/2020/05/26/12969681.html" target="_blank">上古神器vim系列之初探</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/embInn/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2028254/20200505001417.png" alt=""/></a>    [导读] 一直以来VIM也用一些，但是用的不熟，最近看了些文章，发现这个东西有必要发大力气系统的练习一下。可以大大提高平时工作效率，工欲善其事，必先利其器。所以将学习的过程要点记录分享一下，希望大家喜欢。本文不介绍任何插件，只梳理基本VIM操作，将其尽量清晰的呈现。 题外，近期新到一些朋友，也欢迎大 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/embInn/" class="lightblue">逸珺</a> 
+    发布于 2020-05-26 23:54 
+    <span class="article_comment"><a href="https://www.cnblogs.com/embInn/archive/2020/05/26/12969681.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/embInn/archive/2020/05/26/12969681.html" class="gray">阅读(24)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('zhuifeng17',12969569,565549,1)"> 
+	<span class="diggnum" id="digg_count_12969569">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12969569" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/zhuifeng17/archive/2020/05/26/12969569.html" target="_blank">#Linux学习# 用户和用户组管理</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/zhuifeng17/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1888662/20191203200635.png" alt=""/></a>    用户配置文件在Linux中主要是通过用户配置文件来查看和修改用户信息。初始组和附加组：初始组——就是指用户一登录就立刻拥有这个用户组的相关权限，每个用户的初始组只能有一个，一般就是和这个用户的用户名相同的组名作为这个用户的初始组；附加组——指用户可以加入多个其他的用户组，并拥有这些组的权限，附加组可... ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/zhuifeng17/" class="lightblue">风追少年17</a> 
+    发布于 2020-05-26 23:33 
+    <span class="article_comment"><a href="https://www.cnblogs.com/zhuifeng17/archive/2020/05/26/12969569.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/zhuifeng17/archive/2020/05/26/12969569.html" class="gray">阅读(16)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('Linux-Ming',12969232,605202,1)"> 
+	<span class="diggnum" id="digg_count_12969232">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12969232" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/Linux-Ming/archive/2020/05/26/12969232.html" target="_blank">Linux基础（二）在vmwaer虚拟机 上安装Linux操作系统 </a></h3>               	
+    <p class="post_item_summary">
+    下面我们就来安装Linux操作系统吧~ 首先你得确认自己有没有下好ISO镜像文件，就是下图这个东西 然后打开虚拟机，找到虚拟机设置， 启动虚拟机，选择install Centos7 一直按回车键，进入光盘检测界面，按ESC跳过检测 来到选择语言界面，这里选择English 下一步后，来到 instl ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/Linux-Ming/" class="lightblue">想转Linux监控</a> 
+    发布于 2020-05-26 22:40 
+    <span class="article_comment"><a href="https://www.cnblogs.com/Linux-Ming/archive/2020/05/26/12969232.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/Linux-Ming/archive/2020/05/26/12969232.html" class="gray">阅读(4)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('yychuyu',12967366,452427,1)"> 
+	<span class="diggnum" id="digg_count_12967366">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12967366" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/yychuyu/archive/2020/05/26/12967366.html" target="_blank">如何重复执行一条命令直至运行成功？</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/yychuyu/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1218435/20180617075429.png" alt=""/></a>    大家好，我是良许。 在我们的日常工作中，需要我们重复做的工作简直不能太多。比如，我们想要确认网络是否是连通的，传统的做法就是使用 ping 命令不停去测试某个地址（比如百度）。网络比较好还好说，但如果网络很差，那么就需要一直去运行 ping 命令。 作为程序员，重复性的工作怎么能忍呢？只要是重复性的 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/yychuyu/" class="lightblue">良许Linux</a> 
+    发布于 2020-05-26 18:44 
+    <span class="article_comment"><a href="https://www.cnblogs.com/yychuyu/archive/2020/05/26/12967366.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/yychuyu/archive/2020/05/26/12967366.html" class="gray">阅读(90)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('tk55',12964416,278929,1)"> 
+	<span class="diggnum" id="digg_count_12964416">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12964416" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/tk55/archive/2020/05/26/12964416.html" target="_blank">Bash Shell基础笔记</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/tk55/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/932056/20170407131818.png" alt=""/></a>    常见shell种类 1 Bourne Shell（/usr/bin/sh或/bin/sh） 2 Bourne Again Shell（/bin/bash） 3 C Shell（/usr/bin/csh） 4 K Shell（/usr/bin/ksh） 5 Shell for Root（/sbin/s ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/tk55/" class="lightblue">Honey_Badger</a> 
+    发布于 2020-05-26 14:48 
+    <span class="article_comment"><a href="https://www.cnblogs.com/tk55/archive/2020/05/26/12964416.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/tk55/archive/2020/05/26/12964416.html" class="gray">阅读(29)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('guizimo',12965080,586661,1)"> 
+	<span class="diggnum" id="digg_count_12965080">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12965080" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/guizimo/archive/2020/05/26/12965080.html" target="_blank">怎样将MAMP Pro for Mac中的mysql在navicat中使用</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/guizimo/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1973296/20200316115023.png" alt=""/></a>    怎样将MAMP Pro for Mac中的mysql在navicat中使用 博客说明 文章所涉及的资料来自互联网整理和个人总结，意在于个人学习和经验汇总，如有什么地方侵权，请联系本人删除，谢谢！ 步骤 1.打开MAMP Pro for Mac,在数据库的栏目里面看到使用嵌套字链接，将/Applica ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/guizimo/" class="lightblue">归子莫</a> 
+    发布于 2020-05-26 13:46 
+    <span class="article_comment"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/26/12965080.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/26/12965080.html" class="gray">阅读(13)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('shijunxian',12961543,598867,1)"> 
+	<span class="diggnum" id="digg_count_12961543">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12961543" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961543.html" target="_blank">Linux命令（29）mkpasswd命令</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/shijunxian/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2018581/20200506121123.png" alt=""/></a>    mkpasswd命令 功能说明：生成随机密码 注意：要使用此命令，需要安装expect软件包。 用法：mkpasswd [ args ] [ user ] 选项 作用 -l 指定密码的长度(length)，默认是9位 -d 指定密码中使用多少位的数字(digits)，默认为2位 -c 指定密码中使用 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/shijunxian/" class="lightblue">史俊贤</a> 
+    发布于 2020-05-26 12:55 
+    <span class="article_comment"><a href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961543.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961543.html" class="gray">阅读(24)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('shijunxian',12961511,598867,1)"> 
+	<span class="diggnum" id="digg_count_12961511">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12961511" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961511.html" target="_blank">Linux命令（28）last命令</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/shijunxian/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2018581/20200506121123.png" alt=""/></a>    last命令 功能说明：显示最近登录用户的列表 last命令会读取位于/var/log/下的wtmp文件，并把文件中记录的登录系统的用户名显示出来。 用法：last 选项 作用 -n 设置显示名单的行数 -R 不显示登录的主机名称和IP地址 示例：显示最近登录用户的信息 root pts/1 192 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/shijunxian/" class="lightblue">史俊贤</a> 
+    发布于 2020-05-26 12:53 
+    <span class="article_comment"><a href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961511.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/shijunxian/archive/2020/05/26/12961511.html" class="gray">阅读(12)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+   
+
+            </div>
+            <script>editorPickStat(); aggSite.user.getUserInfo();</script>
+            <script type="text/javascript">
+                var aggSiteModel = {"CategoryType":"TopSiteCategory","ParentCategoryId":0,"CategoryId":108724,"PageIndex":1,"TotalPostCount":4000,"ItemListActionName":"AggSitePostList"};
+            </script>
+            <div id="pager_bottom"><div id="paging_block"><div class="pager"><a href="/cate/108724/" class="p_1 current" onclick="aggSite.loadCategoryPostList(1,20);buildPaging(1);return false;">1</a><a href="/cate/108724/2" class="p_2 middle" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">2</a><a href="/cate/108724/3" class="p_3 middle" onclick="aggSite.loadCategoryPostList(3,20);buildPaging(3);return false;">3</a><a href="/cate/108724/4" class="p_4 middle" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">4</a><a href="/cate/108724/5" class="p_5 middle" onclick="aggSite.loadCategoryPostList(5,20);buildPaging(5);return false;">5</a><a href="/cate/108724/6" class="p_6 middle" onclick="aggSite.loadCategoryPostList(6,20);buildPaging(6);return false;">6</a><a href="/cate/108724/7" class="p_7 middle" onclick="aggSite.loadCategoryPostList(7,20);buildPaging(7);return false;">7</a><a href="/cate/108724/8" class="p_8 middle" onclick="aggSite.loadCategoryPostList(8,20);buildPaging(8);return false;">8</a><a href="/cate/108724/9" class="p_9 middle" onclick="aggSite.loadCategoryPostList(9,20);buildPaging(9);return false;">9</a><a href="/cate/108724/10" class="p_10 middle" onclick="aggSite.loadCategoryPostList(10,20);buildPaging(10);return false;">10</a><a href="/cate/108724/11" class="p_11 middle" onclick="aggSite.loadCategoryPostList(11,20);buildPaging(11);return false;">11</a><span class="ellipsis">···</span><a href="/cate/108724/200" class="p_200 last" onclick="aggSite.loadCategoryPostList(200,20);buildPaging(200);return false;">200</a><a href="/cate/108724/2" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":4000,"PageIndex":1,"PageSize":20,"ShowPageCount":5,"SkipCount":0,"UrlFormat":"/cate/108724/{0}","OnClickJsFunc":"aggSite.loadCategoryPostList()","FirstPageLink":"/cate/108724/","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+</div>
+            <div id="side_nav">
+                
+    <div id="cate_title_block">
+<div id="cate_title_title"><div class="cate_title">网站分类</div></div>
+<ul id="cate_item">
+<li id="cate_item_108698" onmouseover="cateShow(108698)" onmouseout="cateHidden(108698)">
+<a href="/cate/108698/">.NET技术(0)</a>
+</li>
+<li id="cate_item_2" onmouseover="cateShow(2)" onmouseout="cateHidden(2)">
+<a href="/cate/2/">编程语言(0)</a>
+</li>
+<li id="cate_item_108701" onmouseover="cateShow(108701)" onmouseout="cateHidden(108701)">
+<a href="/cate/108701/">软件设计(0)</a>
+</li>
+<li id="cate_item_108703" onmouseover="cateShow(108703)" onmouseout="cateHidden(108703)">
+<a href="/cate/108703/">Web前端(0)</a>
+</li>
+<li id="cate_item_108704" onmouseover="cateShow(108704)" onmouseout="cateHidden(108704)">
+<a href="/cate/108704/">企业信息化(0)</a>
+</li>
+<li id="cate_item_108705" onmouseover="cateShow(108705)" onmouseout="cateHidden(108705)">
+<a href="/cate/108705/">手机开发(0)</a>
+</li>
+<li id="cate_item_108709" onmouseover="cateShow(108709)" onmouseout="cateHidden(108709)">
+<a href="/cate/108709/">软件工程(0)</a>
+</li>
+<li id="cate_item_108712" onmouseover="cateShow(108712)" onmouseout="cateHidden(108712)">
+<a href="/cate/108712/">数据库技术(0)</a>
+</li>
+<li id="cate_item_108724" onmouseover="cateShow(108724)" onmouseout="cateHidden(108724)">
+<a href="/cate/108724/">操作系统(0)</a>
+</li>
+<li id="cate_item_4" onmouseover="cateShow(4)" onmouseout="cateHidden(4)">
+<a href="/cate/4/">其他分类(0)</a>
+</li>
+<li id="cate_item_0" onmouseover="cateShow(0)" onmouseout="cateHidden(0)">
+<a href="/cate/all/">所有随笔(1)</a>
+</li>
+<li id="cate_item_-1" onmouseover="cateShow(-1)" onmouseout="cateHidden(-1)">
+<a href="/comment/">所有评论(0)</a>
+</li>
+</ul>
+<div class="cate_bottom"></div>
+<div id="cate_sub_block"></div>
+<script type="text/javascript">var cateIdList = '108698,2,108701,108703,108704,108705,108709,108712,108724,4';aggSite.loadSubCategories();</script>
+</div>
+        <div class="l_s"></div>
+<p class="r_l_3" /><p class="r_l_2" /><p class="r_l_1" />
+<div class="w_l">
+<h4>相关分类</h4>
+<ul>
+<li><a href="/cate/108698/">.NET技术</a></li>
+<li><a href="/cate/2/">编程语言</a></li>
+<li><a href="/cate/108701/">软件设计</a></li>
+<li><a href="/cate/108703/">Web前端</a></li>
+<li><a href="/cate/108704/">企业信息化</a></li>
+<li><a href="/cate/108705/">手机开发</a></li>
+<li><a href="/cate/108709/">软件工程</a></li>
+<li><a href="/cate/108712/">数据库技术</a></li>
+<li><a href="/cate/4/">其他分类</a></li>
+</ul>
+</div>
+<p class="r_l_1" /><p class="r_l_2" /><p class="r_l_3" />
+<div class="l_s"></div>
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">
+<h4>链接</h4>        
+<ul>
+    <li><a href="https://group.cnblogs.com/forum/public/" target="_blank">反馈或建议</a></li> 
+    <li><a href="//www.cnblogs.com/cmt/" target="_blank">官方博客</a></li>
+    <li><a href="/skins.aspx" target="_blank">博客模板</a></li>
+    <li><a href="http://www.blogjava.net/">Java博客</a></li>
+    <li><a href="http://www.cppblog.com/">C++博客</a></li>
+    <li><a href="//www.cnblogs.com/cmt/archive/2009/09/26/1574616.html">手机版</a></li>
+</ul>
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+<div class="l_s"></div>
+<div id="user_stats"></div>
+<div class="l_s"></div>        
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">                
+<h4>统计信息</h4>
+<div id="site_stats"></div>      
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+            </div>
+            <div id="side_right">
+                    <div id="search_block">
+                        <div class="side_search">
+                            <input type="text" id="zzk_q" class="search_input" onkeydown="return zzk_go_enter(event);" tabindex="3" /><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" />
+                        </div>
+                        <div id="google_search" class="side_search">
+                            <input type="text" id="google_search_q" class="search_input" onkeydown="return google_search_enter(event);" /><input type="button" value="Google" class="search_btn" onclick="return google_search();" />
+                        </div>
+                    </div>
+                <div id="cnblogs_a1">
+                    <div id='div-gpt-ad-1547816814884-0' style='height:60px; width:468px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1547816814884-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="cnblogs_b1" class="sidebar-image">
+                    <div id='div-gpt-ad-1546331539224-0' style='height:250px; width:300px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1546331539224-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="ad_right_text" class="ad_right_text"></div>
+                <div id="side_right_block"></div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div>Powered by .NET Core on Kubernetes</div>
+            <div><a href="https://about.cnblogs.com/">关于博客园</a><a href="https://about.cnblogs.com/contact">联系我们</a><a href="https://about.cnblogs.com/ad">广告服务</a><a href="https://about.cnblogs.com/job">人才服务</a>&copy;2004-2020<a href="https://www.cnblogs.com/">博客园</a>保留所有权利<a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备09004260号</a></div>
+            <div><a href="https://ss.knet.cn/verifyseal.dll?sn=e131108110100433392itm000000&amp;ct=df&amp;a=1&amp;pa=0.25787803245785335" rel="nofollow" target="_blank"><img id="cnnic_img" src="//common.cnblogs.com/images/cnnic.png" alt="" width="64" height="23" /></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001144" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//common.cnblogs.com/images/ghs.png" alt="" /><span style="float:left;height:20px;line-height:20px;margin: 0 5px 0 5px; color:#939393;">沪公网安备 31011502001144号</span></a></div>
+        </div>
+    </div>
+</body>
+</html>

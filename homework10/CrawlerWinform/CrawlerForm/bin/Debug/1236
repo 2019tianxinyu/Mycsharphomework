@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_句幽</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:81160fd1-0930-4f2f-ab4e-c8169964ae05;id=170</id>
+  <updated>2020-04-24T07:52:21Z</updated>
+  <author>
+    <name>句幽</name>
+    <uri>http://www.cnblogs.com/uoyo/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12767960.html</id>
+    <title type="text">【5min+】为你的.NET应用进行一次全方位体检 - 句幽</title>
+    <summary type="text">发现网上很少有讲解关于.NET Core的单元测试文章，代码覆盖率的文章就更少了，所以就抽时间梳理了一篇。通过本篇文章您将Get：1： 为.NET Core应用添加单元测试 2： 为.NET Core应用进行代码覆盖率度量 3：使用Azure Devops进行自动化构建 4：收获类似于下面的这些徽章...</summary>
+    <published>2020-04-24T07:52:00Z</published>
+    <updated>2020-04-24T07:52:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12767960.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12767960.html" />
+    <content type="html">【摘要】发现网上很少有讲解关于.NET Core的单元测试文章，代码覆盖率的文章就更少了，所以就抽时间梳理了一篇。通过本篇文章您将Get：1： 为.NET Core应用添加单元测试 2： 为.NET Core应用进行代码覆盖率度量 3：使用Azure Devops进行自动化构建 4：收获类似于下面的这些徽章... &lt;a href="http://www.cnblogs.com/uoyo/p/12767960.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12583149.html</id>
+    <title type="text">【5min+】更好的选项实践。.Net Core中的IOptions - 句幽</title>
+    <summary type="text">.NET Core为咱们提供的默认依赖注入方式相对来说功能已经很完善了。某些情况下，您会发现，当我们的业务类被添加到依赖注入容器中时，该类构造函数中所依赖的其它类都得一同添加到容器。可是，我的一些依赖类为选型类型怎么办呢？对于这种选项类型，微软给出了专门的处理手段：Microsoft.Extensi...</summary>
+    <published>2020-03-27T10:14:00Z</published>
+    <updated>2020-03-27T10:14:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12583149.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12583149.html" />
+    <content type="html">【摘要】.NET Core为咱们提供的默认依赖注入方式相对来说功能已经很完善了。某些情况下，您会发现，当我们的业务类被添加到依赖注入容器中时，该类构造函数中所依赖的其它类都得一同添加到容器。可是，我的一些依赖类为选型类型怎么办呢？对于这种选项类型，微软给出了专门的处理手段：Microsoft.Extensi... &lt;a href="http://www.cnblogs.com/uoyo/p/12583149.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12509871.html</id>
+    <title type="text">【5min+】 一个令牌走天下！.Net Core中的ChangeToken - 句幽</title>
+    <summary type="text">ChangeToken这个东西好像已经不止看到它一次两次了，在Microsoft.Extensions.FileProviders包里面也有发现它的身影。迷惑了很久之后，今天总算可以找个机会来扒一扒它，看看它到底是一个什么东西。其实，从MSDN里面的第一句描述以及这个类的命名，咱们还是可以读懂它的大...</summary>
+    <published>2020-03-17T04:34:00Z</published>
+    <updated>2020-03-17T04:34:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12509871.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12509871.html" />
+    <content type="html">【摘要】ChangeToken这个东西好像已经不止看到它一次两次了，在Microsoft.Extensions.FileProviders包里面也有发现它的身影。迷惑了很久之后，今天总算可以找个机会来扒一扒它，看看它到底是一个什么东西。其实，从MSDN里面的第一句描述以及这个类的命名，咱们还是可以读懂它的大... &lt;a href="http://www.cnblogs.com/uoyo/p/12509871.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12450205.html</id>
+    <title type="text">【5min+】AspNet Core中的全局异常处理 - 句幽</title>
+    <summary type="text">其实一说到AspNet Core里面的全局异常，其实大家都不会陌生。因为这玩意儿用的非常频繁，好的异常处理方案能够帮助开发者更快速的定位问题，也能够给用户更好的用户体验。那么在AspNet Core中我们该如何捕获和处理异常呢？ 可能很多同学都知道：IExceptionFilter。</summary>
+    <published>2020-03-09T10:21:00Z</published>
+    <updated>2020-03-09T10:21:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12450205.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12450205.html" />
+    <content type="html">【摘要】其实一说到AspNet Core里面的全局异常，其实大家都不会陌生。因为这玩意儿用的非常频繁，好的异常处理方案能够帮助开发者更快速的定位问题，也能够给用户更好的用户体验。那么在AspNet Core中我们该如何捕获和处理异常呢？ 可能很多同学都知道：IExceptionFilter。 &lt;a href="http://www.cnblogs.com/uoyo/p/12450205.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12421553.html</id>
+    <title type="text">如何运用领域驱动设计 - 领域事件 - 句幽</title>
+    <summary type="text">在实践领域驱动设计（DDD）的过程中，我们往往会遇到多个领域对象相互交互的情况。比如聚合根A在执行某操作之前需要得到聚合根B的某个信号（或某些数据）。如果在单体应用程序中，我们有条件和机会使得两者进行强引用来完成操作，但是这将直接打破领域驱动设计的规范，从而使得项目不可控，再次回到大泥球的开发。现在...</summary>
+    <published>2020-03-05T09:47:00Z</published>
+    <updated>2020-03-05T09:47:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12421553.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12421553.html" />
+    <content type="html">【摘要】在实践领域驱动设计（DDD）的过程中，我们往往会遇到多个领域对象相互交互的情况。比如聚合根A在执行某操作之前需要得到聚合根B的某个信号（或某些数据）。如果在单体应用程序中，我们有条件和机会使得两者进行强引用来完成操作，但是这将直接打破领域驱动设计的规范，从而使得项目不可控，再次回到大泥球的开发。现在... &lt;a href="http://www.cnblogs.com/uoyo/p/12421553.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12401366.html</id>
+    <title type="text">使用Taiko + Gauge进行自动化测试（一） - 句幽</title>
+    <summary type="text">taiko是一个免费的开源浏览器自动化工具，由ThoughtWorks开发。它是一个node的库，Taiko使用Chrome Devtools API，它是为测试现代web应用程序而构建的。</summary>
+    <published>2020-03-03T03:41:00Z</published>
+    <updated>2020-03-03T03:41:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12401366.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12401366.html" />
+    <content type="html">【摘要】taiko是一个免费的开源浏览器自动化工具，由ThoughtWorks开发。它是一个node的库，Taiko使用Chrome Devtools API，它是为测试现代web应用程序而构建的。 &lt;a href="http://www.cnblogs.com/uoyo/p/12401366.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12396644.html</id>
+    <title type="text">【5min+】保持程序健康的秘诀！AspNetCore的HealthCheck - 句幽</title>
+    <summary type="text">在开发AspNet Core应用的时候，我们经常会为该应用公布一个特殊的检测接口出来。该接口的目的很简单，告诉某一些外界程序（比如docker，客户端等）这个程序现在是可以访问或者不能访问的，便于外界做出相应的操作，比如监控报警，页面通知用户稍作等待等。在Aspnet Core 2.2 之后，我们有...</summary>
+    <published>2020-03-02T09:08:00Z</published>
+    <updated>2020-03-02T09:08:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12396644.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12396644.html" />
+    <content type="html">【摘要】在开发AspNet Core应用的时候，我们经常会为该应用公布一个特殊的检测接口出来。该接口的目的很简单，告诉某一些外界程序（比如docker，客户端等）这个程序现在是可以访问或者不能访问的，便于外界做出相应的操作，比如监控报警，页面通知用户稍作等待等。在Aspnet Core 2.2 之后，我们有... &lt;a href="http://www.cnblogs.com/uoyo/p/12396644.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12377645.html</id>
+    <title type="text">【5min+】后台任务的积木。.NetCore中的IHostedService - 句幽</title>
+    <summary type="text">咱们开发应用的时候，有时候可能需要建立一些独立于应用逻辑体本身的后台任务。在.NET Core 2.0 之后，官方为我们提供了一个叫做 `IHostedService` 的接口，它可以便于我们更好的实现托管服务。那么今天咱们就来扒一扒 `IHostedService` 到底是一个怎样的东西，我们可以...</summary>
+    <published>2020-02-28T08:07:00Z</published>
+    <updated>2020-02-28T08:07:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12377645.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12377645.html" />
+    <content type="html">【摘要】咱们开发应用的时候，有时候可能需要建立一些独立于应用逻辑体本身的后台任务。在.NET Core 2.0 之后，官方为我们提供了一个叫做 `IHostedService` 的接口，它可以便于我们更好的实现托管服务。那么今天咱们就来扒一扒 `IHostedService` 到底是一个怎样的东西，我们可以... &lt;a href="http://www.cnblogs.com/uoyo/p/12377645.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12357999.html</id>
+    <title type="text">【5min+】 设计模式的迷惑？Provider vs Factory - 句幽</title>
+    <summary type="text">一说起设计模式，大家应该都不会太陌生。毕竟在面向对象的世界中，我们需要用到各种奇技淫巧的手段来构建我们的应用，而设计模式就是这些技巧的根本。既然都是向外界提供一个结果，那么Provider和Factory到底有什么不同呢？</summary>
+    <published>2020-02-24T09:59:00Z</published>
+    <updated>2020-02-24T09:59:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12357999.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12357999.html" />
+    <content type="html">【摘要】一说起设计模式，大家应该都不会太陌生。毕竟在面向对象的世界中，我们需要用到各种奇技淫巧的手段来构建我们的应用，而设计模式就是这些技巧的根本。既然都是向外界提供一个结果，那么Provider和Factory到底有什么不同呢？ &lt;a href="http://www.cnblogs.com/uoyo/p/12357999.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/uoyo/p/12342290.html</id>
+    <title type="text">【5min+】 对象映射只有AutoMapper？试试Mapster - 句幽</title>
+    <summary type="text">一谈到如何在.Net中进行对象映射，可能大部分同学都会脱口而出：“使用AutoMapper！”。 是的，AutoMapper 是一个非常成熟的对象映射器。截至到写这篇文章，您能在Nuget上下载到的AutoMapper包的版本为：v9.0.0，而对应的 Github 的 star 已经高达7K。然后...</summary>
+    <published>2020-02-21T09:42:00Z</published>
+    <updated>2020-02-21T09:42:00Z</updated>
+    <author>
+      <name>句幽</name>
+      <uri>http://www.cnblogs.com/uoyo/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/uoyo/p/12342290.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/uoyo/p/12342290.html" />
+    <content type="html">【摘要】一谈到如何在.Net中进行对象映射，可能大部分同学都会脱口而出：“使用AutoMapper！”。 是的，AutoMapper 是一个非常成熟的对象映射器。截至到写这篇文章，您能在Nuget上下载到的AutoMapper包的版本为：v9.0.0，而对应的 Github 的 star 已经高达7K。然后... &lt;a href="http://www.cnblogs.com/uoyo/p/12342290.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

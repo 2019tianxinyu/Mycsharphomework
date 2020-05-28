@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>数据库技术 - 网站分类 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite.min.css?v=8EtC3FW8b5CR9KEStS4W8Mzvu2IDuuo5LFe0q-dL2Zc" />
+        <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/blog/sitecateogry/108712/rss" />
+    <script src="//common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/js/aggsite.min.js?v=SMfb3cvJ_BVQu17ffdyLH0AsFTOFX87b871AzEvWXNo"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/A1', [468, 60], 'div-gpt-ad-1547816814884-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B1', [300, 250], 'div-gpt-ad-1546331539224-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B2', [300, 250], 'div-gpt-ad-1539007469525-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B3', [300, 250], 'div-gpt-ad-1546331252242-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B4', [300, 250], 'div-gpt-ad-1546331385104-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+        /**/</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hd_info">
+            <div id="cnts">
+                <div id="site_nav_top">代码改变世界</div>
+                <div id="login_area"><span id="span_userinfo"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <p class="h_r_3"></p><p class="h_r_2"></p><p class="h_r_1"></p>
+            <div id="header_block">
+                <div id="logo">
+                    <h1>
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo_small.gif" alt="博客园Logo" width="142" height="55" /></a>
+                    </h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <p class="h_r_1"></p><p class="h_r_2"></p><p class="h_r_3"></p>
+        </div>
+        <div id="nav_menu"><a href="https://home.cnblogs.com/">园子</a><a href="https://news.cnblogs.com">新闻</a><a href="https://q.cnblogs.com/">博问</a><a href="https://ing.cnblogs.com/">闪存</a><a href="https://group.cnblogs.com/">小组</a><a href="https://wz.cnblogs.com/">收藏</a><a href="https://job.cnblogs.com/">招聘</a><a href="https://edu.cnblogs.com/">班级</a><a href="http://zzk.cnblogs.com/">找找看</a></div>
+        <div id="main">
+            <div class="post_nav_block_wrapper">
+                <ul class="post_nav_block">
+                        <li><a href="/" id="tabnav_" class="" title="">首页</a></li>
+                        <li><a href="/cate/108712/" id="tabnav_cate108712" class="current_nav" title="">数据库技术</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="rss_link" id="rss_block">
+<span id="posts_refresh_tips"></span><a id="posts_refresh" href="#" class="refresh" title="刷新博文列表" onclick="aggSite.loadCategoryPostList();return false">刷新</a><a href="http://feed.cnblogs.com/blog/sitecateogry/108712/rss"><img src="//common.cnblogs.com/images/icon_rss.gif" alt="点击订阅" style="position:relative;top:2px;" title="订阅博客园文章" /></a>            </div>
+                <div id="headline_block" class="headline"><ul><li class="editor_pick"><a href="https://www.cnblogs.com/jlion/p/12897923.html" id="editor_pick_lnk" target="_blank">【编辑推荐】.net core HttpClient 使用之消息管道解析<span id="editor_pick_count"></span></a> <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/fehoney/p/12962280.html" target="_blank" title="阅读245, 评论9, 推荐18">[最多推荐]要小心 JavaScript 的事件代理(9/245)</a> <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/tiger-wang/p/12966882.html" target="_blank" title="阅读885, 评论11, 推荐16">[最多评论].Net Core实现区块链初探(11/885)</a> <a href="/aggsite/topcommented24h" title="查看24小时评论排行" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662829/" target="_blank" title="阅读1565, 评论9, 推荐15">[新闻头条]1千万年仅误差一秒，这台钟直接影响北斗卫星的导航定位精度(9/1565)</a> <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662890/" target="_blank" title="阅读358, 评论0, 推荐1">[推荐新闻]成功登顶！为珠峰“量身高”进行时：5G 助力、中国北斗导航系统发威(0/358)</a> <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a></li></ul></div>
+
+            <div id="pager_top" style="display:none"></div>
+            <div id="post_list_tips" class="hide"></div>
+            
+            <div id="post_list">
+                <div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975552,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975552">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975552" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975552.html" target="_blank">【12c】Oracle 统计信息搜集工具DBMS_STATS介绍</a></h3>               	
+    <p class="post_item_summary">
+    可以使用Oracle内置的程序包DBMS_STATS来查看或修改搜集的数据库统计信息，本篇主要介绍GATHER_TABLE_STATS过程，通过该过程，可以搜集表和列（或索引）的统计信息。 1 语法 dbms_stats.gather_table_stats(ownname varchar2, ta ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:32 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975552.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975552.html" class="gray">阅读(11)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975555,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975555">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975555" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975555.html" target="_blank">【12c】带你了解Oracle 12c数据库扩展的统计信息（Extended Statistics）的搜集</a></h3>               	
+    <p class="post_item_summary">
+    在Oracle数据库中，优化器欲产生最优的执行计划，需要依赖于相关对象的统计信息的搜集。数据库可以自动的搜集执行计划，也可以使用程序包DBMS_STATS进行手动搜集，本篇对常规统计信息的搜集不做说明，重点演示下关于扩展的统计信息（Extended Statistics）的的搜集。 1 扩展的统计信 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:31 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975555.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975555.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975554,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975554">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975554" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975554.html" target="_blank">【12c】直方图Histograms</a></h3>               	
+    <p class="post_item_summary">
+    直方图，一种特殊类型的列的统计信息，它能提供表中列的更详细的数据分布信息，直方图将值存放于桶（buckets）中。基于不同值的数目和数据的分布，数据库选择要创建的直方图类型，直方图的类型有如下几种： 频率直方图和顶频直方图：Frequency histograms and to frequency  ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:31 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975554.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975554.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975559,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975559">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975559" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975559.html" target="_blank">【12c】CRS-4639: Could not contact Oracle High Availability Services</a></h3>               	
+    <p class="post_item_summary">
+    问题描述： 在Grid环境中，如果修改了主机名，启动Grid时会出现如下错误： [grid@sztest ~]$ sqlplus / as sysasm SQL*Plus: Release 12.1.0.2.0 Production on Wed Apr 15 20:42:27 2020 Copyr ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:30 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975559.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975559.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975558,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975558">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975558" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975558.html" target="_blank">【12c】Oracle Restart中的SRVCTL命令详解</a></h3>               	
+    <p class="post_item_summary">
+    SRVCTL，服务控制实用工具（Service Control Utility），可用于对Oracle Restart和Oracle RAC的配置和管理，本篇主要介绍SRVCTL命令在Oracle Restart中的应用，其中，详细介绍config、status命令，并列出其它命令的用法。 1 sr ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:30 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975558.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975558.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975556,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975556">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975556" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975556.html" target="_blank">【12c】DataGuard物理备库角色切换</a></h3>               	
+    <p class="post_item_summary">
+    Data Guard环境中数据库的角色转换有两种，分别为Switchover和Failover，通过名称可知，前者是正常的主备库之间的角色切换，该切换方式不会丢失数据；后者是故障切换，即主库不能继续提供服务的切换，可能发生数据丢失。从12.1版本开始，切换到物理备库的操作得以简化，本篇分别对这两种切 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:29 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975556.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975556.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975553,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975553">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975553" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975553.html" target="_blank">【12c】RMAN 与 DataGuard</a></h3>               	
+    <p class="post_item_summary">
+    由于主库和备库的db_name相同的，只是db_unique_name不同，可以使用备库进行数据库的备份，从而减轻主库备份的负担。本篇演示DataGuard环境下RMAN工具的使用。 1 查看主库RMAN配置 [oracle@sz ~]$ rman target / catalog rman/rma ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:29 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975553.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975553.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975557,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975557">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975557" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975557.html" target="_blank">【12c】DataGuard物理备用数据库（DUPLICATE方式）搭建详细教程</a></h3>               	
+    <p class="post_item_summary">
+    1 软件环境 Oracle Linux 6.9 Oracle 12.1.0.2 主库：sz.oracle.com，IP：192.168.1.102 备库：sh.oracle.com，IP：192.168.1.103 2 主数据库配置 2.1 检查并设置数据库 1）首先，主数据库必须处于强制日志（Fo ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:28 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975557.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975557.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975547,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975547">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975547" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975547.html" target="_blank">【12c】使用CC安装与配置Oracle Management Agent</a></h3>               	
+    <p class="post_item_summary">
+    Oracle Management Agent是Cloud Control 12c的核心组件，它被安装在每个被CC管理的主机上，并监控主机及该主机上的所有目标，同时将这些目标信息提交给OMS。本篇将演示如何使用CC进行Management Agent的安装。 1 点击设置&gt;添加目录&gt;手动添加目标 2 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:26 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975547.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975547.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975545,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975545">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975545" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975545.html" target="_blank">【12c】DataGuard构建物理备用数据库（Cloud Control方式）</a></h3>               	
+    <p class="post_item_summary">
+    前面介绍了如何通过RMAN Duplicate方式构建物理备用数据库，本篇将演示如何利用Cloud Control构建物理备用数据库。 1 软件环境 Oracle Linux 6.9 Oracle 12.1.0.2 Oracle Enterprise Management Cloud Control ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:25 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975545.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975545.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975546,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975546">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975546" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975546.html" target="_blank">【12c】使用Cloud Control管理数据库</a></h3>               	
+    <p class="post_item_summary">
+    上篇演示了如何使用Cloud Control在目标机安装和配置Oracle Management Agent，本篇将介绍如何使用Cloud Control管理数据库。 1 手动添加数据库 1）选择设置&gt;添加目标&gt;手动添加目标 2）选择指令和目标类型，点击使用指导式流程添加按钮 3）选择目标名称，点击 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:25 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975546.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975546.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975548,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975548">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975548" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975548.html" target="_blank">【12c】一文教你详细了解如何安装Oracle Enterprise Manager Cloud Control 12c</a></h3>               	
+    <p class="post_item_summary">
+    1 软件环境 Oracle Linux 6.9 Oracle Enterprise Manager Cloud Control 12.1.0.4 Oracle 11.2.0.3 2 软件准备 1）下载EM资料库模板 https://www.oracle.com/enterprise-manager/ ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:24 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975548.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975548.html" class="gray">阅读(11)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alen-liu-sz',12975531,494725,1)"> 
+	<span class="diggnum" id="digg_count_12975531">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975531" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975531.html" target="_blank">【12c】新特性：一文带你详细了解Oracle 12c 数据库的自动数据优化（ADO）</a></h3>               	
+    <p class="post_item_summary">
+    写在前面 Oracle 12c 可以通过热图和自动数据优化（ADO）实现信息生命周期的管理（ILM），上篇介绍了热图，本篇将对自动数据优化进行展开，通过热图和自动数据优化，最终实现信息生命周期管理。 1 自动数据优化工作流程 使用自动数据优化，必须先在系统级别启用热图，通过修改初始化参数heat_m ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alen-liu-sz/" class="lightblue">追梦男生</a> 
+    发布于 2020-05-27 19:11 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975531.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alen-liu-sz/archive/2020/05/27/12975531.html" class="gray">阅读(12)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cjblogs',12973063,160107,1)"> 
+	<span class="diggnum" id="digg_count_12973063">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12973063" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cjblogs/archive/2020/05/27/12973063.html" target="_blank">Flink 流式聚合性能调优指南</a></h3>               	
+    <p class="post_item_summary">
+    原文：Flink 流式聚合性能调优指南 SQL 是数据分析中使用最广泛的语言。Flink Table API 和 SQL 使用户能够以更少的时间和精力定义高效的流分析应用程序。此外，Flink Table API 和 SQL 是高效优化过的，它集成了许多查询优化和算子优化。但并不是所有的优化都是默认 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cjblogs/" class="lightblue">chaojianok</a> 
+    发布于 2020-05-27 14:48 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cjblogs/archive/2020/05/27/12973063.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cjblogs/archive/2020/05/27/12973063.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cwhan',12972086,598329,1)"> 
+	<span class="diggnum" id="digg_count_12972086">1</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12972086" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cwhan/archive/2020/05/27/12972086.html" target="_blank">mysql配置远程登录</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/cwhan/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2016291/20200421201451.png" alt=""/></a>    配置远程登录MySQL 一个小白，记录每次遇到的坑。 环境是Docker+MySQL 步骤 在服务器端开启远程访问 首先进入mysql数据库，然后输入下面两个命令: grant all privileges on *.* to &#39;root&#39;@&#39;%&#39;; flush privileges; 重启MySQ ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cwhan/" class="lightblue">cw_T</a> 
+    发布于 2020-05-27 12:45 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cwhan/archive/2020/05/27/12972086.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cwhan/archive/2020/05/27/12972086.html" class="gray">阅读(4)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('DBABlog',12969108,485013,1)"> 
+	<span class="diggnum" id="digg_count_12969108">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12969108" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/DBABlog/archive/2020/05/26/12969108.html" target="_blank">长时间查询占用元数据锁导致gh-ost变更失败</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/DBABlog/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1575058/20200526145501.png" alt=""/></a>    刚才完成了合同表的变更，到最后一步rename table的时候 ，有个长时间的查询占用了元数据锁，导致rename的最后一步不能进行。将该会话kill后rename完成。 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/DBABlog/" class="lightblue">DBA社区</a> 
+    发布于 2020-05-26 22:21 
+    <span class="article_comment"><a href="https://www.cnblogs.com/DBABlog/archive/2020/05/26/12969108.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/DBABlog/archive/2020/05/26/12969108.html" class="gray">阅读(11)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('kerrycode',12966190,57955,1)"> 
+	<span class="diggnum" id="digg_count_12966190">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12966190" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/kerrycode/archive/2020/05/26/12966190.html" target="_blank">MySQL审计插件MariaDB Audit Plugin学习总结</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/kerrycode/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u73542.jpg" alt=""/></a>    MySQL的社区版没有审计功能，企业版才有审计功能。企业版中自带 Audit Plugin ，名为audit_log.so。但是其它MySQL分支版本也开发了各自的审计功能插件。最常见的就是Percona Audit Log Plugin、MariaDB Audit Plugin、当然还有通用插件M... ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/kerrycode/" class="lightblue">潇湘隐者</a> 
+    发布于 2020-05-26 16:04 
+    <span class="article_comment"><a href="https://www.cnblogs.com/kerrycode/archive/2020/05/26/12966190.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/kerrycode/archive/2020/05/26/12966190.html" class="gray">阅读(25)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('wx1899325',12965196,537574,1)"> 
+	<span class="diggnum" id="digg_count_12965196">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12965196" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/wx1899325/archive/2020/05/26/12965196.html" target="_blank">MSC添加shard节点</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/wx1899325/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1784060/20200520135134.png" alt=""/></a>    1.MSC添加shard节点 mkdir -p /mongodb/38027/conf /mongodb/38027/log /mongodb/38027/datamkdir -p /mongodb/38028/conf /mongodb/38028/log /mongodb/38028/datam ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/wx1899325/" class="lightblue">小乔啊</a> 
+    发布于 2020-05-26 14:02 
+    <span class="article_comment"><a href="https://www.cnblogs.com/wx1899325/archive/2020/05/26/12965196.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/wx1899325/archive/2020/05/26/12965196.html" class="gray">阅读(12)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('lvguang',12965165,593685,1)"> 
+	<span class="diggnum" id="digg_count_12965165">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12965165" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/lvguang/archive/2020/05/26/12965165.html" target="_blank">MySQL性能分析（Explain）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/lvguang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1998342/20200406111409.png" alt=""/></a>    更多知识，请移步我的小破站：http://hellofriend.top 1. 概述 使用EXPLAIN关键字可以模拟优化器执行SQL查询语句，从而知道MySQL是如何处理你的SQL语句的。分析你的查询语句或是表结构的性能瓶颈。 通过Explain，我们可以获取以下信息： 表的读取顺序 哪些索引可以 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/lvguang/" class="lightblue">小白不菜</a> 
+    发布于 2020-05-26 13:58 
+    <span class="article_comment"><a href="https://www.cnblogs.com/lvguang/archive/2020/05/26/12965165.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/lvguang/archive/2020/05/26/12965165.html" class="gray">阅读(186)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('once',12963678,163978,1)"> 
+	<span class="diggnum" id="digg_count_12963678">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12963678" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/once/archive/2020/05/26/12963678.html" target="_blank">Kafka消息送达语义说明</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/once/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/568523/20130922232343.png" alt=""/></a>    0.11&#160;版本之前保证的语义是：至少一次 至少一次的解释 可以做到消息不丢失--&gt;&#160;可以做到发送成功的消息一定可以被消费到。 不能做到消息不重复。 ##&#160;发送成功的消息，表示业务逻辑认为此消息已发送成功，即send方法已执行完成。 丢消息场景 异步发送端： a：send之后，等待发送的时候down（ ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/once/" class="lightblue">知了小巷</a> 
+    发布于 2020-05-26 09:54 
+    <span class="article_comment"><a href="https://www.cnblogs.com/once/archive/2020/05/26/12963678.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/once/archive/2020/05/26/12963678.html" class="gray">阅读(19)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+   
+
+            </div>
+            <script>editorPickStat(); aggSite.user.getUserInfo();</script>
+            <script type="text/javascript">
+                var aggSiteModel = {"CategoryType":"TopSiteCategory","ParentCategoryId":0,"CategoryId":108712,"PageIndex":1,"TotalPostCount":4000,"ItemListActionName":"AggSitePostList"};
+            </script>
+            <div id="pager_bottom"><div id="paging_block"><div class="pager"><a href="/cate/108712/" class="p_1 current" onclick="aggSite.loadCategoryPostList(1,20);buildPaging(1);return false;">1</a><a href="/cate/108712/2" class="p_2 middle" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">2</a><a href="/cate/108712/3" class="p_3 middle" onclick="aggSite.loadCategoryPostList(3,20);buildPaging(3);return false;">3</a><a href="/cate/108712/4" class="p_4 middle" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">4</a><a href="/cate/108712/5" class="p_5 middle" onclick="aggSite.loadCategoryPostList(5,20);buildPaging(5);return false;">5</a><a href="/cate/108712/6" class="p_6 middle" onclick="aggSite.loadCategoryPostList(6,20);buildPaging(6);return false;">6</a><a href="/cate/108712/7" class="p_7 middle" onclick="aggSite.loadCategoryPostList(7,20);buildPaging(7);return false;">7</a><a href="/cate/108712/8" class="p_8 middle" onclick="aggSite.loadCategoryPostList(8,20);buildPaging(8);return false;">8</a><a href="/cate/108712/9" class="p_9 middle" onclick="aggSite.loadCategoryPostList(9,20);buildPaging(9);return false;">9</a><a href="/cate/108712/10" class="p_10 middle" onclick="aggSite.loadCategoryPostList(10,20);buildPaging(10);return false;">10</a><a href="/cate/108712/11" class="p_11 middle" onclick="aggSite.loadCategoryPostList(11,20);buildPaging(11);return false;">11</a><span class="ellipsis">···</span><a href="/cate/108712/200" class="p_200 last" onclick="aggSite.loadCategoryPostList(200,20);buildPaging(200);return false;">200</a><a href="/cate/108712/2" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":4000,"PageIndex":1,"PageSize":20,"ShowPageCount":5,"SkipCount":0,"UrlFormat":"/cate/108712/{0}","OnClickJsFunc":"aggSite.loadCategoryPostList()","FirstPageLink":"/cate/108712/","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+</div>
+            <div id="side_nav">
+                
+    <div id="cate_title_block">
+<div id="cate_title_title"><div class="cate_title">网站分类</div></div>
+<ul id="cate_item">
+<li id="cate_item_108698" onmouseover="cateShow(108698)" onmouseout="cateHidden(108698)">
+<a href="/cate/108698/">.NET技术(0)</a>
+</li>
+<li id="cate_item_2" onmouseover="cateShow(2)" onmouseout="cateHidden(2)">
+<a href="/cate/2/">编程语言(0)</a>
+</li>
+<li id="cate_item_108701" onmouseover="cateShow(108701)" onmouseout="cateHidden(108701)">
+<a href="/cate/108701/">软件设计(0)</a>
+</li>
+<li id="cate_item_108703" onmouseover="cateShow(108703)" onmouseout="cateHidden(108703)">
+<a href="/cate/108703/">Web前端(0)</a>
+</li>
+<li id="cate_item_108704" onmouseover="cateShow(108704)" onmouseout="cateHidden(108704)">
+<a href="/cate/108704/">企业信息化(0)</a>
+</li>
+<li id="cate_item_108705" onmouseover="cateShow(108705)" onmouseout="cateHidden(108705)">
+<a href="/cate/108705/">手机开发(0)</a>
+</li>
+<li id="cate_item_108709" onmouseover="cateShow(108709)" onmouseout="cateHidden(108709)">
+<a href="/cate/108709/">软件工程(0)</a>
+</li>
+<li id="cate_item_108712" onmouseover="cateShow(108712)" onmouseout="cateHidden(108712)">
+<a href="/cate/108712/">数据库技术(0)</a>
+</li>
+<li id="cate_item_108724" onmouseover="cateShow(108724)" onmouseout="cateHidden(108724)">
+<a href="/cate/108724/">操作系统(0)</a>
+</li>
+<li id="cate_item_4" onmouseover="cateShow(4)" onmouseout="cateHidden(4)">
+<a href="/cate/4/">其他分类(0)</a>
+</li>
+<li id="cate_item_0" onmouseover="cateShow(0)" onmouseout="cateHidden(0)">
+<a href="/cate/all/">所有随笔(1)</a>
+</li>
+<li id="cate_item_-1" onmouseover="cateShow(-1)" onmouseout="cateHidden(-1)">
+<a href="/comment/">所有评论(0)</a>
+</li>
+</ul>
+<div class="cate_bottom"></div>
+<div id="cate_sub_block"></div>
+<script type="text/javascript">var cateIdList = '108698,2,108701,108703,108704,108705,108709,108712,108724,4';aggSite.loadSubCategories();</script>
+</div>
+        <div class="l_s"></div>
+<p class="r_l_3" /><p class="r_l_2" /><p class="r_l_1" />
+<div class="w_l">
+<h4>相关分类</h4>
+<ul>
+<li><a href="/cate/108698/">.NET技术</a></li>
+<li><a href="/cate/2/">编程语言</a></li>
+<li><a href="/cate/108701/">软件设计</a></li>
+<li><a href="/cate/108703/">Web前端</a></li>
+<li><a href="/cate/108704/">企业信息化</a></li>
+<li><a href="/cate/108705/">手机开发</a></li>
+<li><a href="/cate/108709/">软件工程</a></li>
+<li><a href="/cate/108724/">操作系统</a></li>
+<li><a href="/cate/4/">其他分类</a></li>
+</ul>
+</div>
+<p class="r_l_1" /><p class="r_l_2" /><p class="r_l_3" />
+<div class="l_s"></div>
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">
+<h4>链接</h4>        
+<ul>
+    <li><a href="https://group.cnblogs.com/forum/public/" target="_blank">反馈或建议</a></li> 
+    <li><a href="//www.cnblogs.com/cmt/" target="_blank">官方博客</a></li>
+    <li><a href="/skins.aspx" target="_blank">博客模板</a></li>
+    <li><a href="http://www.blogjava.net/">Java博客</a></li>
+    <li><a href="http://www.cppblog.com/">C++博客</a></li>
+    <li><a href="//www.cnblogs.com/cmt/archive/2009/09/26/1574616.html">手机版</a></li>
+</ul>
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+<div class="l_s"></div>
+<div id="user_stats"></div>
+<div class="l_s"></div>        
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">                
+<h4>统计信息</h4>
+<div id="site_stats"></div>      
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+            </div>
+            <div id="side_right">
+                    <div id="search_block">
+                        <div class="side_search">
+                            <input type="text" id="zzk_q" class="search_input" onkeydown="return zzk_go_enter(event);" tabindex="3" /><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" />
+                        </div>
+                        <div id="google_search" class="side_search">
+                            <input type="text" id="google_search_q" class="search_input" onkeydown="return google_search_enter(event);" /><input type="button" value="Google" class="search_btn" onclick="return google_search();" />
+                        </div>
+                    </div>
+                <div id="cnblogs_a1">
+                    <div id='div-gpt-ad-1547816814884-0' style='height:60px; width:468px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1547816814884-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="cnblogs_b1" class="sidebar-image">
+                    <div id='div-gpt-ad-1546331539224-0' style='height:250px; width:300px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1546331539224-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="ad_right_text" class="ad_right_text"></div>
+                <div id="side_right_block"></div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div>Powered by .NET Core on Kubernetes</div>
+            <div><a href="https://about.cnblogs.com/">关于博客园</a><a href="https://about.cnblogs.com/contact">联系我们</a><a href="https://about.cnblogs.com/ad">广告服务</a><a href="https://about.cnblogs.com/job">人才服务</a>&copy;2004-2020<a href="https://www.cnblogs.com/">博客园</a>保留所有权利<a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备09004260号</a></div>
+            <div><a href="https://ss.knet.cn/verifyseal.dll?sn=e131108110100433392itm000000&amp;ct=df&amp;a=1&amp;pa=0.25787803245785335" rel="nofollow" target="_blank"><img id="cnnic_img" src="//common.cnblogs.com/images/cnnic.png" alt="" width="64" height="23" /></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001144" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//common.cnblogs.com/images/ghs.png" alt="" /><span style="float:left;height:20px;line-height:20px;margin: 0 5px 0 5px; color:#939393;">沪公网安备 31011502001144号</span></a></div>
+        </div>
+    </div>
+</body>
+</html>

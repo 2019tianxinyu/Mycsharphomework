@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_zkweb</title>
+  <subtitle type="text">介绍ZKWeb框架和其他.Net技术 QQ群: 522083886</subtitle>
+  <id>uuid:a50b8a27-721e-45ba-bfa7-cdf8ab819ff0;id=860</id>
+  <updated>2020-04-23T09:18:08Z</updated>
+  <author>
+    <name>q303248153</name>
+    <uri>http://www.cnblogs.com/zkweb/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/12761743.html</id>
+    <title type="text">写给程序员的机器学习入门 (三) - 线性模型，激活函数与多层线性模型 - q303248153</title>
+    <summary type="text">生物神经元与人工神经元 在了解神经元网络之前，我们先简单的看看生物学上的神经元是什么样子的，下图摘自维基百科： （因为我不是专家，这里的解释只用于理解人工神经元模拟了生物神经元的什么地方，不一定完全准确） 神经元主要由细胞体和细胞突组成，而细胞突分为树突 (Dendrites) 和轴突 (Axon)</summary>
+    <published>2020-04-23T08:39:00Z</published>
+    <updated>2020-04-23T08:39:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/12761743.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/12761743.html" />
+    <content type="html">【摘要】生物神经元与人工神经元 在了解神经元网络之前，我们先简单的看看生物学上的神经元是什么样子的，下图摘自维基百科： （因为我不是专家，这里的解释只用于理解人工神经元模拟了生物神经元的什么地方，不一定完全准确） 神经元主要由细胞体和细胞突组成，而细胞突分为树突 (Dendrites) 和轴突 (Axon) &lt;a href="http://www.cnblogs.com/zkweb/p/12761743.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/12674473.html</id>
+    <title type="text">写给程序员的机器学习入门 (二) - pytorch 与矩阵计算入门 - q303248153</title>
+    <summary type="text">pytorch 简介 pytorch 是目前世界上最流行的两个机器学习框架的其中之一，与 tensoflow 并峙双雄。它提供了很多方便的功能，例如根据损失自动微分计算应该怎样调整参数，提供了一系列的数学函数封装，还提供了一系列现成的模型，以及把模型组合起来进行训练的框架。pytorch 的前身是 </summary>
+    <published>2020-04-10T08:58:00Z</published>
+    <updated>2020-04-10T08:58:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/12674473.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/12674473.html" />
+    <content type="html">【摘要】pytorch 简介 pytorch 是目前世界上最流行的两个机器学习框架的其中之一，与 tensoflow 并峙双雄。它提供了很多方便的功能，例如根据损失自动微分计算应该怎样调整参数，提供了一系列的数学函数封装，还提供了一系列现成的模型，以及把模型组合起来进行训练的框架。pytorch 的前身是  &lt;a href="http://www.cnblogs.com/zkweb/p/12674473.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/12642710.html</id>
+    <title type="text">写给程序员的机器学习入门 (一) - 从基础说起 - q303248153</title>
+    <summary type="text">前段时间因为店铺不能开门，我花了一些空余时间看了很多机器学习相关的资料，我发现目前的机器学习入门大多要不门槛比较高，要不过于着重使用而忽视基础原理，所以我决定开一个新的系列针对程序员讲讲机器学习。这个系列会从机器学习的基础原理开始一直讲到如何应用，看懂这个系列需要一定的编程知识（主要会使用 pyth</summary>
+    <published>2020-04-06T08:35:00Z</published>
+    <updated>2020-04-06T08:35:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/12642710.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/12642710.html" />
+    <content type="html">【摘要】前段时间因为店铺不能开门，我花了一些空余时间看了很多机器学习相关的资料，我发现目前的机器学习入门大多要不门槛比较高，要不过于着重使用而忽视基础原理，所以我决定开一个新的系列针对程序员讲讲机器学习。这个系列会从机器学习的基础原理开始一直讲到如何应用，看懂这个系列需要一定的编程知识（主要会使用 pyth &lt;a href="http://www.cnblogs.com/zkweb/p/12642710.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/12273151.html</id>
+    <title type="text">编译调试 .NET Core 5.0 Preview 并分析 Span 的实现原理 - q303248153</title>
+    <summary type="text">很久没有写过 .NET Core 相关的文章了，目前关店在家休息所以有些时间写一篇新的🤣。这次的文章主要介绍如何在 Linux 上编译调试最新的 .NET Core 5.0 Preview 与简单分析 Span 的实现原理。微软从 .NET Core 5.0 开始把 GIT 仓库 coreclr </summary>
+    <published>2020-02-07T07:24:00Z</published>
+    <updated>2020-02-07T07:24:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/12273151.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/12273151.html" />
+    <content type="html">【摘要】很久没有写过 .NET Core 相关的文章了，目前关店在家休息所以有些时间写一篇新的🤣。这次的文章主要介绍如何在 Linux 上编译调试最新的 .NET Core 5.0 Preview 与简单分析 Span 的实现原理。微软从 .NET Core 5.0 开始把 GIT 仓库 coreclr  &lt;a href="http://www.cnblogs.com/zkweb/p/12273151.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/11730661.html</id>
+    <title type="text">cpv framework 0.1 正式发布 (C++ 网页框架) - q303248153</title>
+    <summary type="text">项目地址 https://github.com/cpv project/cpv framework 项目介绍 cpv framework 是一个 C++ 编写的网页框架，基于 "seastar framework" ，主要着重性能与模块化。 seastar framework 是一个网络应用框架，支</summary>
+    <published>2019-10-24T03:09:00Z</published>
+    <updated>2019-10-24T03:09:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/11730661.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/11730661.html" />
+    <content type="html">【摘要】项目地址 https://github.com/cpv project/cpv framework 项目介绍 cpv framework 是一个 C++ 编写的网页框架，基于 "seastar framework" ，主要着重性能与模块化。 seastar framework 是一个网络应用框架，支 &lt;a href="http://www.cnblogs.com/zkweb/p/11730661.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/11730278.html</id>
+    <title type="text">ZKWeb网页框架3.0正式发布 - q303248153</title>
+    <summary type="text">3.0 更新的内容有 更新 .NET 框架 替换项目模版的 netcoreapp2.2 到 netcoreapp3.0 目前支持的 .NET 框架有: net461, netcoreapp2.0, netcoreapp3.0 注意: efcore 3.0 只支持 netcoreapp3.0, 如果使</summary>
+    <published>2019-10-24T01:12:00Z</published>
+    <updated>2019-10-24T01:12:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/11730278.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/11730278.html" />
+    <content type="html">【摘要】3.0 更新的内容有 更新 .NET 框架 替换项目模版的 netcoreapp2.2 到 netcoreapp3.0 目前支持的 .NET 框架有: net461, netcoreapp2.0, netcoreapp3.0 注意: efcore 3.0 只支持 netcoreapp3.0, 如果使 &lt;a href="http://www.cnblogs.com/zkweb/p/11730278.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/11630228.html</id>
+    <title type="text">使用 .NET Core 3.0 的 AssemblyLoadContext 实现插件热加载 - q303248153</title>
+    <summary type="text">一般情况下，一个 .NET 程序集加载到程序中以后，它的类型信息以及原生代码等数据会一直保留在内存中，.NET 运行时无法回收它们，如果我们要实现插件热加载 (例如 Razor 或 Aspx 模版的热更新) 则会造成内存泄漏。在以往，我们可以使用 .NET Framework 的 AppDomain</summary>
+    <published>2019-10-07T06:10:00Z</published>
+    <updated>2019-10-07T06:10:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/11630228.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/11630228.html" />
+    <content type="html">【摘要】一般情况下，一个 .NET 程序集加载到程序中以后，它的类型信息以及原生代码等数据会一直保留在内存中，.NET 运行时无法回收它们，如果我们要实现插件热加载 (例如 Razor 或 Aspx 模版的热更新) 则会造成内存泄漏。在以往，我们可以使用 .NET Framework 的 AppDomain &lt;a href="http://www.cnblogs.com/zkweb/p/11630228.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/11516062.html</id>
+    <title type="text">.NET Core 3.0 可卸载程序集原理简析 - q303248153</title>
+    <summary type="text">因为最近在群里被问到如何理解 .NET Core 3.0 可卸载程序集，所以就写了这篇简单的分析。 因为时间实在很少，这篇文章只简单的罗列了相关的代码，请配合官方说明文档理解。 另外，书籍《.NET Core 底层原理》预计 11 月出版，出版社比较拖 :O。 链接 可卸载程序集的官方说明文档如下:</summary>
+    <published>2019-09-13T01:25:00Z</published>
+    <updated>2019-09-13T01:25:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/11516062.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/11516062.html" />
+    <content type="html">【摘要】因为最近在群里被问到如何理解 .NET Core 3.0 可卸载程序集，所以就写了这篇简单的分析。 因为时间实在很少，这篇文章只简单的罗列了相关的代码，请配合官方说明文档理解。 另外，书籍《.NET Core 底层原理》预计 11 月出版，出版社比较拖 :O。 链接 可卸载程序集的官方说明文档如下: &lt;a href="http://www.cnblogs.com/zkweb/p/11516062.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/10936736.html</id>
+    <title type="text">ZKWeb 官网与演示站点的部署步骤 (Linux + Nginx + Certbot) - q303248153</title>
+    <summary type="text">因为没有给域名续费，加上私人时间不足，ZKWeb 的官网和演示站点已经停止了几个月的时间。 最近时间开始变多，所以重新购买了别的域名和服务器把官网和演示站点重新部署上去。 在此前站点是托管在共享主机上的 Windows + IIS 上的，而现在已经换为了 Linux + Nginx，费用比使用共享主</summary>
+    <published>2019-05-28T05:42:00Z</published>
+    <updated>2019-05-28T05:42:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/10936736.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/10936736.html" />
+    <content type="html">【摘要】因为没有给域名续费，加上私人时间不足，ZKWeb 的官网和演示站点已经停止了几个月的时间。 最近时间开始变多，所以重新购买了别的域名和服务器把官网和演示站点重新部署上去。 在此前站点是托管在共享主机上的 Windows + IIS 上的，而现在已经换为了 Linux + Nginx，费用比使用共享主 &lt;a href="http://www.cnblogs.com/zkweb/p/10936736.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zkweb/p/10936729.html</id>
+    <title type="text">ZKWeb网页框架2.2.1正式发布 - q303248153</title>
+    <summary type="text">2.2.1 更新的内容有 改进 EFCore 支持 支持自动 json 序列化字段 (通过 WithSerialization 选项) 支持懒加载 更新后 EFCore 可以使用所有默认插件 (ZKWeb.Plugins)，但由于缺乏自动多对多支持部分功能会受影响， 因此目前仍然推荐使用 NHibe</summary>
+    <published>2019-05-28T05:41:00Z</published>
+    <updated>2019-05-28T05:41:00Z</updated>
+    <author>
+      <name>q303248153</name>
+      <uri>http://www.cnblogs.com/zkweb/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zkweb/p/10936729.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zkweb/p/10936729.html" />
+    <content type="html">【摘要】2.2.1 更新的内容有 改进 EFCore 支持 支持自动 json 序列化字段 (通过 WithSerialization 选项) 支持懒加载 更新后 EFCore 可以使用所有默认插件 (ZKWeb.Plugins)，但由于缺乏自动多对多支持部分功能会受影响， 因此目前仍然推荐使用 NHibe &lt;a href="http://www.cnblogs.com/zkweb/p/10936729.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

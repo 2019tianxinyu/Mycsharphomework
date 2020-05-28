@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>stoneFang - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip.min.css?v=1CubIA3L29CO3-6VLJIOrrj2uGfyKeX_-xaumWzHk7o" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip-mobile.min.css?v=0pGk3D9Ik_jI4q1TALBT2ybOjIePHS_80_0J4DDOQiY" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/stoneFang/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/stoneFang/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/stoneFang/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 348860;
+        var currentBlogApp = 'stoneFang';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'darkgreentrip';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/stoneFang/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/stoneFang/">方丈的寺院</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/stoneFang/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/stoneFang">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/stoneFang/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+130&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+67</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12977116.html">
+    线上故障处理手册
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 通常处理线上问题的三板斧是重启-回滚-扩容，能够快速有效的解决问题，但是根据我多年的线上经验，这三个操作略微有些简单粗暴，解决问题的概率也非常随机，并不总是有效。这边总结下通常我处理应用中遇到的故障的解决方案。 原则 处理故障的时候必须遵循的一些原则 提早发现问题，避免故障扩散 故障的出现链路            <a href="https://www.cnblogs.com/stoneFang/p/12977116.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 22:30
+stoneFang
+<span class="post-view-count">阅读(30)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12977116" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/05/17.html">2020年5月17日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12907077.html">
+    数据迁移(2) - 如何快速迁移
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 在上一篇中我们介绍了 &quot;数据迁移的套路&quot; ，但是没有介绍具体的方案，这篇着重介绍下具体的数据迁移方案 一. 设计目标 设计一个数据迁移的方案，需要实现以下目标 1. 迁移速度 qps 需要达到1k，这样能保证1亿的数据能够在1~2天内跑完 2. 迁移qps可控 迁移有可能对线上服务有影响，需要            <a href="https://www.cnblogs.com/stoneFang/p/12907077.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-17 21:41
+stoneFang
+<span class="post-view-count">阅读(10)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12907077" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/05/04.html">2020年5月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12826016.html">
+    数据迁移的套路
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：数据迁移的类型 随着业务的发展，存储也会经常性的需要迁移。以下场景是我们开发过程中经常遇到的 1. 业务、团队在快速扩张，需要适当时机进行微服务的拆分，需要独立的数据库，将数据从源数据库迁移到新的数据库 2. 单表的记录数比较大，需要进行分库分表。需要将老表的数据迁移到新的分表中。 3. 存储选型不            <a href="https://www.cnblogs.com/stoneFang/p/12826016.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-04 12:01
+stoneFang
+<span class="post-view-count">阅读(176)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12826016" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/03/16.html">2020年3月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12506912.html">
+    存储优化(2)-排序引起的慢查询优化
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 排序引起的慢查询，通常不是那么容易发现,经常和数据分布有关系。往往在业务刚开始时并没有什么问题，但是随着业务的发展，数据分布呈现一种特定的规律，导致了慢查询，或者并不是什么慢查询，但是随着并发请求数增加，数据库的IOPS使用率变高，进一步导致cpu/内存使用率飙高。造成线上故障。 问题 因为排            <a href="https://www.cnblogs.com/stoneFang/p/12506912.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-16 21:27
+stoneFang
+<span class="post-view-count">阅读(65)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12506912" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/03/15.html">2020年3月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12499514.html">
+    分库分表后的索引问题
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 最近遇到一个慢sql，在排查过程中发现和分库分表后的索引设置有关系，总结了下问题。 问题 在进行应用健康度盘点时，发现有个慢sql 如下 表结构, 按照userid进行的分表 。 CREATE TABLE ( char(30) NOT NULL COMMENT , int(10) unsign            <a href="https://www.cnblogs.com/stoneFang/p/12499514.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-15 19:32
+stoneFang
+<span class="post-view-count">阅读(149)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12499514" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/02/15.html">2020年2月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12311895.html">
+    包管理原则
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 坊间传闻java web开发人员写了那么多代码，但是其实一半代码都在处理NPE。总是在加班，却大部分时间都在处理包冲突，类加载不了的bug。这些问题总是让新老程序员都很抓狂，有很多的工具可以辅助我们解决这些问题（maven helper插件，arthas等）但是有没有一些原则可以遵循，在源头上            <a href="https://www.cnblogs.com/stoneFang/p/12311895.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-15 13:40
+stoneFang
+<span class="post-view-count">阅读(107)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12311895" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/02/11.html">2020年2月11日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12296573.html">
+    DDD-CQRS的落地案例
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 在之前的文章 &quot;DDD CQRS能解什么问题&quot; 中，阐述了什么是CQRS。但是并没有业务需求可以应用CQRS。最近需要处理一个文本增量更新的业务，经过需求分析后，尝试使用CQRS来解这个问题 问题分析 一个文本页面编辑，对象很大，之前是全量保存。涉及到的网络传输对象比较大，经常超时OOM，所以            <a href="https://www.cnblogs.com/stoneFang/p/12296573.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-11 20:21
+stoneFang
+<span class="post-view-count">阅读(314)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12296573" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2020/01/18.html">2020年1月18日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/12208436.html">
+    2019年终总结-坚持的力量
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 上一次年终总结是 &quot;2016 12 31&quot; 。一晃3年过去了。我也从一个初出茅庐的新人变成了一个职场老鸟。年末了，总结一下过去，展望一下未来。 关键词 瓶颈、底层思考能力、坚持的力量 瓶颈 年纪越大，越发觉得人生的艰难，每个年龄段都有各自的焦虑与忧伤，只是程度不同，所以人生总是很难。 工作久了            <a href="https://www.cnblogs.com/stoneFang/p/12208436.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-18 10:39
+stoneFang
+<span class="post-view-count">阅读(965)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(4)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12208436" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2019/12/04.html">2019年12月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/11985440.html">
+    Hbase初识
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：简介 | 数据模型 |相关数据库 | 典型应用 | 优势 | 劣势 | | | | | | | | key value | Redis | 缓存| 快速查询| 存储数据缺乏结构化| |列族|Cassandra,Hbase|分布式的文件系统，大规模的数据存储|易于分布式扩展|功能受限| |docume            <a href="https://www.cnblogs.com/stoneFang/p/11985440.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-12-04 20:39
+stoneFang
+<span class="post-view-count">阅读(181)</span><text> </text>
+<span class="post-comment-count">评论(3)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11985440" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/stoneFang/archive/2019/11/09.html">2019年11月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/stoneFang/p/11824837.html">
+    最近读的书和一点感悟
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：摘要 最近读完的书有《这里是中国》、《自卑与超越》、《商业的本质》、《打破自我的标签》。 鉴于我目前的认知水平，对自然景观的欣赏还停留在 ,`666`的水平，《这里是中国》的地理美景介绍引起的思考比较少。对美的鉴赏能力我还是有自知之明，距离大众水平都很有一段距离，得慢慢来。其他几本有商业的，有心理，            <a href="https://www.cnblogs.com/stoneFang/p/11824837.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-11-09 11:35
+stoneFang
+<span class="post-view-count">阅读(59)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11824837" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/stoneFang/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 stoneFang
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

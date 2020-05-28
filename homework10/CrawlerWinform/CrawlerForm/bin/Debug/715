@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>天马行空~_~ - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/facebook/bundle-facebook.min.css?v=aB-82CpKPCn7GTh6duXr6GCfZ_O6f24jHmUsEi_Kloc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/facebook/bundle-facebook-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/JWMA/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/JWMA/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/JWMA/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 395123;
+        var currentBlogApp = 'JWMA';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'facebook';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+<div id="header">
+	<div id="blogTitle">
+        
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/JWMA/">天马行空~_~</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+			<ul id="navList">
+				<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+				<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/JWMA/">
+首页</a>
+</li>
+				<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+				<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA~_~">
+联系</a></li>
+				<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+				<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/JWMA/rss/">
+订阅</a>
+				
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/JWMA/rss/">
+    <img src="/skins/facebook/images/xml.gif" alt="订阅" />
+</a></li>
+			</ul>
+
+
+
+		<div class="blogStats">
+            <div class="blog_stats">
+                <!--done-->
+随笔- 
+5&nbsp;
+文章- 
+0&nbsp;
+评论- 
+0&nbsp;
+
+
+
+            </div>
+        </div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/JWMA/archive/2020/03/31.html">2020年3月31日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/12603248.html">
+[置顶]    那些年我们一起踩过的Spring Cloud Gateway获取body的那些坑
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spring Cloud Gateway 获取body踩坑实践 问题1：无法获取body内容 问题原因分析 在使用过程中碰到过滤器中获取的内容一直都是空的，尝试了网上的各种解析body内容的方法，但是得到结果都是一样，死活获取不到body数据，一度很崩溃。后来进行了各种尝试，最终发现 使用不同的sp            <a href="https://www.cnblogs.com/JWMA/p/12603248.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-31 10:00 天马行空~_~ 阅读 (287) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12603248" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/JWMA/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/12768359.html">
+    好用的EasyExcel工具类（1.1.2-beta5版本）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：写在前面 EasyExcel是阿里推出的一款高性能的开源excel读写框架，具体的框架介绍这里就不再提了，有兴趣的同学点击下面的地址链接去github上看。笔者发现目前网上很多介绍easyexcel博客或文章都是基于1.1.2 beta5版本进行讲解的，故笔者整理了一个适用于该版本的工具类，方便自己            <a href="https://www.cnblogs.com/JWMA/p/12768359.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:34 天马行空~_~ 阅读 (0) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768359" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/12768166.html">
+    好用的EasyExcel工具类（2.1.6版本）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：写在前面 EasyExcel是阿里推出的一款高性能的开源excel读写框架，由于2.0.5之后的版本变动比较大，很多以前的接口都被废弃了，故笔者整理了一个适用较高版本的工具类，方便自己使用。实际主要是懒得记对应的API，并且匹配自己平时的编程习惯。有需要的小伙伴自取。 easyexcel开源地址：h            <a href="https://www.cnblogs.com/JWMA/p/12768166.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:15 天马行空~_~ 阅读 (5) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768166" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/JWMA/archive/2020/03/31.html">2020年3月31日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/12603248.html">
+    那些年我们一起踩过的Spring Cloud Gateway获取body的那些坑
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spring Cloud Gateway 获取body踩坑实践 问题1：无法获取body内容 问题原因分析 在使用过程中碰到过滤器中获取的内容一直都是空的，尝试了网上的各种解析body内容的方法，但是得到结果都是一样，死活获取不到body数据，一度很崩溃。后来进行了各种尝试，最终发现 使用不同的sp            <a href="https://www.cnblogs.com/JWMA/p/12603248.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-31 10:00 天马行空~_~ 阅读 (287) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12603248" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/JWMA/archive/2018/11/26.html">2018年11月26日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/10022579.html">
+    Redis分布式锁
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 工作将近两年的时间了，都没想着可以写些什么东西，但是光凭记忆还是容易遗忘的，现就总结下前面阶段学习的东西供后面进行查阅 。 关于Redis目前还了解的不太多，仅针对自己当前项目中用到的Redis分布式锁的实现进行讲解，后面有机会再专门记录下Redis相关的东西。 本篇主要使用Redis的set            <a href="https://www.cnblogs.com/JWMA/p/10022579.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-11-26 20:06 天马行空~_~ 阅读 (134) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10022579" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/JWMA/archive/2018/09/29.html">2018年9月29日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/JWMA/p/9723832.html">
+    Java内部类
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：内部类详解 对于内部类我们平时工作中可能不会刻意地去使用它，但是诸如匿名内部类这样的使用方式，我们也在有意无意地在使用，今天跟大家来深入探讨一下内部类相关的知识，下面是本文目录结构 一、内部类分类详解 成员内部类 局部内部类 静态内部类 匿名内部类 二、内部类的使用场景和好处 本文参考的博客如下，感            <a href="https://www.cnblogs.com/JWMA/p/9723832.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-09-29 17:27 天马行空~_~ 阅读 (343) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9723832" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+		<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+			
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 天马行空~_~
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

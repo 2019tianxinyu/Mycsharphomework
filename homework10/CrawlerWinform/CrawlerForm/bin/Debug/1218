@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="Guava学习笔记目录和参考资料！" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Guava学习笔记目录 - peida - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/codinglife/bundle-codinglife.min.css?v=hlpQ1CJDwwJXDxv2HNauUmW3NjyWzoMaw1uER19SLT0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/codinglife/bundle-codinglife-mobile.min.css?v=XjHfryC9ctsatIZz1dHn7TsRIqmwz9c3aj_6SCfHSDM" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/peida/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/peida/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/peida/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 38044;
+        var currentBlogApp = 'peida';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'CodingLife';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/peida/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/peida/">竹子-博客-架构未来</a>
+</h1>
+<h2>
+思索、感悟、践行！
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/peida/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/peida">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/peida/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+224&nbsp; </span>
+<span id="stats_article_count">文章 - 
+2&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+851</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/peida/p/Guava.html">Guava学习笔记目录</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+    <div id="cnblogs_post_description" style="display: none">
+        Guava学习笔记目录和参考资料！
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>　　Guava 是一个 Google 的基于java1.6的类库集合的扩展项目，包括 collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, 等等. 这些高质量的 API&nbsp;可以使你的JAVa代码更加优雅，更加简洁，让你工作更加轻松愉悦。下面是学习过程中的一些笔记和知识点的记录。</p>
+<p>　　1.<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/peida/archive/2013/06/08/3120820.html">Guava学习笔记：Google Guava 类库简介</a></p>
+<p>　　2.<a id="PostsList1_rpPosts_TitleUrl_11" href="http://www.cnblogs.com/peida/archive/2013/06/14/Guava_Optional.html">Guava学习笔记：Optional优雅的使用null</a></p>
+<p>　　3.<a id="PostsList1_rpPosts_TitleUrl_10" href="http://www.cnblogs.com/peida/p/Guava_Preconditions.html">Guava学习笔记：Preconditions优雅的检验参数</a></p>
+<p>　　4.<a id="PostsList1_rpPosts_TitleUrl_9" href="http://www.cnblogs.com/peida/p/Guava_Objects.html">Guava学习笔记：复写的Object常用方法</a></p>
+<p>　　5.<a id="PostsList1_rpPosts_TitleUrl_8" href="http://www.cnblogs.com/peida/p/Guava_Throwables.html">Guava学习笔记：简化异常处理的Throwables类</a></p>
+<p>　　6.<a id="PostsList1_rpPosts_TitleUrl_7" href="http://www.cnblogs.com/peida/p/Guava_ImmutableCollections.html">Guava学习笔记：Immutable(不可变)集合</a></p>
+<p>　　7.<a id="PostsList1_rpPosts_TitleUrl_6" href="http://www.cnblogs.com/peida/p/Guava_Multiset.html">Guava学习笔记：Guava新增集合类型-Multiset</a></p>
+<p>　　8.<a id="PostsList1_rpPosts_TitleUrl_5" href="http://www.cnblogs.com/peida/p/Guava_Multimap.html">Guava学习笔记：Guava新增集合类型-Multimap</a></p>
+<p>　　9.<a id="PostsList1_rpPosts_TitleUrl_4" href="http://www.cnblogs.com/peida/p/Guava_Bimap.html">Guava学习笔记：Guava新增集合类型-Bimap</a></p>
+<p>　　10.<a id="PostsList1_rpPosts_TitleUrl_3" href="http://www.cnblogs.com/peida/p/3183505.html">Guava学习笔记：Guava新集合-Table等</a></p>
+<p>　　11.<a id="PostsList1_rpPosts_TitleUrl_2" href="http://www.cnblogs.com/peida/p/Guava_Cache.html">Guava学习笔记：Guava cache</a></p>
+<p>　　12.<a id="PostsList1_rpPosts_TitleUrl_1" href="http://www.cnblogs.com/peida/p/EventBus.html">Guava学习笔记：EventBus</a></p>
+<p>　　13.<a id="PostsList1_rpPosts_TitleUrl_0" href="http://www.cnblogs.com/peida/p/Guava_Range.html">Guava学习笔记：Range</a></p>
+<p>&nbsp;</p>
+<p>　　学习过程中的参考资料。感谢分享的网友们。</p>
+<p>　　1.<a href="http://www.letonlife.com/">http://www.letonlife.com/</a></p>
+<p>　　2.<a href="http://vipcowrie.iteye.com/">http://vipcowrie.iteye.com/</a></p>
+<p>　　3.<a href="http://blog.sina.com.cn/u/2128988613">http://blog.sina.com.cn/u/2128988613</a></p>
+<p>　　4.<a href="http://buru.iteye.com/">http://buru.iteye.com/</a></p>
+<p>　　5.<a href="http://www.cnblogs.com/icejoywoo/category/389637.html">http://www.cnblogs.com/icejoywoo/category/389637.html</a></p>
+<p>　　</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2013-08-01 08:58</span>&nbsp;
+<a href="https://www.cnblogs.com/peida/">peida</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=3229259" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(3229259);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 38044, cb_blogApp = 'peida', cb_blogUserGuid = '0f3e420b-63cf-dd11-9e4d-001cf0cd104b';
+    var cb_entryId = 3229259, cb_entryCreatedDate = '2013-08-01 08:58', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 peida
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script language="javascript" type="text/javascript" src="http://js.users.noscript.cnitblog.com/1910329.js"></script>
+<noscript><a href="http://www.noscript.cnitblog.com/?1910329" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.noscript.cnitblog.com/1910329.asp" style="border:none" />统计代码</a></noscript>
+
+<script src="https://s137.cnzz.com/stat.php?id=1121896&web_id=1121896" language="JavaScript" charset="gb2312"></script>
+
+<script src="https://s14.cnzz.com/stat.php?id=943648&web_id=943648&online=1&show=line" language="JavaScript"></script>
+    </div>
+</body>
+</html>

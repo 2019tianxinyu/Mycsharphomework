@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="Linux系统调用 概念：系统调用为用户态进程提供了硬件的抽象接口。并且是用户空间访问内核的唯一手段，除异常和陷入外，它们是内核唯一的合法入口。保证系统的安全和稳定。 调用号：在Linux中，每个系统" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Golang源码学习：调度逻辑（四）系统调用 - 虾敏四把刀 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/custom/bundle-custom.min.css?v=1ssrnY3Il79Ok472qeVrpxlSprSXcHhYPgZC5S3wtVM" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/flhs/custom.css?v=G3gt6A6ykimavnuZdO9m5E1CbgQ=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/flhs/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/flhs/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/flhs/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 105702;
+        var currentBlogApp = 'flhs';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;v=20200504"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/flhs/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/flhs/">虾敏四把刀</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/flhs/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%99%BE%E6%95%8F%E5%9B%9B%E6%8A%8A%E5%88%80">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/flhs/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+19&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+6</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/flhs/p/12709962.html">Golang源码学习：调度逻辑（四）系统调用</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h2 id="linux系统调用">Linux系统调用</h2>
+<p>概念：系统调用为用户态进程提供了硬件的抽象接口。并且是用户空间访问内核的唯一手段，除异常和陷入外，它们是内核唯一的合法入口。保证系统的安全和稳定。</p>
+<p>调用号：在Linux中，每个系统调用被赋予一个独一无二的系统调用号。当用户空间的进程执行一个系统调用时，会使用调用号指明系统调用。</p>
+<p>syscall指令：因为用户代码特权级较低，无权访问需要最高特权级才能访问的内核地址空间的代码和数据。所以需要特殊指令，在golang中是syscall。</p>
+<h3 id="参数设置">参数设置</h3>
+<p>x86-64中通过syscall指令执行系统调用的参数设置</p>
+<ul>
+<li>rax存放系统调用号，调用返回值也会放在rax中</li>
+<li>当系统调用参数小于等于6个时，参数则须按顺序放到寄存器 rdi，rsi，rdx，r10，r8，r9中。</li>
+<li>如果系统调用的参数数量大于6个，需将参数保存在一块连续的内存中，并将地址存入rbx中。</li>
+</ul>
+<h2 id="golang中调用系统调用">Golang中调用系统调用</h2>
+<p>给个简单的例子。</p>
+<pre><code>package main
+
+import (
+	&quot;fmt&quot;
+	&quot;os&quot;
+)
+
+func main() {
+	f, _ := os.Open(&quot;read.go&quot;)
+	buf := make([]byte, 1000)
+	f.Read(buf)
+	fmt.Printf(&quot;%s&quot;, buf)
+}
+</code></pre>
+<p>通过 IDE 跟踪得到调用路径：</p>
+<pre><code>os/file.go：(*File).Read() -&gt; os/file_unix.go：(*File).read() -&gt; internal/poll/fd_unix.go：(*File).pfd.Read()
+
+-&gt;syscall/syscall_unix.go：Read() -&gt; syscall/zsyscall_linux_amd64.go：read() -&gt; syscall/syscall_unix.go：Syscall()
+
+// syscall/zsyscall_linux_amd64.go
+func read(fd int, p []byte) (n int, err error) {
+        ......
+	r0, _, e1 := Syscall(SYS_READ, uintptr(fd), uintptr(_p0), uintptr(len(p)))
+        ......
+}
+</code></pre>
+<p>可以看到 f.Read(buf) 最终调用了 syscall/syscall_unix.go 文件中的 Syscall 函数。我们忽略中间的具体执行逻辑。</p>
+<p>SYS_READ 定义的是 read 的系统调用号，定义在 syscall/zsysnum_linux_amd64.go。</p>
+<pre><code>package syscall
+
+const (
+	SYS_READ                   = 0
+	SYS_WRITE                  = 1
+	SYS_OPEN                   = 2
+	SYS_CLOSE                  = 3
+	SYS_STAT                   = 4
+	SYS_FSTAT                  = 5
+        ......
+）
+</code></pre>
+<h2 id="syscall系列函数">Syscall系列函数</h2>
+<p>虽然在上面看到了 Syscall 函数，但执行系统调用的防止并不知道它一个。它们的定义如下：</p>
+<pre><code>// src/syscall/syscall_unix.go
+
+func Syscall(trap, a1, a2, a3 uintptr) (r1, r2 uintptr, err Errno)
+func Syscall6(trap, a1, a2, a3, a4, a5, a6 uintptr) (r1, r2 uintptr, err Errno)
+func RawSyscall(trap, a1, a2, a3 uintptr) (r1, r2 uintptr, err Errno)
+func RawSyscall6(trap, a1, a2, a3, a4, a5, a6 uintptr) (r1, r2 uintptr, err Errno)
+</code></pre>
+<p><strong>Syscall 与 Syscall6 的区别</strong>：只是参数个数的不同，其他都相同。</p>
+<p><strong>Syscall 与 RawSyscall 的区别</strong>：Syscall 开始会调用 runtime·entersyscall ，结束时会调用 runtime·exitsyscall；而 RawSyscall 没有。这意味着 Syscall 是受调度器控制的，RawSyscall不受。因此 RawSyscall 可能会造成阻塞。</p>
+<p>下面来看一下源代码：</p>
+<pre><code>// src/syscall/asm_linux_amd64.s
+// func Syscall(trap int64, a1, a2, a3 uintptr) (r1, r2, err uintptr);
+// Trap # in AX, args in DI SI DX R10 R8 R9, return in AX DX
+// Note that this differs from &quot;standard&quot; ABI convention, which
+// would pass 4th arg in CX, not R10.
+
+TEXT ·Syscall(SB),NOSPLIT,$0-56
+	CALL	runtime·entersyscall(SB)	// 进入系统调用
+        // 准备参数，执行系统调用
+	MOVQ	a1+8(FP), DI
+	MOVQ	a2+16(FP), SI
+	MOVQ	a3+24(FP), DX
+	MOVQ	trap+0(FP), AX			// syscall entry
+	SYSCALL
+	CMPQ	AX, $0xfffffffffffff001		// 对比返回结果
+	JLS	ok
+	MOVQ	$-1, r1+32(FP)
+	MOVQ	$0, r2+40(FP)
+	NEGQ	AX
+	MOVQ	AX, err+48(FP)
+	CALL	runtime·exitsyscall(SB)		// 退出系统调用
+	RET
+ok:
+	MOVQ	AX, r1+32(FP)
+	MOVQ	DX, r2+40(FP)
+	MOVQ	$0, err+48(FP)
+	CALL	runtime·exitsyscall(SB)		// 退出系统调用
+	RET
+
+// func Syscall6(trap, a1, a2, a3, a4, a5, a6 uintptr) (r1, r2, err uintptr)
+TEXT ·Syscall6(SB),NOSPLIT,$0-80
+	CALL	runtime·entersyscall(SB)
+	MOVQ	a1+8(FP), DI
+	MOVQ	a2+16(FP), SI
+	MOVQ	a3+24(FP), DX
+	MOVQ	a4+32(FP), R10
+	MOVQ	a5+40(FP), R8
+	MOVQ	a6+48(FP), R9
+	MOVQ	trap+0(FP), AX	// syscall entry
+	SYSCALL
+	CMPQ	AX, $0xfffffffffffff001
+	JLS	ok6
+	MOVQ	$-1, r1+56(FP)
+	MOVQ	$0, r2+64(FP)
+	NEGQ	AX
+	MOVQ	AX, err+72(FP)
+	CALL	runtime·exitsyscall(SB)
+	RET
+ok6:
+	MOVQ	AX, r1+56(FP)
+	MOVQ	DX, r2+64(FP)
+	MOVQ	$0, err+72(FP)
+	CALL	runtime·exitsyscall(SB)
+	RET
+
+// func RawSyscall(trap, a1, a2, a3 uintptr) (r1, r2, err uintptr)
+TEXT ·RawSyscall(SB),NOSPLIT,$0-56
+	MOVQ	a1+8(FP), DI
+	MOVQ	a2+16(FP), SI
+	MOVQ	a3+24(FP), DX
+	MOVQ	trap+0(FP), AX	// syscall entry
+	SYSCALL
+	CMPQ	AX, $0xfffffffffffff001
+	JLS	ok1
+	MOVQ	$-1, r1+32(FP)
+	MOVQ	$0, r2+40(FP)
+	NEGQ	AX
+	MOVQ	AX, err+48(FP)
+	RET
+ok1:
+	MOVQ	AX, r1+32(FP)
+	MOVQ	DX, r2+40(FP)
+	MOVQ	$0, err+48(FP)
+	RET
+
+// func RawSyscall6(trap, a1, a2, a3, a4, a5, a6 uintptr) (r1, r2, err uintptr)
+TEXT ·RawSyscall6(SB),NOSPLIT,$0-80
+        ......
+	RET
+</code></pre>
+<h2 id="系统调用前函数（entersyscall---reentersyscall）">系统调用前函数（entersyscall -&gt; reentersyscall）</h2>
+<p>在执行系统调用前调用 entersyscall 和 reentersyscall，reentersyscall的主要功能：</p>
+<ol>
+<li>因为要开始系统调用，所以当前G和和P的状态分别变为了 _Gsyscall 和 _Psyscall</li>
+<li>而P不会等待M，所以P和M相互解绑</li>
+<li>但是M会保留P到 m.oldp 中，在系统调用结束后尝试与P重新绑定。</li>
+</ol>
+<p>本节及后面会涉及到一些之前分析过的函数，这里给出链接，就不重复分析了。</p>
+<ul>
+<li><a target="_blank" href="https://www.cnblogs.com/flhs/p/12657348.html">wirep</a></li>
+<li><a target="_blank" href="https://www.cnblogs.com/flhs/p/12682881.html">mcall</a></li>
+</ul>
+<pre><code>func entersyscall() {
+	reentersyscall(getcallerpc(), getcallersp())
+}
+func reentersyscall(pc, sp uintptr) {
+	_g_ := getg()
+	_g_.m.locks++
+	_g_.stackguard0 = stackPreempt
+	_g_.throwsplit = true
+
+	// Leave SP around for GC and traceback.
+	save(pc, sp)
+	_g_.syscallsp = sp
+	_g_.syscallpc = pc
+	casgstatus(_g_, _Grunning, _Gsyscall)	// 当前g的状态由 _Grunning 改为 _Gsyscall
+	......
+	_g_.m.syscalltick = _g_.m.p.ptr().syscalltick
+	_g_.sysblocktraced = true
+	_g_.m.mcache = nil
+	pp := _g_.m.p.ptr()
+	pp.m = 0				// 当前 p 解绑 m
+	_g_.m.oldp.set(pp)			// 将当前 p 赋值给 m.oldp。会在 exitsyscall 中用到。
+	_g_.m.p = 0				// 当前 m 解绑 p
+	atomic.Store(&amp;pp.status, _Psyscall)	// 将当前 p 的状态改为 _Psyscall
+        ......
+	_g_.m.locks--
+}
+
+</code></pre>
+<h2 id="系统调用退出后函数（exitsyscall）">系统调用退出后函数（exitsyscall）</h2>
+<p>主要功能是：</p>
+<ol>
+<li>先尝试绑定oldp，如果不允许，则绑定任意空闲P</li>
+<li>未能绑定P，则解绑G和M；睡眠工作线程；重新调度。</li>
+</ol>
+<pre><code>func exitsyscall() {
+	_g_ := getg()
+        ......
+	_g_.waitsince = 0
+	oldp := _g_.m.oldp.ptr()	// reentersyscall 函数中存储的P
+	_g_.m.oldp = 0
+	if exitsyscallfast(oldp) {	// 尝试给当前M绑定个P，下有分析。绑定成功后执行 if 中的语句。
+		_g_.m.p.ptr().syscalltick++
+		casgstatus(_g_, _Gsyscall, _Grunning) // 更改G的状态
+		_g_.syscallsp = 0
+		_g_.m.locks--
+		if _g_.preempt {
+			_g_.stackguard0 = stackPreempt
+		} else {
+			_g_.stackguard0 = _g_.stack.lo + _StackGuard
+		}
+		_g_.throwsplit = false
+		return
+	}
+	......
+	mcall(exitsyscall0)	// 下有分析
+	......
+}
+</code></pre>
+<h3 id="尝试为当前m绑定p（exitsyscallfast）">尝试为当前M绑定P（exitsyscallfast）</h3>
+<p>该函数的主要目的是尝试为当前M绑定一个P，分为两种情况。</p>
+<p>第一：如果oldp（也就是当前M的元配）存在，并且状态可以从 _Psyscall 变更到 _Pidle，则此P与M相互绑定，返回true。</p>
+<p>第二：oldp条件不允许，则尝试获取任何空闲的P并与当前M绑定。具体实现是：exitsyscallfast_pidle 调用 pidleget，不为nil，则调用 acquirep。</p>
+<pre><code>func exitsyscallfast(oldp *p) bool {
+	_g_ := getg()
+	// 尝试与oldp绑定
+	if oldp != nil &amp;&amp; oldp.status == _Psyscall &amp;&amp; atomic.Cas(&amp;oldp.status, _Psyscall, _Pidle) {
+		// There's a cpu for us, so we can run.
+		wirep(oldp)
+		exitsyscallfast_reacquired()
+		return true
+	}
+	// 尝试获取任何空闲的P
+	if sched.pidle != 0 {
+		var ok bool
+		systemstack(func() {
+			ok = exitsyscallfast_pidle()
+                         ......
+		})
+		if ok {
+			return true
+		}
+	}
+	return false
+}
+</code></pre>
+<h3 id="m解绑g，重新调度（mcallexitsyscall0）">M解绑G，重新调度（mcall(exitsyscall0)）</h3>
+<pre><code>func exitsyscall0(gp *g) {
+	_g_ := getg()	// g0
+	casgstatus(gp, _Gsyscall, _Grunnable)
+	dropg()	// 解绑 gp 与 M
+	lock(&amp;sched.lock)
+	var _p_ *p
+	if schedEnabled(_g_) {
+		_p_ = pidleget()
+	}
+	if _p_ == nil {
+		globrunqput(gp)	// 未获取到空闲P，将gp放入sched.runq
+	} else if atomic.Load(&amp;sched.sysmonwait) != 0 {
+		atomic.Store(&amp;sched.sysmonwait, 0)
+		notewakeup(&amp;sched.sysmonnote)
+	}
+	unlock(&amp;sched.lock)
+	if _p_ != nil {
+		acquirep(_p_)
+		execute(gp, false) // 有P，与当前M绑定，执行gp，进入调度循环。
+	}
+	if _g_.m.lockedg != 0 {
+		// Wait until another thread schedules gp and so m again.
+		stoplockedm()
+		execute(gp, false) // Never returns.
+	}
+	stopm()		// 没有新工作之前停止M的执行。睡眠工作线程。在获得P并且唤醒之后会继续执行
+	schedule()	// 能走到这里说明M以获得P，并且被唤醒，可以寻找一个G，继续调度了。
+}
+</code></pre>
+<h3 id="exitsyscall0---stopm">exitsyscall0 -&gt; stopm</h3>
+<p>主要内容是将 M 放回 sched.midle，并通过futex系统调用挂起线程。</p>
+<pre><code>func stopm() {
+	_g_ := getg()
+
+	if _g_.m.locks != 0 {
+		throw(&quot;stopm holding locks&quot;)
+	}
+	if _g_.m.p != 0 {
+		throw(&quot;stopm holding p&quot;)
+	}
+	if _g_.m.spinning {
+		throw(&quot;stopm spinning&quot;)
+	}
+
+	lock(&amp;sched.lock)
+	mput(_g_.m)		// M 放回 sched.midle
+	unlock(&amp;sched.lock)
+	notesleep(&amp;_g_.m.park)	// notesleep-&gt;futexsleep-&gt;runtime.futex-&gt;futex系统调用。
+	noteclear(&amp;_g_.m.park)
+	acquirep(_g_.m.nextp.ptr())
+	_g_.m.nextp = 0
+}
+</code></pre>
+<h2 id="总结">总结</h2>
+<p>在系统调用之前调用：<strong>entersyscall</strong>。</p>
+<ul>
+<li>更改P和G的状态为_Psyscall和_Gsyscall</li>
+<li>解绑P和M</li>
+<li>将P存入m.oldp</li>
+</ul>
+<p>在系统调用之后调用：<strong>exitsyscall</strong>。</p>
+<ul>
+<li>
+<p><strong>exitsyscallfast</strong>：尝试为当前M绑定一个P，成功了会return退出exitsyscall。</p>
+<ul>
+<li>如果oldp符合条件则wirep</li>
+<li>否则尝试获取任何空闲的P并与当前M绑定</li>
+</ul>
+</li>
+<li>
+<p><strong>exitsyscall0</strong>：进入调度循环</p>
+<ul>
+<li>更改gp状态为_Grunnable</li>
+<li>dropg解绑gp和M</li>
+<li>尝试获取p，获取到则acquirep绑定P和M；execute进入调度循环。</li>
+<li>未获取到则globrunqput将gp放入sched.runq；stopm将M放入sched.midle、挂起工作线程；此M被唤醒后schedule进入调度循环。</li>
+</ul>
+</li>
+</ul>
+<h2 id="不太恰当的比喻">不太恰当的比喻</h2>
+<h3 id="背景设定">背景设定</h3>
+<p>角色：家长（M）与房子（P）和孩子们（G）。<br>
+规则：家长必须要在房子里才能抚养孩子们（运行）。但房子并不固定属于某个家长，孩子也并不固定属于某个家长。</p>
+<h3 id="出门打猎：">出门打猎：</h3>
+<p>家长张三要带着一个孩子（m.curg）小明出去打猎（syscall），他们就离家出走（_Gsyscall/_Psyscall）了，家长和房子就互相断了归属，但是他们还留着（m.oldp）房子的地址（天字一号房）。</p>
+<h3 id="打猎期间：">打猎期间：</h3>
+<p>这期间其他没有房子的家长（李四）看到天字一号没有家长，可能会占据这个房子，并且抚养房子里的孩子。</p>
+<h3 id="打完回家：">打完回家：</h3>
+<p>家长带小明打猎回来后，如果天字一号没有被其他家长占据，那么继续原来的生活（P和M绑定，P/G变为_Prunning/_Grunning）。<br>
+如果天字一号被李四占据，那么张三会寻找任何一个空闲房子（可能李四也是这么丢的房子吧）。继续原来的生活。<br>
+但是，如果张三没有找到任何一个房子，那么张三就要和小明分离了（dropg），小明被放到孤儿院（globrunqput）等待领养，张三被放在养老院（mput）睡觉（futex系统调用）。</p>
+<h3 id="张三的命运：">张三的命运：</h3>
+<p>可能有一天有房子空出来了，张三被放在房子里，然后唤醒，继续抚养孩子（schedule）。</p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-27 23:57</span>&nbsp;
+<a href="https://www.cnblogs.com/flhs/">虾敏四把刀</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12709962" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12709962);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 105702, cb_blogApp = 'flhs', cb_blogUserGuid = 'fa121233-3131-e111-b988-842b2b196315';
+    var cb_entryId = 12709962, cb_entryCreatedDate = '2020-05-27 23:57', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 虾敏四把刀
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

@@ -1,0 +1,552 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>forcheng - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/summergarden/bundle-summergarden.min.css?v=PLBkMGouGIdma65PPHnfQmphsbyGuIrnWQ-UochvQcc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/summergarden/bundle-summergarden-mobile.min.css?v=qqfeWJjwG2yHc4G3o4D_aAh8NdA2Uspy5vjuqwOEq0c" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/forcheng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/forcheng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/forcheng/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 268575;
+        var currentBlogApp = 'forcheng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'summerGarden';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/forcheng/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/forcheng/">forcheng</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+			<ul id="navList">
+				<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+				<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/forcheng/">
+首页</a>
+</li>
+				<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+				<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/forcheng">
+联系</a></li>
+				<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+				<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/forcheng/rss/">
+订阅</a>
+				
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/forcheng/rss/">
+    <img src="/skins/summergarden/images/xml.gif" alt="订阅" />
+</a></li>
+			</ul>
+
+
+
+		<div class="blogStats">
+			
+			<!--done-->
+随笔 - 
+56&nbsp;
+文章 - 
+1&nbsp;
+评论 - 
+14&nbsp;
+
+
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/27.html">
+2020年5月27日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12977048.html">
+    深入理解JS：执行上下文中的this（二）
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 序言 Function.prototype.bind() 方法 箭头函数 参考 1.序言 在 深入理解JS：执行上下文中的this（一） 中，我们主要深入分析全局环境和函数环境中函数调用的 this，还留下 bind 方法以及箭头函数的 this 尚未分析，因此我们将在这篇文章进行讲解。 2.            <a href="https://www.cnblogs.com/forcheng/p/12977048.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-27 22:17
+forcheng
+<span class="post-view-count">阅读(31)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12977048" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/25.html">
+2020年5月25日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12960972.html">
+    深入理解JS：执行上下文中的this（一）
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 执行上下文与执行上下文栈 this 全局环境 函数环境 总结 参考 1.执行上下文与执行上下文栈 （1）什么是执行上下文？ 在 JavaScript 代码运行时，解释执行全局代码、调用函数或使用 eval 函数执行一个字符串表达式都会创建并进入一个新的执行环境，而这个执行环境被称之为执行上下文            <a href="https://www.cnblogs.com/forcheng/p/12960972.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-25 21:27
+forcheng
+<span class="post-view-count">阅读(144)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12960972" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/18.html">
+2020年5月18日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12913103.html">
+    深入理解JS中的对象（三）：class 的工作原理
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 序言 class 是一个特殊的函数 class 的工作原理 class 继承的原型链关系 参考 1.序言 ECMAScript 2015（ES6） 中引入的 JavaScript 类实质上是 JavaScript 现有的基于原型的继承的语法糖。类语法（class）不会为JavaScript引入            <a href="https://www.cnblogs.com/forcheng/p/12913103.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-18 21:31
+forcheng
+<span class="post-view-count">阅读(109)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12913103" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/13.html">
+2020年5月13日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12883983.html">
+    深入理解JS中的对象（二）：new 的工作原理
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 序言 不同返回值的构造函数 深入 new 调用函数原理 总结 参考 1.序言 在 &quot;深入理解JS中的对象（一）：原型、原型链和构造函数&quot; 中，我们分析了JS中是否一切皆对象以及对象的原型、原型链和构造函数。在谈到构造函数时，应该有注意到箭头函数是不能作为构造函数的，也就是不能使用 new 关键            <a href="https://www.cnblogs.com/forcheng/p/12883983.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-13 18:01
+forcheng
+<span class="post-view-count">阅读(175)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12883983" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/11.html">
+2020年5月11日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12866827.html">
+    深入理解JS中的对象（一）：原型、原型链和构造函数
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 一切皆是对象吗？ 对象 原型与原型链 构造函数 参考 1.一切皆是对象吗？ 首先，“在 JavaScript 中，一切皆是对象”这种表述是不完全正确的。 JavaScript 的数据类型分为两类：原始值类型和对象（Object类型）。 原始值类型（ES5）： undefined null ty            <a href="https://www.cnblogs.com/forcheng/p/12866827.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-11 07:36
+forcheng
+<span class="post-view-count">阅读(181)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12866827" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/05/04.html">
+2020年5月4日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12828941.html">
+    JS中由闭包引发内存泄露的深思
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 一个存在内存泄露的闭包实例 什么是内存泄露 JS的垃圾回收机制 什么是闭包 什么原因导致了内存泄露 参考 1.一个存在内存泄露的闭包实例 上面代码片段做了一件事情：每隔1秒后调用 replaceThing 函数，全局变量 theThing 得到一个包含一个大数组和一个新闭包（someMetho            <a href="https://www.cnblogs.com/forcheng/p/12828941.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-04 23:45
+forcheng
+<span class="post-view-count">阅读(281)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12828941" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/04/21.html">
+2020年4月21日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12746392.html">
+    浏览器中 JS 的事件循环机制
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 事件循环机制 宏任务与微任务 实例分析 参考 1.事件循环机制 浏览器执行JS代码大致可以分为三个步骤，而这三个步骤的往复构成了JS的事件循环机制（如图）。 第一步： 主线程（JS引擎线程）中执行JS整体代码或回调函数（也就是宏任务），执行过程中会将对象存储到堆（heap）中，将函数的参数和局            <a href="https://www.cnblogs.com/forcheng/p/12746392.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-04-21 18:01
+forcheng
+<span class="post-view-count">阅读(152)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12746392" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/04/18.html">
+2020年4月18日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12723854.html">
+    Node.js 的事件循环机制
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 微任务 事件循环机制 setImmediate、setTimeout/setInterval 和 process.nextTick 执行时机对比 实例分析 后记 参考 1.微任务 在谈论Node的事件循环机制之前，先补充说明一下 Node 中的“微任务”。这里说的微任务(microtasks)            <a href="https://www.cnblogs.com/forcheng/p/12723854.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-04-18 06:56
+forcheng
+<span class="post-view-count">阅读(133)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12723854" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/04/14.html">
+2020年4月14日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12701701.html">
+    asap异步执行实现原理
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 为什么分析asap asap概述 asap源码解析—Node版 参考 1.为什么分析asap 在之前的文章 &quot;async和await是如何实现异步编程?&quot; 中的 “浅谈Promise如何实现异步执行” 小节，提到了 Promise 异步执行是通过 &quot;asap&quot; 这个库来实现的。所以为了进一步深            <a href="https://www.cnblogs.com/forcheng/p/12701701.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-04-14 22:13
+forcheng
+<span class="post-view-count">阅读(83)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12701701" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/forcheng/archive/2020/04/09.html">
+2020年4月9日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12668387.html">
+    async和await是如何实现异步编程?
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录 异步编程样例 样例解析 浅谈Promise如何实现异步执行 参考 1.异步编程样例 样例： 执行结果： 2.样例解析 在样例代码中， 异步函数使用了 和`await Generator Promise async await Generator Promise`实现。 第一步：先将 和`awa            <a href="https://www.cnblogs.com/forcheng/p/12668387.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-04-09 17:40
+forcheng
+<span class="post-view-count">阅读(633)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12668387" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/forcheng/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 forcheng
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

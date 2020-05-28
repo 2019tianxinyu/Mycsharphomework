@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>地对地导弹 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/custom/bundle-custom.min.css?v=1ssrnY3Il79Ok472qeVrpxlSprSXcHhYPgZC5S3wtVM" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/missile/custom.css?v=HiIWaUUjTvt9drkZVX1sohTh1eg=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/missile/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/missile/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/missile/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 294091;
+        var currentBlogApp = 'missile';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/missile/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/missile/">小神仙</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/missile/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%9C%B0%E5%AF%B9%E5%9C%B0%E5%AF%BC%E5%BC%B9">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/missile/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+48&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+19</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/11/02.html">2019年11月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/11781522.html">
+[置顶]    博客迁移到github了
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：博客迁移到 &quot;github&quot; 了，这边基本不更新， 主要是没有找到快捷的同步方法，手动同步太麻烦了，如果你有快速把github博客同步到博客园的方法请一定告诉我            <a href="https://www.cnblogs.com/missile/p/11781522.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-02 13:44 地对地导弹 阅读 (38) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11781522" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2018/12/04.html">2018年12月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/10062723.html">
+[置顶]    layui动态设置checkbox选中状态
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：今天在使用jquery动态设置layui的checkbox元素的选中状态时始终只能取消选中，却不能重新勾选，点击勾选则没有问题，代码如下 百度很久终于找到一个可用的解决方案,使用prop代替attr，如下： 博客迁移到 &quot;github&quot; 了，这边基本不更新， 主要是没有找到快捷的同步方法，手动同步太            <a href="https://www.cnblogs.com/missile/p/10062723.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-12-04 10:45 地对地导弹 阅读 (13309) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10062723" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12768521.html">
+    vue添加手势操作
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在开发手机web页面时希望我的网页也可以像App一样可以左右滑动进行操作。如果你也和我的想法一样，你就可以复制我的代码了，一天的工作量又可以划水7小时。 方案一(推荐) 使用基于vue封装的 &quot;vue2 hammer&quot; 1. 安装包 2. 引用包 3. 使用 方案二 使用原生的 &quot;hammer&quot; 1            <a href="https://www.cnblogs.com/missile/p/12768521.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:50 地对地导弹 阅读 (6) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768521" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12706118.html">
+    vant增加全局遮罩层
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：vant默认提供的加载遮罩太水了，也可能是我太水了不会用，所以找大神写了一个，我抄过来了 增加遮罩控件 在任意位置增加如下两个文件，注意loadingIndex.js引用loading.vue时路径要修改成你的： 1. 模板文件：loading.vue 2. js文件：loadingIndex.js            <a href="https://www.cnblogs.com/missile/p/12706118.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:49 地对地导弹 阅读 (7) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12706118" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2020/04/15.html">2020年4月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12704145.html">
+    vant上传文件到后端
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近在做手机版页面，采用的vant框架，这个上传控件和以前用iview、element有点不一样，iview、element都是直接提供后端接口文件会自动发送到后端，vant需要自己负责发送文件到后端，对于我这种面向百度编程人员还是有点难度。特意记一下，能帮到其他面向百度编程人员 代码 很简单，基本            <a href="https://www.cnblogs.com/missile/p/12704145.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-15 11:34 地对地导弹 阅读 (115) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12704145" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2020/01/16.html">2020年1月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12200937.html">
+    abp集成IdentityServer4和单点登录
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在abp开发的系统后，需要使用这个系统作单点登录，及其他项目登录账号依靠abp开发的系统。在官方文档上只找到作为登录服务 &quot;Identity Server Integration&quot; ，但是host项目却无法使用登录服务生成的Token获取数据。所有的搜索结果包括abp的issue都是说去看ident            <a href="https://www.cnblogs.com/missile/p/12200937.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-16 14:15 地对地导弹 阅读 (399) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12200937" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/12/26.html">2019年12月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12103878.html">
+    abp部分接口转换为首字母大写返回
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在对接手机端app接口时，由于手机端需要返回的模型使用首字母大写的形式，abp(asp.net core)接口默认返回的数据是驼峰命名法，就是首字母小写，我们自己的pc网页端又是使用的驼峰法，所以不能直接改mvc的配置，这样pc端所有的接口都要改。有同学是用的给字段指定json序列化名称： 这样写不            <a href="https://www.cnblogs.com/missile/p/12103878.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-26 19:08 地对地导弹 阅读 (164) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12103878" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12103875.html">
+    Vue+abp增加三级菜单
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：title: &quot;Vue+abp增加三级菜单&quot; publishDate: 2019 12 26 17:28:38 +0800 date: 2019 12 26 17:28:38 +0800 categories: Vue+abp增加三级菜单 position: problem 原生vue版的abp只支            <a href="https://www.cnblogs.com/missile/p/12103875.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-26 19:06 地对地导弹 阅读 (236) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12103875" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/12/14.html">2019年12月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/12038869.html">
+    Vue+abp树形表格
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：项目中需要用到树形表格，其他同学找了一个 &quot;ZkTable&quot; ，我也就跟着用了，不太好用，有更好的记得联系我。先说下缺点，如果这些不能满足你，后面也没必要看了。 缺点如下（也可能我不会用，如果你会一定记得告诉我）： 1. 第一列不能使用模板数据，必须是简单的属性字段，也就不能使用自定义html标签了            <a href="https://www.cnblogs.com/missile/p/12038869.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-14 13:16 地对地导弹 阅读 (109) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12038869" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/12/06.html">2019年12月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/11995335.html">
+    abp_vue导入导出excel
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：后端abp，前端vue导入excel，开始准备用直接用npoi，觉得要写太多的代码，就算从以前的复制粘贴也麻烦，所以偷懒直接用别人的轮子 &quot;Magicodes.IE&quot; 。这样可以节省很多工作，根据实体生成excel模板、支持枚举、导入时自动验证数据是否合法（必填、类型等） Excel模板 要导入首先            <a href="https://www.cnblogs.com/missile/p/11995335.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-06 15:03 地对地导弹 阅读 (231) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11995335" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/11/02.html">2019年11月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/11781522.html">
+    博客迁移到github了
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：博客迁移到 &quot;github&quot; 了，这边基本不更新， 主要是没有找到快捷的同步方法，手动同步太麻烦了，如果你有快速把github博客同步到博客园的方法请一定告诉我            <a href="https://www.cnblogs.com/missile/p/11781522.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-02 13:44 地对地导弹 阅读 (38) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11781522" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/missile/archive/2019/08/15.html">2019年8月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/missile/p/11357687.html">
+    网站搜索框使用微信扫码
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：背景 客户要求可以直接识别标签二维码对某些仪器设备进行管理，类似于淘宝搜索框可以直接拍照搜索商品一样。前面已经做了一个 &quot;网页调用摄像头识别二维码的功能&quot; ，此功能有两个缺陷： 识别需要先拍照，不能直接识别 识别率低，尤其是拍照抖动，二维码内容稍微多一点或二维码小一点就识别不了。 以上两点相加就相当            <a href="https://www.cnblogs.com/missile/p/11357687.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-15 14:23 地对地导弹 阅读 (207) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11357687" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/missile/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 地对地导弹
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=95e0b993b0c021a89a1612656fbf39808fd9a35f9ec6e5853a4e66b34b749cc3"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="c#/.net core" title="c#/.net core"></a>
+    </div>
+</body>
+</html>

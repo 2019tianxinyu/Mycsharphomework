@@ -1,0 +1,498 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>胖墩哥 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip.min.css?v=1CubIA3L29CO3-6VLJIOrrj2uGfyKeX_-xaumWzHk7o" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/jimlau/custom.css?v=N6kUflXie3WzodEWruMIsivn9AQ=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip-mobile.min.css?v=0pGk3D9Ik_jI4q1TALBT2ybOjIePHS_80_0J4DDOQiY" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/jimlau/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/jimlau/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/jimlau/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 560816;
+        var currentBlogApp = 'jimlau';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'darkgreentrip';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <!-- 设置文章目录 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js" defer></script>
+<link href="https://files.cnblogs.com/files/mingjiatang/mystyle.css" rel="stylesheet">
+<script type="text/javascript" src="https://files.cnblogs.com/files/mingjiatang/mycnblogs.js" defer></script>
+<script type="text/javascript" src="https://files.cnblogs.com/files/mingjiatang/mystyle.js" defer></script>
+
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/jimlau/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/jimlau/">胖墩哥</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/jimlau/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%83%96%E5%A2%A9%E5%93%A5">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/jimlau/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+55&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+2</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12976617.html">
+    词向量入门
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：词向量 one hot 编码 在自然语言处理中，为了将自然语言转化为计算机所能识别的语言，就要对它重新编码，起初使用one hot编码。 一共能产生14901维。 问题：占用太大空间，词和词之间的相识度无法体现。也就是所说的稀疏化。 one hot代码如下： from sklearn.preproc            <a href="https://www.cnblogs.com/jimlau/p/12976617.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 21:12
+胖墩哥
+<span class="post-view-count">阅读(26)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976617" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/03/13.html">2020年3月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12463663.html">
+    深入理解多线程(三)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：深入理解多线程(三) 在前两篇博客中深入理解多线程(一)、深入理解多线程(二)中分别介绍了：多线程在jvm内存图中的状态、多线程的两种实现方式、多线程的安全；接下来介绍线程的状态。 1 线程状态概述 当线程被创建并启动以后，它既不是一启动就进入了执行状态，也不是一直处于执行状态。在线程的生命周期中，            <a href="https://www.cnblogs.com/jimlau/p/12463663.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-13 17:24
+胖墩哥
+<span class="post-view-count">阅读(50)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12463663" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12463489.html">
+    深入理解多线程(二)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：深入理解多线程(二) 在上一篇博客深入理解多线程(一)中介绍了，多线程实现的两种方式，多线程在jvm中的内存状态，这篇博客将介绍多线程的线程安全，根据一个买票例子来讲解多线程中的安全问题。 1 线程安全 如果有多个线程在同时运行，而这些线程可能会同时运行这段代码。程序每次运行结果和单线程运行的结果是            <a href="https://www.cnblogs.com/jimlau/p/12463489.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-13 15:13
+胖墩哥
+<span class="post-view-count">阅读(52)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12463489" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12463476.html">
+    深入理解多线程(一)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：深入理解多线程(一) 1.多线程的原理 1.1 代码展示多线程 为了演示多线程，我们用一个代码来展示多线程的效果： java public class MyThread extends Thread{ public MyThread(String name){ super(name); } @Ove            <a href="https://www.cnblogs.com/jimlau/p/12463476.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-13 08:45
+胖墩哥
+<span class="post-view-count">阅读(309)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12463476" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/03/11.html">2020年3月11日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12462213.html">
+    HashSet底层、及存入对象时候如何保持唯一
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：HashSet底层、及存入对象时候如何保持唯一 在 JDK1.8 之前，哈希表底层采用 数组+链表 实现，即使用链表处理冲突，同一hash值的链表都存储在一个链表里。 但是当位于一个桶中的元素较多，即hash值相等的元素较多时，通过key值依次查找的效率较低。而JDK1.8中，哈希表存储采用 数组+            <a href="https://www.cnblogs.com/jimlau/p/12462213.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-11 14:26
+胖墩哥
+<span class="post-view-count">阅读(73)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12462213" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/03/10.html">2020年3月10日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12455752.html">
+    IDEA中Debug调试
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Idea的debug调试 使用IDEA的断点调试功能，查看程序的运行功能。 1.在有效的代码行，点击行号右边的空白区域，设置断点，程序执行到断点将停止，我们可以手动来运行程序 2.点击Debug运行模式 3.程序在断点上不再执行，而IDEA最下方打开了Debug调试窗口 4.Debug调试窗口介绍             <a href="https://www.cnblogs.com/jimlau/p/12455752.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-10 15:02
+胖墩哥
+<span class="post-view-count">阅读(46)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12455752" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/02/28.html">2020年2月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12375447.html">
+    WebSocket的介绍
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：WebSocket 关于websocket的一个小demo，是聊天室，源代码地址： &quot;聊天室的github源代码&quot; websocket的背景 现在，很多网站为了实现推送技术，所用的技术都是 Ajax 轮询或者long poll 。这种传统的模式带来很明显的缺点，即浏览器需要不断的向服务器发出请求，然            <a href="https://www.cnblogs.com/jimlau/p/12375447.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-28 00:44
+胖墩哥
+<span class="post-view-count">阅读(187)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12375447" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/01/10.html">2020年1月10日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12175095.html">
+    大数据整理——数据集成
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：数据集成 1.背景： ​	因业务需要，事业单位内部普遍构建了多个异构的信息系统，这些信息系统中管理的数据源彼此独立、相互封闭，形成“信息孤岛”无法形成快速有效的共享。 2.定义： ​	数据集成把一组自治、异构数据源中的数据进行逻辑或物理上的集中，并对外提供统一的访问接口，从而实现全面的数据共享。 3            <a href="https://www.cnblogs.com/jimlau/p/12175095.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-10 10:59
+胖墩哥
+<span class="post-view-count">阅读(180)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12175095" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12161824.html">
+    SpringBoot整合SSM
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：SpringBoot整合SSM 请查看博客 &quot;SpringBoot介绍与使用&quot; 了解Spring基本介绍与使用 如何使用springboot来整合SSM 1.0 使用lombok 我们编写pojo时，经常需要编写构造函数和getter、setter方法，属性多的时候，就非常浪费时间，使用lombok            <a href="https://www.cnblogs.com/jimlau/p/12161824.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-10 09:45
+胖墩哥
+<span class="post-view-count">阅读(243)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12161824" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jimlau/archive/2020/01/08.html">2020年1月8日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jimlau/p/12161747.html">
+    SpringBoot介绍与使用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：SpringBoot介绍与使用 1.什么是SpringBoot SpringBoot是Spring项目中的一个子工程，与我们所熟知的Spring framework 同属于spring的产品: 我们可以看到下面的一段介绍： Takes an opinionated view of building             <a href="https://www.cnblogs.com/jimlau/p/12161747.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-08 22:34
+胖墩哥
+<span class="post-view-count">阅读(449)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12161747" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/jimlau/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 胖墩哥
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

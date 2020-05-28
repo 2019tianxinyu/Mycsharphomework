@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>2020 年 1月 8 日 随笔档案 - 句幽 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/uoyo/custom.css?v=TZbXpieXQG/10X3L0iBgILcLZKA=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/uoyo/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/uoyo/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/uoyo/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 401017;
+        var currentBlogApp = 'uoyo';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/uoyo/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/uoyo/">句幽</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/uoyo/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%8F%A5%E5%B9%BD">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/uoyo/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+27&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+406</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+        <!--done-->
+
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a>2020年1月8日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/uoyo/p/12167360.html">
+    【DDD】持久化领域对象的方法实践
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：虽然领域驱动设计的思想很诱人，但我们依然会面临各种隐藏的困难，就比如今天我们要讲的主题“持久化”：即使前期我们设计了足够完整的领域对象，但是依然需要持久化它们到数据库中，而普通的关系型数据库可能很难维持领域对象的原有结构，所以我们必须要使用一些特有的手段来处理它。将值对象持久化成字段好呢？还是将值对象持久化为表好呢？集合的值对象又怎么存呢？            <a href="https://www.cnblogs.com/uoyo/p/12167360.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-08 16:29 句幽 阅读 (3170) 评论 (29)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12167360" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/uoyo/p/12167224.html">
+    《如何运用领域驱动设计》汇总
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：这是关于领域驱动设计的一个系列博文，目的是在学习之后能够使用领域驱动设计的知识来开发应用。领域驱动设计是目前比较火的概念，其实早在2004年的时候 **Eric Evans** 就提出了领域驱动设计。但是直到后期才被大家所认识，特别是随着现在微服务的兴起，许许多多的人意识到了领域驱动设计的好处，认为它是指导微服务设计的一把利器。            <a href="https://www.cnblogs.com/uoyo/p/12167224.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-08 16:13 句幽 阅读 (1292) 评论 (11)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12167224" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 句幽
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <div class="Snow">
+    <canvas id="Snow"></canvas>
+</div>
+
+<!--下雪特效-->
+<script src="https://blog-static.cnblogs.com/files/uoyo/snoweffects.js"></script>
+
+<script type="text/javascript" language="javascript"> 
+//为右下角推荐推荐区域添加关注按钮
+window.onload = function () {
+    $('#div_digg').prepend('<div style="padding-bottom: 5px" id="please_follow"><span class="icon_favorite" style="padding-top: 2px"></span><a onclick="follow(\'4660842a-34b1-4866-476c-08d52fc34315\');" href="javascript:void(0);" style="font-weight: bold; padding-left:5px;font-size: 14px; vertical-align: super;color: #ff5d47;">关注一下楼主吧</a> </div>');
+}
+</script>
+
+<!--代码复制-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+<!--主题-->
+<script src="https://blog-static.cnblogs.com/files/uoyo/gshang.2019.10.27.1.js"></script>
+
+<!-- zoom.js 的样式 -->
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/uoyo/zoom.css">
+<!-- Bootstrap 的 transition.js cdn（过渡动画插件）-->
+<script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/transition.js"></script>
+<!-- zoom.js 核心代码 -->
+<script src="https://blog-static.cnblogs.com/files/uoyo/zoom.js"></script>
+<script type='text/javascript'>$('#cnblogs_post_body img').attr('data-action', 'zoom');</script>
+    </div>
+</body>
+</html>

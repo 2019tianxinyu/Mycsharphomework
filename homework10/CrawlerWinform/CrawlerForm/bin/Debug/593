@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="在开发手机web页面时希望我的网页也可以像App一样可以左右滑动进行操作。如果你也和我的想法一样，你就可以复制我的代码了，一天的工作量又可以划水7小时。 方案一(推荐) 使用基于vue封装的 &amp;quo" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>vue添加手势操作 - 地对地导弹 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/custom/bundle-custom.min.css?v=1ssrnY3Il79Ok472qeVrpxlSprSXcHhYPgZC5S3wtVM" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/missile/custom.css?v=HiIWaUUjTvt9drkZVX1sohTh1eg=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/missile/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/missile/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/missile/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 294091;
+        var currentBlogApp = 'missile';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/missile/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/missile/">小神仙</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/missile/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%9C%B0%E5%AF%B9%E5%9C%B0%E5%AF%BC%E5%BC%B9">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/missile/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+48&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+19</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/missile/p/12768521.html">vue添加手势操作</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p>在开发手机web页面时希望我的网页也可以像App一样可以左右滑动进行操作。如果你也和我的想法一样，你就可以复制我的代码了，一天的工作量又可以划水7小时。</p>
+<hr>
+<div id="toc"></div>
+<h2 id="方案一推荐">方案一(推荐)</h2>
+<p>使用基于vue封装的<a href="https://github.com/bsdfzzzy/vue2-hammer">vue2-hammer</a></p>
+<ol>
+<li>安装包</li>
+</ol>
+<pre><code class="language-cmd">npm install vue2-hammer
+</code></pre>
+<ol start="2">
+<li>引用包</li>
+</ol>
+<pre><code class="language-js">import { VueHammer } from 'vue2-hammer'
+Vue.use(VueHammer)
+</code></pre>
+<ol start="3">
+<li>使用</li>
+</ol>
+<pre><code class="language-html">&lt;a v-hammer:tap=&quot;onTap&quot;&gt;Tap me!&lt;/a&gt;
+
+&lt;div v-hammer:swipe.left=&quot;onSwipeLeft&quot;&gt;Swipe me!&lt;/div&gt;
+
+&lt;div v-hammer:swipe.left=&quot;(event)=&gt; onSwipeLeft(event, item, i)&quot;&gt;Swipe me!&lt;/div&gt;
+&lt;script&gt;
+  onSwipeLeft() {
+      //这里写上你想干的事情。。。
+      console.log(&quot;huahuahua!&quot;);
+  }
+&lt;/script&gt;
+</code></pre>
+<h2 id="方案二">方案二</h2>
+<p>使用原生的<a href="https://github.com/hammerjs/hammer.js/tree/master/">hammer</a></p>
+<ol>
+<li>安装包</li>
+</ol>
+<pre><code class="language-cmd">npm install --save hammerjs
+</code></pre>
+<ol start="2">
+<li>引用包</li>
+</ol>
+<pre><code class="language-js">import Hammer from &quot;hammerjs&quot;;
+</code></pre>
+<ol start="3">
+<li>使用</li>
+</ol>
+<pre><code class="language-html">&lt;div class=&quot;square&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+  hammer = null;
+  //vue的updated钩子函数
+  updated() {
+    /*要把document.querySelector放到updated中，否则可能dom还没渲染，就获取不到，你也可放在monted中使用定时器循环获取*/
+    let square = document.querySelector(&quot;.square&quot;);
+    if (!square || !!this.hammer) {
+      return;
+    }
+    // Create an instance of Hammer with the reference.
+    this.hammer = new Hammer(square);
+    this.hammer.on(&quot;swiperight&quot;, function(e) {
+      //这里写上你想干的事情。。。
+      console.log(&quot;huahuahua!&quot;);
+    });
+  }
+&lt;/script&gt;
+</code></pre>
+<hr>
+<p><strong>参考资料</strong></p>
+<ul>
+<li><a href="https://github.com/bsdfzzzy/vue2-hammer">vue2-hammer</a></li>
+<li><a href="https://github.com/hammerjs/hammer.js/tree/master/">hammer</a></li>
+</ul>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 16:50</span>&nbsp;
+<a href="https://www.cnblogs.com/missile/">地对地导弹</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768521" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12768521);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 294091, cb_blogApp = 'missile', cb_blogUserGuid = '8951142c-eef5-df11-ac81-842b2b196315';
+    var cb_entryId = 12768521, cb_entryCreatedDate = '2020-04-24 16:50', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 地对地导弹
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=95e0b993b0c021a89a1612656fbf39808fd9a35f9ec6e5853a4e66b34b749cc3"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="c#/.net core" title="c#/.net core"></a>
+    </div>
+</body>
+</html>

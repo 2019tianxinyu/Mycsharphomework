@@ -1,0 +1,653 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="我们可以通过自定义的MessageHandler 来动态加载请求证书，通过数据库的一些信息，在自定义的Handler 中加载注入对应的证书，这样可以起到动态加载支付证书作用，同时可以SendAsync" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>.net core HttpClient 使用之消息管道解析（二） - Jlion - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/codinglife/bundle-codinglife.min.css?v=UeHyLv1TT2WTz4TwfUOiMoKNmtFvLUjUnIhFE2UmZ7I" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/codinglife/bundle-codinglife-mobile.min.css?v=XjHfryC9ctsatIZz1dHn7TsRIqmwz9c3aj_6SCfHSDM" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/jlion/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/jlion/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/jlion/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 581767;
+        var currentBlogApp = 'jlion';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'CodingLife';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/jlion/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/jlion/">Jlion</a>
+</h1>
+<h2>
+专注于技术的传播。在这里一起探索.NET Core 跨平台技术、微服务、高并发等技术，也欢迎大家关注我的 dotNET博士 微信公众号！
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/jlion/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Jlion">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/jlion/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+25&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+178</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/jlion/p/12897923.html">.net core HttpClient 使用之消息管道解析（二）</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+    <div id="cnblogs_post_description" style="display: none">
+        我们可以通过自定义的MessageHandler 来动态加载请求证书，通过数据库的一些信息，在自定义的Handler 中加载注入对应的证书，这样可以起到动态加载支付证书作用，同时可以SendAsync 之前或者之后做一些自己的验证等相关业务，大家只需要理解它们的用途，自然知道它的强大作用，今天就分享到这里
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h2 id="一、前言">一、前言</h2>
+<p>前面分享了 <a href="https://www.cnblogs.com/jlion/p/12813692.html">.net core HttpClient 使用之掉坑解析（一）</a>，今天来分享自定义消息处理<code>HttpMessageHandler</code>和<code>PrimaryHttpMessageHandler</code> 的使用场景和区别</p>
+<h2 id="二、源代码阅读">二、源代码阅读</h2>
+<h3 id="21-核心消息管道模型图">2.1 核心消息管道模型图</h3>
+<p>先贴上一张核心MessageHandler 管道模型的流程图，图如下：<br>
+<img src="https://img2020.cnblogs.com/blog/824291/202005/824291-20200523173914953-1939057591.png" alt=""><br>
+HttpClient 中的<code>HttpMessageHandler</code> 负责主要核心的业务，<code>HttpMessageHandler</code> 是由MessageHandler 链表结构组成，形成一个消息管道模式；具体我们一起来看看源代码</p>
+<h3 id="22-demo代码演示">2.2 Demo代码演示</h3>
+<p>再阅读源代码的时候我们先来看下下面注入<code>HttpClient</code> 的Demo 代码，代码如下:</p>
+<pre><code>services.AddHttpClient(&quot;test&quot;)
+        .ConfigurePrimaryHttpMessageHandler(provider =&gt;
+        {
+            return new PrimaryHttpMessageHandler(provider);
+        })
+        .AddHttpMessageHandler(provider =&gt;
+        {
+            return new LogHttpMessageHandler(provider);
+        })
+        .AddHttpMessageHandler(provider =&gt;
+        {
+           return new Log2HttpMessageHandler(provider);
+        });
+</code></pre>
+<p>上面代码中有两个核心扩展方法，分别是<code>ConfigurePrimaryHttpMessageHandler</code>和<code>AddHttpMessageHandler</code>,这两个方法大家可能会有疑问是做什么的呢？<br>
+不错，这两个方法就是扩展注册自定义的<code>HttpMessageHandler</code> 如果不注册，会有默认的<code>HttpMessageHandler</code>,接下来我们分别来看下提供的扩展方法，如下图:<br>
+<img src="https://img2020.cnblogs.com/blog/824291/202005/824291-20200523175819887-1350104124.png" alt=""><br>
+图中提供了一系列的<code>AddHttpMessageHandler</code> 扩展方法和<code>ConfigurePrimaryHttpMessageHandler</code>的扩展方法。</p>
+<h3 id="23-addhttpmessagehandler">2.3 <code>AddHttpMessageHandler</code></h3>
+<p>我们来看看<code>HttpClientBuilderExtensions</code>中的其中一个<code>AddHttpMessageHandler</code>扩展方法，代码如下：</p>
+<pre><code>        /// &lt;summary&gt;
+        /// Adds a delegate that will be used to create an additional message handler for a named &lt;see cref=&quot;HttpClient&quot;/&gt;.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;builder&quot;&gt;The &lt;see cref=&quot;IHttpClientBuilder&quot;/&gt;.&lt;/param&gt;
+        /// &lt;param name=&quot;configureHandler&quot;&gt;A delegate that is used to create a &lt;see cref=&quot;DelegatingHandler&quot;/&gt;.&lt;/param&gt;
+        /// &lt;returns&gt;An &lt;see cref=&quot;IHttpClientBuilder&quot;/&gt; that can be used to configure the client.&lt;/returns&gt;
+        /// &lt;remarks&gt;
+        /// The &lt;see paramref=&quot;configureHandler&quot;/&gt; delegate should return a new instance of the message handler each time it
+        /// is invoked.
+        /// &lt;/remarks&gt;
+        public static IHttpClientBuilder AddHttpMessageHandler(this IHttpClientBuilder builder, Func&lt;DelegatingHandler&gt; configureHandler)
+        {
+            if (builder == null)
+            {
+                throw new ArgumentNullException(nameof(builder));
+            }
+
+            if (configureHandler == null)
+            {
+                throw new ArgumentNullException(nameof(configureHandler));
+            }
+
+            builder.Services.Configure&lt;HttpClientFactoryOptions&gt;(builder.Name, options =&gt;
+            {
+                options.HttpMessageHandlerBuilderActions.Add(b =&gt; b.AdditionalHandlers.Add(configureHandler()));
+            });
+
+            return builder;
+        }
+</code></pre>
+<p>代码中把自定义的<code>DelegatingHandler</code> 方法添加到<code>HttpMessageHandlerBuilderActions</code>中，我们再来看看<code>HttpClientFactoryOptions</code>对象源代码，如下：</p>
+<pre><code> /// &lt;summary&gt;
+    /// An options class for configuring the default &lt;see cref=&quot;IHttpClientFactory&quot;/&gt;.
+    /// &lt;/summary&gt;
+    public class HttpClientFactoryOptions
+    {
+        // Establishing a minimum lifetime helps us avoid some possible destructive cases.
+        //
+        // IMPORTANT: This is used in a resource string. Update the resource if this changes.
+        internal readonly static TimeSpan MinimumHandlerLifetime = TimeSpan.FromSeconds(1);
+
+        private TimeSpan _handlerLifetime = TimeSpan.FromMinutes(2);
+
+        /// &lt;summary&gt;
+        /// Gets a list of operations used to configure an &lt;see cref=&quot;HttpMessageHandlerBuilder&quot;/&gt;.
+        /// &lt;/summary&gt;
+        public IList&lt;Action&lt;HttpMessageHandlerBuilder&gt;&gt; HttpMessageHandlerBuilderActions { get; } = new List&lt;Action&lt;HttpMessageHandlerBuilder&gt;&gt;();
+
+        /// &lt;summary&gt;
+        /// Gets a list of operations used to configure an &lt;see cref=&quot;HttpClient&quot;/&gt;.
+        /// &lt;/summary&gt;
+        public IList&lt;Action&lt;HttpClient&gt;&gt; HttpClientActions { get; } = new List&lt;Action&lt;HttpClient&gt;&gt;();
+
+        /// &lt;summary&gt;
+        /// Gets or sets the length of time that a &lt;see cref=&quot;HttpMessageHandler&quot;/&gt; instance can be reused. Each named 
+        /// client can have its own configured handler lifetime value. The default value of this property is two minutes.
+        /// Set the lifetime to &lt;see cref=&quot;Timeout.InfiniteTimeSpan&quot;/&gt; to disable handler expiry.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// &lt;para&gt;
+        /// The default implementation of &lt;see cref=&quot;IHttpClientFactory&quot;/&gt; will pool the &lt;see cref=&quot;HttpMessageHandler&quot;/&gt;
+        /// instances created by the factory to reduce resource consumption. This setting configures the amount of time
+        /// a handler can be pooled before it is scheduled for removal from the pool and disposal.
+        /// &lt;/para&gt;
+        /// &lt;para&gt;
+        /// Pooling of handlers is desirable as each handler typically manages its own underlying HTTP connections; creating
+        /// more handlers than necessary can result in connection delays. Some handlers also keep connections open indefinitely
+        /// which can prevent the handler from reacting to DNS changes. The value of &lt;see cref=&quot;HandlerLifetime&quot;/&gt; should be
+        /// chosen with an understanding of the application's requirement to respond to changes in the network environment.
+        /// &lt;/para&gt;
+        /// &lt;para&gt;
+        /// Expiry of a handler will not immediately dispose the handler. An expired handler is placed in a separate pool 
+        /// which is processed at intervals to dispose handlers only when they become unreachable. Using long-lived
+        /// &lt;see cref=&quot;HttpClient&quot;/&gt; instances will prevent the underlying &lt;see cref=&quot;HttpMessageHandler&quot;/&gt; from being
+        /// disposed until all references are garbage-collected.
+        /// &lt;/para&gt;
+        /// &lt;/remarks&gt;
+        public TimeSpan HandlerLifetime
+        {
+            get =&gt; _handlerLifetime;
+            set
+            {
+                if (value != Timeout.InfiniteTimeSpan &amp;&amp; value &lt; MinimumHandlerLifetime)
+                {
+                    throw new ArgumentException(Resources.HandlerLifetime_InvalidValue, nameof(value));
+                }
+
+                _handlerLifetime = value;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// The &lt;see cref=&quot;Func{T, R}&quot;/&gt; which determines whether to redact the HTTP header value before logging.
+        /// &lt;/summary&gt;
+        public Func&lt;string, bool&gt; ShouldRedactHeaderValue { get; set; } = (header) =&gt; false;
+
+        /// &lt;summary&gt;
+        /// &lt;para&gt;
+        /// Gets or sets a value that determines whether the &lt;see cref=&quot;IHttpClientFactory&quot;/&gt; will
+        /// create a dependency injection scope when building an &lt;see cref=&quot;HttpMessageHandler&quot;/&gt;.
+        /// If &lt;c&gt;false&lt;/c&gt; (default), a scope will be created, otherwise a scope will not be created.
+        /// &lt;/para&gt;
+        /// &lt;para&gt;
+        /// This option is provided for compatibility with existing applications. It is recommended
+        /// to use the default setting for new applications.
+        /// &lt;/para&gt;
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// &lt;para&gt;
+        /// The &lt;see cref=&quot;IHttpClientFactory&quot;/&gt; will (by default) create a dependency injection scope
+        /// each time it creates an &lt;see cref=&quot;HttpMessageHandler&quot;/&gt;. The created scope has the same
+        /// lifetime as the message handler, and will be disposed when the message handler is disposed.
+        /// &lt;/para&gt;
+        /// &lt;para&gt;
+        /// When operations that are part of &lt;see cref=&quot;HttpMessageHandlerBuilderActions&quot;/&gt; are executed
+        /// they will be provided with the scoped &lt;see cref=&quot;IServiceProvider&quot;/&gt; via 
+        /// &lt;see cref=&quot;HttpMessageHandlerBuilder.Services&quot;/&gt;. This includes retrieving a message handler
+        /// from dependency injection, such as one registered using 
+        /// &lt;see cref=&quot;HttpClientBuilderExtensions.AddHttpMessageHandler{THandler}(IHttpClientBuilder)&quot;/&gt;.
+        /// &lt;/para&gt;
+        /// &lt;/remarks&gt;
+        public bool SuppressHandlerScope { get; set; }
+    }
+</code></pre>
+<p>源代码中有如下核心List:</p>
+<pre><code> public IList&lt;Action&lt;HttpMessageHandlerBuilder&gt;&gt; HttpMessageHandlerBuilderActions { get; } = new List&lt;Action&lt;HttpMessageHandlerBuilder&gt;&gt;();
+</code></pre>
+<p>提供了<code>HttpMessageHandlerBuilder</code> HttpMessageHandler 的构造器列表对象，故，通过<code>AddHttpMessageHandler</code>可以添加一系列的消息构造器方法对象<br>
+我们再来看看这个消息构造器类，核心部分，代码如下：</p>
+<pre><code>public abstract class HttpMessageHandlerBuilder
+    {
+        /// &lt;summary&gt;
+        /// Gets or sets the name of the &lt;see cref=&quot;HttpClient&quot;/&gt; being created.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// The &lt;see cref=&quot;Name&quot;/&gt; is set by the &lt;see cref=&quot;IHttpClientFactory&quot;/&gt; infrastructure
+        /// and is public for unit testing purposes only. Setting the &lt;see cref=&quot;Name&quot;/&gt; outside of
+        /// testing scenarios may have unpredictable results.
+        /// &lt;/remarks&gt;
+        public abstract string Name { get; set; }
+
+        /// &lt;summary&gt;
+        /// Gets or sets the primary &lt;see cref=&quot;HttpMessageHandler&quot;/&gt;.
+        /// &lt;/summary&gt;
+        public abstract HttpMessageHandler PrimaryHandler { get; set; }
+
+        /// &lt;summary&gt;
+        /// Gets a list of additional &lt;see cref=&quot;DelegatingHandler&quot;/&gt; instances used to configure an
+        /// &lt;see cref=&quot;HttpClient&quot;/&gt; pipeline.
+        /// &lt;/summary&gt;
+        public abstract IList&lt;DelegatingHandler&gt; AdditionalHandlers { get; }
+
+        /// &lt;summary&gt;
+        /// Gets an &lt;see cref=&quot;IServiceProvider&quot;/&gt; which can be used to resolve services
+        /// from the dependency injection container.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This property is sensitive to the value of 
+        /// &lt;see cref=&quot;HttpClientFactoryOptions.SuppressHandlerScope&quot;/&gt;. If &lt;c&gt;true&lt;/c&gt; this
+        /// property will be a reference to the application's root service provider. If &lt;c&gt;false&lt;/c&gt;
+        /// (default) this will be a reference to a scoped service provider that has the same
+        /// lifetime as the handler being created.
+        /// &lt;/remarks&gt;
+        public virtual IServiceProvider Services { get; }
+
+        /// &lt;summary&gt;
+        /// Creates an &lt;see cref=&quot;HttpMessageHandler&quot;/&gt;.
+        /// &lt;/summary&gt;
+        /// &lt;returns&gt;
+        /// An &lt;see cref=&quot;HttpMessageHandler&quot;/&gt; built from the &lt;see cref=&quot;PrimaryHandler&quot;/&gt; and
+        /// &lt;see cref=&quot;AdditionalHandlers&quot;/&gt;.
+        /// &lt;/returns&gt;
+        public abstract HttpMessageHandler Build();
+
+        protected internal static HttpMessageHandler CreateHandlerPipeline(HttpMessageHandler primaryHandler, IEnumerable&lt;DelegatingHandler&gt; additionalHandlers)
+        {
+            // This is similar to https://github.com/aspnet/AspNetWebStack/blob/master/src/System.Net.Http.Formatting/HttpClientFactory.cs#L58
+            // but we don't want to take that package as a dependency.
+
+            if (primaryHandler == null)
+            {
+                throw new ArgumentNullException(nameof(primaryHandler));
+            }
+
+            if (additionalHandlers == null)
+            {
+                throw new ArgumentNullException(nameof(additionalHandlers));
+            }
+
+            var additionalHandlersList = additionalHandlers as IReadOnlyList&lt;DelegatingHandler&gt; ?? additionalHandlers.ToArray();
+
+            var next = primaryHandler;
+            for (var i = additionalHandlersList.Count - 1; i &gt;= 0; i--)
+            {
+                var handler = additionalHandlersList[i];
+                if (handler == null)
+                {
+                    var message = Resources.FormatHttpMessageHandlerBuilder_AdditionalHandlerIsNull(nameof(additionalHandlers));
+                    throw new InvalidOperationException(message);
+                }
+
+                // Checking for this allows us to catch cases where someone has tried to re-use a handler. That really won't
+                // work the way you want and it can be tricky for callers to figure out.
+                if (handler.InnerHandler != null)
+                {
+                    var message = Resources.FormatHttpMessageHandlerBuilder_AdditionHandlerIsInvalid(
+                        nameof(DelegatingHandler.InnerHandler),
+                        nameof(DelegatingHandler),
+                        nameof(HttpMessageHandlerBuilder),
+                        Environment.NewLine,
+                        handler);
+                    throw new InvalidOperationException(message);
+                }
+
+                handler.InnerHandler = next;
+                next = handler;
+            }
+
+            return next;
+        }
+    }
+</code></pre>
+<p><code>HttpMessageHandlerBuilder</code>构造器中有两个核心属性<code>PrimaryHandler</code> 和<code>AdditionalHandlers</code> ，细心的同学可以发现<code>AdditionalHandlers</code>是一个<code>IList&lt;DelegatingHandler&gt;</code>列表，也就是说可以HttpClient 可以添加多个<code>DelegatingHandler</code> 即多个<code>HttpMessageHandler</code> 消息处理Handler 但是只能有一个<code>PrimaryHandler</code> Handler</p>
+<p>同时<code>HttpMessageHandlerBuilder</code>提供了一个抽象的<code>Build</code>方法，还有一个<code>CreateHandlerPipeline</code> 方法，这个方法主要是把<code>IList&lt;DelegatingHandler&gt;</code> 和<code>PrimaryHandler</code> 构造成一个MessageHandler 链表结构（通过<code>DelegatingHandler</code> 的<code>InnerHandler</code>属性进行连接起来）</p>
+<h3 id="24-configureprimaryhttpmessagehandler">2.4 ConfigurePrimaryHttpMessageHandler</h3>
+<pre><code> public static IHttpClientBuilder ConfigurePrimaryHttpMessageHandler(this IHttpClientBuilder builder, Func&lt;HttpMessageHandler&gt; configureHandler)
+        {
+            if (builder == null)
+            {
+                throw new ArgumentNullException(nameof(builder));
+            }
+
+            if (configureHandler == null)
+            {
+                throw new ArgumentNullException(nameof(configureHandler));
+            }
+
+            builder.Services.Configure&lt;HttpClientFactoryOptions&gt;(builder.Name, options =&gt;
+            {
+                options.HttpMessageHandlerBuilderActions.Add(b =&gt; b.PrimaryHandler = configureHandler());
+            });
+
+            return builder;
+        }
+</code></pre>
+<p>通过上面的<code>HttpMessageHandlerBuilder</code> 源代码分析<code>ConfigurePrimaryHttpMessageHandler</code> 方法主要是给Builder 中添加<code>PrimaryHandler</code>消息Handler</p>
+<h3 id="25-defaulthttpmessagehandlerbuilder">2.5 DefaultHttpMessageHandlerBuilder</h3>
+<p>我们知道在<code>services.AddHttpClient()</code> 方法中会注册默认的<code>DefaultHttpMessageHandlerBuilder</code> 消息构造器方法，它继承<code>DefaultHttpMessageHandlerBuilder</code>,那我们来看看它的源代码</p>
+<pre><code>internal class DefaultHttpMessageHandlerBuilder : HttpMessageHandlerBuilder
+    {
+        public DefaultHttpMessageHandlerBuilder(IServiceProvider services)
+        {
+            Services = services;
+        }
+
+        private string _name;
+
+        public override string Name
+        {
+            get =&gt; _name;
+            set
+            {
+                if (value == null)
+                {
+                    throw new ArgumentNullException(nameof(value));
+                }
+
+                _name = value;
+            }
+        }
+
+        public override HttpMessageHandler PrimaryHandler { get; set; } = new HttpClientHandler();
+
+        public override IList&lt;DelegatingHandler&gt; AdditionalHandlers { get; } = new List&lt;DelegatingHandler&gt;();
+
+        public override IServiceProvider Services { get; }
+
+        public override HttpMessageHandler Build()
+        {
+            if (PrimaryHandler == null)
+            {
+                var message = Resources.FormatHttpMessageHandlerBuilder_PrimaryHandlerIsNull(nameof(PrimaryHandler));
+                throw new InvalidOperationException(message);
+            }
+            
+            return CreateHandlerPipeline(PrimaryHandler, AdditionalHandlers);
+        }
+</code></pre>
+<p>代码中<code>Build</code> 会去调用HttpMessageHandlerBuilder 的<code>CreateHandlerPipeline</code>方法把HttpMessageHandler 构建成一个类似于链表的结构。<br>
+到这里源代码已经分析完了，接下来我们来演示一个Demo，来证明上面的核心HttpMessageHandler 流程走向图</p>
+<h2 id="三、demo演示证明">三、Demo演示证明</h2>
+<p>我们继续来看上面我的Demo代码：</p>
+<pre><code>services.AddHttpClient(&quot;test&quot;)
+        .ConfigurePrimaryHttpMessageHandler(provider =&gt;
+        {
+            return new PrimaryHttpMessageHandler(provider);
+        })
+        .AddHttpMessageHandler(provider =&gt;
+        {
+            return new LogHttpMessageHandler(provider);
+        })
+        .AddHttpMessageHandler(provider =&gt;
+        {
+           return new Log2HttpMessageHandler(provider);
+        });
+</code></pre>
+<p>代码中自定义了两个<code>HttpMessageHandler</code>和一个<code>PrimaryHttpMessageHandler</code><br>
+我们再来分别看看<code>Log2HttpMessageHandler</code>、<code>LogHttpMessageHandler</code> 和<code>PrimaryHttpMessageHandler</code> 代码，代码很简单就是<code>SendAsync</code>前后输出了Log信息，代码如下：<br>
+自定义的<code>PrimaryHttpMessageHandler</code> 代码如下：</p>
+<pre><code>public class PrimaryHttpMessageHandler: DelegatingHandler
+    {
+        private IServiceProvider _provider;
+
+        public PrimaryHttpMessageHandler(IServiceProvider provider)
+        {
+            _provider = provider;
+            InnerHandler = new HttpClientHandler();
+        }
+
+        protected async override Task&lt;HttpResponseMessage&gt; SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        {
+            System.Console.WriteLine(&quot;PrimaryHttpMessageHandler Start Log&quot;);
+
+            var response= await base.SendAsync(request, cancellationToken);
+            System.Console.WriteLine(&quot;PrimaryHttpMessageHandler End Log&quot;);
+            return response;
+        }
+    }
+</code></pre>
+<p><code>Log2HttpMessageHandler</code> 代码如下：</p>
+<pre><code> public class Log2HttpMessageHandler : DelegatingHandler
+    {
+        private IServiceProvider _provider;
+
+        public Log2HttpMessageHandler(IServiceProvider provider)
+        {
+            _provider = provider;
+            //InnerHandler = new HttpClientHandler();
+        }
+
+        protected async override Task&lt;HttpResponseMessage&gt; SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        {
+            System.Console.WriteLine(&quot;LogHttpMessageHandler2 Start Log&quot;);
+            var response=await base.SendAsync(request, cancellationToken);
+            System.Console.WriteLine(&quot;LogHttpMessageHandler2 End Log&quot;);
+
+            return response;
+        }
+    }
+</code></pre>
+<p><code>LogHttpMessageHandler</code>代码如下：</p>
+<pre><code> public class LogHttpMessageHandler : DelegatingHandler
+  {
+        private IServiceProvider _provider;
+
+        public LogHttpMessageHandler(IServiceProvider provider)
+        {
+            _provider = provider;
+            //InnerHandler = new HttpClientHandler();
+        }
+
+        protected async override Task&lt;HttpResponseMessage&gt; SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        {
+            System.Console.WriteLine(&quot;LogHttpMessageHandler Start Log&quot;);
+            var response=await base.SendAsync(request, cancellationToken);
+            System.Console.WriteLine(&quot;LogHttpMessageHandler End Log&quot;);
+            return response;
+        }
+    }
+</code></pre>
+<p>三个自定义Handler 代码已经完成，我们继续添加调用代码，如下：</p>
+<pre><code>        /// &lt;summary&gt;
+        /// 
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;url&quot;&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public async Task&lt;string&gt; GetBaiduAsync(string url)
+        {
+            var client = _clientFactory.CreateClient(&quot;test&quot;);
+            var result = await client.GetStringAsync(url);
+            return result;
+        }
+</code></pre>
+<p>现在我们运行访问接口，运行后的控制台Log 如下图：<br>
+<img src="https://img2020.cnblogs.com/blog/824291/202005/824291-20200523183405089-1274193421.png" alt=""><br>
+看到输出结果，大家有没有发现跟Asp.net core 中的中间件管道的运行图一样。</p>
+<h2 id="四、总结">四、总结</h2>
+<p><code>HttpClient</code>中<code>HttpMessageHandler</code>可以自定义多个，但是只能有一个<code>PrimaryHttpMessageHandler</code>如果添加多个只会被最后面添加的给覆盖；添加的一系列Handler 构成一个链式管道模型，并且<code>PrimaryHttpMessageHandler</code> 主的消息Handler 是在管道的最外层，也就是管道模型中的最后一道Handler。<br>
+使用场景：我们可以通过自定义的MessageHandler 来动态加载请求证书，通过数据库的一些信息，在自定义的Handler 中加载注入对应的证书，这样可以起到动态加载支付证书作用，同时可以SendAsync 之前或者之后做一些自己的验证等相关业务，大家只需要理解它们的用途，自然知道它的强大作用，今天就分享到这里</p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-25 07:56</span>&nbsp;
+<a href="https://www.cnblogs.com/jlion/">Jlion</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12897923" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12897923);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 581767, cb_blogApp = 'jlion', cb_blogUserGuid = 'b6af6236-8575-e511-9fc1-ac853d9f53cc';
+    var cb_entryId = 12897923, cb_entryCreatedDate = '2020-05-25 07:56', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 Jlion
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

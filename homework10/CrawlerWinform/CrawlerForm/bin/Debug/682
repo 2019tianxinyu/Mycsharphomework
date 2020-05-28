@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>郭励之 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue.min.css?v=MH15aYd6DmX-6TABpA2xkiKENy3GAhiM2dh5rOPH89I" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue-mobile.min.css?v=X7swQJ1TyCJAf6FMVjDPbYhUAiMdNFddEy1-m0_TbFQ" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/guolizhi/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/guolizhi/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/guolizhi/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 405000;
+        var currentBlogApp = 'guolizhi';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleBlue';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/guolizhi/">郭励之</a>
+</div>
+<div class="subtitle">
+--不想做全栈的前端不是一个好的切图仔
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/guolizhi/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E9%83%AD%E5%8A%B1%E4%B9%8B">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/guolizhi/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+21&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+0</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                
+
+
+
+
+
+
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12768371.html">
+    leetcode-0108 将有序数组转化为二叉搜索树
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：leetcode 0108 将有序数组转化为二叉搜索树 题目地址 &quot;https://leetcode cn.com/problems/convert sorted array to binary search tree/&quot; 中序遍历（DFS） 首先我们要知道对一棵二分搜索树进行中序遍历得到的结果也是            <a href="https://www.cnblogs.com/guolizhi/p/12768371.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-24 16:35 郭励之 阅读 (3) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768371" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12767835.html">
+    leetcode-0226 翻转二叉树
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：题目地址 &quot;https://leetcode cn.com/problems/invert binary tree/&quot; 1.递归 时间复杂度O(n) 空间复杂度O(n) 递归的思路首先要找到递归的终止条件，这题递归的终止条件必须要是当前的节点为null才可以结束递归。或者我们可以换个角度来思考，如果            <a href="https://www.cnblogs.com/guolizhi/p/12767835.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-24 15:39 郭励之 阅读 (5) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12767835" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2020/04/21.html">2020年4月21日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12744781.html">
+    前端安全-XSS攻击
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：1. XSS攻击简介 XSS: 跨站脚本攻击，一个网站如果运行了非本站的脚本，那就可能产生XSS攻击。一旦发生了XSS，那攻击者就能够根据XSS漏洞来做很多事情。比如 获取页面数据 获取cookie 劫持前端逻辑 发送请求 这样可能带来诸多的危害，比如： 偷取网站的任意数据 偷取用户资料 偷取用户密            <a href="https://www.cnblogs.com/guolizhi/p/12744781.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-21 15:09 郭励之 阅读 (20) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12744781" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2020/04/17.html">2020年4月17日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12721183.html">
+    leetcode-0003 无重复字符的最长子串 
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：题目地址 &quot;https://leetcode cn.com/problems/longest substring without repeating characters&quot; 1.滑动窗口 时间复杂度O(n) 空间复杂度O(1) 更多leetcode题解和数据结构方面的知识，请关注我的 &quot;github            <a href="https://www.cnblogs.com/guolizhi/p/12721183.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-17 17:14 郭励之 阅读 (7) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12721183" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12720789.html">
+    leetcode-0002 两数相加
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：题目地址 &quot;https://leetcode cn.com/problems/add two numbers/&quot; 1. 链表遍历操作 时间复杂度O(n) 空间复杂度O(n) 更多leetcode题解和数据结构方面的知识，请关注我的 &quot;github:https://github.com/GuoLizh            <a href="https://www.cnblogs.com/guolizhi/p/12720789.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-17 16:27 郭励之 阅读 (7) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12720789" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12716914.html">
+    leetcode-0001 两数之和
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：题目地址： &quot;https://leetcode cn.com/problems/two sum/&quot; 1.暴力解法 直接双重循环，枚举出所有可能的解，时间复杂度为O(n^2)，空间复杂度为O(1) 2.HashTable 第一次循环将数组nums中的每个数都放入map中 第二次循环判断target n            <a href="https://www.cnblogs.com/guolizhi/p/12716914.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-16 23:54 郭励之 阅读 (25) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12716914" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/12715536.html">
+    数据结构篇-数组（TypeScript版+Java版）
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：1.TypeScript版本 js export default class MyArray { public data: E[]; public size: number = 0; / 构造函数，传入数组的容量capacity @param {number} capacity 数组容量，默认10             <a href="https://www.cnblogs.com/guolizhi/p/12715536.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-16 20:42 郭励之 阅读 (12) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12715536" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2019/01/10.html">2019年1月10日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/10251265.html">
+    前端性能优化（一）-- 文件的压缩与合并
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：首先我们需要搞清楚，我们为什么需要进行文件的压缩与合并？压缩与合并的原因主要有两点 减少HTTP请求数 减小HTTP的请求大小 这里的主要优化方式有3点： HTML/CSS/JS文件的压缩 CSS/JS文件的合并 开启GZIP压缩 如何进行HTML压缩 1. 使用在线网站压缩 2. html min            <a href="https://www.cnblogs.com/guolizhi/p/10251265.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-01-10 17:25 郭励之 阅读 (678) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10251265" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2018/12/11.html">2018年12月11日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/10103498.html">
+    《深入浅出RxJS》读书笔记
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：rxjs的引入 解决这个问题，可以使用深链 的方式，只导入用的上的功能 这样可以减少不必要的依赖，不光可以优化打包文件的大小，还有利于代码的稳定性 另外目前最新的一种解决方案就是 , 只对import语句导入产生作用，对require不起作用。因为tree shaking的工作方式是对代码静态分析，            <a href="https://www.cnblogs.com/guolizhi/p/10103498.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-12-11 17:15 郭励之 阅读 (219) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10103498" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/guolizhi/archive/2018/10/22.html">2018年10月22日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/guolizhi/p/9831329.html">
+    python工具函数
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：1. translate 要比 要高效，translate支持替换多 使用 之前必须要创建一个转换表。要创建转换表，可对字符串类型str调用方法 。 还可以接受第三个参数，指定要将哪些字母删除。            <a href="https://www.cnblogs.com/guolizhi/p/9831329.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-10-22 17:27 郭励之 阅读 (97) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9831329" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/guolizhi/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 郭励之
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

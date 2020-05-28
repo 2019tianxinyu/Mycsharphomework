@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="写在前面 EasyExcel是阿里推出的一款高性能的开源excel读写框架，具体的框架介绍这里就不再提了，有兴趣的同学点击下面的地址链接去github上看。笔者发现目前网上很多介绍easyexcel博" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>好用的EasyExcel工具类（1.1.2-beta5版本） - 天马行空~_~ - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/facebook/bundle-facebook.min.css?v=aB-82CpKPCn7GTh6duXr6GCfZ_O6f24jHmUsEi_Kloc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/facebook/bundle-facebook-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/JWMA/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/JWMA/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/JWMA/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 395123;
+        var currentBlogApp = 'JWMA';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'facebook';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+<div id="header">
+	<div id="blogTitle">
+        
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/JWMA/">天马行空~_~</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+			<ul id="navList">
+				<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+				<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/JWMA/">
+首页</a>
+</li>
+				<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+				<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA~_~">
+联系</a></li>
+				<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+				<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/JWMA/rss/">
+订阅</a>
+				
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/JWMA/rss/">
+    <img src="/skins/facebook/images/xml.gif" alt="订阅" />
+</a></li>
+			</ul>
+
+
+
+		<div class="blogStats">
+            <div class="blog_stats">
+                <!--done-->
+随笔- 
+5&nbsp;
+文章- 
+0&nbsp;
+评论- 
+0&nbsp;
+
+
+
+            </div>
+        </div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class = "postTitle">
+			
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/JWMA/p/12768359.html">好用的EasyExcel工具类（1.1.2-beta5版本）</a>
+
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h2 id="写在前面">写在前面</h2>
+<p>EasyExcel是阿里推出的一款高性能的开源excel读写框架，具体的框架介绍这里就不再提了，有兴趣的同学点击下面的地址链接去github上看。笔者发现目前网上很多介绍easyexcel博客或文章都是基于1.1.2-beta5版本进行讲解的，故笔者整理了一个适用于该版本的工具类，方便自己使用。实际主要是懒得记对应的API，并且匹配自己平时的编程习惯。有需要的小伙伴自取。</p>
+<p>easyexcel开源地址：<a href="https://github.com/alibaba/easyexcel">https://github.com/alibaba/easyexcel</a></p>
+<h2 id="引入依赖">引入依赖</h2>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;com.alibaba&lt;/groupId&gt;
+    &lt;artifactId&gt;easyexcel&lt;/artifactId&gt;
+    &lt;version&gt;1.1.2-beta5&lt;/version&gt;
+&lt;/dependency&gt; 
+</code></pre>
+<h2 id="工具类">工具类</h2>
+<pre><code>import com.alibaba.excel.EasyExcelFactory;
+import com.alibaba.excel.ExcelWriter;
+import com.alibaba.excel.context.AnalysisContext;
+import com.alibaba.excel.event.AnalysisEventListener;
+import com.alibaba.excel.metadata.BaseRowModel;
+import com.alibaba.excel.metadata.Sheet;
+import com.alibaba.excel.metadata.Table;
+import com.alibaba.excel.support.ExcelTypeEnum;
+import lombok.extern.slf4j.Slf4j;
+
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+*  EasyExcel工具类
+ * @author jwhappy
+ * @date 2020/4/21
+ */
+@Slf4j
+public class EasyExcelUtil
+{
+    /**
+     * 无模板读取（从sheet1的第1行开始读）
+     * @param inputStream
+     * @return List&lt;List&lt;String&gt;&gt;
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream){
+        return EasyExcelFactory.read(inputStream, new Sheet(1, 0));
+    }
+
+    /**
+     * 无模板读取（自己指定从sheet1的哪一行开始读）
+     * @param inputStream
+     * @param headLineMun 表头占的行数，从0开始
+     * @return List&lt;List&lt;String&gt;&gt;
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream, Integer headLineMun){
+        return EasyExcelFactory.read(inputStream, new Sheet(1, headLineMun));
+    }
+
+    /**
+     * 无模板读取（自己指定sheet和开始的行）
+     * 返回 List&lt;List&lt;String&gt;&gt;
+     * @param inputStream
+     * @param sheetNo sheet页号，从1开始
+     * @param headLineMun 表头占的行数，从0开始
+     * @return List&lt;List&lt;String&gt;&gt;
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream, Integer sheetNo, Integer headLineMun){
+        return EasyExcelFactory.read(inputStream, new Sheet(sheetNo, headLineMun));
+    }
+
+    /**
+     * 按模板读取（从sheet1的第2行开始读取）
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @return List&lt;Object&gt;, Object对应具体的clazz类
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz){
+        return EasyExcelFactory.read(inputStream, new Sheet(1, 1, clazz));
+    }
+
+    /**
+     * 按模板读取（从指定sheet的第2行开始读）
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param sheetNo sheet页号，从1开始
+     * @return List&lt;Object&gt;, Object对应具体的clazz类
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz, Integer sheetNo){
+        return EasyExcelFactory.read(inputStream, new Sheet(sheetNo, 1, clazz));
+    }
+
+    /**
+     * 按模板读取（自定义sheet和表头行数）
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param sheetNo sheet页号，从1开始
+     * @param headLineMun 表头占的行数，从0开始
+     * @return List&lt;Object&gt;, Object对应具体的clazz类
+     */
+    public static List&lt;Object&gt; read(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz, Integer sheetNo, Integer headLineMun){
+        return EasyExcelFactory.read(inputStream, new Sheet(sheetNo, headLineMun, clazz));
+    }
+
+    /**
+     * 按模板读取（从sheet1的第2行开始读取）
+     * 1000行以上的数据建议用这个读取
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param &lt;T&gt; 模板类泛型
+     * @return List&lt;T&gt;
+     */
+    public static &lt;T extends BaseRowModel&gt; List&lt;T&gt; readModel(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz){
+        ExcelListener excelListener = new ExcelListener();
+        EasyExcelFactory.readBySax(inputStream, new Sheet(1, 1, clazz), excelListener);
+        return excelListener.getRows();
+    }
+
+    /**
+     * 按模板读取（从指定sheet的第2行开始读）
+     * 1000行以上的数据建议用这个读取
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param sheetNo sheet页号，从1开始
+     * @param &lt;T&gt; 模板类泛型
+     * @return List&lt;T&gt;
+     */
+    public static &lt;T extends BaseRowModel&gt; List&lt;T&gt; readModel(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz, Integer sheetNo){
+        ExcelListener excelListener = new ExcelListener();
+        EasyExcelFactory.readBySax(inputStream, new Sheet(sheetNo, 1, clazz), excelListener);
+        return excelListener.getRows();
+    }
+
+    /**
+     * 按模板读取（自定义sheet和表头行）
+     * 1000行以上的数据建议用这个读取
+     * @param inputStream
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param sheetNo sheet页号，从1开始
+     * @param headLineMun 表头占的行数，从0开始
+     * @param &lt;T&gt; 模板类泛型
+     * @return List&lt;T&gt;
+     */
+    public static &lt;T extends BaseRowModel&gt; List&lt;T&gt; readModel(InputStream inputStream, final Class&lt;? extends BaseRowModel&gt; clazz, Integer sheetNo, Integer headLineMun){
+        ExcelListener excelListener = new ExcelListener();
+        EasyExcelFactory.readBySax(inputStream, new Sheet(sheetNo, headLineMun, clazz), excelListener);
+        return excelListener.getRows();
+    }
+
+    /**
+     * 按模板写入（写入sheet1，表头占第一行）
+     * @param outputStream
+     * @param data 写入的数据（模板对象List）
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     */
+    public static void writeModel(OutputStream outputStream, List&lt;? extends BaseRowModel&gt; data, final Class&lt;? extends BaseRowModel&gt; clazz){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(1, 1, clazz);
+        excelWriter.write(data, sheet);
+        excelWriter.finish();
+    }
+
+    /**
+     * 按模板写入（指定sheet，表头占第一行）
+     * @param outputStream
+     * @param data 写入的数据（模板对象List）
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param sheetNo sheet页号，从1开始
+     */
+    public static void writeModel(OutputStream outputStream, List&lt;? extends BaseRowModel&gt; data, final Class&lt;? extends BaseRowModel&gt; clazz, Integer sheetNo){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(sheetNo, 1, clazz);
+        excelWriter.write(data, sheet);
+        excelWriter.finish();
+    }
+
+    /**
+     * 按模板写入（指定sheet页和sheet名称，指定表头行数）
+     * @param outputStream
+     * @param data 写入的数据（模板对象List）
+     * @param clazz 模板类，需要继承BaseRowModel类，字段用@ExcelProperty注解
+     * @param headLineMun 表头占的行数，从0开始
+     * @param sheetNo sheet页号，从1开始
+     * @param sheetName sheet名称
+     */
+    public static void writeModel(OutputStream outputStream, List&lt;? extends BaseRowModel&gt; data, final Class&lt;? extends BaseRowModel&gt; clazz, Integer headLineMun, Integer sheetNo, String sheetName){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(sheetNo, headLineMun, clazz);
+        sheet.setSheetName(sheetName);
+        excelWriter.write(data, sheet);
+        excelWriter.finish();
+    }
+
+    /**
+     * 无模板写入（写入sheet1，表头占第一行）
+     * @param outputStream
+     * @param data 写入的数据（List&lt;List&lt;Object&gt;&gt;）
+     * @param table 表设置，可以设置表头字段，以及表的样式设置
+     */
+    public static void write(OutputStream outputStream, List&lt;List&lt;Object&gt;&gt; data, Table table){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(1, 0);
+        excelWriter.write1(data, sheet, table);
+        excelWriter.finish();
+    }
+
+    /**
+     * 无模板写入（指定sheet，表头占第一行）
+     * @param outputStream
+     * @param data 写入的数据（List&lt;List&lt;Object&gt;&gt;）
+     * @param table 表设置，可以设置表头字段，以及表的样式设置
+     * @param sheetNo sheet页号，从1开始
+     */
+    public static void write(OutputStream outputStream, List&lt;List&lt;Object&gt;&gt; data, Table table, Integer sheetNo){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(sheetNo, 0);
+        excelWriter.write1(data, sheet, table);
+        excelWriter.finish();
+    }
+
+    /**
+     * 无模板写入（指定sheet页和sheet名称，指定表头行数）
+     * @param outputStream
+     * @param data 写入的数据（List&lt;List&lt;Object&gt;&gt;）
+     * @param table 表设置，可以设置表头字段，以及表的样式设置
+     * @param headLineMun 表头占的行数，从0开始
+     * @param sheetNo sheet页号，从1开始
+     * @param sheetName sheet名称
+     */
+    public static void write(OutputStream outputStream, List&lt;List&lt;Object&gt;&gt; data, Table table, Integer headLineMun, Integer sheetNo, String sheetName){
+        ExcelWriter excelWriter = EasyExcelFactory.getWriter(outputStream);
+        Sheet sheet = new Sheet(sheetNo, headLineMun);
+        sheet.setSheetName(sheetName);
+        excelWriter.write1(data, sheet, table);
+        excelWriter.finish();
+    }
+
+    /**
+     * 多个sheet页的数据链式写入
+     * ExcelUtil.writeWithSheets(outputStream)
+     *                  .writeModel( Collections.singletonList(excelModel), ExcelModel.class, &quot;sheet1Name&quot;)
+     *                  .write(data,table,&quot;sheet2Name&quot;)
+     *                  .finish();
+     * @param outputStream
+     * @return
+     */
+    public static EasyExcelWriterFactory writeWithSheets(OutputStream outputStream){
+        EasyExcelWriterFactory excelWriter = new EasyExcelWriterFactory(outputStream, ExcelTypeEnum.XLSX);
+        return excelWriter;
+    }
+
+    /**
+     * 多个sheet页的数据链式写入
+     * ExcelUtil.writeWithSheets(response, exportFileName)
+     *                  .writeModel( Collections.singletonList(excelModel), ExcelModel.class, &quot;sheet1Name&quot;)
+     *                  .write(data,table,&quot;sheet2Name&quot;)
+     *                  .finish();
+     * @param response
+     * @param exportFileName 导出文件名
+     * @return
+     */
+    public static EasyExcelWriterFactory writeWithSheetsWeb(HttpServletResponse response, String exportFileName) throws IOException
+    {
+        //添加响应头信息
+        response.setContentType(&quot;application/vnd.ms-excel&quot;);
+        response.setCharacterEncoding(&quot;utf-8&quot;);
+        // 这里URLEncoder.encode可以防止中文乱码
+        String fileName = URLEncoder.encode(exportFileName, &quot;UTF-8&quot;);
+        response.setHeader(&quot;Content-disposition&quot;, &quot;attachment;filename=&quot; + fileName + &quot;.xlsx&quot;);
+        EasyExcelWriterFactory excelWriter = new EasyExcelWriterFactory(response.getOutputStream(), ExcelTypeEnum.XLSX);
+        return excelWriter;
+    }
+}
+
+@Slf4j
+class ExcelListener&lt;T extends BaseRowModel&gt; extends AnalysisEventListener&lt;T&gt;
+{
+    private final List&lt;T&gt; rows = new ArrayList&lt;&gt;();
+
+    @Override
+    public void invoke(T object, AnalysisContext context) {
+        rows.add(object);
+    }
+
+    @Override
+    public void doAfterAllAnalysed(AnalysisContext context) {
+        log.info(&quot;read {} rows&quot;, rows.size());
+    }
+
+    public List&lt;T&gt; getRows() {
+        return rows;
+    }
+}
+</code></pre>
+<pre><code>import com.alibaba.excel.ExcelWriter;
+import com.alibaba.excel.metadata.BaseRowModel;
+import com.alibaba.excel.metadata.Sheet;
+import com.alibaba.excel.metadata.Table;
+import com.alibaba.excel.support.ExcelTypeEnum;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.List;
+
+/**
+ * 自定义EasyExcel写工厂
+ */
+public class EasyExcelWriterFactory extends ExcelWriter
+{
+    private OutputStream outputStream;
+    private int sheetNo = 1;
+
+    public EasyExcelWriterFactory(OutputStream outputStream, ExcelTypeEnum typeEnum) {
+        super(outputStream, typeEnum);
+        this.outputStream = outputStream;
+    }
+
+    /**
+     * 链式按模板写入
+     * @param data
+     * @param clazz
+     * @param sheetName
+     * @return
+     */
+    public EasyExcelWriterFactory writeModel(List&lt;? extends BaseRowModel&gt; data, final Class&lt;? extends BaseRowModel&gt; clazz, String sheetName){
+        Sheet sheet = new Sheet(this.sheetNo++, 0, clazz);
+        sheet.setSheetName(sheetName);
+        this.write(data, sheet);
+        return this;
+    }
+
+    /**
+     * 链式无模板写入
+     * @param data
+     * @param table
+     * @param sheetName
+     * @return
+     */
+    public EasyExcelWriterFactory write(List&lt;List&lt;Object&gt;&gt; data, Table table, String sheetName){
+        Sheet sheet = new Sheet(this.sheetNo++, 0);
+        sheet.setSheetName(sheetName);
+        this.write1(data, sheet, table);
+        return this;
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        try {
+            outputStream.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+		</div>
+		<div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 16:34</span>&nbsp;
+<a href="https://www.cnblogs.com/JWMA/">天马行空~_~</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768359" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12768359);return false;">收藏</a></div>
+	</div>
+	
+	
+</div>
+<!--end: topics 文章、评论容器-->
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 395123, cb_blogApp = 'JWMA', cb_blogUserGuid = '82b20446-db83-4f19-c45f-08d523685c8c';
+    var cb_entryId = 12768359, cb_entryCreatedDate = '2020-04-24 16:34', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+		<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+			
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 天马行空~_~
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

@@ -1,0 +1,671 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>一线码农 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/imetro_hd/bundle-imetro_hd.min.css?v=gS0FloTY-RBJQcN3GCAKG6fAr6HHKtDMTw60VxjN79c" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/huangxincheng/custom.css?v=z0WD6a4nBgoSBHjlq93cyLFnQd8=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/imetro_hd/bundle-imetro_hd-mobile.min.css?v=VacchHeVg6bp3gCO8NqMH8D8fhA8iyRbb0JgoDUvn4o" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/huangxincheng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/huangxincheng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/huangxincheng/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 85195;
+        var currentBlogApp = 'huangxincheng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'iMetro_HD';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/huangxincheng/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/huangxincheng/"></a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/huangxincheng/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E4%B8%80%E7%BA%BF%E7%A0%81%E5%86%9C">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/huangxincheng/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+289&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+4788</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12764925.html">
+    用了这么多年的泛型，你对它到底有多了解？
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：现代程序员写代码没有人敢说自己没用过泛型，这个泛型模板T可以被任何你想要的类型替代，确实很魔法很神奇，很多人也习以为常了，但就是这么有趣的泛型T底层到底是怎么帮你实现的，不知道有多少人清楚底层玩法，这篇我就试着来分享一下，不一定全对哈。。。 一：没有泛型前 现在的netcore 3.1和最新的.ne            <a href="https://www.cnblogs.com/huangxincheng/p/12764925.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 01:11 一线码农 阅读 (1192) 评论 (29)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12764925" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/22.html">2020年4月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12752849.html">
+    async,await执行流看不懂？看完这篇以后再也不会了
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：昨天有朋友在公众号发消息说看不懂await，async执行流，其实看不懂太正常了，因为你没经过社会的毒打，没吃过牢饭就不知道自由有多重要，没生过病就不知道健康有多重要，没用过ContinueWith就不知道await,async有多重要，下面我举两个案例佐证一下？ 一：案例一 【嵌套下的异步】 写了            <a href="https://www.cnblogs.com/huangxincheng/p/12752849.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-22 16:17 一线码农 阅读 (2527) 评论 (35)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12752849" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/21.html">2020年4月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12746038.html">
+    我是如何一步步的在并行编程中将lock锁次数降到最低实现无锁编程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在并行编程中，经常会遇到多线程间操作共享集合的问题，很多时候大家都很难逃避这个问题做到一种无锁编程状态，你也知道一旦给共享集合套上lock之后，并发和伸缩能力往往会造成很大影响，这篇就来谈谈如何尽可能的减少lock锁次数甚至没有。 一：缘由 1. 业务背景 昨天在review代码的时候，看到以前自己            <a href="https://www.cnblogs.com/huangxincheng/p/12746038.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-21 17:20 一线码农 阅读 (642) 评论 (8)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12746038" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/20.html">2020年4月20日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12739752.html">
+    同步异步多线程这三者关系，你能给面试官一个满意的回答吗？
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前几天一位朋友去面试，面试官问了他同步，异步，多线程之间是什么关系，异步比同步高效在哪？多线程比单线程高效在哪？由于回答的不好，让我帮他捋一下，其实回答这个问题不难，难就难在只对别人说理论，而没有现杀的例子。 一：异步 1. 到底解放了谁？ 从基础的同步说起 要说解放了谁，一定得有几个参与者，举个例            <a href="https://www.cnblogs.com/huangxincheng/p/12739752.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-20 18:57 一线码农 阅读 (1492) 评论 (7)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12739752" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/17.html">2020年4月17日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12719931.html">
+    Linq中带有迭代索引的Select扩展方法，为啥知道的人不多呢？
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一：背景 昨天在看C 函数式编程这本书的时候，有一处让我干着急，需求是这样： 给多行文字加上数字列表项。 针对这个需求你会如何快捷高效的给每个项目加上数字编号呢？ 我看书中是这样实现的，如下代码 怎么说呢，需求能实现没有问题，但这里还是累赘了，因使用到了拉链函数Zip 和生成范围的Range，全纠缠            <a href="https://www.cnblogs.com/huangxincheng/p/12719931.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-17 14:44 一线码农 阅读 (587) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12719931" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12716163.html">
+    一个lock锁就可以分出低中高水平的程序员对问题的处置方式
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：说到lock锁，我相信在座的各位没有不会用的，而且还知道怎么用不会出错，但让他们聊一聊为什么可以锁住，都说人以群分，大概就有了下面低中高水平的三类人吧。 第一类人 将lock对象定义成static，这样就能让多个线程看到同一个对象，以此实现线程间互斥和保证同步，如果再深问为什么？就怕遮遮掩掩的说好像            <a href="https://www.cnblogs.com/huangxincheng/p/12716163.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 22:01 一线码农 阅读 (1243) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12716163" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/15.html">2020年4月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12706458.html">
+    多角度让你彻底明白yield语法糖的用法和原理及在C#函数式编程中的作用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果大家读过dapper源码，你会发现这内部有很多方法都用到了yield关键词，那yield到底是用来干嘛的，能不能拿掉，拿掉与不拿掉有多大的差别，首先上一段dapper中精简后的Query方法，先让大家眼见为实。 一：yield探究 1. 骨架代码猜想 骨架代码其实很简单，方法的返回值是IEnum            <a href="https://www.cnblogs.com/huangxincheng/p/12706458.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-15 16:55 一线码农 阅读 (654) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12706458" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/14.html">2020年4月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12697403.html">
+    Linq下有一个非常实用的SelectMany方法，很多人却不会用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在平时开发中经常会看到有些朋友或者同事在写代码时会充斥着各种for，foreach，这种程式代码太多的话阅读性特别差，而且还显得特别累赘，其实在FCL中有很多帮助我们提高阅读感的方法，而现实中很多人不会用或者说不知道，这篇我就跟大家聊一聊。 一：SelectMany 这个方法绝对是提高开发速度的一大            <a href="https://www.cnblogs.com/huangxincheng/p/12697403.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-14 13:25 一线码农 阅读 (1101) 评论 (5)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12697403" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/12.html">2020年4月12日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12684317.html">
+    当模板方法遇到了委托函数，你的代码又可以精简了
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：现如今当你翻看一些开源项目源码的时候，你会发现现在到处充斥着委托函数，如Func,Action,Predicate，确实现在的C 在函数式编程的路上越来越成为主流，越来越显示威力，曾经的一些经典设计模式写法，在函数式下可以稍微优化一下了，这篇我们就来说说模板方法。 一：实际场景 1. 模板方法定义             <a href="https://www.cnblogs.com/huangxincheng/p/12684317.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-12 11:26 一线码农 阅读 (463) 评论 (4)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12684317" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2020/04/11.html">2020年4月11日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/12679226.html">
+    为什么要用内插字符串代替string.format
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：知道为什么要用内插字符串，只有踩过坑的人才能明白，如果你曾今使用string.format超5个以上占位符，那其中的痛苦我想你肯定是能够共鸣的。 一：痛苦经历 先上一段曾今写过的一段代码，大家来体会一下： 这里拥有多达8个占位符，当年写这个的时候，会有三个痛点。 1. 占位符不能写错了 比如这里的             <a href="https://www.cnblogs.com/huangxincheng/p/12679226.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-11 13:40 一线码农 阅读 (1693) 评论 (24)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12679226" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2019/11/04.html">2019年11月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/11790007.html">
+    如何让多个不同类型的后端网站用一个nginx进行反向代理实际场景分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前段时间公司根据要求需要将聚石塔上服务器从杭州整体迁移到张家口，刚好趁这次机会将这些乱七八糟的服务器做一次梳理和整合，断断续续一个月迁移完 成大概优化掉了1/3的机器，完成之后遇到了一些问题，比如曾今零零散散部署在生产上一些可视化UI：apollo，kibana，grafana,jenkins 等等            <a href="https://www.cnblogs.com/huangxincheng/p/11790007.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-04 00:00 一线码农 阅读 (1618) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11790007" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2019/08/03.html">2019年8月3日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/11295062.html">
+    8天入门docker系列 —— 第八天  让程序跑在swarm集群上
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：真正的落地部署都是希望程序跑在集群下，而不是单机版下测测玩玩，所以这篇就来聊一下怎么使用docker swarm进行部署，因为是swarm是docker自带的， 所以部署起来还是非常简单的。 一：前置条件 准备三台centos机器： 二：构建集群 1. manger节点上使用 docker swar            <a href="https://www.cnblogs.com/huangxincheng/p/11295062.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-03 15:47 一线码农 阅读 (1413) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11295062" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2019/07/07.html">2019年7月7日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/11146098.html">
+    8天入门docker系列 —— 第七天 让你的container实现跨主机访问
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：当你有若干个容器之后，你可能就希望实现容器的跨机部署访问了，比如aspnetcore在一台host上，mysql在另外一个host上，如果要实现这样的功能，需要你 借助docker自带的overlay网络模型了。 一： overlay网络模型 要想快速的搭建overlay网络，你可以通过docker            <a href="https://www.cnblogs.com/huangxincheng/p/11146098.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-07 13:39 一线码农 阅读 (2384) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11146098" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2019/07/04.html">2019年7月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/11131623.html">
+    8天入门docker系列 —— 第六天 搭建自己的私有镜像仓库Registry
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：这一篇我们来聊聊私有仓库的搭建，其实不管你是通过docker build还是compose的方式进行构建的镜像，最终还是要将生成好的镜像push到远程的仓库中，这样 多个平台可以方便的获取你registry中的镜像，否则你不还得带着你的源代码到处跑不是？ 而且私有仓库还利于镜像的获取分发，反正都是内            <a href="https://www.cnblogs.com/huangxincheng/p/11131623.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-04 12:02 一线码农 阅读 (2432) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11131623" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/huangxincheng/archive/2019/02/22.html">2019年2月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/huangxincheng/p/10419632.html">
+    8天入门docker系列 —— 第五天 使用aspnetcore小案例熟悉容器互联和docker-compose一键部署
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：这一篇继续完善webnotebook，如果你读过上一篇的内容，你应该知道怎么去挂载webnotebook日志和容器的远程访问，但是这些还远不够，webnotebook 总要和一些数据库打交道吧，比如说mysql，mongodb，redis，通常情况下这些存储设备要么是以容器的方式承载，要么是由DBA            <a href="https://www.cnblogs.com/huangxincheng/p/10419632.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-02-22 17:24 一线码农 阅读 (2176) 评论 (4)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10419632" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/huangxincheng/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 一线码农
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

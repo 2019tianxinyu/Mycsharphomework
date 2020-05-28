@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_LewisYoung</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:81160fd1-0930-4f2f-ab4e-c8169964ae05;id=656</id>
+  <updated>2020-04-24T09:51:13Z</updated>
+  <author>
+    <name>LewisYoung</name>
+    <uri>http://www.cnblogs.com/lewisyoung/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/lewisyoung/p/12769084.html</id>
+    <title type="text">Java的自动装箱和拆箱 - LewisYoung</title>
+    <summary type="text">目录 "一、什么是自动装箱自动拆箱" "二、自动装箱自动拆箱的实质" "三、需要注意的点" "四、其他一些问题" "五、总结" 一、什么是自动装箱自动拆箱 自动装箱自动拆箱是在JDK5以后引入的一个特性。在学习Java的过程中，我们认识到有八种基础类型，以及他们对应的包装类型。 基本类型|包装类型 </summary>
+    <published>2020-04-24T09:51:00Z</published>
+    <updated>2020-04-24T09:51:00Z</updated>
+    <author>
+      <name>LewisYoung</name>
+      <uri>http://www.cnblogs.com/lewisyoung/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lewisyoung/p/12769084.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lewisyoung/p/12769084.html" />
+    <content type="html">【摘要】目录 "一、什么是自动装箱自动拆箱" "二、自动装箱自动拆箱的实质" "三、需要注意的点" "四、其他一些问题" "五、总结" 一、什么是自动装箱自动拆箱 自动装箱自动拆箱是在JDK5以后引入的一个特性。在学习Java的过程中，我们认识到有八种基础类型，以及他们对应的包装类型。 基本类型|包装类型  &lt;a href="http://www.cnblogs.com/lewisyoung/p/12769084.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lewisyoung/p/12766421.html</id>
+    <title type="text">牛客网 - vivo2020届春季 - LewisYoung</title>
+    <summary type="text">牛客网 vivo2020届春季 1、[编程题]手机屏幕解锁模式 时间限制：C/C++ 1秒，其他语言2秒 空间限制：C/C++ 256M，其他语言512M 现有一个 3x3 规格的 Android 智能手机锁屏程序和两个正整数 m 和 n ，请计算出使用最少m 个键和最多 n个键可以解锁该屏幕的所有</summary>
+    <published>2020-04-24T03:48:00Z</published>
+    <updated>2020-04-24T03:48:00Z</updated>
+    <author>
+      <name>LewisYoung</name>
+      <uri>http://www.cnblogs.com/lewisyoung/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lewisyoung/p/12766421.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lewisyoung/p/12766421.html" />
+    <content type="html">【摘要】牛客网 vivo2020届春季 1、[编程题]手机屏幕解锁模式 时间限制：C/C++ 1秒，其他语言2秒 空间限制：C/C++ 256M，其他语言512M 现有一个 3x3 规格的 Android 智能手机锁屏程序和两个正整数 m 和 n ，请计算出使用最少m 个键和最多 n个键可以解锁该屏幕的所有 &lt;a href="http://www.cnblogs.com/lewisyoung/p/12766421.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lewisyoung/p/12043932.html</id>
+    <title type="text">创建新模块时遇到的几个问题 - LewisYoung</title>
+    <summary type="text">这几天在创建一个新模块的时候碰到了几个问题，记下来以免再犯。 1、编译时出现 org.hibernate.AnnotationException: @OneToOne or @ManyToOne on x xx references an unknown entity yyy。 原因： 在项目组件扫</summary>
+    <published>2019-12-15T05:48:00Z</published>
+    <updated>2019-12-15T05:48:00Z</updated>
+    <author>
+      <name>LewisYoung</name>
+      <uri>http://www.cnblogs.com/lewisyoung/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lewisyoung/p/12043932.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lewisyoung/p/12043932.html" />
+    <content type="html">【摘要】这几天在创建一个新模块的时候碰到了几个问题，记下来以免再犯。 1、编译时出现 org.hibernate.AnnotationException: @OneToOne or @ManyToOne on x xx references an unknown entity yyy。 原因： 在项目组件扫 &lt;a href="http://www.cnblogs.com/lewisyoung/p/12043932.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

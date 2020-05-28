@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="小程序wepy,uni-app框架组件化开发实践" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>实践出真知，小程序wepy，uni-app框架开发使用！ - Roséa - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/stylepink/bundle-stylepink.min.css?v=aLoPh5W21GLIJInqb-eEZ49WAoqFxSntZFgTJv5sCJQ" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/anniey/custom.css?v=yvKpJBuUvkSgHP8ybPXti&#x2B;VFxTo=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/stylepink/bundle-stylepink-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/anniey/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/anniey/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/anniey/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 321429;
+        var currentBlogApp = 'anniey';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'StylePink';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <!--done-->
+<div id="banner">
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/anniey/">Roséa</a>
+<br>
+		<div class="headerDis">
+成长的前端媛😘
+</div>
+	</div>
+</div>
+
+</div>
+<div id="main">
+	<!-- right starts -->
+	<div id="right">
+		<div id="right_content">
+			<DIV id="mystats">
+				
+					<!--done-->
+<div class="blogStats">
+随笔- 
+38&nbsp;
+文章- 
+0&nbsp;
+评论- 
+36&nbsp;
+
+</div>
+
+
+				
+			</DIV>
+			<div id="mylinks">
+
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+&nbsp;&nbsp;
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/anniey/">
+首页</a>
+&nbsp;&nbsp;
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+&nbsp;&nbsp;
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Ros%C3%A9a">
+联系</a>&nbsp;&nbsp;
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+&nbsp;&nbsp;
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/anniey/rss/">
+订阅</a>&nbsp;
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/anniey/rss/">
+    <img src="/skins/stylepink/images/xml.gif" alt="订阅" />
+</a>
+
+</div>
+			<div id="topics">
+				<div id="post_detail">
+<!--done-->
+<div class="post">
+	<div class="postTitle">
+		
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/anniey/p/12029491.html">实践出真知，小程序wepy，uni-app框架开发使用！</a>
+
+	</div>
+	
+    <div id="cnblogs_post_description" style="display: none">
+        小程序wepy,uni-app框架组件化开发实践
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <h2>&nbsp;一、前提</h2>
+<p>　　目前我只使用过wepy和uni-app框架开发过小程序，着重比较这两个框架使用感受！</p>
+<p>　　另外wepy框架已经不维护了，希望uni-app好好维护下去！</p>
+<p>　　wepy和uni-app都是类似于vue.js规范的写法，所以熟悉Vue的人更好上手。</p>
+<p>　　要是开发者熟悉react，可以找下<a href="https://taro-docs.jd.com/taro/docs/README.html" target="_blank">Taro框架</a>。</p>
+<h2>二、框架对比</h2>
+<p>　　1.DCloud社区有做过试验，对于长列表加载和点赞组件响应做了性能对比。</p>
+<p>　　a) 长列表测试方式：从页面空列表开始，通过程序自动触发上拉加载，每次新增20条列表，记录单次耗时；固定间隔连续触发 N 次上拉加载，使得页面达到 20*N 条列表，计算这 N 次触发上拉到渲染完成的平均耗时。</p>
+<p>　　结果如下图：</p>
+<p><img src="https://img2018.cnblogs.com/i-beta/1077539/201912/1077539-20191212153023278-1890273205.png" alt=""></p>
+<p>&nbsp;　　发现wepy栏对应的测试数据不完整，变相说明页面组件超过500个时，wepy无法完成渲染造成异常。</p>
+<p>　　反观uni-app，比原生性能略好？</p>
+<p>　　　　因为原生在setData调用更耗时，如果不优化uni-app性能更好，优化后还是比不了原生的。</p>
+<p>&nbsp;<img src="https://img2018.cnblogs.com/i-beta/1077539/201912/1077539-20191212160415549-771332017.png" alt=""></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;　　b)点赞组件测试方式：选中某微博，点击&ldquo;点赞&rdquo;按钮，实现点赞状态状态切换;点赞按钮 onclick函数开头开始计时，setData回调函数开头结束计时；</p>
+<p>　　　　结果如下图：&nbsp;</p>
+<p><img src="https://img2018.cnblogs.com/i-beta/1077539/201912/1077539-20191212152455041-604665958.png" alt=""></p>
+<p>&nbsp;　　wepy出现同样情况，uni-app与原生相差不多；</p>
+<p>　　总结来说，性能消耗方面，uni-app更胜一筹，重点是页面渲染数据用了data(){}(〃'▽'〃)。</p>
+<p>　　我太喜欢看他们的社区了~~</p>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+	<div class="postDesc">posted on 
+<span id="post-date">2020-04-24 16:01</span>&nbsp;
+<a href="https://www.cnblogs.com/anniey/">Roséa</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12029491" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12029491);return false;">收藏</a></div>
+</div>
+
+
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 321429, cb_blogApp = 'anniey', cb_blogUserGuid = 'df9f7f31-25bd-e611-845c-ac853d9f53ac';
+    var cb_entryId = 12029491, cb_entryCreatedDate = '2020-04-24 16:01', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- right ends -->
+	<!-- left starts -->
+	<div id="left">
+		<!-- 左侧工具部分 -->
+		<div id="left_content">
+			<div id="calendar"><div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script></div>
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			
+				<DIV id="leftcontentcontainer">
+					<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+				</DIV>
+			
+		</div>
+		<!-- //右侧工具部分 -->
+	</div>
+	<!-- left ends -->	
+	<div class="clear"></div>
+</div>
+<div id="footer">
+	<!--done-->
+Copyright &copy; 2020 Roséa
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+</div>
+
+
+    <div id="page_end_html">
+        <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
+<script type="text/javascript">L2Dwidget.init();
+</script>
+    </div>
+</body>
+</html>

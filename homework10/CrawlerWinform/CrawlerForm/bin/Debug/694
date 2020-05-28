@@ -1,0 +1,520 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>随笔列表第2页 - 迷茫中守候 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/lessismore/bundle-lessismore.min.css?v=zIJHCVIW8ogRcUFVWHfM_7E_wChBUrXPbKFNppkseEg" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/lessismore/bundle-lessismore-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/teach/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/teach/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/teach/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 293786;
+        var currentBlogApp = 'teach';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'LessIsMore';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/teach/">迷茫中守候</a>
+</div>
+<div class="subtitle">
+
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/teach/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%BF%B7%E8%8C%AB%E4%B8%AD%E5%AE%88%E5%80%99">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/teach/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+61&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+49</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                
+
+
+
+<div id="homepage_top_pager" class="topicListFooter">
+    
+
+<div class="pager">
+    <a href="https://www.cnblogs.com/teach/default.html?page=1">上一页</a>
+    
+    
+        <a href="https://www.cnblogs.com/teach/default.html?page=1">1</a>
+    2
+        <a href="https://www.cnblogs.com/teach/default.html?page=3">3</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=4">4</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=5">5</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=6">6</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=7">7</a>
+    
+    
+    <a href="https://www.cnblogs.com/teach/default.html?page=3">下一页</a>
+</div>
+</div>
+
+
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2020/04/05.html">2020年4月5日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/12639363.html">
+    spring中BeanPostProcessor之一：InstantiationAwareBeanPostProcessor（01）
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在spring中beanPostProcessor绝对是开天辟地的产物，给了程序员很多自主权，beanPostProcessor即常说的bean后置处理器。 一、概览 先来说下InstantiationAwareBeanPostProcessor，这个后置处理器是BeanPostProcessor的            <a href="https://www.cnblogs.com/teach/p/12639363.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-05 21:56 迷茫中守候 阅读 (110) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12639363" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/11/01.html">2019年11月1日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/11776619.html">
+    mysql删除大表
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在mysql中遇到一个大表，大概有17G左右，在对这个表进行查询、修改时均遇到了很大的困难，于是想着删除这张表。通常的删除操作可以通过delete、drop、truncate操作，试了这三个命令，但是最终都以失败，都无法删除此表，最后使用下面的方式最终删除。（linux下） 1、建立硬链接 找到my            <a href="https://www.cnblogs.com/teach/p/11776619.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-11-01 14:02 迷茫中守候 阅读 (257) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11776619" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/09/09.html">2019年9月9日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/11494895.html">
+    java.util之一：ArrayList
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：ArrayList是java中的线性结构的一种表示方法，在java中使用频率非常高，下面来一步一步分析其底层的实现。（JDK1.8） 一、构造函数 ArrayList的构造函数有三个，分别如下， 我们最常使用的的无参的构造函数，那么无参的构造函数是如何定义的那， 从上面看到无参构造函数，实际上是把e            <a href="https://www.cnblogs.com/teach/p/11494895.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-09-09 23:04 迷茫中守候 阅读 (298) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11494895" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/05/28.html">2019年5月28日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10939898.html">
+    引入缓存后数据一致性的思考
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在项目中经常碰到由于数据库的压力过大，引入缓存的情况。引入缓存后系统会比单独访问缓存复杂很多，本文就缓存的更新进行分析。 一、为什么引入缓存 何为缓存，简单点就是应用系统和数据库之间的一个存储介质。和计算机中CPU和内存之间的关系，我们知道CPU的速度很快，内存相比于数据库会慢很多，为了解决这个问题            <a href="https://www.cnblogs.com/teach/p/10939898.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-28 20:07 迷茫中守候 阅读 (145) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10939898" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/05/26.html">2019年5月26日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10922730.html">
+    java并发之hashmap源码
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在上篇博客中分析了hashmap的用法，详情查看java并发之hashmap 本篇博客重点分析下hashmap的源码（基于JDK1.8） 一、成员变量 HashMap有以下主要的成员变量 上面对HashMap中的主要成员变量做了注释，重点关注以下几个， transient Node&lt;K,V&gt;[] t            <a href="https://www.cnblogs.com/teach/p/10922730.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-26 12:04 迷茫中守候 阅读 (179) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10922730" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/05/25.html">2019年5月25日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10921846.html">
+    java并发之hashmap
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在Java开发中经常会使用到hashmap，对于hashmap又了解多少，经常听到的一句话是hashmap是线程不安全的，那为什么是线程不安全的，如何才能保证线程安全，JDK又给我们提供了那些线程安全的类，这些问题是今天讨论的问题， 一、hashmap为什么线程不安全 说到hashmap为什么线程不            <a href="https://www.cnblogs.com/teach/p/10921846.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-25 11:31 迷茫中守候 阅读 (1396) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10921846" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/05/21.html">2019年5月21日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10903164.html">
+    java线程池之一：创建线程池的方法
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在Java开发过程中经常需要用到线程，为了减少资源的开销，提高系统性能，Java提供了线程池，即事先创建好线程，如果需要使用从池中取即可，Java中创建线程池有以下的方式， 1、使用ThreadPoolExecutor类 2、使用Executors类 其实这两种方式在本质上是一种方式，都是通过Thr            <a href="https://www.cnblogs.com/teach/p/10903164.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-21 23:18 迷茫中守候 阅读 (14029) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10903164" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/04/24.html">2019年4月24日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10763845.html">
+    springAOP之代理模式
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：springAOP指的是在spring中的AOP，什么是AOP，相对于java中的面向对象（oop），在面向对象中一些公共的行为，像日志记录，权限验证等如果都使用面向对象来做，会在每个业务方法中都写上重复的代码，造成代码的冗余。而AOP指的是面向切面编程，定义一个切面，用切面去切相应的方法，就可以织            <a href="https://www.cnblogs.com/teach/p/10763845.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-04-24 17:53 迷茫中守候 阅读 (4536) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10763845" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/teach/archive/2019/04/07.html">2019年4月7日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10665947.html">
+    java阻塞队列之LinkedBlockingQueue
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：LinkedBlockingQueue是BlockingQueue中的其中一个，其实现方式为单向链表，下面看其具体实现。（均为JDK8） 一、构造函数 在LinkedBlockingQueue中有三个构造函数，如下图， 1、LinkedBlockingQueue() 这是一个无参的构造函数，其定义如            <a href="https://www.cnblogs.com/teach/p/10665947.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-04-07 23:19 迷茫中守候 阅读 (88) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10665947" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/teach/p/10665199.html">
+    java阻塞队列之ArrayBlockingQueue
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在Java的java.util.concurrent包中定义了和多线程并发相关的操作，有许多好用的工具类，今天就来看下阻塞队列。阻塞队列很好的解决了多线程中数据的安全传输问题，其中最典型的例子就是客园很好的解决“生产者--消费者”问题。下面来看其中一个实现类ArrayBlockingQueue。看到            <a href="https://www.cnblogs.com/teach/p/10665199.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-04-07 14:58 迷茫中守候 阅读 (853) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10665199" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+
+    </div>    
+</div>
+
+
+<div id="homepage_bottom_pager" class="topicListFooter">
+    
+
+<div class="pager">
+    <a href="https://www.cnblogs.com/teach/default.html?page=1">上一页</a>
+    
+    
+        <a href="https://www.cnblogs.com/teach/default.html?page=1">1</a>
+    2
+        <a href="https://www.cnblogs.com/teach/default.html?page=3">3</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=4">4</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=5">5</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=6">6</a>
+        <a href="https://www.cnblogs.com/teach/default.html?page=7">7</a>
+    
+    
+    <a href="https://www.cnblogs.com/teach/default.html?page=3">下一页</a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 迷茫中守候
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

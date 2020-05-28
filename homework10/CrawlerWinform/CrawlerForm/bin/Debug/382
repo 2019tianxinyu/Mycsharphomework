@@ -1,0 +1,1014 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>虫师 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/minyx2_lite/bundle-minyx2_lite.min.css?v=mxJZfspzqgmSFSdBbMH8zU83VuawcFZooz2hdrdyHlI" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/fnng/custom.css?v=LfcVDbX80919KwJm7jT6CZkrcrc=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/minyx2_lite/bundle-minyx2_lite-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/fnng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/fnng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/fnng/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 91739;
+        var currentBlogApp = 'fnng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Minyx2_Lite';
+    </script>
+    
+    
+    <script src="/skins/minyx2_lite/bundle-minyx2_lite.min.js?v=z_XLIOc5JYwRKqTPu9fAWp7D8tchhGxVWGYvlAiigUQ" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<div id="container">
+    <a class="minyx" href="https://www.cnblogs.com/">代码改变世界</a>
+    <ul id="topMnu">
+        <!-- 统计数据 -->
+        <li>
+            Posts - 
+349, 
+Articles - 
+1, 
+Comments - 
+3689
+<!---->
+
+
+        </li>
+        <!-- 这边可以增加一些链接 -->
+        <!-- 博客园 -->
+        <li><a href="https://www.cnblogs.com/">Cnblogs</a></li>
+        <!-- 管理 -->
+        <li id="topMnu-dashboard">
+            <a id="lnkDashboard" href="https://i.cnblogs.com/">Dashboard</a>
+        </li>
+        <li>
+            
+    <a id="lnkLogin" href="https://account.cnblogs.com/signin/?returnUrl=https://www.cnblogs.com/fnng/">Login</a>
+
+
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        var m = window.__blog.topMenuRendered;
+        if (m) { m(__$("topMnu")); }
+    </script>
+
+    <div id="header">
+        <ul id="menu">
+            <!-- 首页，当前section加上current类 -->
+            <li id="menu-home" class="current">
+                <a id="lnkHome" href="https://www.cnblogs.com/fnng/">Home</a></li>
+            <!-- 联系 -->
+            <li id="menu-contact">
+                <a id="lnkContact" href="https://msg.cnblogs.com/send/%E8%99%AB%E5%B8%88">Contact</a></li>
+            <!-- 相册 -->
+            <li id="menu-gallary">
+                <a id="lnkGallery" href="https://www.cnblogs.com/fnng/gallery.html">Gallery</a></li>
+            <!-- 订阅 -->
+            <li id="menu-subscribe">
+                <a id="blog_nav_rss" href="javascript:void(0);" data-rss="https://www.cnblogs.com/fnng/rss/">Subscribe</a></li>
+            <!-- Rss订阅 -->
+            <li id="rss">
+                <a id="lnkRss" href="https://www.cnblogs.com/fnng/rss/">RSS</a></li>
+        </ul>
+        <div id="newmsg"></div>
+        <h1>
+            <!-- 主标题 -->
+            <a id="lnkBlogTitle" href="https://www.cnblogs.com/fnng/">虫师</a>
+            <!-- 子标题 -->
+            <small>
+                大人不华，君子务实。
+            </small>
+        </h1>
+    </div>
+
+    <script type="text/javascript">
+        var m = window.__blog.headerRendered;
+        if (m) { m(__$("header")); }
+    </script>
+
+    <div id="wrapper">
+        <div id="content">
+            <script type="text/javascript">
+                var m = window.__blog.preRenderPosts;
+                if (m) { m(); }
+            </script>
+            
+
+
+        <div class="post post-list-item" id="post_11191679">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_1" href="https://www.cnblogs.com/fnng/p/11191679.html">[置顶] 关于《Selenium3自动化测试实战--基于python语言》</a>
+            </h2>
+            <small>
+                2019-07-15 21:33 by 虫师, 16768 阅读, 7 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_1" href="https://i.cnblogs.com/EditPosts.aspx?postid=11191679">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：关于《Selenium3自动化测试实战--基于python语言》                            <a href="https://www.cnblogs.com/fnng/p/11191679.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_1" href="https://www.cnblogs.com/fnng/p/11191679.html#comments">22 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/349036.html" target="_blank">selenium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11191679"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_6691281">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_2" href="https://www.cnblogs.com/fnng/p/6691281.html">[置顶] 关于《Web接口开发与自动化测试--基于Python语言》</a>
+            </h2>
+            <small>
+                2017-04-10 22:23 by 虫师, 53016 阅读, 10 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_2" href="https://i.cnblogs.com/EditPosts.aspx?postid=6691281">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：关于《Web接口开发与自动化测试--基于Python语言》                            <a href="https://www.cnblogs.com/fnng/p/6691281.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_2" href="https://www.cnblogs.com/fnng/p/6691281.html#comments">76 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/732258.html" target="_blank">接口测试</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_6691281"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_5128663">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_3" href="https://www.cnblogs.com/fnng/p/5128663.html">[置顶] 关于《selenium2自动测试实战--基于Python语言》</a>
+            </h2>
+            <small>
+                2016-01-13 21:54 by 虫师, 47981 阅读, 6 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_3" href="https://i.cnblogs.com/EditPosts.aspx?postid=5128663">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：selenium2自动测试实战--基于Python语言                            <a href="https://www.cnblogs.com/fnng/p/5128663.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_3" href="https://www.cnblogs.com/fnng/p/5128663.html#comments">28 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/382389.html" target="_blank">杂谈</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_5128663"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_4333977">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_4" href="https://www.cnblogs.com/fnng/p/4333977.html">[置顶] Robot Framework自动化测试 ---视频与教程免费分享</a>
+            </h2>
+            <small>
+                2015-03-12 22:43 by 虫师, 63764 阅读, 253 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_4" href="https://i.cnblogs.com/EditPosts.aspx?postid=4333977">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：Robot Framework自动化 工具全面解析，以及Selenium、AutoIt扩展库学习。                            <a href="https://www.cnblogs.com/fnng/p/4333977.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_4" href="https://www.cnblogs.com/fnng/p/4333977.html#comments">46 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/598667.html" target="_blank">Robot Framework</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_4333977"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_3157639">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_5" href="https://www.cnblogs.com/fnng/p/3157639.html">[置顶] 「UI 测试自动化selenium」汇总</a>
+            </h2>
+            <small>
+                2013-06-26 23:10 by 虫师, 70018 阅读, 10 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_5" href="https://i.cnblogs.com/EditPosts.aspx?postid=3157639">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：功能自动化系列汇总                            <a href="https://www.cnblogs.com/fnng/p/3157639.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_5" href="https://www.cnblogs.com/fnng/p/3157639.html#comments">9 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/349036.html" target="_blank">selenium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_3157639"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_2917769">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_6" href="https://www.cnblogs.com/fnng/archive/2013/02/19/2917769.html">[置顶] 虫师『软件测试』基础 与 测试杂谈</a>
+            </h2>
+            <small>
+                2013-02-19 21:47 by 虫师, 40606 阅读, 18 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_6" href="https://i.cnblogs.com/EditPosts.aspx?postid=2917769">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：写的文章越来越多，为了方便自己与各位同学阅读我的拙文，所以将我写过的关于『功能测试』的文章，以及自己对测试看法整理出来。                            <a href="https://www.cnblogs.com/fnng/archive/2013/02/19/2917769.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_6" href="https://www.cnblogs.com/fnng/archive/2013/02/19/2917769.html#comments">12 Comment</a>
+                </li>
+                
+
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_2917769"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_2644878">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_7" href="https://www.cnblogs.com/fnng/archive/2012/08/17/2644878.html">[置顶] 虫师『性能测试』文章大汇总</a>
+            </h2>
+            <small>
+                2012-08-17 23:36 by 虫师, 73593 阅读, 38 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_7" href="https://i.cnblogs.com/EditPosts.aspx?postid=2644878">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：为了方便用户阅读，这里汇总了我所有关于性能测试的文章，包括《性能测试知多少（系列）》，JMeter工具使用，LoadRunner工具，以及性能测试辅助工具等。                            <a href="https://www.cnblogs.com/fnng/archive/2012/08/17/2644878.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_7" href="https://www.cnblogs.com/fnng/archive/2012/08/17/2644878.html#comments">22 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/387349.html" target="_blank">性能测试思想</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_2644878"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12977422">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_8" href="https://www.cnblogs.com/fnng/p/12977422.html"> 使用websocket开发智能聊天机器人</a>
+            </h2>
+            <small>
+                2020-05-27 23:25 by 虫师, 31 阅读, 0 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_8" href="https://i.cnblogs.com/EditPosts.aspx?postid=12977422">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：使用websocket开发智能聊天机器人                            <a href="https://www.cnblogs.com/fnng/p/12977422.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_8" href="https://www.cnblogs.com/fnng/p/12977422.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+,            <a href="https://www.cnblogs.com/fnng/category/581256.html" target="_blank">django</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12977422"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12934080">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_9" href="https://www.cnblogs.com/fnng/p/12934080.html"> 异步http接口调用库：httpx</a>
+            </h2>
+            <small>
+                2020-05-21 22:42 by 虫师, 141 阅读, 0 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_9" href="https://i.cnblogs.com/EditPosts.aspx?postid=12934080">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：异步http接口调用库：httpx                            <a href="https://www.cnblogs.com/fnng/p/12934080.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_9" href="https://www.cnblogs.com/fnng/p/12934080.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12934080"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12783542">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_10" href="https://www.cnblogs.com/fnng/p/12783542.html"> python 异步Web框架sanic</a>
+            </h2>
+            <small>
+                2020-04-26 23:33 by 虫师, 609 阅读, 4 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_10" href="https://i.cnblogs.com/EditPosts.aspx?postid=12783542">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：python异步Web框架sanic                            <a href="https://www.cnblogs.com/fnng/p/12783542.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_10" href="https://www.cnblogs.com/fnng/p/12783542.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12783542"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12757395">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_11" href="https://www.cnblogs.com/fnng/p/12757395.html"> python 异步 I/O</a>
+            </h2>
+            <small>
+                2020-04-22 22:31 by 虫师, 488 阅读, 0 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_11" href="https://i.cnblogs.com/EditPosts.aspx?postid=12757395">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：python 异步 I/O                            <a href="https://www.cnblogs.com/fnng/p/12757395.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_11" href="https://www.cnblogs.com/fnng/p/12757395.html#comments">1 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12757395"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12616466">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_12" href="https://www.cnblogs.com/fnng/p/12616466.html"> iOS自动化环境搭建（超详细）</a>
+            </h2>
+            <small>
+                2020-04-01 22:33 by 虫师, 1226 阅读, 0 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_12" href="https://i.cnblogs.com/EditPosts.aspx?postid=12616466">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：iOS自动化环境搭建（超详细）                            <a href="https://www.cnblogs.com/fnng/p/12616466.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_12" href="https://www.cnblogs.com/fnng/p/12616466.html#comments">4 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/695788.html" target="_blank">appium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12616466"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12537443">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_13" href="https://www.cnblogs.com/fnng/p/12537443.html"> seldom之数据驱动</a>
+            </h2>
+            <small>
+                2020-03-21 11:41 by 虫师, 508 阅读, 1 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_13" href="https://i.cnblogs.com/EditPosts.aspx?postid=12537443">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：seldom之数据驱动                            <a href="https://www.cnblogs.com/fnng/p/12537443.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_13" href="https://www.cnblogs.com/fnng/p/12537443.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/349036.html" target="_blank">selenium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12537443"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12405592">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_14" href="https://www.cnblogs.com/fnng/p/12405592.html"> 开发接口，你需要先搞懂这些概念！</a>
+            </h2>
+            <small>
+                2020-03-03 23:28 by 虫师, 1507 阅读, 4 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_14" href="https://i.cnblogs.com/EditPosts.aspx?postid=12405592">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：一文搞懂这些难理解的概念                            <a href="https://www.cnblogs.com/fnng/p/12405592.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_14" href="https://www.cnblogs.com/fnng/p/12405592.html#comments">1 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/732258.html" target="_blank">接口测试</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12405592"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12189887">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_15" href="https://www.cnblogs.com/fnng/p/12189887.html"> seldom 1.0 发布</a>
+            </h2>
+            <small>
+                2020-01-13 23:09 by 虫师, 1049 阅读, 1 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_15" href="https://i.cnblogs.com/EditPosts.aspx?postid=12189887">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：seldom 1.0 发布                            <a href="https://www.cnblogs.com/fnng/p/12189887.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_15" href="https://www.cnblogs.com/fnng/p/12189887.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/349036.html" target="_blank">selenium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12189887"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_12089260">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_16" href="https://www.cnblogs.com/fnng/p/12089260.html"> 跳槽驱动工作</a>
+            </h2>
+            <small>
+                2019-12-24 00:43 by 虫师, 3514 阅读, 19 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_16" href="https://i.cnblogs.com/EditPosts.aspx?postid=12089260">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：跳槽驱动工作，五步立于不败之地！                            <a href="https://www.cnblogs.com/fnng/p/12089260.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_16" href="https://www.cnblogs.com/fnng/p/12089260.html#comments">8 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/382389.html" target="_blank">杂谈</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_12089260"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11920784">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_17" href="https://www.cnblogs.com/fnng/p/11920784.html"> 我的自动化测试之路</a>
+            </h2>
+            <small>
+                2019-11-23 23:22 by 虫师, 6069 阅读, 3 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_17" href="https://i.cnblogs.com/EditPosts.aspx?postid=11920784">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：功能测试想转自动化，请问应该怎么入手？或者有哪些书推荐？那么，接下来我就结合我的经历聊一聊我是如何在工作中做自动化测试的。                            <a href="https://www.cnblogs.com/fnng/p/11920784.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_17" href="https://www.cnblogs.com/fnng/p/11920784.html#comments">4 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11920784"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11846050">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_18" href="https://www.cnblogs.com/fnng/p/11846050.html"> 简单Web UI 自动化测试框架 seldom</a>
+            </h2>
+            <small>
+                2019-11-12 23:01 by 虫师, 2796 阅读, 6 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_18" href="https://i.cnblogs.com/EditPosts.aspx?postid=11846050">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：基于 selenium 和 unittest 的 Web UI自动化测试框架。                            <a href="https://www.cnblogs.com/fnng/p/11846050.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_18" href="https://www.cnblogs.com/fnng/p/11846050.html#comments">8 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+,            <a href="https://www.cnblogs.com/fnng/category/349036.html" target="_blank">selenium</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11846050"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11802336">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_19" href="https://www.cnblogs.com/fnng/p/11802336.html"> 《Python自动化测试九章经》</a>
+            </h2>
+            <small>
+                2019-11-05 22:52 by 虫师, 1815 阅读, 0 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_19" href="https://i.cnblogs.com/EditPosts.aspx?postid=11802336">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：Python自动化测试九章经，精品小课上架~！                            <a href="https://www.cnblogs.com/fnng/p/11802336.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_19" href="https://www.cnblogs.com/fnng/p/11802336.html#comments">0 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11802336"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11664093">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_20" href="https://www.cnblogs.com/fnng/p/11664093.html"> git分支概念与项目中的应用</a>
+            </h2>
+            <small>
+                2019-10-12 21:45 by 虫师, 1069 阅读, 2 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_20" href="https://i.cnblogs.com/EditPosts.aspx?postid=11664093">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：git分支概念与项目中的应用                            <a href="https://www.cnblogs.com/fnng/p/11664093.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_20" href="https://www.cnblogs.com/fnng/p/11664093.html#comments">2 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/347981.html" target="_blank">git</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11664093"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11651434">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_21" href="https://www.cnblogs.com/fnng/p/11651434.html"> App Crawler</a>
+            </h2>
+            <small>
+                2019-10-10 23:52 by 虫师, 2450 阅读, 2 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_21" href="https://i.cnblogs.com/EditPosts.aspx?postid=11651434">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：Google官方出了一款App遍历工具App Crawler。                            <a href="https://www.cnblogs.com/fnng/p/11651434.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_21" href="https://www.cnblogs.com/fnng/p/11651434.html#comments">2 Comment</a>
+                </li>
+                
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/1131986.html" target="_blank">android</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11651434"));
+        }
+        </script>
+        <div class="post post-list-item" id="post_11607309">
+            <h2>
+                <a id="PostsList1_rpPosts_TitleUrl_22" href="https://www.cnblogs.com/fnng/p/11607309.html"> 你真的会开发测试框架？</a>
+            </h2>
+            <small>
+                2019-09-29 13:09 by 虫师, 3990 阅读, 6 推荐, <a href="#" onclick="PutInWz();return false;">收藏</a>, <a id="homepage1_ctl01_rptEntries_lnkEdit_22" href="https://i.cnblogs.com/EditPosts.aspx?postid=11607309">编辑</a>
+            </small>
+            <div class="entry">
+                    <div class="c_b_p_desc">
+摘要：你真的会开发测试框架？                            <a href="https://www.cnblogs.com/fnng/p/11607309.html" class="c_b_p_desc_readmore">阅读全文</a>
+                    </div>
+            </div>
+            <ul class="postmetadata">
+                <li class="icon_comment icon_r">
+                    <a id="homepage1_ctl01_rptEntries_lnkCommentCount_22" href="https://www.cnblogs.com/fnng/p/11607309.html#comments">11 Comment</a>
+                </li>
+                
+
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+            </ul>
+            <script type="text/javascript">
+                $(".icon_cat").hide();
+            </script>
+        </div>
+        <script type="text/javascript">
+        var m = window.__blog.postRendered;
+        if (m) {
+            m(__$("post_11607309"));
+        }
+        </script>
+
+<script type="text/javascript">
+    var m = window.__blog.postRenderPosts;
+    if (m) {
+        m();
+    }
+</script>
+
+
+<div class="pager">
+    
+    <a href="https://www.cnblogs.com/fnng/default.html?page=2">
+        下一页
+    </a>
+
+    
+
+
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        <script type="text/javascript">
+            var m = window.__blog.contentRendered;
+            if (m) { m(__$("content")); }
+        </script>
+
+        <div id="sidebar">
+            <div id="about">
+                <div>
+                    <h2 id="about_title">About</h2>
+                    <div id="about_body">
+                        <div id="sidebar_news"></div>
+                        <script type="text/javascript">loadBlogNews();</script>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var m = window.__blog.aboutRendered;
+                if (m) { m(__$("about")); }
+            </script>
+            <div id="mySearchWrapper">
+                <div id="mySearch">
+                    <input type="image" src="/skins/minyx2_lite/images/btnsearch.gif" id="btnZzk"  class="submit" onclick="zzk_go();return false;"/>
+                    <label class="lb_search"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="keyword" /></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var m = window.__blog.searchFormRendered;
+                if (m) { m(__$("searchform")); }
+            </script>
+            <div id="sideMain">
+            </div>
+            <div id="sideRight">
+            </div>
+            <div id="sideLeft">
+            </div>            
+                <div id="sideContainer">
+                </div>
+                <script type="text/javascript">
+                    $.ajax({
+                        url: '/' + currentBlogApp + '/ajax/Minyx2_Lite_SideColumn.aspx',
+                        data: '{}',
+                        type: 'post',
+                        dataType: 'text',
+                        contentType: 'application/json; charset=utf-8',
+                        success: function (data) {
+                            if (data) {
+                                $("#sideContainer").html(data);
+                                $.ajax({
+                                    url: getAjaxBaseUrl() + 'TopLists.aspx',
+                                    type: 'get',
+                                    dataType: 'text',
+                                    success: function (topLists) {
+                                        if (topLists) {
+                                            $("#sideContainer").append(topLists);
+                                        }
+                                        var m = window.__blog.sideContainerRendered;
+                                        if (m) { m(__$("sideContainer")); }
+                                        window.__blog.sidebar.__layout();
+                                    }
+                                });
+                            }
+                        }
+                    });
+
+                </script>
+        </div>
+
+        <script type="text/javascript">
+            var m = window.__blog.sidebarRendered;
+            if (m) { m(__$("sidebar")); }
+        </script>
+
+        <div id="footer">
+            <p id="logoFoot">
+    <a href="http://www.spiga.com.mx/" title="Agencia Interactiva Spiga">www.spiga.com.mx</a>
+</p>
+<div class="footText">
+<p>
+Copyright &copy; 2020 虫师
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+<p>
+<a href="http://www.cnblogs.com">博客园</a>
+</p>
+</div>
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var m = window.__blog.wrapperRendered;
+        if (m) { m(__$("wrapper")); }
+    </script>
+
+</div>
+<script type="text/javascript">
+    var m = window.__blog.containerRendered;
+    if (m) { m(__$("container")); }
+</script>
+
+
+    <div id="page_end_html">
+        <script src="https://s13.cnzz.com/stat.php?id=3347352&web_id=3347352&show=pic2" language="JavaScript">
+</script>
+<div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="https://cc.amazingcounters.com/counter.php?i=3064217&c=9192964" alt="Web Page Counters"></a><br><a href="http://www.coupons-coupon-codes.com/staples/">Computer Desks</a></div>
+
+
+<!--评论，生成气泡效果标签代码-->
+  <script type="text/javascript" language="javascript"> 
+      $(document).ready(function() {
+          var commentTime = setInterval(function(){if($("#comments_pager_bottom").length>0){CommentBubble();clearTimeout(commentTime);}},50);
+      }); 
+      function CommentBubble()
+      {
+  var w1 = '<div class="list">' +
+          '<table class="out" border="0" cellspacing="0" cellpadding="0"> ' +
+             '<tr>' +
+                 '<td class="icontd" align="right" valign="bottom">' +
+                     '<img src="" width="70px" height="57px"/>' +
+                 '</td>' +
+                 '<td align="left" valign="bottom" class="q">' +
+                     '<table border="0" cellpadding="0" cellspacing="0" style=""> ' +
+                         '<tr><td class="topleft"></td><td class="top"></td><td class="topright"></td></tr> ' +
+                         '<tr><td class="left"></td> <td align="left" class="conmts"><p>';
+  
+  
+         var w2 = '</p> </td> <td class="right"></td></tr> ' +
+                         '<tr><td class="bottomleft"></td><td class="bottom"></td><td class="bottomright"></td></tr> ' +
+                     '</table>' +
+                 '</td> ' +
+             '</tr> ' +
+         '</table> ' +
+     '</div>';
+  
+         $.each($(".blog_comment_body"), function(i, t) {
+             $(t).html(w1 + $(t).html() + w2);
+         });
+ $(".louzhu").closest(".feedbackItem").find(".out").removeClass("out").addClass("inc");
+         /*.find(".q").attr("align","right");*/
+         }
+ </script>
+    </div>
+</body>
+</html>

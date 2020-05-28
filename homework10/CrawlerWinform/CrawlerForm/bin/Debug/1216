@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="软件设计的哲学，解决软件复杂性的原则，中文翻译抢先体验版，持续更新中。" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>软件设计的哲学【翻译】--目录 - peida - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/codinglife/bundle-codinglife.min.css?v=hlpQ1CJDwwJXDxv2HNauUmW3NjyWzoMaw1uER19SLT0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/codinglife/bundle-codinglife-mobile.min.css?v=XjHfryC9ctsatIZz1dHn7TsRIqmwz9c3aj_6SCfHSDM" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/peida/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/peida/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/peida/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 38044;
+        var currentBlogApp = 'peida';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'CodingLife';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/peida/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/peida/">竹子-博客-架构未来</a>
+</h1>
+<h2>
+思索、感悟、践行！
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/peida/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/peida">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/peida/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+224&nbsp; </span>
+<span id="stats_article_count">文章 - 
+2&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+851</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/peida/p/12052402.html">软件设计的哲学【翻译】--目录</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+    <div id="cnblogs_post_description" style="display: none">
+        软件设计的哲学，解决软件复杂性的原则，中文翻译抢先体验版，持续更新中。
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>2020年必读书籍推荐：软件设计的哲学（A Philosophy of Software Design），本书190多页，豆瓣的点评分在9分以上，目前只有英文版本，中文版还未上市，英文好的同学建议去直接阅读原版。</p>
+<p>&nbsp;</p>
+<h2>作者简介</h2>
+<p>John Ousterhout是斯坦福大学计算机科学教授。他目前的研究重点是新的软件堆栈层，以允许数据中心应用程序利用具有微秒级延迟的通信和存储技术。Ousterhout之前曾在工业界工作过14年，他在那里创建了两家公司(Scriptics和Electric Cloud)，之前在加州大学伯克利分校(uc Berkeley)担任了14年的计算机科学教授。他是Tcl脚本语言的创建者，并以在分布式操作系统和存储系统中的工作而闻名。Ousterhout获得了耶鲁大学物理学学士学位和卡内基梅隆大学计算机科学博士学位。他是美国国家工程院院士，曾获多个奖项，包括ACM软件系统奖、ACM Grace Murray Hopper奖、美国国家科学基金会主席青年研究员奖和加州大学伯克利分校杰出教学奖。</p>
+<p>&nbsp;</p>
+<p>本人学习的抢先翻译中文版，持续更新中，收发公众号：架构未来， 欢迎关注。</p>
+<p><img src="https://img2018.cnblogs.com/blog/34483/201912/34483-20191225100211896-1138251355.jpg" alt="" width="236" height="235" /></p>
+<p><span style="font-size: 18pt;"><strong>文章目录</strong></span></p>
+<hr /><ol>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/APhilosophyofSoftwareDesign.html">2020荐书：软件设计的哲学</a></li>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12049010.html">软件设计的哲学：前言</a></li>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12049073.html">第一章：关于复杂性的介绍</a></li>
+<li><span style="color: #000000;"><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12049197.html">软件设计的哲学：第二章 复杂性的本质</a></span></li>
+<li><span style="color: #000000;"><span style="color: #000000;"><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12049222.html">软件设计的哲学：第三章 编程的战术和战略</a><br /></span></span></li>
+<li><span style="color: #000000;"><span style="color: #000000;"><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12056374.html">软件设计的哲学：第四章 深度封装模块</a></span></span></li>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12056388.html">软件设计的哲学 第五章 隐藏信息</a></li>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12060164.html">软件设计的哲学： 第六章 更深的通用模块</a></li>
+<li><a class="postTitle2" href="https://www.cnblogs.com/peida/p/12060204.html">软件设计的哲学：第七章 不同层不同抽象</a></li>
+<li><a href="https://www.cnblogs.com/peida/p/12065701.html" target="_blank">软件设计的哲学： 第八章 降低复杂性</a></li>
+<li><a href="https://www.cnblogs.com/peida/p/12071197.html" target="_blank">软件设计的哲学：第九章 合并还是分离</a></li>
+<li><a href="https://www.cnblogs.com/peida/p/12075767.html" target="_blank">软件设计的哲学： 第十章 定义不存在错误</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12078980.html">软件设计的哲学：第十一章 两次设计</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12083304.html">软件设计的哲学：第二十章 为什么要写注释</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12089832.html">软件设计的哲学：第十三章 注释应该描述代码中隐藏的内容</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12095125.html">软件设计的哲学：第十四章 选个好名字</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12100547.html">软件设计的哲学： 第十五章 先写注释</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12106836.html">软件设计的哲学：第十六章 修改现有代码</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12110689.html">软件设计的哲学：第十七章 一致性</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12118967.html">软件设计的哲学：第十八章 代码的可见性</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12124349.html">软件设计的哲学：第二十章 性能设计</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12131589.html">软件设计的哲学：第二十一章 结论</a></li>
+<li><a id="link_post_title" class="link-post-title" href="https://www.cnblogs.com/peida/p/12148088.html">软件设计的哲学：增加复杂度的12中危险信号</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol>
+<p>&nbsp;</p>
+<p><a href="https://www.cnblogs.com/peida/p/APhilosophyofSoftwareDesign.html">&nbsp;</a></p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2019-12-18 18:47</span>&nbsp;
+<a href="https://www.cnblogs.com/peida/">peida</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12052402" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12052402);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 38044, cb_blogApp = 'peida', cb_blogUserGuid = '0f3e420b-63cf-dd11-9e4d-001cf0cd104b';
+    var cb_entryId = 12052402, cb_entryCreatedDate = '2019-12-18 18:47', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 peida
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script language="javascript" type="text/javascript" src="http://js.users.noscript.cnitblog.com/1910329.js"></script>
+<noscript><a href="http://www.noscript.cnitblog.com/?1910329" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.noscript.cnitblog.com/1910329.asp" style="border:none" />统计代码</a></noscript>
+
+<script src="https://s137.cnzz.com/stat.php?id=1121896&web_id=1121896" language="JavaScript" charset="gb2312"></script>
+
+<script src="https://s14.cnzz.com/stat.php?id=943648&web_id=943648&online=1&show=line" language="JavaScript"></script>
+    </div>
+</body>
+</html>

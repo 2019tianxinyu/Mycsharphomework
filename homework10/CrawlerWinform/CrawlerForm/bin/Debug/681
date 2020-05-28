@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="在《mybatis源码分析：启动过程》中分析了mybatis的启动过程，mybatis的启动过程主要集中在解析其核心配置文件（mybatis-config.xml）上，把配置文件中的配置全部解析到Co" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>mybatis源码分析：Mapper接口是什么 - 迷茫中守候 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/lessismore/bundle-lessismore.min.css?v=zIJHCVIW8ogRcUFVWHfM_7E_wChBUrXPbKFNppkseEg" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/lessismore/bundle-lessismore-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/teach/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/teach/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/teach/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 293786;
+        var currentBlogApp = 'teach';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'LessIsMore';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/teach/">迷茫中守候</a>
+</div>
+<div class="subtitle">
+
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/teach/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E8%BF%B7%E8%8C%AB%E4%B8%AD%E5%AE%88%E5%80%99">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/teach/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+61&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+49</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                <div id="post_detail">
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/teach/p/12755586.html">mybatis源码分析：Mapper接口是什么</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>在《<a class="postTitle2" href="https://www.cnblogs.com/teach/p/12697660.html">mybatis源码分析：启动过程</a>》中分析了mybatis的启动过程，mybatis的启动过程主要集中在解析其核心配置文件（mybatis-config.xml）上，把配置文件中的配置全部解析到Configuration类中，每个配置在Configuration中均能找到其设置。本文分析mybatis中的查询接口（例，UserMapper）。</p>
+<h1>一、概述</h1>
+<p>在编写mybatis的程序时，常见的做法时编写一个Mapper接口，再编写相应的映射文件，之后便可以初始化mybatis的环境，调用该接口的方法执行操作数据库的各中操作。那么Mapper接口是什么对象那，是怎样和映射文件关联，最后又怎样执行方法的。今天先分析Mapper接口，具体的环境可参考《<a class="postTitle2" href="https://www.cnblogs.com/teach/p/12697660.html">mybatis源码分析：启动过程</a>》中的相关代码。这里先给出一个结论，Mapper接口是使用JDK代理生成的一个代理类。</p>
+<h1>二、详述</h1>
+<p>上面说到Mapper接口是使用JDK动态代理生成的一个代理类，下面通过代码去分析，下面是我测试的代码片段，</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> cn.com.mybatis.test;
+
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> java.io.IOException;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> java.io.InputStream;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> java.util.HashMap;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> java.util.List;
+
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> org.apache.ibatis.io.Resources;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> org.apache.ibatis.session.SqlSession;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> org.apache.ibatis.session.SqlSessionFactory;
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+</span><span style="color: #0000ff;">import</span><span style="color: #000000;"> cn.com.mybatis.dao.UserMapper;
+
+</span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> TestMybatis {
+
+    </span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">static</span> <span style="color: #0000ff;">void</span> main(String[] args) <span style="color: #0000ff;">throws</span><span style="color: #000000;"> IOException {
+        </span><span style="color: #008000;">//</span><span style="color: #008000;"> TODO Auto-generated method stub</span>
+<span style="color: #000000;">
+        InputStream inputStream </span>= Resources.getResourceAsStream("mybatis-config.xml"<span style="color: #000000;">);
+        System.out.println(ClassLoader.getSystemClassLoader());
+        System.out.println(Resources.</span><span style="color: #0000ff;">class</span><span style="color: #000000;">.getClassLoader());
+        SqlSessionFactoryBuilder  builder  </span>= <span style="color: #0000ff;">new</span><span style="color: #000000;"> SqlSessionFactoryBuilder();
+        SqlSessionFactory  factory  </span>=<span style="color: #000000;"> builder.build(inputStream);
+        SqlSession session</span>=<span style="color: #000000;">factory.openSession();
+        UserMapper userMapper</span>=session.getMapper(UserMapper.<span style="color: #0000ff;">class</span><span style="color: #000000;">);
+</span><span style="color: #008000;">//</span><span style="color: #008000;">        session.insert("");</span>
+        System.out.println("userMapper:"+<span style="color: #000000;">userMapper);
+       
+        
+        userMapper.getUser();
+        
+    }
+
+}</span></pre>
+</div>
+<p>上面从SqlSession中调用getMapper方法，传入一个XXMapper.class的参数，这里传入UserMapper.class(必须是接口 ？)，返回的是一个UserMapper的对象，那么这个返回的值到底是什么那，我们分析源码。我们值得这里的session是一个DefaultSqlSession对象，看其方法，</p>
+<div class="cnblogs_code">
+<pre><span style="color: #000000;">@Override
+  </span><span style="color: #0000ff;">public</span> &lt;T&gt; T getMapper(Class&lt;T&gt;<span style="color: #000000;"> type) {
+    </span><span style="color: #0000ff;">return</span> configuration.&lt;T&gt;getMapper(type, <span style="color: #0000ff;">this</span><span style="color: #000000;">);
+  }</span></pre>
+</div>
+<p>调用了Configuration对象的getMapper方法，</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">public</span> &lt;T&gt; T getMapper(Class&lt;T&gt;<span style="color: #000000;"> type, SqlSession sqlSession) {
+    </span><span style="color: #0000ff;">return</span><span style="color: #000000;"> mapperRegistry.getMapper(type, sqlSession);
+  }</span></pre>
+</div>
+<p>调用了mapperRegistry的getMapper方法，</p>
+<div class="cnblogs_code">
+<pre>@SuppressWarnings("unchecked"<span style="color: #000000;">)
+  </span><span style="color: #0000ff;">public</span> &lt;T&gt; T getMapper(Class&lt;T&gt;<span style="color: #000000;"> type, SqlSession sqlSession) {
+      </span><span style="color: #008000;">//</span><span style="color: #008000;">根据Class对象获得一个MapperProxyFactory</span>
+    <span style="color: #0000ff;">final</span> MapperProxyFactory&lt;T&gt; mapperProxyFactory = (MapperProxyFactory&lt;T&gt;<span style="color: #000000;">) knownMappers.get(type);
+    </span><span style="color: #0000ff;">if</span> (mapperProxyFactory == <span style="color: #0000ff;">null</span><span style="color: #000000;">) {
+      </span><span style="color: #0000ff;">throw</span> <span style="color: #0000ff;">new</span> BindingException("Type " + type + " is not known to the MapperRegistry."<span style="color: #000000;">);
+    }
+    </span><span style="color: #0000ff;">try</span><span style="color: #000000;"> {
+        </span><span style="color: #008000;">//</span><span style="color: #008000;">生成一个目标对象的JDK代理对象，并返回</span>
+      <span style="color: #0000ff;">return</span><span style="color: #000000;"> mapperProxyFactory.newInstance(sqlSession);
+    } </span><span style="color: #0000ff;">catch</span><span style="color: #000000;"> (Exception e) {
+      </span><span style="color: #0000ff;">throw</span> <span style="color: #0000ff;">new</span> BindingException("Error getting mapper instance. Cause: " +<span style="color: #000000;"> e, e);
+    }
+  }</span></pre>
+</div>
+<p>从上面可以看到从knownsMappers中根据type返回一个MapperProxyFactory，直译过来就是Mapper接口的代理工厂，mybatis的无处不在的工厂模式啊。</p>
+<p>下面看knownsMappers的定义，</p>
+<p><img src="https://img2020.cnblogs.com/blog/985599/202004/985599-20200422194842799-1501734255.png" alt="" width="1053" height="90"></p>
+<p>从上面可以看出knownMappers中使用map存储，其值为MapperProxyFactory，看下MapperProxyFactory的定义，</p>
+<p><img src="https://img2020.cnblogs.com/blog/985599/202004/985599-20200422195659549-482521013.png" alt=""></p>
+<p>从上面可以看到该类有一个构造方法，该构造方法的参数也是一个Class对象，参数名称为mapperInterface，从方法名直译过来就是我们写的Mapper接口。</p>
+<p>上面了解了knownsMappers和MapperProxyFactory后，可以知道knownsMappers中的value是根据Mapper接口生成的，那么取出来的值必为当前key的一个MapperProxyFactory，即该对象中的mapperInterface为key值。</p>
+<p>根据Class取出其对应的MapperProxyFactory后，下面调用其newInstance方法，如下</p>
+<p><img src="https://img2020.cnblogs.com/blog/985599/202004/985599-20200422200303232-344473751.png" alt=""></p>
+<p>下面看其newInstance方法，</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">public</span><span style="color: #000000;"> T newInstance(SqlSession sqlSession) {
+    </span><span style="color: #0000ff;">final</span> MapperProxy&lt;T&gt; mapperProxy = <span style="color: #0000ff;">new</span> MapperProxy&lt;T&gt;<span style="color: #000000;">(sqlSession, mapperInterface, methodCache);
+    </span><span style="color: #0000ff;">return</span><span style="color: #000000;"> newInstance(mapperProxy);
+  }</span></pre>
+</div>
+<p>生成一个MapperProxy对象，</p>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">public</span> MapperProxy(SqlSession sqlSession, Class&lt;T&gt; mapperInterface, Map&lt;Method, MapperMethod&gt;<span style="color: #000000;"> methodCache) {
+    </span><span style="color: #0000ff;">this</span>.sqlSession =<span style="color: #000000;"> sqlSession;
+    </span><span style="color: #0000ff;">this</span>.mapperInterface =<span style="color: #000000;"> mapperInterface;
+    </span><span style="color: #0000ff;">this</span>.methodCache =<span style="color: #000000;"> methodCache;
+  }</span></pre>
+</div>
+<p>上面仅是给三个字段赋值，再看后面的方法，MapperProxyFactory的newInstance(mapperProxy)方法，</p>
+<div class="cnblogs_code">
+<pre>@SuppressWarnings("unchecked"<span style="color: #000000;">)
+  </span><span style="color: #0000ff;">protected</span> T newInstance(MapperProxy&lt;T&gt;<span style="color: #000000;"> mapperProxy) {
+      </span><span style="color: #008000;">//</span><span style="color: #008000;">JDK动态代理</span>
+    <span style="color: #0000ff;">return</span> (T) Proxy.newProxyInstance(mapperInterface.getClassLoader(), <span style="color: #0000ff;">new</span><span style="color: #000000;"> Class[] { mapperInterface }, mapperProxy);
+  }</span></pre>
+</div>
+<p>从上面可以看到是标准的JDK动态代理生成对象的放式，不再赘述。从这里看出返回的是一个Mapper接口的动态代理对象，第三个参数mapperProxy必然实现了InvocationHandler接口，看其定义</p>
+<p><img src="https://img2020.cnblogs.com/blog/985599/202004/985599-20200422200951390-1220727399.png" alt=""></p>
+<p>可以看到实现了InvocationHandler接口，那么在调用Mapper接口的时候肯定会执行MapperProxy的invoke方法，这里执行过程下次再分析。</p>
+<h1>三、总结</h1>
+<p>本文分析了mybatis中Mapper接口的类型，即从mybatis中取出时是什么类型，这里是一个JDK的动态代理，所以我们要写的是一个接口，因为JDK动态代理是基于接口生成一个代理实现类。</p>
+<p>&nbsp;</p>
+<p>原创不易，有不正之处欢迎指正。</p>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-22 20:13</span>&nbsp;
+<a href="https://www.cnblogs.com/teach/">迷茫中守候</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12755586" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12755586);return false;">收藏</a></div>
+        </div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 293786, cb_blogApp = 'teach', cb_blogUserGuid = 'c7cf8dfe-a93e-e611-9fc1-ac853d9f53cc';
+    var cb_entryId = 12755586, cb_entryCreatedDate = '2020-04-22 20:13', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>    </div>
+</div>
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 迷茫中守候
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="微信小程序开发 -- 通过云函数下载任意文件 1.云开发介绍 ​ 微信小程序开发者众所周知，小程序开发拥有许多限制，当我还是一个菜鸟入门的时候，第一关就卡在了没有备案域名的HTTP请求上面，那时候云开" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>微信小程序开发 -- 通过云函数下载任意文件 - Kindear_chen - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/masterchd/custom.css?v=5pESJueifrsp28B///3sJiySPb8=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/masterchd/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/masterchd/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/masterchd/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 346475;
+        var currentBlogApp = 'masterchd';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;v=20200504"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/masterchd/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/masterchd/">小の白菜</a>
+</h1>
+<h2>
+对知识保持敬畏
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/masterchd/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Kindear_chen">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/masterchd/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+31&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+11</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/masterchd/p/12976740.html">微信小程序开发 -- 通过云函数下载任意文件</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h4 id="微信小程序开发----通过云函数下载任意文件">微信小程序开发 -- 通过云函数下载任意文件</h4>
+<blockquote>
+<p>1.云开发介绍</p>
+</blockquote>
+<p>​        微信小程序开发者众所周知，小程序开发拥有许多限制，当我还是一个菜鸟入门的时候，第一关就卡在了没有备案域名的HTTP请求上面，那时候云开发上线也没多久，使用的人也不是很多，我抱着尝试的态度去接触了云开发，发现了云开发的妙处。（自由）</p>
+<p><strong>blog：</strong><a href="https://www.cnblogs.com/masterchd/p/9895636.html">微信小程序HTTP访问链接解决方案</a></p>
+<blockquote>
+<p>2.小程序文件下载限制</p>
+</blockquote>
+<p>微信小程序除了对访问地址有限制之外，对于文件下载，也存在的限制，如下图所示，只有资源服务器A，在downloadFile域名白名单内且配置了SSL访问，即HTTPS才可以正常的下载资源。（闲的蛋疼，饱受诟病）</p>
+<p><img src="https://gitee.com/Kindear/BlogAssets/raw/master/cnblogs/dfile15.png" alt=""></p>
+<blockquote>
+<p>3.云函数下载任意文件设计</p>
+</blockquote>
+<p>依然秉持着对云开发的信任，尝试使用云函数进行任意文件下载，设计思路如下图所示。</p>
+<p><img src="https://gitee.com/Kindear/BlogAssets/raw/master/cnblogs/dfile16.png" alt=""></p>
+<p>上图描述的两种通过云函数下载文件的方式</p>
+<ol>
+<li>云函数只作为一个数据中转节点，请求资源转化为Buffer直接返回给小程序端。</li>
+<li>云函数作为存储器，下载资源存储到云空间，并返回给小程序端fileID(置换下载地址)。</li>
+</ol>
+<blockquote>
+<p>4.云函数实现方式</p>
+</blockquote>
+<p>通过请求头配置实现请求资源文件返回Buffer。</p>
+<pre><code class="language-javascript">const cloud = require('wx-server-sdk')
+const request = require('request')
+const fs = require('fs')
+const path = require('path')
+cloud.init({
+  env: cloud.DYNAMIC_CURRENT_ENV
+})
+const db = cloud.database(); //初始化云数据库
+exports.main = async (event, context) =&gt; {
+  var url = event.url; //下载地址,应该由前端进行传递,而后云函数进行下载
+  var type = event.type; //type:'dump'(转储) 'trans'(传递)
+  var filename = event.filename;
+  //文件名称需要自己进行上传,或者substring 截取url
+  var options = {
+    url: url,
+    encoding: null,
+    headers: {
+      &quot;content-type&quot;: &quot;application/octet-stream&quot;,
+    },
+  };
+  return new Promise(function (resolve, reject) {
+    request(options, function (error, response, body) {
+      if(type=='trans'){
+          //中继
+        resolve(body)
+      }else{
+          //转储
+        resolve(
+          cloud.uploadFile({
+            cloudPath: 'tmp/'+filename,
+            fileContent: body,
+          })
+        )
+      }
+    })
+  })
+}
+</code></pre>
+<blockquote>
+<p>5.中继下载方式（不推荐，适合小文件）</p>
+</blockquote>
+<p>如果文件达到一定体积，会出现如下问题：</p>
+<p><img src="https://gitee.com/Kindear/BlogAssets/raw/master/cnblogs/20200527210017.png" alt=""></p>
+<p>中继下载方式对文件的大小有限制，这是由于云函数返回限制决定的，很容易超出。但是对于一些几kb的文件，推荐使用这种方式，减少了转储所需要耗费的时间。</p>
+<p>中继方式下载资源写法如下：</p>
+<pre><code class="language-javascript">   var _filename = '美景.jpg';
+   var _url = 'http://img.apisev.cn:8081/wechat/sk1.jpg';
+    wx.cloud.callFunction({
+      name:'transfile',
+      data:{
+        url:_url,
+        filename:_filename,
+        type:'trans'
+      },
+      success(res){
+        console.log(res)
+        const FileSystemManager = wx.getFileSystemManager();
+        FileSystemManager.writeFile({
+          filePath:wx.env.USER_DATA_PATH+&quot;/&quot;+_filename,
+          data:res.result,
+          encoding: 'binary',//编码方式，二进制
+          success(tres){
+            console.log(tres)
+            //可以根据filePath 打开文件，此处以为图片举例
+            var _filepath = wx.env.USER_DATA_PATH+&quot;/&quot;+_filename;
+            wx.previewImage({
+              urls: [_filepath],
+            })
+          },fail(tres){
+            console.log(tres)
+          }
+        })
+      },fail(res){
+        console.log(res)
+      }
+    })
+</code></pre>
+<p>真机运行，可以成功预览资源图片。</p>
+<blockquote>
+<p>6.转储下载方式（推荐）</p>
+</blockquote>
+<p>首先在互联网资源随便找了一个图片资源地址，调用云函数。</p>
+<pre><code class="language-javascript">var _filename = '美景.jpg';
+var _url = 'https://n.sinaimg.cn/sinacn20106/212/w2048h1364/20190828/cded-icuacsa3953451.jpg';
+wx.cloud.callFunction({
+      name:'transfile',
+      data:{
+        url:_url,
+        filename:_filename,
+        type:'dump'
+      },
+      success(res){
+        console.log(res)
+      },fail(res){
+        console.log(res)
+      }
+ })
+</code></pre>
+<p>返回内容如下：</p>
+<p><img src="https://gitee.com/Kindear/BlogAssets/raw/master/cnblogs/20200527205051.png" alt=""></p>
+<p>图片成功被转存到云存储空间。</p>
+<p><img src="https://gitee.com/Kindear/BlogAssets/raw/master/cnblogs/20200527205000.png" alt=""></p>
+<blockquote>
+<p>7.参考文档</p>
+</blockquote>
+<p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.writeFile.html">[1]   FileSystemManager.writeFile(Object object)</a></p>
+<blockquote>
+<p>8.作者QQ(开发需求)</p>
+</blockquote>
+<p>QQ： <a href="tencent://message/?uin=1025584691&amp;Site=http://www.xxx.com&amp;Menu=yes">1025584691</a></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-27 21:30</span>&nbsp;
+<a href="https://www.cnblogs.com/masterchd/">Kindear_chen</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976740" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12976740);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 346475, cb_blogApp = 'masterchd', cb_blogUserGuid = 'a405f6c8-c21a-e711-9fc1-ac853d9f53cc';
+    var cb_entryId = 12976740, cb_entryCreatedDate = '2020-05-27 21:30', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 Kindear_chen
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

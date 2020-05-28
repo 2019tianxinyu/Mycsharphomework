@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="女屌丝又来为你分享前端技术鸡汤啦！上一篇，简单的分享了float的使用以及注意事项，这一次给你分享点什么呢？？作为前端开发工程师，你觉得你还必须掌握的是什么呢？是不是想到了-盒子模型。对，就是它，这可" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>女屌丝前端逆袭记（二）之盒子模型 - 常哥说编程 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/classicblue/bundle-classicblue.min.css?v=C_xOBodTdu7qViYoEOWb5uyE0XIl-SuwRkgFEwSDOCc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/classicblue/bundle-classicblue-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/xiketang/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/xiketang/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/xiketang/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 451887;
+        var currentBlogApp = 'xiketang';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'ClassicBlue';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/xiketang/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/xiketang/">常哥说编程</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/xiketang/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%B8%B8%E5%93%A5%E8%AF%B4%E7%BC%96%E7%A8%8B">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/xiketang/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+7&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+10</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/xiketang/p/12768088.html">女屌丝前端逆袭记（二）之盒子模型</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>女屌丝又来为你分享前端技术鸡汤啦！上一篇，简单的分享了float的使用以及注意事项，这一次给你分享点什么呢？？作为前端开发工程师，你觉得你还必须掌握的是什么呢？是不是想到了-盒子模型。对，就是它，这可谓是布局中的核心。通过上一篇我们认识了float，它能帮我们改变元素性质，能帮助我们让元素并排显示并且还能左右布局，那这就可以了吗？答案，是No！No！No！我们还需要掌握盒子模型的使用。你的布局稳不稳，它可是起到关键作用。那么下面我们就一起来看看这个比较让人垂涎欲滴的技术吧。</p>
+<p>我们先来简单认识一下，什么是盒子模型？</p>
+<p>说到盒子模型，那我们可以看到其中两个关键字&ldquo;盒子&rdquo;。日常生活中，盒子的作用是什么？是不是用来盛放东西，会根据要盛放东西的多少选择适合尺寸的盒子。那我们会将每个盒子放到指定的位置，每个盒子之间整齐堆叠或排列在一起。那么我们把这种情况放到前端页面中去思考，是不是我们的页面布局中也可以这样。把网页中零散元素内容，集中放在某个盒子中，然后将这些盒子整齐排列堆叠起来，这样一个整齐的页面是不是就可以实现了呢？比如看图1，这是我学习过程中模仿小米官网做的商城首页部分效果展示。</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto" src="https://img2020.cnblogs.com/blog/1465383/202004/1465383-20200424160210617-797382859.png" alt=""></p>
+<p style="text-align: center;">图1：喜科堂页面</p>
+<p>从页面图片可以看出，我们可以把这四部分划分成四个模块，而这四个模块可以看成是四个大小不同的盒子，将性质相同的元素放在对应的盒子里边，就可以呈现出我们想要的布局，这样看起来是不是会舒服点。</p>
+<p>那么通过盒子模型，就可以帮助我们实现这样的布局，让我们的页面看起来整齐，布局更加的稳当。</p>
+<p>那么要想利用好盒子模型，我们就得清楚的认识什么是盒子模型。</p>
+<p>首先，看一下盒子模型的概念，在HTML中，所有的HTML元素都可以看作盒子，在CSS中，&ldquo;box model&rdquo;是用来设计和布局时使用。CSS盒子模型本质上是一个盒子，封装周围的HTML元素，它包括：边距、边框、填充，和实际内容。盒模型允许我们其它元素和周围元素边框之间的空间放置元素，下面通过图2，看一下标准盒子模型的图示。</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto" src="https://img2020.cnblogs.com/blog/1465383/202004/1465383-20200424160226685-1526349445.png" alt=""></p>
+<p>&nbsp;</p>
+<p align="center">图2：标准盒子模型</p>
+<p>示例代码：图3</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto" src="https://img2020.cnblogs.com/blog/1465383/202004/1465383-20200424160312377-47214710.png" alt=""></p>
+<p align="center">图3：示例代码</p>
+<p>从图2可以看出，一个标准盒子的组成，是由内容（content）、内边距（padding）、border（边框）、外边距（margin）构成，在使用的过程中，可以根据实际的情况增加或减少其中某个组成，说到这儿，我们还得清楚知道一个标准盒子模型宽高的计算。</p>
+<p>一个标准盒子模型宽高是如何计算呢？这个可是关系到内容布局。</p>
+<p>从盒子模型的组成可以看出，一个盒子的宽度计算由以下公式组成：</p>
+<p>boxWidth=contentWidth+padding*2+border*2+margin*2（PS：此处的*2代表的是左右大小，因此要乘以2）。</p>
+<p>boxHeight=contentHeight+padding*2+border*2+margin*2。</p>
+<p>根据以上这个计算公式，可以得出图2盒子的宽度实际是270px，高度也是270px。</p>
+<p>以上就是我们网页中的一个标准的盒子模型，也是W3C标准盒子模型，是不是很好理解，下次再计算盒子宽高，不能再错了哦。</p>
+<p>内容不多，但是全是干货经验分享。</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 16:06</span>&nbsp;
+<a href="https://www.cnblogs.com/xiketang/">常哥说编程</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768088" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12768088);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 451887, cb_blogApp = 'xiketang', cb_blogUserGuid = '88fe6e2a-e5f1-4fc1-ba54-08d60121c16c';
+    var cb_entryId = 12768088, cb_entryCreatedDate = '2020-04-24 16:06', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 常哥说编程
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

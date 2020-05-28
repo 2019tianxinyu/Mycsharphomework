@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_凉鞋的笔记</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:81160fd1-0930-4f2f-ab4e-c8169964ae05;id=498</id>
+  <updated>2020-04-24T09:18:42Z</updated>
+  <author>
+    <name>凉鞋的笔记</name>
+    <uri>http://www.cnblogs.com/liangxiegame/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12684789.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (三十二、三十三) 类的命名 &amp; 代码文件命名 - 凉鞋的笔记</title>
+    <summary type="text">昨天我们完成了第八个示例的第二个 MenuItem 菜单顺序的调整。 我们今天再往下接着调整。 我们来看下接下来的 MenuItem 代码如下: CommonUtil 已经提取成第二个示例了。 Exporter.GenerateUnityPackageName() 这个方法的定义在第八个示例 Pre</summary>
+    <published>2020-04-24T09:19:00Z</published>
+    <updated>2020-04-24T09:19:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12684789.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12684789.html" />
+    <content type="html">【摘要】昨天我们完成了第八个示例的第二个 MenuItem 菜单顺序的调整。 我们今天再往下接着调整。 我们来看下接下来的 MenuItem 代码如下: CommonUtil 已经提取成第二个示例了。 Exporter.GenerateUnityPackageName() 这个方法的定义在第八个示例 Pre &lt;a href="http://www.cnblogs.com/liangxiegame/p/12684789.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12684785.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (三十、三十一) MenuItem 显示顺序问题 &amp;  类的提取 - 凉鞋的笔记</title>
+    <summary type="text">在上一篇，我们得出了两个核心的学习思路: 1. 根据问题去学习，并收集。 2. 主动学习，并思考适用场景。 我们今天解决 MenuItem 显示顺序问题。 目前 MenuItem 显示如图所示: 我们来看下 MenuItem 这个属性构造的定义。 第二个参数是，是否是验证方法，目前不用理解，官网上默</summary>
+    <published>2020-04-23T10:14:00Z</published>
+    <updated>2020-04-23T10:14:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12684785.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12684785.html" />
+    <content type="html">【摘要】在上一篇，我们得出了两个核心的学习思路: 1. 根据问题去学习，并收集。 2. 主动学习，并思考适用场景。 我们今天解决 MenuItem 显示顺序问题。 目前 MenuItem 显示如图所示: 我们来看下 MenuItem 这个属性构造的定义。 第二个参数是，是否是验证方法，目前不用理解，官网上默 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12684785.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12684783.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十九) 方法所在类命名问题诞生的原因 - 凉鞋的笔记</title>
+    <summary type="text">我们在整理阶段解决了一些意外的问题。但是这些问题仅仅只是被解决而已，我们并没有去思考过这些问题是为什么产生的？以及在以后我们如何去避免这些问题的产生？ 方法所在类的命名问题，最后我们通过方法分类解决了，并且学习了类的第一作用:方法的集合。 解决之后导致了大量的弃用代码，为了标记弃用代码，我们又简单学</summary>
+    <published>2020-04-22T04:30:00Z</published>
+    <updated>2020-04-22T04:30:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12684783.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12684783.html" />
+    <content type="html">【摘要】我们在整理阶段解决了一些意外的问题。但是这些问题仅仅只是被解决而已，我们并没有去思考过这些问题是为什么产生的？以及在以后我们如何去避免这些问题的产生？ 方法所在类的命名问题，最后我们通过方法分类解决了，并且学习了类的第一作用:方法的集合。 解决之后导致了大量的弃用代码，为了标记弃用代码，我们又简单学 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12684783.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12684780.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十七、二十八）弃用的代码警告解决&amp;弃用的代码删除 - 凉鞋的笔记</title>
+    <summary type="text">在前两篇，我们把所有的示例重头到尾整理了一遍。 当前的状态如下: 1. 要做的事情: (完成) 备份:导出文件，并取一个合理的名字。 2. 遗留问题: (完成) 第八个示例与之前的示例代码重复，功能重复。 (完成) 方法所在类的命名有问题。 菜单栏显示顺序问题。 弃用的代码警告 3. 约定和规则: </summary>
+    <published>2020-04-13T11:23:00Z</published>
+    <updated>2020-04-13T11:23:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12684780.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12684780.html" />
+    <content type="html">【摘要】在前两篇，我们把所有的示例重头到尾整理了一遍。 当前的状态如下: 1. 要做的事情: (完成) 备份:导出文件，并取一个合理的名字。 2. 遗留问题: (完成) 第八个示例与之前的示例代码重复，功能重复。 (完成) 方法所在类的命名有问题。 菜单栏显示顺序问题。 弃用的代码警告 3. 约定和规则:  &lt;a href="http://www.cnblogs.com/liangxiegame/p/12684780.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12681553.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十六) 第一轮整理完结 - 凉鞋的笔记</title>
+    <summary type="text">昨天呢我们把第八个示例整理完了。整理之后学习了类的第一作用：方法的集合，还有 Obselete 这个 API。并且在进行整理的时候贯彻了我们新的约定和规则：先确保功能有效，再去做变更和删除。 今天我们在往下接着整理第九个示例 第九个示例 类的名字没有问题，但是到这里笔者发现这个类里的方法是可以和 第</summary>
+    <published>2020-04-11T10:45:00Z</published>
+    <updated>2020-04-11T10:45:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12681553.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12681553.html" />
+    <content type="html">【摘要】昨天呢我们把第八个示例整理完了。整理之后学习了类的第一作用：方法的集合，还有 Obselete 这个 API。并且在进行整理的时候贯彻了我们新的约定和规则：先确保功能有效，再去做变更和删除。 今天我们在往下接着整理第九个示例 第九个示例 类的名字没有问题，但是到这里笔者发现这个类里的方法是可以和 第 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12681553.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12671758.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十五) 类的第一个作用 与 Obselete 属性 - 凉鞋的笔记</title>
+    <summary type="text">在上一篇我们整理到了第七个示例，我们今天再接着往下整理。我们来看第八个示例: 其实代码量还是比较多的。 而在上一篇中，我们就知道了，这个示例有类命名的问题。我们运气比较好，刚好可以试着解决一下。 关于类，我们在写第一个示例的时候就去接触了，不过笔者并没有讲它，是因为作为一个代码设计的工具，类是非常重</summary>
+    <published>2020-04-10T02:30:00Z</published>
+    <updated>2020-04-10T02:30:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12671758.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12671758.html" />
+    <content type="html">【摘要】在上一篇我们整理到了第七个示例，我们今天再接着往下整理。我们来看第八个示例: 其实代码量还是比较多的。 而在上一篇中，我们就知道了，这个示例有类命名的问题。我们运气比较好，刚好可以试着解决一下。 关于类，我们在写第一个示例的时候就去接触了，不过笔者并没有讲它，是因为作为一个代码设计的工具，类是非常重 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12671758.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12665002.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十三、二十四) 备份与版本号&amp;危险的操作 - 凉鞋的笔记</title>
+    <summary type="text">先列出上一篇的总结: 1. 要做的事情: 备份:导出文件，并取一个合理的名字。 2. 遗留问题: 第八个示例与之前的示例代码重复，功能重复。 3. 约定和规则: 每个示例在 QFramework 目录下创建一个文件夹，文件夹的格式是: 数字.示例的功能 每个示例写一个脚本，脚本中包含可复用的静态方法</summary>
+    <published>2020-04-09T02:13:00Z</published>
+    <updated>2020-04-09T02:13:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12665002.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12665002.html" />
+    <content type="html">【摘要】先列出上一篇的总结: 1. 要做的事情: 备份:导出文件，并取一个合理的名字。 2. 遗留问题: 第八个示例与之前的示例代码重复，功能重复。 3. 约定和规则: 每个示例在 QFramework 目录下创建一个文件夹，文件夹的格式是: 数字.示例的功能 每个示例写一个脚本，脚本中包含可复用的静态方法 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12665002.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12658383.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (二十一、二十二) 第三章简介&amp;整理前的准备 - 凉鞋的笔记</title>
+    <summary type="text">整理前的准备 到目前为止，我们积攒了很多示例了，并且每个示例也都贯彻了最的约定和规则。 在上一篇的小结也说了一个比较新的东西:编程体验优化。 在之前我们还积攒了一个问题：代码重复问题。 我们可是忍住整理的冲动忍了好久了。 所以现在也是时候准备着手整理了。 知识点和问题总结 遗留问题 我们写列出来之前</summary>
+    <published>2020-04-08T02:38:00Z</published>
+    <updated>2020-04-08T02:38:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12658383.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12658383.html" />
+    <content type="html">【摘要】整理前的准备 到目前为止，我们积攒了很多示例了，并且每个示例也都贯彻了最的约定和规则。 在上一篇的小结也说了一个比较新的东西:编程体验优化。 在之前我们还积攒了一个问题：代码重复问题。 我们可是忍住整理的冲动忍了好久了。 所以现在也是时候准备着手整理了。 知识点和问题总结 遗留问题 我们写列出来之前 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12658383.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12638744.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (十八~二十) 概率函数 &amp; GameObject 显示、隐藏简化 &amp; 第二章 小结与快速复习 - 凉鞋的笔记</title>
+    <summary type="text">在笔者刚做项目的时候，遇到了一个需求。第一个项目是一个跑酷游戏，而跑酷游戏是需要一条一条跑道拼接成的。每个跑道的长度是固定的，而怪物的出现位置也是在跑道上固定好的。那么怪物出现的概率决定一部分关卡的难度。 以上有点绕，其实就是，到某一个时刻，怪物是否要出现。而是否要出现是根据概率来决定的。如果一个怪</summary>
+    <published>2020-04-05T11:54:00Z</published>
+    <updated>2020-04-05T11:54:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12638744.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12638744.html" />
+    <content type="html">【摘要】在笔者刚做项目的时候，遇到了一个需求。第一个项目是一个跑酷游戏，而跑酷游戏是需要一条一条跑道拼接成的。每个跑道的长度是固定的，而怪物的出现位置也是在跑道上固定好的。那么怪物出现的概率决定一部分关卡的难度。 以上有点绕，其实就是，到某一个时刻，怪物是否要出现。而是否要出现是根据概率来决定的。如果一个怪 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12638744.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/liangxiegame/p/12617707.html</id>
+    <title type="text">Unity 游戏框架搭建 2019 (十六、十七) localPosition 简化与Transform 重置 - 凉鞋的笔记</title>
+    <summary type="text">在上一篇我们收集了一个 屏幕分辨率检测的一个小工具。今天呢再往下接着探索。 问题 我们今天在接着探索。不管是写 UI 还是写 GamePlay，多多少少都需要操作 Transform。 而在笔者刚接触 Unity 的时候有一个非常不习惯的地方。就是对 transform 的位置、角度、缩放进行赋值。</summary>
+    <published>2020-04-02T01:41:00Z</published>
+    <updated>2020-04-02T01:41:00Z</updated>
+    <author>
+      <name>凉鞋的笔记</name>
+      <uri>http://www.cnblogs.com/liangxiegame/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/liangxiegame/p/12617707.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/liangxiegame/p/12617707.html" />
+    <content type="html">【摘要】在上一篇我们收集了一个 屏幕分辨率检测的一个小工具。今天呢再往下接着探索。 问题 我们今天在接着探索。不管是写 UI 还是写 GamePlay，多多少少都需要操作 Transform。 而在笔者刚接触 Unity 的时候有一个非常不习惯的地方。就是对 transform 的位置、角度、缩放进行赋值。 &lt;a href="http://www.cnblogs.com/liangxiegame/p/12617707.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

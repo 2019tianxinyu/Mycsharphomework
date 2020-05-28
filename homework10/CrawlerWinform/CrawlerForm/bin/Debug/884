@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="前言： 日常学习和工作中，经常会遇到导数据的需求。比如数据迁移、数据恢复、新建从库等，这些操作可能都会涉及大量数据的导入。有时候导入进度慢，电脑风扇狂转真的很让人崩溃，其实有些小技巧是可以让导入更快速" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MySQL如何快速插入数据 - kun_行者 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/banlieue13/bundle-banlieue13.min.css?v=1J0RP_opHZcWv1yy974pRZewfj9S0p6tTP1QNRnmMiI" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/banlieue13/bundle-banlieue13-mobile.min.css?v=cTNtJQ6_6SB1QXNeWlP0QHJBE4K5SDodawH8t2CtJ3Y" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/kunjian/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/kunjian/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/kunjian/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 434811;
+        var currentBlogApp = 'kunjian';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Banlieue13';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <script>loadPageBeginHtml();</script>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/kunjian/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/kunjian/">MySQL技术</a>
+</h1>
+<h2>
+－－芝兰生于深林，不以无人而不芳。
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/kunjian/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/kun_%E8%A1%8C%E8%80%85">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/kunjian/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/kunjian/rss/">
+    <img src="/skins/banlieue13/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+40&nbsp;
+文章- 
+0&nbsp;
+评论- 
+1&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class = "postTitle">
+			
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/kunjian/p/12767772.html">MySQL如何快速插入数据</a>
+
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p><strong>前言：</strong></p>
+<p>日常学习和工作中，经常会遇到导数据的需求。比如数据迁移、数据恢复、新建从库等，这些操作可能都会涉及大量数据的导入。有时候导入进度慢，电脑风扇狂转真的很让人崩溃，其实有些小技巧是可以让导入更快速的，本篇文章笔者会谈一谈如何快速的导入数据。</p>
+<blockquote>
+<p>注：本篇文章只讨论如何快速导入由逻辑备份产生的SQL脚本，其他文件形式暂不讨论。</p>
+</blockquote>
+<h4 id="1尽量减小导入文件大小">1.尽量减小导入文件大小</h4>
+<p>首先给个建议，导出导入数据尽量使用MySQL自带的命令行工具，不要使用Navicat、workbench等图形化工具。特别是大数据量的时候，用MySQL自带的命令行工具导出和导入比用Navicat等图形化工具要快数倍，而且用Navicat等图形化工具做大数据量的操作时很容易卡死。下面简单介绍下怎么用MySQL自带的命令行工具做导入导出。</p>
+<pre><code class="language-sql"># 导出整个实例
+mysqldump -uroot -pxxxxxx --all-databases &gt; all_database.sql
+
+# 导出指定库
+mysqldump -uroot -pxxxxxx --databases testdb &gt; testdb.sql
+
+# 导出指定表
+mysqldump -uroot -pxxxxxx testdb test_tb &gt; test_tb.sql
+
+
+# 导入指定SQL文件 （指定导入testdb库中）
+mysql -uroot -pxxxxxx testdb &lt; testdb.sql
+</code></pre>
+<p>导入的SQL脚本内容大多是先建库建表，然后插入数据，其中耗时最长的应该是insert插入数据了。为了减小文件大小，推荐使用扩展插入方法，即多行一起批量insert，类似这样：insert into table_name values (),(),(),...,(); 。使用扩展插入比一条条插入，文件大小要小很多，插入速度要快好几倍。使用mysqldump导出的文件默认是使用批量插入的方法，导出时可使用--skip-extended-insert 参数改为逐条插入。下面以一张一千万的数据表为例，测试下不同方式导出的文件插入时的速度。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2020/png/119537/1587463346668-d3367383-9305-4828-8d1b-d03e90780272.png#align=left&amp;display=inline&amp;height=667&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=1334&amp;originWidth=1754&amp;size=265687&amp;status=done&amp;style=none&amp;width=877" alt="image.png"></p>
+<p>上图可以看出，使用扩展插入的SQL脚本导入大概需要10分钟左右，而一条条插入的SQL脚本导入时间过长，大概1个小时仍然没有导完，一个2个多G的文本导入一个多小时仍未结束，等不及的笔者就手动取消了😂 不过还是可以看出多条一起insert比一条条插入数据要节省数倍的时间。</p>
+<h4 id="2尝试修改参数加快导入速度">2.尝试修改参数加快导入速度</h4>
+<p>在MySQL中，有一对大名鼎鼎的“双一”参数，即 <code>innodb_flush_log_at_trx_commit</code> 与 <code>sync_binlog</code> 。为了安全性这两个参数默认值为1，为了快速导入脚本，我们可以临时修改下这两个参数，下面简单介绍下这两个参数：</p>
+<blockquote>
+<p><strong>innodb_flush_log_at_trx_commit默认值为1，可设置为0、1、2</strong><br>
+如果innodb_flush_log_at_trx_commit设置为0，log buffer将每秒一次地写入log file中，并且log file的flush(刷到磁盘)操作同时进行.该模式下，在事务提交的时候，不会主动触发写入磁盘的操作。<br>
+如果innodb_flush_log_at_trx_commit设置为1，每次事务提交时MySQL都会把log buffer的数据写入log file，并且flush(刷到磁盘)中去.<br>
+如果innodb_flush_log_at_trx_commit设置为2，每次事务提交时MySQL都会把log buffer的数据写入log file.但是flush(刷到磁盘)操作并不会同时进行。该模式下,MySQL会每秒执行一次 flush(刷到磁盘)操作。</p>
+<p><strong>sync_binlog默认值为1，可设置为[0,N)</strong><br>
+当sync_binlog =0，像操作系统刷其他文件的机制一样，MySQL不会同步到磁盘中去而是依赖操作系统来刷新binary log。<br>
+当sync_binlog =N (N&gt;0) ，MySQL 在每写 N次 二进制日志binary log时，会使用fdatasync()函数将它的写二进制日志binary log同步到磁盘中去。</p>
+</blockquote>
+<p>这两个参数可以在线修改，若想快速导入，可以按照下面步骤来操作：</p>
+<pre><code class="language-sql"># 1.进入MySQL命令行 临时修改这两个参数
+set global innodb_flush_log_at_trx_commit = 2;
+set global sync_binlog = 2000;
+
+# 2.执行SQL脚本导入
+mysql -uroot -pxxxxxx testdb &lt; testdb.sql
+
+# 3.导入完成 再把参数改回来
+set global innodb_flush_log_at_trx_commit = 1;
+set global sync_binlog = 1;
+</code></pre>
+<p>还有另外一种场景是你的需求是新建从库，或者是不需要产生binlog，这时候导入SQL脚本时可以设置暂时不记录binlog，可以在脚本开头增加 <code>set sql_log_bin=0;</code> 然后再执行导入，这样速度会进一步加快。如果你的MySQL实例没有开启binlog则不需要再执行该语句了。</p>
+<p><strong>总结：</strong></p>
+<p>本篇文章主要介绍快速导入数据的方法，可能还有其他方法快速导入数据，比如load data或者写程序多线程插入。本文中介绍的方法只适合手动导入SQL脚本，下面总结下本文中提到的方法。</p>
+<ol>
+<li>使用MySQL自带的命令行工具进行导出导入。</li>
+<li>使用扩展插入方法，一个insert对于多个值。</li>
+<li>临时修改innodb_flush_log_at_trx_commit和sync_binlog参数。</li>
+<li>关闭binlog或者临时不记录binlog。</li>
+</ol>
+<p>其实还有一些其他方案，比如先不创建索引，插入数据后再执行添加索引操作；或者先将表改为MyISAM或MEMORY引擎，导入完成后再改为InnoDB引擎。不过这两种方法实施起来较为麻烦且不知效果如何。以上方法只是笔者依据个人经验总结得出，可能不太全面，欢迎各位补充哦。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200410155158638.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmdrdW5fag==,size_16,color_FFFFFF,t_70#pic_center" alt="WeChat"></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+		</div>
+		<div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 15:32</span>&nbsp;
+<a href="https://www.cnblogs.com/kunjian/">kun_行者</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12767772" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12767772);return false;">收藏</a></div>
+	</div>
+	
+	
+</div><!--end: topics 文章、评论容器-->
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 434811, cb_blogApp = 'kunjian', cb_blogUserGuid = 'a7d35464-0a02-e711-845c-ac853d9f53ac';
+    var cb_entryId = 12767772, cb_entryCreatedDate = '2020-04-24 15:32', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 kun_行者
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script src="https://my.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'cnblogs_post_body',
+        blogId: '10130-1571197784157-834',
+        name: 'MySQL技术',
+        qrcode: 'https://img2018.cnblogs.com/blog/1118724/201910/1118724-20191016162559525-1962815820.jpg',
+        keyword: 'vip',
+    });
+</script>
+    </div>
+</body>
+</html>

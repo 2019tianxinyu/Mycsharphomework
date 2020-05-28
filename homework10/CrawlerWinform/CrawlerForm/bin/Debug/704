@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>zzzzMing - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simplememory/bundle-simplememory.min.css?v=OL4qeo1LNGlN1rKIhv5UctANvt0M6Nx6kLzr_ffx3Xk" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/listenfwind/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/listenfwind/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/listenfwind/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 303786;
+        var currentBlogApp = 'listenfwind';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <div style="display: none"><p>
+<span>java/Java</span>
+<span>Pyton</span>
+<span>大数据</span>
+<span>Hadoop</span>
+<span>Spark</span>
+</p></div>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/listenfwind/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/listenfwind/">zzzzMing -大数据技术</a>
+</h1>
+<h2>
+蟹六跪而二螯,非蛇鳝之,无可寄托者,用心躁也
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/listenfwind/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/zzzzMing">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/listenfwind/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+75&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+77</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/02/28.html">2020年2月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12378701.html">
+[置顶]    分布式系统一致性问题与Raft算法（上）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：分布式系统一致性难吗？很难，难的哪里？最后又该如何解决。            <a href="https://www.cnblogs.com/listenfwind/p/12378701.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-28 19:37
+zzzzMing
+<span class="post-view-count">阅读(319)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12378701" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/02/20.html">2020年2月20日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12337437.html">
+[置顶]    Scala函数式编程（五） 函数式的错误处理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前情提要 &quot;Scala函数式编程指南（一） 函数式思想介绍&quot; &quot;scala函数式编程（二） scala基础语法介绍&quot; &quot;Scala函数式编程（三） scala集合和函数&quot; &quot;Scala函数式编程（四）函数式的数据结构 上&quot; &quot;Scala函数式编程（四）函数式的数据结构 下&quot; 1.面向对象的错误处理             <a href="https://www.cnblogs.com/listenfwind/p/12337437.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-20 21:01
+zzzzMing
+<span class="post-view-count">阅读(164)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12337437" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2019/01/17.html">2019年1月17日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/10284444.html">
+[置顶]    Spark RPC框架源码分析（三）Spark心跳机制分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前两次讲了 Spark RPC 的基础内容以及源码时序分析。这次我们来看看Spark 如何用 RPC 实现心跳。            <a href="https://www.cnblogs.com/listenfwind/p/10284444.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-01-17 20:40
+zzzzMing
+<span class="post-view-count">阅读(664)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(2)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10284444" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12767896.html">
+    Spark SQL源码解析（五）SparkPlan准备和执行阶段
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spark SQL原理解析前言： Spark SQL源码剖析（一）SQL解析框架Catalyst流程概述 Spark SQL源码解析（二）Antlr4解析Sql并生成树 Spark SQL源码解析（三）Analysis阶段分析 Spark SQL源码解析（四）Optimization和Physica            <a href="https://www.cnblogs.com/listenfwind/p/12767896.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 18:43
+zzzzMing
+<span class="post-view-count">阅读(49)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12767896" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/05/14.html">2020年5月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12886205.html">
+    Spark SQL源码解析（四）Optimization和Physical Planning阶段解析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spark SQL原理解析前言： &quot;Spark SQL源码剖析（一）SQL解析框架Catalyst流程概述&quot; &quot;Spark SQL源码解析（二）Antlr4解析Sql并生成树&quot; &quot;Spark SQL源码解析（三）Analysis阶段分析&quot; 前面已经介绍了SQL parse，将一条SQL语句使用ant            <a href="https://www.cnblogs.com/listenfwind/p/12886205.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-14 08:04
+zzzzMing
+<span class="post-view-count">阅读(130)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12886205" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/04/28.html">2020年4月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12795934.html">
+    Spark SQL源码解析（三）Analysis阶段分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spark SQL原理解析前言： &quot;Spark SQL源码剖析（一）SQL解析框架Catalyst流程概述&quot; &quot;Spark SQL源码解析（二）Antlr4解析Sql并生成树&quot; Analysis阶段概述 首先，这里需要引入一个新概念，前面介绍SQL parse阶段，会使用antlr4，将一条SQL语            <a href="https://www.cnblogs.com/listenfwind/p/12795934.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-28 18:04
+zzzzMing
+<span class="post-view-count">阅读(144)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12795934" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/04/23.html">2020年4月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12735833.html">
+    Spark SQL源码解析（二）Antlr4解析Sql并生成树
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spark SQL原理解析前言： &quot;Spark SQL源码剖析（一）SQL解析框架Catalyst流程概述&quot; 这一次要开始真正介绍Spark解析SQL的流程，首先是从Sql Parse阶段开始，简单点说，这个阶段就是使用Antlr4，将一条Sql语句解析成语法树。 可能有童鞋没接触过antlr4这个            <a href="https://www.cnblogs.com/listenfwind/p/12735833.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-23 20:02
+zzzzMing
+<span class="post-view-count">阅读(299)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12735833" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/04/21.html">2020年4月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12724381.html">
+    Spark SQL源码剖析（一）SQL解析框架Catalyst流程概述
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spark SQL模块，主要就是处理跟SQL解析相关的一些内容，说得更通俗点就是怎么把一个SQL语句解析成Dataframe或者说RDD的任务。以Spark 2.4.3为例，Spark SQL这个大模块分为三个子模块，如下图所示 其中Catalyst可以说是Spark内部专门用来解析SQL的一个框架            <a href="https://www.cnblogs.com/listenfwind/p/12724381.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-21 20:49
+zzzzMing
+<span class="post-view-count">阅读(199)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12724381" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/04/15.html">2020年4月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12707478.html">
+    Scala函数式编程（六） 懒加载与Stream
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前情提要 &quot;Scala函数式编程指南（一） 函数式思想介绍&quot; &quot;scala函数式编程（二） scala基础语法介绍&quot; &quot;Scala函数式编程（三） scala集合和函数&quot; &quot;Scala函数式编程（四）函数式的数据结构 上&quot; &quot;Scala函数式编程（四）函数式的数据结构 下&quot; &quot;Scala函数式编程（            <a href="https://www.cnblogs.com/listenfwind/p/12707478.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-15 19:32
+zzzzMing
+<span class="post-view-count">阅读(181)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12707478" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/04/08.html">2020年4月8日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12662968.html">
+    详细解析kafka之 kafka消费者组与重平衡机制
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：消费组组（Consumer group）可以说是kafka很有亮点的一个设计。传统的消息引擎处理模型主要有两种， 队列模型 ，和 发布 订阅模型 。 队列模型 ：早期消息处理引擎就是按照队列模型设计的，所谓队列模型，跟队列数据结构类似，生产者产生消息，就是入队，消费者接收消息就是出队，并删除队列中数            <a href="https://www.cnblogs.com/listenfwind/p/12662968.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-08 21:33
+zzzzMing
+<span class="post-view-count">阅读(399)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12662968" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/03/16.html">2020年3月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12207693.html">
+    kafka实现无消息丢失与精确一次语义（exactly once）处理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在很多的流处理框架的介绍中，都会说kafka是一个可靠的数据源，并且推荐使用Kafka当作数据源来进行使用。这是因为与其他消息引擎系统相比，kafka提供了可靠的数据保存及备份机制。并且通过消费者位移这一概念，可以让消费者在因某些原因宕机而重启后，可以轻易得回到宕机前的位置。 但其实kafka的可靠            <a href="https://www.cnblogs.com/listenfwind/p/12207693.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-16 18:12
+zzzzMing
+<span class="post-view-count">阅读(289)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12207693" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/03/11.html">2020年3月11日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12465409.html">
+    详细解析kafka之kafka分区和副本
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本篇主要介绍kafka的分区和副本，因为这两者是有些关联的，所以就放在一起来讲了，后面顺便会给出一些对应的配置以及具体的实现代码，以供参考~ 1.kafka分区机制 分区机制是kafka实现高吞吐的秘密武器，但这个武器用得不好的话也容易出问题，今天主要就来介绍分区的机制以及相关的部分配置。 首先，从            <a href="https://www.cnblogs.com/listenfwind/p/12465409.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-11 21:07
+zzzzMing
+<span class="post-view-count">阅读(1076)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12465409" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/listenfwind/archive/2020/03/04.html">2020年3月4日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/listenfwind/p/12390489.html">
+    分布式系统一致性问题与Raft算法（下）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇讲述了什么是分布式一致性问题，以及它难在哪里，liveness和satefy问题，和FLP impossibility定理。有兴趣的童鞋可以看看 &quot;分布式系统一致性问题与Raft算法（上）&quot; 。 这一节主要介绍raft算法是如何解决分布式系统中一致性问题的。说起raft大家可能比较陌生，但zo            <a href="https://www.cnblogs.com/listenfwind/p/12390489.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-04 20:24
+zzzzMing
+<span class="post-view-count">阅读(258)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12390489" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/listenfwind/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 zzzzMing
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

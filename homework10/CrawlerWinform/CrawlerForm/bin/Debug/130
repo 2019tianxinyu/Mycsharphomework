@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>功夫小熊猫 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/sea/bundle-sea.min.css?v=Jpv_XRZqv7HnW0FXxHohZmb1TG6nYuWdNSwqJML5lHA" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/sea/bundle-sea-mobile.min.css?v=GEzW0neGdNE-VMws0ftJENKA__n-moeEPmS2Y9XCJis" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/vpandaxjl/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/vpandaxjl/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/vpandaxjl/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 503183;
+        var currentBlogApp = 'vpandaxjl';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'sea';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <!--done-->
+<div id="header">
+	
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/vpandaxjl/">功夫小熊猫</a>
+<br>
+		
+
+
+	</div>
+</div>
+
+
+</div>
+
+<div id="mytopmenu">
+	
+		<div id="mylinks">
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+ &nbsp;
+
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/vpandaxjl/">
+首页</a>
+ &nbsp;
+
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+ &nbsp;
+
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%8A%9F%E5%A4%AB%E5%B0%8F%E7%86%8A%E7%8C%AB">
+联系</a> &nbsp;
+
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/vpandaxjl/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/vpandaxjl/rss/">
+    <img src="/skins/sea/images/xml.gif" alt="订阅" />
+</a>&nbsp;
+
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+
+
+</div>
+		<DIV id="mystats">随笔-
+9&nbsp;
+评论-
+0&nbsp;
+文章-
+0&nbsp;
+<!--trackbacks-<partial name="./Shared/_PingTrackCount.cshtml" model="BlogServer.Web.Models.HomeBlogPage" />-->
+
+</DIV>
+	
+</div>
+<div id="centercontent">
+	
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2020/04/24.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2020年4月24日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/12769082.html">
+    开源软件SoftEther使用
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：最近在寻找比较好用的开源VPN，感觉SoftEther很符合我的需求。一方面是SoftEther属于开源软件并且一直在更新，另一方面是功能强大，好用。 VPN支持路由功能和NAT功能，还支持多种类型的VPN接入，看图。目前我的需求是NAT并做用户分组，对用户做访问控制。 我的服务端部署环境是WIN2            <a href="https://www.cnblogs.com/vpandaxjl/p/12769082.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2020-04-24 17:51 功夫小熊猫 阅读 (0) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12769082" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2020/03/11.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2020年3月11日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/12466093.html">
+    数据结构入门学习笔记
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：前段时间完整的看完了一部上了年纪的数据结构视频，完整的做了笔记。 语言环境是C语言 （1）数据结构基础 一、线性结构 连续存储[数组] 离散存储[链表] 线性结构的两种常见应用之一 栈 线性结构的两种常见应用之二 队列 专题：递归 1、1+2+3+。。。100的和 2、求阶乘 3、汉诺塔 4、走迷宫            <a href="https://www.cnblogs.com/vpandaxjl/p/12466093.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2020-03-11 22:43 功夫小熊猫 阅读 (103) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12466093" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/12442672.html">
+    Flask源码分析
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：Flask的最小应用程序如下： app.run() Flask的类从flask包中引入后，直接制造app实例，使用app实例执行run方法。 所以先来看看Flask类中的__init___()和run()方法 run方法中省略调试相关的代码，关键执行代码是run_simple方法，带入默认的host            <a href="https://www.cnblogs.com/vpandaxjl/p/12442672.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2020-03-11 22:13 功夫小熊猫 阅读 (43) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12442672" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/12/17.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年12月17日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/12054227.html">
+    多版本YUM仓库搭建
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：服务器：CentOS7 YUM源：阿里云 空间要求：CentOS6+CentOS7 50G，考虑后期更新预留，LVS空间100G 1、在服务器配置CentOS7的yum源和CentOS6的yum源 #Centos7[base7] name=CentOS-$releasever - Base - mi            <a href="https://www.cnblogs.com/vpandaxjl/p/12054227.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-12-17 14:07 功夫小熊猫 阅读 (101) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12054227" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/08/03.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年8月3日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/11295359.html">
+    某CTF比赛writeup
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：看到群里别人参加比赛发上来的附件，自己尝试解了一下。 1、提示RSA，提供flag.enc和pub.key附件 一看就是解RSA，公钥分解得到n和e n=8693448229604811919066606200349480058890565601720302561721665405837832210            <a href="https://www.cnblogs.com/vpandaxjl/p/11295359.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-08-03 16:44 功夫小熊猫 阅读 (322) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11295359" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/06/21.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年6月21日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/11064037.html">
+    爬虫实现51job谁看过我的简历多条记录功能
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：默认情况下51job只能看到最近一条记录，查看更多记录需要付费。 本文利用爬虫定时抓取记录，并追加写入到文本的方式获取完整的记录信息。            <a href="https://www.cnblogs.com/vpandaxjl/p/11064037.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-06-21 13:27 功夫小熊猫 阅读 (280) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11064037" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/04/14.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年4月14日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/10704199.html">
+    关于如何准备CKA考试
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：最近（2019年4月）通过了CKA考试，在此分享一下考试心得。 CKA全称Certified Kubernetes Administrator，是一门在线考试，全程需要向考官分享摄像头和屏幕，考试费用300美元，可以在谷歌寻找折扣优惠券。 考试时间3小时，总共24道实操题，不同的题目有不同的分数比重            <a href="https://www.cnblogs.com/vpandaxjl/p/10704199.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-04-14 10:53 功夫小熊猫 阅读 (2403) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10704199" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/03/27.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年3月27日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/10608992.html">
+    数据中心网络（1）-VXLAN
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：想写个DC系列的文章，站在传统路由交换网络基础上谈谈数据中心网络，一方面是给自己的学习做下总结，另一方面也想分享一些东西。 谈到数据中心网络，能想到的东西无非就VXLAN、SDN、NFV、EVPN这些概念。先从基础协议开始再谈整体架构，才疏学浅，有不对的地方请评论告知。首先针对性地抛出几个问题： 1            <a href="https://www.cnblogs.com/vpandaxjl/p/10608992.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-03-27 22:37 功夫小熊猫 阅读 (516) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10608992" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+        <a href="https://www.cnblogs.com/vpandaxjl/archive/2019/03/25.html">
+            <img src="/skins/sea/images/title_post.gif" border=0 align="absmiddle" />
+        </a>
+		&nbsp;
+		2019年3月25日		  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/vpandaxjl/p/10597258.html">
+    DNS分离解析IPV6与IPV4用户
+</a>
+
+			</div>
+			
+
+    <div class="c_b_p_desc">
+摘要：IPV6改造中经常会遇到，网站使用了CDN，但是CDN厂商还不支持IPV6的情况，而AAAA、A、CNAME记录互相冲突，想实现IPV6用户得到AAAA记录，IPV4用户得到CNAME记录的需求。 解决方式是在域名权威服务器上根据源IP地址匹配不同的解析数据库。 但是问题的处理并不是那么简单，这种方            <a href="https://www.cnblogs.com/vpandaxjl/p/10597258.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			<div class="postDesc">
+
+posted @ 2019-03-25 22:34 功夫小熊猫 阅读 (940) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10597258" rel="nofollow">
+    编辑
+</a>
+</div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+</div>
+<div id="leftcontent">
+	
+		<DIV id="leftcontentcontainer">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script><br>
+			<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script></DIV>
+	
+</div>
+<!--done-->
+<div class="footer">
+	Powered by: <a href="http://www.cnblogs.com">博客园</a>
+	Copyright &copy; 2020 功夫小熊猫
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>

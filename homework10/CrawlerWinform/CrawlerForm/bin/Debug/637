@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="akka-typed的actor从创建、启用、状态转换、停用、监视等生命周期管理方式和akka-classic还是有一定的不同之处。这篇我们就介绍一下akka-typed的actor生命周期管理。 每" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>akka-typed(1) - actor生命周期管理 - 雪川大虫 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/coffee/bundle-coffee.min.css?v=KPz7rj-c2sTAV1_ck1aDmbZcuCG3KBhyLnfvzf6nn94" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/coffee/bundle-coffee-mobile.min.css?v=na9bpAY4yh7uEWCcrXj3vfJM3VBse8YtU6-5fUUQPz0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/tiger-xc/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/tiger-xc/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/tiger-xc/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 217117;
+        var currentBlogApp = 'tiger-xc';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'coffee';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;v=20200504"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/tiger-xc/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/tiger-xc/">雪川大虫</a>
+</h1>
+<h2>
+Scala泛函编程实践之路
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/tiger-xc/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E9%9B%AA%E5%B7%9D%E5%A4%A7%E8%99%AB">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/tiger-xc/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/tiger-xc/rss/">
+    <img src="/skins/coffee/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+262&nbsp;
+文章- 
+0&nbsp;
+评论- 
+125&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class = "postTitle">
+			
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/tiger-xc/p/12976199.html">akka-typed(1) - actor生命周期管理</a>
+
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>&nbsp; &nbsp;<span style="font-size: 14px; font-family: 宋体;">akka-typed的actor从创建、启用、状态转换、停用、监视等生命周期管理方式和akka-classic还是有一定的不同之处。这篇我们就介绍一下akka-typed的actor生命周期管理。</span></p>
+<p><span style="font-size: 14px; font-family: 宋体;">每一种actor都是通过定义它的行为属性behavior形成模版，然后由对上一层的父辈actor用spawn方法产生actor实例的。产生的actor实例加入一个系统的由上至下树形结构，直接在spawn产生自己的父辈之下。akka-typed的守护guardian-actor，即根部root-actor是通过在定义ActorSystem时指定并产生的。如下：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;">    val config = ConfigFactory.load(<span style="color: #800000;">"</span><span style="color: #800000;">application.conf</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+    val man: ActorSystem[GreetStarter.Command] </span>= ActorSystem(GreetStarter(), <span style="color: #800000;">"</span><span style="color: #800000;">greetDemo</span><span style="color: #800000;">"</span><span style="color: #000000;">,config)
+    man </span>! GreetStarter.RepeatedGreeting(<span style="color: #800000;">"</span><span style="color: #800000;">Tiger</span><span style="color: #800000;">"</span>,<span style="color: #800080;">1</span>.seconds)</span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">在某种意义上，这个ActorSystem实例man就代表root-actor。我们可以向man发送消息然后由GreetStarter的behavior用自己的ActorContext进行spawn,stop,watch及分派计算任务等，其实就是一个程序的集线器：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;">  <span style="color: #0000ff;">object</span><span style="color: #000000;"> GreetStarter {
+    import Messages._
+    def apply(): Behavior[SayHi] </span>=<span style="color: #000000;"> {
+      Behaviors.setup { ctx </span>=&gt;<span style="color: #000000;">
+        val props </span>= DispatcherSelector.fromConfig(<span style="color: #800000;">"</span><span style="color: #800000;">akka.actor.default-blocking-io-dispatcher</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+        val helloActor </span>= ctx.spawn(HelloActor(), <span style="color: #800000;">"</span><span style="color: #800000;">hello-actor</span><span style="color: #800000;">"</span><span style="color: #000000;">,props)
+        val greeter </span>= ctx.spawn(Greeter(helloActor), <span style="color: #800000;">"</span><span style="color: #800000;">greeter</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+        ctx.watch(greeter)
+        ctx.watchWith(helloActor,StopWorker(</span><span style="color: #800000;">"</span><span style="color: #800000;">something happend</span><span style="color: #800000;">"</span><span style="color: #000000;">))
+        Behaviors.receiveMessage { who </span>=&gt;
+          <span style="color: #0000ff;">if</span> (who.name == <span style="color: #800000;">"</span><span style="color: #800000;">stop</span><span style="color: #800000;">"</span><span style="color: #000000;">) {
+            ctx.stop(helloActor)
+            ctx.stop(greeter)
+            Behaviors.stopped
+          } </span><span style="color: #0000ff;">else</span><span style="color: #000000;"> {
+            greeter </span>!<span style="color: #000000;"> who
+            Behaviors.same
+          }
+        }
+      }
+    }
+  }</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">但是，总有时候我们需要在root-actor的ActorContext之外来进行一些制造、使用actor的操作。下面这个官方文档上的例子是很好的示范：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;"><span style="color: #000000;">import akka.actor.typed.Behavior
+import akka.actor.typed.SpawnProtocol
+import akka.actor.typed.scaladsl.Behaviors
+import akka.actor.typed.scaladsl.LoggerOps
+
+</span><span style="color: #0000ff;">object</span><span style="color: #000000;"> HelloWorldMain {
+  def apply(): Behavior[SpawnProtocol.Command] </span>=<span style="color: #000000;">
+    Behaviors.setup { context </span>=&gt;
+      <span style="color: #008000;">//</span><span style="color: #008000;"> Start initial tasks
+      </span><span style="color: #008000;">//</span><span style="color: #008000;"> context.spawn(...)</span>
+<span style="color: #000000;">
+      SpawnProtocol()
+    }
+}
+
+</span><span style="color: #0000ff;">object</span><span style="color: #000000;"> Main extends App {
+</span><span style="color: #0000ff;">implicit</span> val system: ActorSystem[SpawnProtocol.Command] =<span style="color: #000000;">
+  ActorSystem(HelloWorldMain(), </span><span style="color: #800000;">"</span><span style="color: #800000;">hello</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+</span><span style="color: #008000;">//</span><span style="color: #008000;"> needed in implicit scope for ask (?)</span>
+<span style="color: #000000;">import akka.actor.typed.scaladsl.AskPattern._
+</span><span style="color: #0000ff;">implicit</span> val ec: ExecutionContext =<span style="color: #000000;"> system.executionContext
+</span><span style="color: #0000ff;">implicit</span> val timeout: Timeout = Timeout(<span style="color: #800080;">3</span><span style="color: #000000;">.seconds)
+
+val greeter: Future[ActorRef[HelloWorld.Greet]] </span>=<span style="color: #000000;">
+  system.ask(SpawnProtocol.Spawn(behavior </span>= HelloWorld(), name = <span style="color: #800000;">"</span><span style="color: #800000;">greeter</span><span style="color: #800000;">"</span>, props =<span style="color: #000000;"> Props.empty, _))
+
+val greetedBehavior </span>= Behaviors.receive[HelloWorld.Greeted] { (context, message) =&gt;<span style="color: #000000;">
+  context.log.info2(</span><span style="color: #800000;">"</span><span style="color: #800000;">Greeting for {} from {}</span><span style="color: #800000;">"</span>, message.whom, message.<span style="color: #0000ff;">from</span><span style="color: #000000;">)
+  Behaviors.stopped
+}
+
+val greetedReplyTo: Future[ActorRef[HelloWorld.Greeted]] </span>=<span style="color: #000000;">
+  system.ask(SpawnProtocol.Spawn(greetedBehavior, name </span>= <span style="color: #800000;">""</span>, props =<span style="color: #000000;"> Props.empty, _))
+
+</span><span style="color: #0000ff;">for</span> (greeterRef &lt;- greeter; replyToRef &lt;-<span style="color: #000000;"> greetedReplyTo) {
+  greeterRef </span>! HelloWorld.Greet(<span style="color: #800000;">"</span><span style="color: #800000;">Akka</span><span style="color: #800000;">"</span><span style="color: #000000;">, replyToRef)
+}
+...
+}</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">可以看到所有操作都在actor框架之外进行的。这个SpawnProtocol本身就是一个actor，如下：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;"><span style="color: #0000ff;">object</span><span style="color: #000000;"> SpawnProtocol {
+
+...
+  final </span><span style="color: #0000ff;">case</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> Spawn[T](behavior: Behavior[T], name: String, props: Props, replyTo: ActorRef[ActorRef[T]])
+      extends Command
+...
+  def apply(): Behavior[Command] </span>=<span style="color: #000000;">
+    Behaviors.receive { (ctx, msg) </span>=&gt;<span style="color: #000000;">
+      msg match {
+        </span><span style="color: #0000ff;">case</span> Spawn(bhvr, name, props, replyTo) =&gt;<span style="color: #000000;">
+          val </span><span style="color: #0000ff;">ref</span> =
+            <span style="color: #0000ff;">if</span> (name == <span style="color: #0000ff;">null</span> || name.equals(<span style="color: #800000;">""</span><span style="color: #000000;">))
+              ctx.spawnAnonymous(bhvr, props)
+            </span><span style="color: #0000ff;">else</span><span style="color: #000000;"> {
+
+              @tailrec def spawnWithUniqueName(c: Int): ActorRef[Any] </span>=<span style="color: #000000;"> {
+                val nameSuggestion </span>= <span style="color: #0000ff;">if</span> (c == <span style="color: #800080;">0</span>) name <span style="color: #0000ff;">else</span> s<span style="color: #800000;">"</span><span style="color: #800000;">$name-$c</span><span style="color: #800000;">"</span><span style="color: #000000;">
+                ctx.child(nameSuggestion) match {
+                  </span><span style="color: #0000ff;">case</span> Some(_) =&gt; spawnWithUniqueName(c + <span style="color: #800080;">1</span>) <span style="color: #008000;">//</span><span style="color: #008000;"> already taken, try next</span>
+                  <span style="color: #0000ff;">case</span> None    =&gt;<span style="color: #000000;"> ctx.spawn(bhvr, nameSuggestion, props)
+                }
+              }
+
+              spawnWithUniqueName(</span><span style="color: #800080;">0</span><span style="color: #000000;">)
+            }
+          replyTo </span>! <span style="color: #0000ff;">ref</span><span style="color: #000000;">
+          Behaviors.same
+      }
+    }
+
+}</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">外界通过发送Spawn消息来指定产生新的actor。</span></p>
+<p><span style="font-size: 14px; font-family: 宋体;">actor的状态切换就是从一种behavior转到另一种behavior。我们可以自定义behavior或者用现成的Behaviors.???。如果只是涉及内部变量变化，那么可以直接生成带着变量的当前behavior，如下：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;"><span style="color: #0000ff;">object</span><span style="color: #000000;"> HelloWorldBot {
+
+  def apply(max: Int): Behavior[HelloWorld.Greeted] </span>=<span style="color: #000000;"> {
+    bot(</span><span style="color: #800080;">0</span><span style="color: #000000;">, max)
+  }
+
+  </span><span style="color: #0000ff;">private</span> def bot(greetingCounter: Int, max: Int): Behavior[HelloWorld.Greeted] =<span style="color: #000000;">
+    Behaviors.receive { (context, message) </span>=&gt;<span style="color: #000000;">
+      val n </span>= greetingCounter + <span style="color: #800080;">1</span><span style="color: #000000;">
+      context.log.info2(</span><span style="color: #800000;">"</span><span style="color: #800000;">Greeting {} for {}</span><span style="color: #800000;">"</span><span style="color: #000000;">, n, message.whom)
+      </span><span style="color: #0000ff;">if</span> (n ==<span style="color: #000000;"> max) {
+        Behaviors.stopped
+      } </span><span style="color: #0000ff;">else</span><span style="color: #000000;"> {
+        message.</span><span style="color: #0000ff;">from</span> !<span style="color: #000000;"> HelloWorld.Greet(message.whom, context.self)
+        bot(n, max)
+      }
+    }
+}</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">actor停用可以由直属父辈actor的ActorContext.stop或者自身的Behaviors.stopped来实现。Behaviors.stopped可以带入一个清理函数。在actor完全停止之前进行一些清理操作：&nbsp;</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;"><span style="color: #0000ff;">object</span><span style="color: #000000;"> MasterControlProgram {
+  </span><span style="color: #0000ff;">sealed</span><span style="color: #000000;"> trait Command
+  final </span><span style="color: #0000ff;">case</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> SpawnJob(name: String) extends Command
+  </span><span style="color: #0000ff;">case</span> <span style="color: #0000ff;">object</span><span style="color: #000000;"> GracefulShutdown extends Command
+
+  </span><span style="color: #008000;">//</span><span style="color: #008000;"> Predefined cleanup operation</span>
+  def cleanup(log: Logger): Unit = log.info(<span style="color: #800000;">"</span><span style="color: #800000;">Cleaning up!</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+  def apply(): Behavior[Command] </span>=<span style="color: #000000;"> {
+    Behaviors
+      .receive[Command] { (context, message) </span>=&gt;<span style="color: #000000;">
+        message match {
+          </span><span style="color: #0000ff;">case</span> SpawnJob(jobName) =&gt;<span style="color: #000000;">
+            context.log.info(</span><span style="color: #800000;">"</span><span style="color: #800000;">Spawning job {}!</span><span style="color: #800000;">"</span><span style="color: #000000;">, jobName)
+            context.spawn(Job(jobName), name </span>=<span style="color: #000000;"> jobName)
+            Behaviors.same
+          </span><span style="color: #0000ff;">case</span> GracefulShutdown =&gt;<span style="color: #000000;">
+            context.log.info(</span><span style="color: #800000;">"</span><span style="color: #800000;">Initiating graceful shutdown...</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+            </span><span style="color: #008000;">//</span><span style="color: #008000;"> perform graceful stop, executing cleanup before final system termination
+            </span><span style="color: #008000;">//</span><span style="color: #008000;"> behavior executing cleanup is passed as a parameter to Actor.stopped</span>
+            Behaviors.stopped { () =&gt;<span style="color: #000000;">
+              cleanup(context.system.log)
+            }
+        }
+      }
+      .receiveSignal {
+        </span><span style="color: #0000ff;">case</span> (context, PostStop) =&gt;<span style="color: #000000;">
+          context.log.info(</span><span style="color: #800000;">"</span><span style="color: #800000;">Master Control Program stopped</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+          Behaviors.same
+      }
+  }
+}</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">实际上一个actor转入停用stop状态可以在另一个作为监视actor的receiveSignal获取，如下：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;">  <span style="color: #0000ff;">object</span><span style="color: #000000;"> GreetStarter {
+    import Messages._
+    def apply(): Behavior[SayHi] </span>=<span style="color: #000000;"> {
+      Behaviors.setup { ctx </span>=&gt;<span style="color: #000000;">
+        val props </span>= DispatcherSelector.fromConfig(<span style="color: #800000;">"</span><span style="color: #800000;">akka.actor.default-blocking-io-dispatcher</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+        val helloActor </span>= ctx.spawn(HelloActor(), <span style="color: #800000;">"</span><span style="color: #800000;">hello-actor</span><span style="color: #800000;">"</span><span style="color: #000000;">,props)
+        val greeter </span>= ctx.spawn(Greeter(helloActor), <span style="color: #800000;">"</span><span style="color: #800000;">greeter</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+        ctx.watch(greeter)
+        ctx.watchWith(helloActor,StopWorker(</span><span style="color: #800000;">"</span><span style="color: #800000;">something happend</span><span style="color: #800000;">"</span><span style="color: #000000;">))
+        Behaviors.receiveMessage { who </span>=&gt;
+          <span style="color: #0000ff;">if</span> (who.name == <span style="color: #800000;">"</span><span style="color: #800000;">stop</span><span style="color: #800000;">"</span><span style="color: #000000;">) {
+            ctx.stop(helloActor)
+            ctx.stop(greeter)
+            Behaviors.stopped
+          } </span><span style="color: #0000ff;">else</span><span style="color: #000000;"> {
+            greeter </span>!<span style="color: #000000;"> who
+            Behaviors.same
+          }
+        }.receiveSignal {
+            </span><span style="color: #0000ff;">case</span> (context, Terminated(<span style="color: #0000ff;">ref</span>)) =&gt;<span style="color: #000000;">
+              context.log.info(</span><span style="color: #800000;">"</span><span style="color: #800000;">{} stopped!</span><span style="color: #800000;">"</span>, <span style="color: #0000ff;">ref</span><span style="color: #000000;">.path.name)
+              Behaviors.same
+          }
+      }
+    }
+  }</span></span></pre>
+</div>
+<p><span style="font-size: 14px; font-family: 宋体;">下面是.receiveSignal函数及其捕获的Signal消息：</span></p>
+<div class="cnblogs_code">
+<pre><span style="font-size: 14px;"><span style="color: #000000;">  trait Receive[T] extends Behavior[T] {
+    def receiveSignal(onSignal: PartialFunction[(ActorContext[T], Signal), Behavior[T]]): Behavior[T]
+  }
+
+
+
+trait Signal
+
+</span><span style="color: #008000;">/*</span><span style="color: #008000;">*
+ * Lifecycle signal that is fired upon restart of the Actor before replacing
+ * the behavior with the fresh one (i.e. this signal is received within the
+ * behavior that failed).
+ </span><span style="color: #008000;">*/</span>
+<span style="color: #0000ff;">sealed</span> <span style="color: #0000ff;">abstract</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> PreRestart extends Signal
+</span><span style="color: #0000ff;">case</span> <span style="color: #0000ff;">object</span><span style="color: #000000;"> PreRestart extends PreRestart {
+  def instance: PreRestart </span>= <span style="color: #0000ff;">this</span><span style="color: #000000;">
+}
+
+</span><span style="color: #008000;">/*</span><span style="color: #008000;">*
+ * Lifecycle signal that is fired after this actor and all its child actors
+ * (transitively) have terminated. The [[Terminated]] signal is only sent to
+ * registered watchers after this signal has been processed.
+ </span><span style="color: #008000;">*/</span>
+<span style="color: #0000ff;">sealed</span> <span style="color: #0000ff;">abstract</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> PostStop extends Signal
+</span><span style="color: #008000;">//</span><span style="color: #008000;"> comment copied onto object for better hints in IDEs</span><span style="color: #008000;">
+/*</span><span style="color: #008000;">*
+ * Lifecycle signal that is fired after this actor and all its child actors
+ * (transitively) have terminated. The [[Terminated]] signal is only sent to
+ * registered watchers after this signal has been processed.
+ </span><span style="color: #008000;">*/</span>
+<span style="color: #0000ff;">case</span> <span style="color: #0000ff;">object</span><span style="color: #000000;"> PostStop extends PostStop {
+  def instance: PostStop </span>= <span style="color: #0000ff;">this</span><span style="color: #000000;">
+}
+
+</span><span style="color: #0000ff;">object</span><span style="color: #000000;"> Terminated {
+  def apply(</span><span style="color: #0000ff;">ref</span>: ActorRef[Nothing]): Terminated = <span style="color: #0000ff;">new</span> Terminated(<span style="color: #0000ff;">ref</span><span style="color: #000000;">)
+  def unapply(t: Terminated): Option[ActorRef[Nothing]] </span>= Some(t.<span style="color: #0000ff;">ref</span><span style="color: #000000;">)
+}</span></span></pre>
+</div>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+		</div>
+		<div class="postDesc">posted @ 
+<span id="post-date">2020-05-27 20:20</span>&nbsp;
+<a href="https://www.cnblogs.com/tiger-xc/">雪川大虫</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976199" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12976199);return false;">收藏</a></div>
+	</div>
+	
+	
+</div><!--end: topics 文章、评论容器-->
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 217117, cb_blogApp = 'tiger-xc', cb_blogUserGuid = '144b0696-0bc4-e411-b908-9dcfd8948a71';
+    var cb_entryId = 12976199, cb_entryCreatedDate = '2020-05-27 20:20', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 雪川大虫
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

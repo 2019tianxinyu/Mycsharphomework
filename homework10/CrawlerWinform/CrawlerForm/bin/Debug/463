@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="目录 1. 游标简介 1.0 理解定义 1.1 游标的主要作用 1.2 游标的优缺点 1.3 游标生命周期 1.4 基本语法 2. 游标示例 2.0 准备测试数据 2.1 示例1-FORWARD_ON" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>存储过程——游标 - shanzm - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/elf/bundle-elf.min.css?v=mpcef9xxdj1doWi6glkD6lMbmGclGCSPM_FSrhFRY-A" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/shanzhiming/custom.css?v=NfyGKQEPE65DP5h/mDc/AGzCQ0M=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/elf/bundle-elf-mobile.min.css?v=Lk2wjMMUJjSLadG0Xil7JdDLDWWAvcpQmxzjUgc7cAk" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/shanzhiming/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/shanzhiming/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/shanzhiming/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 485477;
+        var currentBlogApp = 'shanzhiming';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'elf';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <a href="https://github.com/shanzm" class="github-corner" aria-label="View source on GitHub"><svg width="60" height="60" viewBox="0 0 250 250" style="fill:#112738bd; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+<style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<!----------------------------------------------------------支持手机端显示------开始--------------------------------------->
+<script>
+<!-- var content = 'width=device-width, initial-scale=1 user-scalable=no';
+var viewport = document.createElement('meta');
+viewport.setAttribute('name', 'viewport');
+viewport.setAttribute('content', content);
+document.head.appendChild( viewport );-->
+<!--上面那些就等下下面这语句，其实就是在head标签中添加一个meta标签
+其中meta参数：参数1：设置屏幕宽度为设备宽度，参数2：缩放值为1。这样做是为了防止根据不同屏幕的像素密度对你的页面进行缩放-->
+$("head").prepend("");
+</script>
+<!----------------------------------------------------------支持手机端显示------结束--------------------------------------->
+<!----------------------------------------------------------重新自定义页面头部------开始--------------------------------------->
+<div id="headerNew">
+    <div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/shanzhiming/"><img id="blogLogo"
+                src="/Skins/custom/images/logo.gif" alt="返回主页"></a>
+        <!--done-->
+        <h1><a id="Header1_HeaderTitle" class="headermaintitle" href="https://www.cnblogs.com/shanzhiming/"></a></h1>
+        <h2></h2>
+    </div>
+    <!--end: blogTitle 博客的标题和副标题 -->
+    <div id="navigator">
+        <ul id="navList">
+            <!-- <li><a id="blog_nav_sitehome" class="menu" href="http://www.cnblogs.com/">博客园</a></li>  -->
+            <li><a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/shanzhiming/" style="font-weight:bold;font-size: 24px;color: #1eff00;text-shadow: 1px 1px 8px #fff40d;">Shanzm</a></li>
+            <!--
+             连接到指定的分类（当然前提是你有这个分类，找到分类下面的连接替换）
+             <li><a id="blog_nav_net" href="http://www.cnblogs.com/shanzhiming/category/890024.html">网络</a></li>
+             -->                       
+            <li><a id="blog_nav_newpost" class="menu" rel="nofollow"
+                    href="http://www.cnblogs.com/shanzhiming/p">随笔</a></li>
+            <!--
+            <li><a id="blog_nav_net" href="https://www.cnblogs.com/shanzhiming/category/1647166.html">转载</a></li>
+
+ 
+             <li><a id="blog_nav_newpost" class="menu" rel="nofollow"
+                    href="https://i1.cnblogs.com/EditDiary.aspx?opt=1">日记</a></li>
+            -->
+
+            <li><a id="blog_nav_contact" class="menu" rel="nofollow" href="https://msg.cnblogs.com/send/shanzm">联系</a>
+            </li>
+            <li><a id="blog_nav_rss" class="menu" href="javascript:void(0)"
+                    onclick="follow('e6e2d1bf-892b-4d8e-b066-08d66f389d49')">订阅</a></li>
+             <li><a id="blog_nav_admin" class="menu" rel="nofollow" href="https://i.cnblogs.com/">管理</a></li>
+<!--
+            <li><a id="blog_nav_net" href="https://github.com/shanzm">
+                    <img src="https://images.cnblogs.com/cnblogs_com/shanzhiming/1395453/o_200225225757images.png" 
+                            width="25" height="25" style="vertical-align: middle;"/>
+                  </a> </li>
+
+            <li><a id="blog_nav_net" href="https://stackoverflow.com/users/11304944/shanzm?tab=profile">
+                     <img border="0" src="https://images.cnblogs.com/cnblogs_com/shanzhiming/1395453/o_200225225541apple-touch-icon@2.png"  width="36" height="36" style="vertical-align: middle;"/>
+            </a></li>
+  -->         
+        </ul>
+        <div class="blogStats">
+            <span id="stats_post_count">随笔 - 0&nbsp; </span>
+            <span id="stats_article_count">文章 - 0&nbsp; </span>
+            <span id="stats-comment_count">评论 - 0</span>
+        </div>
+        <!--end: blogStats -->
+    </div>
+    <!--end: navigator 博客导航栏 -->
+</div>
+
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/shanzhiming/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/shanzhiming/">Shanzm</a>
+</h1>
+<h2>
+<a href="https://www.cnblogs.com/shanzhiming" style="font-size:12px;text-align:center;">首页</a>
+
+<a href="https://www.cnblogs.com/shanzhiming/tag/" style="font-size:12px;text-align:center;">&nbsp;&nbsp;标签</a>
+
+<a href="https://i-beta.cnblogs.com/" style="font-size:12px">&nbsp;&nbsp;管理</a>
+
+<a href="https://github.com/shanzm" style="font-size:12px">&nbsp;&nbsp;GitHub</a>
+
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/shanzhiming/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/shanzm">
+联系</a></li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+43&nbsp; </span>
+<span id="stats_article_count">文章 - 
+2&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+28</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/shanzhiming/p/12975175.html">存储过程——游标</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <ul>
+<li>目录
+<ul>
+<li><a href="#1-%E6%B8%B8%E6%A0%87%E7%AE%80%E4%BB%8B">1. 游标简介</a>
+<ul>
+<li><a href="#10-%E7%90%86%E8%A7%A3%E5%AE%9A%E4%B9%89">1.0 理解定义</a></li>
+<li><a href="#11-%E6%B8%B8%E6%A0%87%E7%9A%84%E4%B8%BB%E8%A6%81%E4%BD%9C%E7%94%A8">1.1 游标的主要作用</a></li>
+<li><a href="#12-%E6%B8%B8%E6%A0%87%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9">1.2 游标的优缺点</a></li>
+<li><a href="#13-%E6%B8%B8%E6%A0%87%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F">1.3 游标生命周期</a></li>
+<li><a href="#14-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95">1.4 基本语法</a></li>
+</ul>
+</li>
+<li><a href="#2-%E6%B8%B8%E6%A0%87%E7%A4%BA%E4%BE%8B">2. 游标示例</a>
+<ul>
+<li><a href="#20-%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE">2.0 准备测试数据</a></li>
+<li><a href="#21-%E7%A4%BA%E4%BE%8B1-forward_only%E7%B1%BB%E5%9E%8B%E6%B8%B8%E6%A0%87">2.1 示例1-FORWARD_ONLY类型游标</a></li>
+<li><a href="#22-%E7%A4%BA%E4%BE%8B2-scroll%E7%B1%BB%E5%9E%8B%E6%B8%B8%E6%A0%87">2.2 示例2-SCROLL类型游标</a></li>
+<li><a href="#23-%E7%A4%BA%E4%BE%8B3-%E4%BD%BF%E7%94%A8%E6%B8%B8%E6%A0%87%E8%BF%9B%E8%A1%8C%E6%9B%B4%E6%96%B0%E5%92%8C%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE">2.3 示例3-使用游标进行更新和删除数据</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div style="color:gray;text-align:right">2020年5月27日 21:10:00</div>
+<hr style="height:8px;border:none;border-top:5px double black;" />
+<h3 id="1-游标简介">1. 游标简介</h3>
+<h4 id="10-理解定义">1.0 理解定义</h4>
+<p>SQL游标(cursor)是一个数据库对象，用于从结果集中检索某一行的数据。</p>
+<p>游标是系统为用户开设的一个数据缓冲区，存放SQL语句的执行结果。每个游标区都有一个名字,用户可以用SQL语句逐一从游标中获取记录，并赋给主变量，交由主语言进一步处理。</p>
+<p>在编程中，我们使用诸如<code>for</code>或<code>while</code>之类的循环一次遍历一项，游标遵循相同的方法。当在SQL中，应用程序逻辑需要一次只处理一行，而不是一次处理整个结果集。可以使用游标完成此操作。</p>
+<p>怎么理解“为了处理查询的结果集中特定行的数据，我们使用游标处理”? 其实，游标的英文单词是cursor,也可以翻译为光标，其实类比我们编辑文档，当想要编辑具体的某一行的时候，我们需要使用光标移到该行进行编辑，在SQL中游标的作用是一样的。</p>
+<p>当然，本质上就是个定义在结果集上的指针，我们可以控制该指针遍历结果集。</p>
+<p>这里补充一下：理论上SQL编写是按照面向集合的思维模式，而我们使用游标则又回到了面向过程的思维模式。此中思想非三言二语可说明白的，相关知识可以参考《SQL进阶教程》2.6章节！</p>
+<h4 id="11-游标的主要作用">1.1 游标的主要作用</h4>
+<blockquote>
+<ol>
+<li>定位到结果集中的某一行。</li>
+<li>对当前位置的数据进行读写。</li>
+<li>可以对结果集中的数据单独操作，而不是整行执行相同的操作。</li>
+<li>是面向集合的数据库管理系统和面向行的程序设计之间的桥梁。</li>
+</ol>
+</blockquote>
+<h4 id="12-游标的优缺点">1.2 游标的优缺点</h4>
+<ol>
+<li>优点：参考上文中游标的作用</li>
+<li>缺点：滥用游标会影响系统性能。<br>
+一般来说，有一个共识：<strong>能不用游标就不要用游标</strong>。<br>
+事实上，编写SQL语句的时候大多数的情形下是没有必要使用游标的。</li>
+</ol>
+<h4 id="13-游标生命周期">1.3 游标生命周期</h4>
+<p>游标的生命周期：</p>
+<ol>
+<li>声明游标(Declare Cursor)</li>
+<li>打开游标(Open Cursor)</li>
+<li>提取游标(Fetch Cursor)</li>
+<li>关闭游标(Close Cursor)</li>
+<li>释放游标(Deallocate Cursor)</li>
+</ol>
+<p>使用游标的过程如下：</p>
+<p><img src="https://img2020.cnblogs.com/blog/1576687/202005/1576687-20200527181344317-1729010210.png" alt="游标生命周期"></p>
+<div style="color:gray;text-align:left;font-size:10px">注：图片来源 https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-cursor/
+</div>
+<h4 id="14-基本语法">1.4 基本语法</h4>
+<p><strong>①完整的声明游标</strong></p>
+<pre><code class="language-sql">DECLARE cursor_name CURSOR [ LOCAL | GLOBAL ] 
+     [ FORWARD_ONLY | SCROLL ] 
+     [ STATIC | KEYSET | DYNAMIC | FAST_FORWARD ] 
+     [ READ_ONLY | SCROLL_LOCKS | OPTIMISTIC ] 
+     [ TYPE_WARNING ] 
+     FOR select_statement 
+     [ FOR UPDATE [ OF column_name [ ,...n ] ] ]
+</code></pre>
+<p>【说明】方括号中的关键之是可选的，具体作用如下：</p>
+<ol>
+<li>
+<p>作用域</p>
+<ul>
+<li>Local：游标作用域为局部，只在定义它的批处理、函数和存储过程中有效。</li>
+<li>Global：游标作用域为全局，由连接执行的任何存储过程或批处理中，都可以引用该游标。</li>
+<li><strong>默认值是Local</strong></li>
+</ul>
+</li>
+<li>
+<p>游标方向</p>
+<ul>
+<li>Forward_Only:指定游标智能从第一行滚到最后一行，种游标称为：<strong>只进游标</strong>。</li>
+<li>Scroll：指定游标在定义的数据集中向任何方向，或任何位置移动。</li>
+<li><strong>默认是Forward_Only</strong></li>
+</ul>
+</li>
+<li>
+<p>游标读取的数据和基表数据关系</p>
+<ul>
+<li>
+<p>Static表明：游标一旦指定了select查询出的结果集，之后任何对于基表（即：select语句所查询的表）内数据的更改不会影响到游标的内容。该种游标称为<strong>静态游标</strong></p>
+</li>
+<li>
+<p>Dynamic和Static完全相反的选项,当底层数据库更改时，游标的内容也随之得到反映，在下一次fetch中，数据内容会随之改变。该种游标称为<strong>动态游标</strong>。</p>
+</li>
+<li>
+<p>KeySet:指明当再游标被打开时游标中的列的顺序时固定的，游标只维持其所依赖的基表的键</p>
+</li>
+<li>
+<p>Fast_Forward:指明一个Forward_Only且Read_Only型游标。注意：<strong>一旦声明了Fast_Forward,则之前就不可以选择Scroll类型的游标。同样，在之后也就不能使用Scroll_Locks和Optimistic选项</strong>。</p>
+</li>
+<li>
+<p><strong>默认值是Dynamic</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>游标是否锁定数据</p>
+<ul>
+<li>
+<p>Read_Only意味着声明的游标只能读取数据,游标不能做任何更新操作</p>
+</li>
+<li>
+<p>Scroll_Locks是另一种极端，将读入游标的所有数据进行锁定，防止其他程序进行更改，以确保更新的绝对成功</p>
+</li>
+<li>
+<p>Optimistic是相对比较好的一个选择，不锁定任何数据，当需要在游标中更新数据时,如果底层表数据更新，则游标内数据更新或删除会不成功，如果，底层表数据未更新，则游标内表数据可以更新或删除</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Type_Warning:指明若游标类型被修改成与用户定义的类型不同时，将发送一个警告信息给客户端。</p>
+</li>
+<li>
+<p>Update[Of colunm_name[,...n]]:定义利用游标可更新的列。若果列出了Of colunm_name[,...n]，则只允许修改列出的列</p>
+</li>
+<li>
+<p>其实，从上面可以看出游标的声明是有许多的可选项。<br>
+但是一般来说，只要记住游标声明的默认值。一般实际开发中，如无必要则使用默认值即可。</p>
+</li>
+</ol>
+<p><strong>②打开游标</strong></p>
+<pre><code class="language-sql">OPEN cursor_name
+</code></pre>
+<p><strong>③提取行数据到指定的变量列表中</strong></p>
+<pre><code class="language-sql">--提取下一行数据
+FETCH NEXT FROM cursor_name INTO variateList;
+--提取上一行数据
+FETCH PRIOR FROM cursor_name INTO variateList;
+--提取第一行数据
+FETCH FIRST FROM cursor_name INTO variateList;
+--提取最后一行数据
+FETCH LAST FROM cursor_name INTO variateList;
+--提取第3行数据（提取指定的行）
+FETCH ABSOLUTE 3 FROM cursor_name INTO variateList;
+--提取当前行的上一行(复数为向后，正数为向前)
+FETCH RELATIVE -1 FROM cursor_name INTO variateList;
+</code></pre>
+<p>【注意】：</p>
+<ul>
+<li>
+<p>游标只有上述的6种移动方式，但是要注意的是：<strong>一旦在声明游标的时候，定义为Forward_Only(默认值),则提取行数据中时候，只能是Fetch next</strong></p>
+</li>
+<li>
+<p><strong><code>INTO</code>列表中声明的变量数目必须与所选列的数目相同</strong>。即：select的结果集中有几列，则INTO后的变量就该有几个。</p>
+</li>
+</ul>
+<p><strong>④关闭游标</strong></p>
+<pre><code class="language-sql">CLOSE cursor_name
+</code></pre>
+<p><strong>⑤释放游标</strong></p>
+<pre><code class="language-sql">DEALLOCATE cursor_name
+</code></pre>
+</br>
+<hr style="height:8px;border:none;border-top:4px double black;" />
+<h3 id="2-游标示例">2. 游标示例</h3>
+<h4 id="20-准备测试数据">2.0 准备测试数据</h4>
+<pre><code class="language-sql">USE [db_Tome1]
+GO
+
+CREATE TABLE [dbo].[szmUser]
+(
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [nchar](10) NULL
+)
+
+Insert into szmUser (UserName) values (N'张三'),(N'李四'),(N'王五'),(N'赵六'), (N'Tom'),(N'Jerry'),(N'Bob');
+
+GO
+</code></pre>
+<h4 id="21-示例1-forward_only类型游标">2.1 示例1-FORWARD_ONLY类型游标</h4>
+<p>使用FORWARD_ONLY声明只进游标，实现从头到尾提取行数据</p>
+<pre><code class="language-sql">DECLARE test_cur CURSOR FORWARD_ONLY --声明游标，定义为FORWARD_ONLY类型
+FOR  SELECT * FROM szmUser--游标作用的结果集
+
+OPEN test_cur --打开游标
+
+DECLARE @userId INT ,@userName NCHAR(10)--声明标量用于存储行数据
+
+
+WHILE ( @@fetch_status = 0 )          
+    BEGIN
+	FETCH NEXT FROM test_cur INTO @userId ,@userName--提取下一行数据并存入定义的变量中
+	PRINT @userName--打印数据
+    END
+
+CLOSE test_cur--关闭游标
+
+DEALLOCATE test_cur--释放游标
+</code></pre>
+<p>消息框打印信息如下：</p>
+<pre><code>张三        
+李四        
+王五        
+赵六        
+Tom       
+Jerry     
+Bob       
+Bob    
+</code></pre>
+<p>【注意】：</p>
+<ul>
+<li>
+<p>全局变量<code>@@Fetch_Status</code>的值表示游标提取状态信息，该状态用于判断Fetch语句返回数据的有效性。<br>
+当执行一条Fetch语句之后，<code>@@Fetch_Status</code>可能出现3种值：</p>
+<table>
+<thead>
+<tr>
+<th>状态码</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Fetch语句成功</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>Fetch语句失败或行不在结果集中</td>
+</tr>
+<tr>
+<td>-2</td>
+<td>提取的行不存在</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>这里声明的游标定义为<code>FORWARD_ONLY</code>类型，所以只能使用<code>FETCH NEXTQ</code>提取数据，若是使用其他的提取数据的方式则会报错，比如使用<code>FETCH LAST</code>，则报错：<br>
+<code>fetch: 提取类型 last 不能与只进游标一起使用。</code></p>
+</li>
+</ul>
+<h4 id="22-示例2-scroll类型游标">2.2 示例2-SCROLL类型游标</h4>
+<p>使用SCROLL声明游标，实现读取特定行数据</p>
+<pre><code class="language-sql">DECLARE test_cur CURSOR scroll --声明游标，定义为FORWARD_ONLY类型
+FOR  SELECT * FROM szmUser--游标作用的结果集
+
+OPEN test_cur --打开游标
+
+DECLARE @userId INT ,@userName NCHAR(10)--声明标量用于存储行数据
+
+FETCH FIRST FROM test_cur INTO　@userId, @userName--提取当前结果集的第一行
+PRINT CAST(@userId as varchar)+':'+@userName
+
+FETCH LAST FROM test_cur INTO @userId ,@userName--提取当前结果集的最后一行
+PRINT CAST(@userId as varchar)+':'+@userName
+
+FETCH prior From test_cur INTO @userId ,@userName--提取当前游标指向的上一行数据
+PRINT CAST(@userId as varchar)+':'+@userName
+
+FETCH ABSOLUTE 2 FROM test_cur INTO @userId ,@userName--提取当前结果集中的第二行数据
+PRINT CAST(@userId as varchar)+':'+@userName
+
+FETCH RELATIVE 1 FROM test_cur INTO @userId ,@userName--提取当前游标指向的下一行数据
+PRINT CAST(@userId as varchar)+':'+@userName
+
+FETCH RELATIVE -1 FROM test_cur INTO @userId ,@userName--提取当前游标指向的上一行数据
+PRINT CAST(@userId as varchar)+':'+@userName
+
+CLOSE test_cur--关闭游标
+
+DEALLOCATE test_cur--释放游标
+</code></pre>
+<p>消息框打印信息如下：</p>
+<pre><code>1:张三        
+7:Bob       
+6:Jerry     
+2:李四        
+3:王五        
+2:李四        
+</code></pre>
+<h4 id="23-示例3-使用游标进行更新和删除数据">2.3 示例3-使用游标进行更新和删除数据</h4>
+<p>使用游标对结果集中数据进行更改和删除</p>
+<p>示例：删除<code>SELECT * FROM szmUser</code>结果集中的名叫张三的的人，同时将该结果集中名叫李四的名字改为李四四</p>
+<pre><code class="language-sql">DECLARE	test_cur CURSOR SCROLL 
+FOR  SELECT * FROM szmUser
+
+
+OPEN test_cur
+
+DECLARE @userId int ,@userName nchar(10)
+
+FETCH First FROM test_cur INTO @userId,@userName--定位游标到第一行（注意这里，一定要将游标首先定位到某一行）
+
+WHILE (@@FETCH_STATUS=0)
+BEGIN 
+	IF @userName='李四'
+		BEGIN 
+		Update szmUser Set UserName='李四四' WHERE CURRENT OF  test_cur  --修改当前行
+		END
+
+	IF @userName='张三'
+		BEGIN 
+		DELETE szmUser  WHERE CURRENT OF  test_cur  --删除当前行
+		END
+
+     FETCH NEXT FROM test_cur INTO @userId ,@userName  --移动游标
+ END
+
+ CLOSE test_cur
+
+ DEALLOCATE test_cur
+</code></pre>
+<p>【注意】：</p>
+<ul>
+<li>
+<p>在这里使用while循环一定要首先将定位游标的起始位置，类比其它类型的编程语言中循环语句，循环就要有起始位置，步长，结束位置</p>
+</li>
+<li>
+<p>注意：一开始，使用的测试表虽然定义了标识规范及标识增量，但是没有定义主键，测试的时候报错：<code>游标是只读的。 语句已终止。</code>,其实只是因为表没有主键或唯一性约束，所以<code>CURRENT OF test_cur</code>会报错<br>
+当然，也是可以在更新或删除语句中使用where指定具体的记录。</p>
+</li>
+</ul>
+<h4 id="24-示例4-静态游标和动态游标演示">2.4 示例4-静态游标和动态游标演示</h4>
+<h5 id="240-说明">2.4.0 说明</h5>
+<p>游标在声明的时候，可以定义是静态游标还是动态游标，游标默认是动态游标。</p>
+<p><strong>静态游标</strong>在打开时会将数据集存储在tempdb中，因此显示的数据与游标打开时的数据集保持一致，在游标打开以后对数据库的更新不会显示在游标中。</p>
+<p><strong>动态游标</strong>在打开后会反映对数据库的更改。所有UPDATE、INSERT 和 DELETE 操作都会显示在游标的结果集中，结果集中的行数据值、顺序和成员在每次提取时都会改变。</p>
+<p>简而言之：静态游标的数据是固定的，不会因为基表的改变而改变；动态游标的数据是随着基表变化而变化的。</p>
+<h5 id="241-示例-静态游标">2.4.1 示例-静态游标</h5>
+<pre><code class="language-sql">DECLARE @userId INT , @userName NCHA(10)                    --声明变量，存储行数据
+DECLARE test_cur CURSOR STATIC				    --声明静态游标
+FOR SELECT  * FROM    szmUser				    --游标遍历的结果集
+OPEN test_cur					            --打开游标
+FETCH NEXT FROM test_cur INTO @userId,@userName             --取数据
+WHILE ( @@fetch_status = 0)                                 --判断是否还有据
+    BEGIN
+        PRINT RTRIM(@userId) +':'+ @userName
+		UPDATE szmUser SET UserName='测试' WHEREid=4   --测试静态动态用
+        FETCH NEXT FROM test_cur INTO @userId,@userName        --游标进入下一行
+    END
+CLOSE test_cur
+DEALLOCATE test_cur
+</code></pre>
+<p>运行结果：</p>
+<pre><code>2:李四        
+3:王五        
+4:赵六        
+5:Tom       
+6:Jerry     
+7:Bob       
+8:Mark      
+</code></pre>
+<p>【说明】：我们定义的是静态游标，所以一旦当结果集进游标区后，基表的数据发生改变游标读取数据依旧是最初入游标区的数据。<br>
+所以在这里，当游标提取一行数据后，我们就把基表中id=的userName改为“测试”，但是游标继续执行，读取的还是初进入游标区的数据，即<code>id=4,userName=赵六</code></p>
+<h5 id="242-示例-动态游标">2.4.2 示例-动态游标</h5>
+<p>声明游标的时候，默认就是动态游标，所以这里我们只要把上面的代码中的<code>STATIC</code>删除即可，运行结果如下,你好发现在基表中对数据的修改，直接是反应到已声明的游标中。我们修改的id=4的用户名，直接显示在游标的数据中。</p>
+<pre><code class="language-sql">2:李四        
+3:王五        
+4:测试  --修改基表数据直接作用在已声明的游标中      
+5:Tom       
+6:Jerry     
+7:Bob       
+8:Mark      
+</code></pre>
+<h5 id="243-动态和静态区别">2.4.3 动态和静态区别</h5>
+<ul>
+<li>
+<p>声明游标默认是动态游标，对基表中数据的改变影响已声明的动态游标，不影响已声明的静态游标。</p>
+<p><strong>原则是应该尽量避免使用静态游标</strong></p>
+</li>
+<li>
+<p>动态游标的打开速度比静态游标的打开速度快。当打开静态游标时，必须生成内部临时工作表，而动态游标则不需要。</p>
+</li>
+<li>
+<p>在联接中，静态游标的速度可能比动态游标的速度快。因为动态游标在滚动时反应对结果集内的各行数据所做的更改，它会消耗资源去检测基表的更改，因此对于复杂的查询，且不需要反映基表的更新的游标的处理应将其定义为静态游标。</p>
+</li>
+</ul>
+</br>
+<hr style="height:8px;border:none;border-top:4px double black;" />
+<h3 id="3-使用原则">3. 使用原则</h3>
+<ul>
+<li>Rule 1：能不用游标则不用游标</li>
+<li>用完之后是一定要及时的关闭和释放游标</li>
+<li>不要在有大量数据的结果集中定义游标</li>
+<li>尽量避免使用静态游标</li>
+<li>尽量不要在游标上更新数据</li>
+<li>只进游标（First-Forward)若是只读，可以使用Fast-Forward定义游标</li>
+</ul>
+</br>
+<hr style="height:8px;border:none;border-top:4px double black;" />
+<h3 id="4-参考">4. 参考</h3>
+<ul>
+<li>
+<p><a href="https://www.c-sharpcorner.com/article/cursors-in-sql-server/">Cursors In SQL Server</a></p>
+</li>
+<li>
+<p><a href="https://www.sqlservertutorial.net/sql-server-stored-procedures/sql-server-cursor/">SQL Server CURSOR</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/xiongzaiqiren/p/sql-cursor.html">SQL游标(cursor)详细说明及内部循环使用示例</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/careyson/archive/2011/11/01/2231381.html">T-SQL查询进阶-10分钟理解游标</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/sinat_28984567/article/details/79811887">SQL SERVER 游标使用</a></p>
+</li>
+<li>
+<p><a href="https://blog.csdn.net/mikkles/article/details/78698766">SQL中的游标</a></p>
+</li>
+<li>
+<p><a href="https://www.cnblogs.com/knowledgesea/p/3699851.html">SQL Server游标</a></p>
+</li>
+</ul>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-27 21:36</span>&nbsp;
+<a href="https://www.cnblogs.com/shanzhiming/">shanzm</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12975175" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12975175);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 485477, cb_blogApp = 'shanzhiming', cb_blogUserGuid = 'e6e2d1bf-892b-4d8e-b066-08d66f389d49';
+    var cb_entryId = 12975175, cb_entryCreatedDate = '2020-05-27 21:36', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 shanzm
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <a name="top"></a>
+<span id="back-to-top"  style="float:right;color: #AD5D0F;font-size: 15px;font-weight:bold;" ><a href="#top">TOP</a></span>
+
+<!----------------------------------------------------------重新自定义页面尾部------开始-------已注释了-------------------------------->
+<!--
+<div id="my_footer">
+版权所有 © 2019 <a href="https://www.cnblogs.com/shanzhiming/" style="color:#FFFFFF;">shanzm</a>  感谢<a href="https://i.cnblogs.com/" style="color:#FFFFFF;">博客园</a>提供的平台
+<br>
+如果没有特别注明，本博客中的博文使用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" style="color:#FFFFFF;">CC-BY-4.0</a> 许可证
+</div>
+若是使用这个页脚则把下面的css放到上面
+#my_footer {
+    background: #04040433;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 20px;
+    height: 50px;
+    color: #EEE;
+    border-top: 2px solid #e8e8e8;
+    border-bottom: 20px solid #000;
+}
+-->
+    </div>
+</body>
+</html>

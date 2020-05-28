@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>zzuCharles - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/buildtowin/bundle-buildtowin.min.css?v=lp23bZd4RUCf9TGsihJRLSq5M_182P4N8YRMn1A2CWo" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/buildtowin/bundle-buildtowin-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/zzuyczhang/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/zzuyczhang/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/zzuyczhang/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 217961;
+        var currentBlogApp = 'zzuyczhang';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BuildtoWin';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/zzuyczhang/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/zzuyczhang/">ζั͡ޓއއއ๓   Keyboard chase youth</a>
+</h1>
+<h2>
+Be trapped in learning
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/zzuyczhang/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/zzuCharles">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/zzuyczhang/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+26&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+4</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/12768529.html">
+    Python简单计算器
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：def inputcheck(n): while True: try: return float(n) except: print(&quot;输入错误,输入值只能为数字:&quot;) n = input() def add(x, y): return x + y def subtract(x, y): return            <a href="https://www.cnblogs.com/zzuyczhang/p/12768529.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:50 zzuCharles 阅读 (5) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768529" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2018/03/06.html">2018年3月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/8514097.html">
+    用户价值模型 CITE :https://www.jianshu.com/p/34199b13ffbc
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：RFM用户价值模型的原理和应用 ▌定义 在众多的用户价值分析模型中，RFM模型是被广泛被应用的；RFM模型是衡量客户价值和客户创利能力的重要工具和手段，在RFM模式中，R(Recency)表示客户购买的时间有多远，F(Frequency)表示客户在时间内购买的次数，M (Monetary)表示客户在            <a href="https://www.cnblogs.com/zzuyczhang/p/8514097.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-03-06 14:13 zzuCharles 阅读 (547) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=8514097" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/8514009.html">
+    用户生命周期模型
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、用户生命周期定义：用户生命周期是为了定位每个用户在哪个阶段，对于某个阶段的用户进行不同的营销策略。比如初期用户：还没有养成使用习惯，需要外在力量进行推动达到成熟习惯。 二、使用RFM模型中的RF模型。 凭次划分标准：购买1~2次的用户为初级用户，购买3~7次为成长用户，购买7次以上为成熟用户 未            <a href="https://www.cnblogs.com/zzuyczhang/p/8514009.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-03-06 13:55 zzuCharles 阅读 (700) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=8514009" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2018/03/02.html">2018年3月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/8491675.html">
+    机器学习十大常用算法(CITE  不会停的蜗牛 ) interesting
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：算法如下： 1. 决策树 根据一些 feature 进行分类，每个节点提一个问题，通过判断，将数据分为两类，再继续提问。这些问题是根据已有数据学习出来的，再投入新数据的时候，就可以根据这棵树上的问题，将数据划分到合适的叶子上。 2. 随机森林 视频 在源数据中随机选取数据，组成几个子集 S 矩阵是源            <a href="https://www.cnblogs.com/zzuyczhang/p/8491675.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-03-02 09:55 zzuCharles 阅读 (198) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=8491675" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2016/07/18.html">2016年7月18日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/5681299.html">
+    Linux 安装Oracle11g完整安装图文教程另附基本操作 （分享）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、修改操作系统核心参数 在Root用户下执行以下步骤： 1）修改用户的SHELL的限制，修改/etc/security/limits.conf文件 输入命令：vi /etc/security/limits.conf，按i键进入编辑模式，将下列内容加入该文件。 1234567oracle soft             <a href="https://www.cnblogs.com/zzuyczhang/p/5681299.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2016-07-18 15:11 zzuCharles 阅读 (67315) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=5681299" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2016/02/19.html">2016年2月19日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/5201290.html">
+    oracle 命中率
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一般在I/O 使用中，为了提高系统处理速度，系统提前将数据读入一块内存区，叫高速缓存，但提前读入的数据未必就是需要的，这就是命中率.。计算公式为命中率=1-(physical reads/(db blockgets+consistent gets)其中：db block gets 数据请求总数con            <a href="https://www.cnblogs.com/zzuyczhang/p/5201290.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2016-02-19 15:54 zzuCharles 阅读 (1059) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=5201290" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2015/09/08.html">2015年9月8日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/4790564.html">
+    SQL学习总结笔记
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：SQL语句的效率不仅是sql语句的设计还有一些其他的原因比如网络 、是否有视图、是否有索引等等。这里主要描述的是我个人对于sql设计方面优化的一些见解：首先要说明一下的是数据库SQL解析顺序： （1）from：可以理解为检查表是否存在 （2）where ： {index-》否则正常读取-》查找到...            <a href="https://www.cnblogs.com/zzuyczhang/p/4790564.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2015-09-08 08:55 zzuCharles 阅读 (1202) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4790564" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2015/08/07.html">2015年8月7日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/4711077.html">
+    hash join
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：hash join是oracle里面一个非常强悍的功能，当做hash join时，oracle会选择一个表作为驱动表，先根据过滤条件排除不必要的数据，然后将结果集做成hash表，放入进程的hash area，接着扫描第二张表，将行的键值做hash运算，到内存的hash表里面去探测，如果探测成功，就返...            <a href="https://www.cnblogs.com/zzuyczhang/p/4711077.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2015-08-07 15:59 zzuCharles 阅读 (839) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4711077" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2015/07/22.html">2015年7月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/4667126.html">
+    Tomcat详细安装配置
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1、首先是Tomcat的获取和安装。 获取当然得上Apache的官方网站下载，开源免费，而且带宽也足够。下载会很快。 这是两种不同的下载，一个是普通安装版本，一个是解压安装版本。使用起来是一样的，只是在普通安装版本中有一些界面可提供对Tomcat的快捷设置，而且普通安装会将Tomca...            <a href="https://www.cnblogs.com/zzuyczhang/p/4667126.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2015-07-22 13:15 zzuCharles 阅读 (96) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4667126" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/zzuyczhang/archive/2015/04/30.html">2015年4月30日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/zzuyczhang/p/4469351.html">
+    源自http://www.cnblogs.com/sciencefans/p/4394861.html
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：人脸识别的四大块：Face detection, alignment, verification and identification(recognization)，本别代表从一张图中识别出人脸位置，把人脸上的特征点定位，人脸校验和人脸识别。（后两者的区别在于，人脸校验是要给你两张脸问你是不是同一个...            <a href="https://www.cnblogs.com/zzuyczhang/p/4469351.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2015-04-30 17:03 zzuCharles 阅读 (166) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4469351" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/zzuyczhang/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 zzuCharles
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

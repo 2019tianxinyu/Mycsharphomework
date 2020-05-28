@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>xiaogui340 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/arrow/bundle-arrow.min.css?v=L-STHnRipM9Vp-O5CxV_IvvLLLSaib7U0fJDhFfRZZ8" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/arrow/bundle-arrow-mobile.min.css?v=g8joWIb9zf0v6qSSYjzuwnPNxYNYutz3bgwMjs-jMEg" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/gt1987/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/gt1987/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/gt1987/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 510284;
+        var currentBlogApp = 'gt1987';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'arrow';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <!--done-->
+<div id="header">
+	
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/gt1987/">xiaogui340</a>
+<br>
+		
+
+
+	</div>
+</div>
+
+
+</div>
+<div id="mylinks">
+<!--done-->
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+&nbsp;&nbsp;&nbsp;
+
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/gt1987/">
+首页</a>
+&nbsp;&nbsp;&nbsp;
+
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+&nbsp;&nbsp;&nbsp;
+
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/xiaogui340">
+联系</a>&nbsp;&nbsp;&nbsp;
+
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/gt1987/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/gt1987/rss/">
+    <img src="/skins/arrow/images/xml.gif" alt="订阅" />
+</a>&nbsp;&nbsp;&nbsp;
+
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+
+
+</div>
+<div id="mytopmenu">
+	
+		<div class="blogStats">随笔 - 
+16&nbsp;
+文章 - 
+0&nbsp;评论 - 
+1&nbsp;trackbacks - 
+0
+</div>
+
+
+	
+</div>
+<div id="leftcontent">
+	
+		<DIV id="leftcontentcontainer">
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script><br>
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script></DIV>		
+	
+</div>
+<div id="centercontent">
+	
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12973001.html">
+    .NET CORE 依赖注入 实践总结
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：知识点回顾 依赖包。&#160;Microsoft.Extensions.DependencyInjection.Abstractions 核心对象和方法。 IServiceCollection。注入对象的容器。注意它只存储对象的元数据，并不保存实例对象。 IServiceProvider。注入对象的提供者。            <a href="https://www.cnblogs.com/gt1987/p/12973001.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-05-27 18:03
+xiaogui340
+<span class="post-view-count">阅读(196)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(2)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12973001" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/05/24.html">2020年5月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12696864.html">
+    集群任务消费组件TaskScheduler设计
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：业务背景 假设我们这样一个需求：每天晚上定时将数据库数据刷新到缓存中。数据库为 10 库 10 表。每张表 100 万数据。 需求分析 10库10表总共1亿条数据，各条数据只要序列化为字符串，存入缓存即可，相互无关联。但数据量较大，单机多线程执行的情况下，执行性能也是极慢的。所以我们考虑集群的方式处            <a href="https://www.cnblogs.com/gt1987/p/12696864.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-05-24 19:43
+xiaogui340
+<span class="post-view-count">阅读(12)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12696864" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/04/18.html">2020年4月18日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12728541.html">
+    短信验证码验证机制 服务端独立接口实现
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：在日常业务场景中，有很多安全性操作例如密码修改、身份认证等等类似的业务，需要先短信验证通过再进行下一步。 一种直接的方案是提供2个接口： 1.SendActiveCodeFor密码修改，发送相应的短信+验证Code。 2.VerifyActiveCodeFor密码修改，参数带入手机接收到的短信验证C            <a href="https://www.cnblogs.com/gt1987/p/12728541.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-04-18 22:15
+xiaogui340
+<span class="post-view-count">阅读(255)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12728541" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12531161.html">
+    IdentityServer4 自定义证书设置
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：IdentityServer4组件token类型如果选择jwt，则需要RS256算法生成非对称签名，私钥服务端保留，公钥则通过IS4公钥接口对外提供。默认情况下，IS4提供了AddDeveloperSigningCredential方法作为开发环境的生成测试RSA文件，提供私钥和公钥。如果正式一点的            <a href="https://www.cnblogs.com/gt1987/p/12531161.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-03-27 17:20
+xiaogui340
+<span class="post-view-count">阅读(73)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12531161" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/03/23.html">2020年3月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12552735.html">
+    .Net Core 2.2 升级到 .Net Core 3.1 填坑
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：今天尝试将自己的小项目从.net core 2.2 升级到 3.1，发现并不是简单的 一键升级 这么简单（惭愧）！！记录下升级的步骤以及过程中遇到的问题。 所有项目目标框架选择为.net core 3.1 发现项目依赖项的包中出现黄色感叹号，编译成功，但是项目启动后显示警告。 原因警告已经说的很清楚            <a href="https://www.cnblogs.com/gt1987/p/12552735.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-03-23 16:21
+xiaogui340
+<span class="post-view-count">阅读(463)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12552735" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2020/03/13.html">2020年3月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12486140.html">
+    API服务版本控制 Microsoft.AspNetCore.Mvc.Versioning
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：我们在进行webapi服务开发时，会遇到一些多个版本的api共存的情况发生，例如某一版本APP上线后，需求发生变更，需要在下一个升级版本更新API，但同时又需要保证这个APP版本能正常使用，这时候就需要采用API服务版本控制。 版本控制一般有以下几种方式： 在url上增加查询字符串参数的方式，追加版            <a href="https://www.cnblogs.com/gt1987/p/12486140.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2020-03-13 14:10
+xiaogui340
+<span class="post-view-count">阅读(131)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12486140" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2019/12/26.html">2019年12月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12103276.html">
+    Web API 安全问题 
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：转载：https://www.cnblogs.com/developersupport/p/WebAPI-Security.html 目录 Web API 安全概览 安全隐患 1. 注入(Injection) 2. 无效认证和Session管理方式(Broken Authentication and            <a href="https://www.cnblogs.com/gt1987/p/12103276.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2019-12-26 17:20
+xiaogui340
+<span class="post-view-count">阅读(87)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12103276" rel="nofollow">
+    编辑
+</a>
+</div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/12103089.html">
+    一套代码同时支持.NET Framework和.NET Core 
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：转自：https://www.cnblogs.com/tianqing/p/11614303.html 在.NET Core的迁移过程中，我们将原有的.NET Framework代码迁移到.NET Core。如果线上只有一个小型的应用还好，迁移升级完成后，只需要维护.NET Core这个版本的代码。            <a href="https://www.cnblogs.com/gt1987/p/12103089.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2019-12-26 16:59
+xiaogui340
+<span class="post-view-count">阅读(74)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12103089" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2019/11/06.html">2019年11月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/11806053.html">
+    Topshelf+Quartz在.Net Core框架下的实现
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：在我们日常开发工作中，经常会运用到Quartz+Topshelf组件的组合来开发一些定时任务。那么在.Net Core下如何去使用呢？我自己尝试搭建了一个测试项目，过程中遇到了以下一些问题： Quartz 配置文件及版本问题。我们知道Quartz有2个配置文件，quartz.config和quart            <a href="https://www.cnblogs.com/gt1987/p/11806053.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2019-11-06 16:23
+xiaogui340
+<span class="post-view-count">阅读(456)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(3)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11806053" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/gt1987/archive/2019/06/26.html">2019年6月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/gt1987/p/11011754.html">
+    .NET CORE之Authentication
+</a>
+
+        </div>
+        
+
+    <div class="c_b_p_desc">
+摘要：这篇文章以实现一个Basic认证来了解下在 .NET CORE 下面如何去实现认证。 首先可以肯定的是认证实现是基于 Middlerware 管道实现的，官方源码地址：https://github.com/aspnet/Security。可以看到官方已经实现了jwt、oauth、google等诸多第            <a href="https://www.cnblogs.com/gt1987/p/11011754.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        <div class="postDesc">posted @ 2019-06-26 10:41
+xiaogui340
+<span class="post-view-count">阅读(664)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11011754" rel="nofollow">
+    编辑
+</a>
+</div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/gt1987/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	<!--done-->
+<div class="footer">
+	Copyright &copy; 2020 xiaogui340
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+ Powered by: <a href="http://www.cnblogs.com" class="footerlink">博客园</a><br>
+</div>
+
+
+</div>
+
+
+
+
+    
+</body>
+</html>

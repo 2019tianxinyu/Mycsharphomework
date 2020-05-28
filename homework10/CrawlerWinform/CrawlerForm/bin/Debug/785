@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_LRainner</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:81160fd1-0930-4f2f-ab4e-c8169964ae05;id=619</id>
+  <updated>2020-04-24T09:43:13Z</updated>
+  <author>
+    <name>LRainner</name>
+    <uri>http://www.cnblogs.com/LRainner/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12769020.html</id>
+    <title type="text">Linux学习笔记（九）Vim文本编辑器的使用 - LRainner</title>
+    <summary type="text">Vim文本编辑器的使用 Vim的工作模式 1.命令模式 2.输入模式 3.编辑模式 进入Vim 1.使用Vim打开文件 2.直接进入指定位置 Vim基本命令 1.插入命令 2.光标移动命令 3.使用Vim进行编辑 保存退出命令 Vim的工作模式 命令模式 输入模式 编辑模式 命令模式 在使用Vim编</summary>
+    <published>2020-04-24T09:43:00Z</published>
+    <updated>2020-04-24T09:43:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12769020.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12769020.html" />
+    <content type="html">【摘要】Vim文本编辑器的使用 Vim的工作模式 1.命令模式 2.输入模式 3.编辑模式 进入Vim 1.使用Vim打开文件 2.直接进入指定位置 Vim基本命令 1.插入命令 2.光标移动命令 3.使用Vim进行编辑 保存退出命令 Vim的工作模式 命令模式 输入模式 编辑模式 命令模式 在使用Vim编 &lt;a href="http://www.cnblogs.com/LRainner/p/12769020.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12755615.html</id>
+    <title type="text">Linux学习笔记（八）权限管理命令 - LRainner</title>
+    <summary type="text">权限管理命令 权限位含义 chmod chown chgrp umask默认权限 权限位含义 chmod 英文原意：change file mode bits 功能：修改文件的权限模式 语法：chmod 选项[ R] 权限模式 文件名 chown 英文原意：change file owner and</summary>
+    <published>2020-04-22T12:19:00Z</published>
+    <updated>2020-04-22T12:19:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12755615.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12755615.html" />
+    <content type="html">【摘要】权限管理命令 权限位含义 chmod chown chgrp umask默认权限 权限位含义 chmod 英文原意：change file mode bits 功能：修改文件的权限模式 语法：chmod 选项[ R] 权限模式 文件名 chown 英文原意：change file owner and &lt;a href="http://www.cnblogs.com/LRainner/p/12755615.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12740220.html</id>
+    <title type="text">Linux学习笔记（七）关机、重启及常用的网络命令 - LRainner</title>
+    <summary type="text">关机、重启命令 sync shutdown reboot init sync 英文原意：flush file system buffers 功能：刷新文件系统缓冲区，将内存中的数据保存到硬盘中 语法：sync shutdown 英文原意：bring the system down 功能：关机和重启 </summary>
+    <published>2020-04-20T12:29:00Z</published>
+    <updated>2020-04-20T12:29:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12740220.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12740220.html" />
+    <content type="html">【摘要】关机、重启命令 sync shutdown reboot init sync 英文原意：flush file system buffers 功能：刷新文件系统缓冲区，将内存中的数据保存到硬盘中 语法：sync shutdown 英文原意：bring the system down 功能：关机和重启  &lt;a href="http://www.cnblogs.com/LRainner/p/12740220.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12736537.html</id>
+    <title type="text">Linux学习笔记（六）压缩和解压缩命令 - LRainner</title>
+    <summary type="text">压缩和解压缩命令 zip unzip gzip gunzip bzip2 bunzip2 tar zip （.zip格式的压缩文件） 英文原意：package and compress (archive) files 功能：压缩文件或目录 语法：zip 选项[ r] 压缩包名 源文件或源目录 unz</summary>
+    <published>2020-04-20T03:05:00Z</published>
+    <updated>2020-04-20T03:05:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12736537.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12736537.html" />
+    <content type="html">【摘要】压缩和解压缩命令 zip unzip gzip gunzip bzip2 bunzip2 tar zip （.zip格式的压缩文件） 英文原意：package and compress (archive) files 功能：压缩文件或目录 语法：zip 选项[ r] 压缩包名 源文件或源目录 unz &lt;a href="http://www.cnblogs.com/LRainner/p/12736537.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12733015.html</id>
+    <title type="text">Linux学习笔记（五）搜索命令 - LRainner</title>
+    <summary type="text">搜索命令 whereis which locate find whereis 英文原意：locate the binary，source，and manual page files for a command 功能：查找二进制命令、源文件和帮助文档的命令 语法：where 选项[ bm] 命令 wh</summary>
+    <published>2020-04-19T11:20:00Z</published>
+    <updated>2020-04-19T11:20:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12733015.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12733015.html" />
+    <content type="html">【摘要】搜索命令 whereis which locate find whereis 英文原意：locate the binary，source，and manual page files for a command 功能：查找二进制命令、源文件和帮助文档的命令 语法：where 选项[ bm] 命令 wh &lt;a href="http://www.cnblogs.com/LRainner/p/12733015.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12714892.html</id>
+    <title type="text">Linux学习笔记（四）帮助命令 - LRainner</title>
+    <summary type="text">帮助命令 man info help help man 英文原意：format and display the on line manual pages 功能：显示联机帮助手册 语法：man 选项[ fk] 命令 info （和man命令不同的是，info命令的帮助信息是一套完整的资料） 语法：in</summary>
+    <published>2020-04-16T10:41:00Z</published>
+    <updated>2020-04-16T10:41:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12714892.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12714892.html" />
+    <content type="html">【摘要】帮助命令 man info help help man 英文原意：format and display the on line manual pages 功能：显示联机帮助手册 语法：man 选项[ fk] 命令 info （和man命令不同的是，info命令的帮助信息是一套完整的资料） 语法：in &lt;a href="http://www.cnblogs.com/LRainner/p/12714892.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12707623.html</id>
+    <title type="text">Linux学习笔记（三）目录和文件都能操作的命令 - LRainner</title>
+    <summary type="text">目录和文件都能操作的命令 rm cp mv rm 英文原意：remove files or directories 功能：删除文件或目录 语法：rm 选项[ fir] 文件或目录 cp 英文原意：copy files and directories 功能：复制文件和目录 语法：cp 选项[ adil</summary>
+    <published>2020-04-15T11:57:00Z</published>
+    <updated>2020-04-15T11:57:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12707623.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12707623.html" />
+    <content type="html">【摘要】目录和文件都能操作的命令 rm cp mv rm 英文原意：remove files or directories 功能：删除文件或目录 语法：rm 选项[ fir] 文件或目录 cp 英文原意：copy files and directories 功能：复制文件和目录 语法：cp 选项[ adil &lt;a href="http://www.cnblogs.com/LRainner/p/12707623.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12700127.html</id>
+    <title type="text">Linux学习笔记（二）文件操作命令 - LRainner</title>
+    <summary type="text">文件操作命令 touch stat cat more less head tail ln touch 英文原意: change file timestamps 功能: 修改文件的时间戳 语法: touch 文件名 访问空文件，如果文件不存在，则会创建新文件 stat 英文原意: display fi</summary>
+    <published>2020-04-14T10:53:00Z</published>
+    <updated>2020-04-14T10:53:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12700127.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12700127.html" />
+    <content type="html">【摘要】文件操作命令 touch stat cat more less head tail ln touch 英文原意: change file timestamps 功能: 修改文件的时间戳 语法: touch 文件名 访问空文件，如果文件不存在，则会创建新文件 stat 英文原意: display fi &lt;a href="http://www.cnblogs.com/LRainner/p/12700127.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/LRainner/p/12692812.html</id>
+    <title type="text">Linux学习笔记（一）目录处理命令 - LRainner</title>
+    <summary type="text">目录处理命令 ls cd mkdir rmdir tree ls 英文原意: list 功能: 显示目录文件 语法: ls 选项[ ald] [文件或目录] cd 英文原意: change directory 功能: 切换所在目录 语法: cd [目录] mkdir 英文原意: make direc</summary>
+    <published>2020-04-13T09:42:00Z</published>
+    <updated>2020-04-13T09:42:00Z</updated>
+    <author>
+      <name>LRainner</name>
+      <uri>http://www.cnblogs.com/LRainner/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/LRainner/p/12692812.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/LRainner/p/12692812.html" />
+    <content type="html">【摘要】目录处理命令 ls cd mkdir rmdir tree ls 英文原意: list 功能: 显示目录文件 语法: ls 选项[ ald] [文件或目录] cd 英文原意: change directory 功能: 切换所在目录 语法: cd [目录] mkdir 英文原意: make direc &lt;a href="http://www.cnblogs.com/LRainner/p/12692812.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

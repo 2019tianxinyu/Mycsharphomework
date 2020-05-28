@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>随笔列表第2页 - 凉鞋的笔记 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey.min.css?v=Fx4xdLkGuHnlaG7xntG_wAnZrnorJWp5u_TWKqbvMF0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey-mobile.min.css?v=cYvlxMu_nd6MVfg-vi7YqOC6FaZ7VHFsDM166vO_ekA" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/liangxiegame/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/liangxiegame/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/liangxiegame/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 262744;
+        var currentBlogApp = 'liangxiegame';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BlackLowKey';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/liangxiegame/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/liangxiegame/">凉鞋的笔记</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/liangxiegame/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%87%89%E9%9E%8B%E7%9A%84%E7%AC%94%E8%AE%B0">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/liangxiegame/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+71&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+46</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+<div id="homepage_top_pager" class="topicListFooter">
+    
+
+<div class="pager">
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=1">上一页</a>
+    
+    
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=1">1</a>
+    2
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=3">3</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=4">4</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=5">5</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=6">6</a>
+    ···
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=8">8</a>
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=3">下一页</a>
+</div>
+</div>
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/30.html">2020年3月30日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12597193.html">
+    Unity 游戏框架搭建 2019 (十三~十五) 接下来要学什么？&amp; 第九个示例
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在之前的两篇中，我们使用 public 静态方法对之前的内容进行了一个抽取，有了 public 静态方法这个工具，我们的学习行为也发生了一点变化。 在没使用 public 关键字之前呢，每一个示例仅仅是一个知识的记录作用。而我们用了 public 关键字之后，我们可以把知识作为一个可以复用的方法。但            <a href="https://www.cnblogs.com/liangxiegame/p/12597193.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-30 10:58 凉鞋的笔记 阅读 (270) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12597193" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/29.html">2020年3月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12591418.html">
+    Unity 游戏框架：命名的力量--变量
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：变量的命名入门 大家先来试着理解一下这段代码： 代码本身很简单，就算不用去看 TodoList 类和 Todo 类的定义，也是可以读懂以上代码的。 那这是如何做到的呢? 答案就是:进行合适的命名。 而达到以上代码的效果的主要是变量的命名。 因为以上出现的类都是 Model 类，而 Model 则是用            <a href="https://www.cnblogs.com/liangxiegame/p/12591418.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-29 11:38 凉鞋的笔记 阅读 (127) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12591418" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/28.html">2020年3月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12586328.html">
+    Unity 游戏框架：UI 管理神器 UI Kit 
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：UI Kit 快速入门 首先我们来进行 UI Kit 的快速入门 制作一个界面的，步骤如下: 1. 准备 2. 生成代码 3. 逻辑编写 4. 运行 1. 准备 先创建一个场景 TestUIHomePanel。 删除 Hierarchy 其他的 GameObject。 搜索 UIRoot.prefa            <a href="https://www.cnblogs.com/liangxiegame/p/12586328.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-28 11:09 凉鞋的笔记 阅读 (529) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12586328" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12579604.html">
+    Unity 游戏框架搭建 2019 (九~十二) 第一章小结&amp;第二章简介&amp;第八个示例
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：第一章小结 为了强化教程的重点，会在合适的时候进行总结与快速复习。 第二章 简介 在第一章我们做了知识库的准备，从而让我们更高效地收集示例。 在第二章，我们就用准备好的导出工具试着收集几个示例，这些示例中有的是我们后续库的基础工具，也有的是在项目中非常实用的小工具，还有一些示例是实践了在框架搭建方向            <a href="https://www.cnblogs.com/liangxiegame/p/12579604.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-27 10:15 凉鞋的笔记 阅读 (238) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12579604" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/26.html">2020年3月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12572581.html">
+    Unity 游戏框架：资源管理神器 ResKit
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：此篇文章准备了将近两周的时间，写了改，改了删。之前有朋友反馈，上一个文章太冗长了，影响阅读体验，这一讲就走个精简路线。所以只要不是很重要的内容就都删减掉了。 文章分两个部分，第一部分是原理，第二部分是实战。 原理部分，初学者尽量去理解就好，不用跟着敲，列出的代码都是示意代码。 实战部分是留给初学者的            <a href="https://www.cnblogs.com/liangxiegame/p/12572581.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-26 10:20 凉鞋的笔记 阅读 (290) 评论 (7)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12572581" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12572473.html">
+    Unity 游戏框架搭建 2019 (八) 关于导出 UnityPackage 功能的小结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：导出 UnityPackage 功能到这里要告一段落了，相信认真看的童鞋都有收获。笔者在写教程之前纠结了很久。到底是先给出一坨工具代码，然后再逐个讲解比较好，还是一篇一个知识点比较好。后来想通了。工具和知识点都要同时写。也就诞生了这个系列的教程，这对笔者来说是一个挑战。 在 框架搭建 2017 年版            <a href="https://www.cnblogs.com/liangxiegame/p/12572473.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-26 10:06 凉鞋的笔记 阅读 (34) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12572473" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/25.html">2020年3月25日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12567564.html">
+    Unity 游戏框架搭建 2019 (七) 自定义快捷键
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在上一篇我们搞定了一键导出这个功能。那么在这篇文章中我们接着往下探索。 我们还是列出我们的导出步骤: 1. 点击菜单栏 QFramework/6.MenuItem 复用。 这样一步很简单。 只要点击菜单栏 QFramework/6.MenuItem 复用，就可以完成我们的导出操作。 我们要思考这句话            <a href="https://www.cnblogs.com/liangxiegame/p/12567564.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-25 17:30 凉鞋的笔记 阅读 (26) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12567564" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/24.html">2020年3月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12557515.html">
+    凉鞋：我所理解的框架 【Unity 游戏框架搭建】
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 架构和框架这些概念听起来很遥远，让很多初学者不明觉厉。会产生“等自己技术牛逼了再去做架构或者搭建框架”这样的想法。在这里笔者可以很肯定地告诉大家，初学者是完全可以去做这些事情的。 初识架构和框架 架构和框架是非常接地气的，离我们其实并不遥远。 什么是架构? 架构是一个约定，一个规则，一个大家都            <a href="https://www.cnblogs.com/liangxiegame/p/12557515.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-24 10:49 凉鞋的笔记 阅读 (262) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12557515" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12557221.html">
+    Unity 游戏框架搭建 2019 (六) MenuItem 复用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在上一篇中我们搞定了直接弹出文件夹功能，那么在这篇我们试着把它集成到我们导出步骤了。 那么我们要在第四个示例上直接加入代码嘛？ 不是的，从笔者写教程的角度来讲，这样做会造成一个问题。教程和示例是一起发布的，如果在第四个示例上直接加入代码，那么，如果刚刚看完第四个篇教程的同学，去翻代码的时候，结果第四            <a href="https://www.cnblogs.com/liangxiegame/p/12557221.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-24 10:14 凉鞋的笔记 阅读 (31) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12557221" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/liangxiegame/archive/2020/03/23.html">2020年3月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/liangxiegame/p/12550831.html">
+    Unity 游戏框架搭建 2019 (五) 打开所在文件夹
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在上一篇中我们搞定了直接导出的功能，这算是一个巨大的进步了。那么在这篇我们再接着往下分析。 这样我们目前的导出步骤为: 1. 点击菜单栏 QFramework/4.导出 UnityPackage。 我们是不是没有可以优化的空间了？ 对于导出步骤的数量来说，确实没有了。只需要一步就可以导出了。但是从一            <a href="https://www.cnblogs.com/liangxiegame/p/12550831.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-23 10:56 凉鞋的笔记 阅读 (26) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12550831" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+
+    </div>    
+</div>
+
+
+<div id="homepage_bottom_pager" class="topicListFooter">
+    
+
+<div class="pager">
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=1">上一页</a>
+    
+    
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=1">1</a>
+    2
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=3">3</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=4">4</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=5">5</a>
+        <a href="https://www.cnblogs.com/liangxiegame/default.html?page=6">6</a>
+    ···
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=8">8</a>
+    <a href="https://www.cnblogs.com/liangxiegame/default.html?page=3">下一页</a>
+</div>
+</div>
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 凉鞋的笔记
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

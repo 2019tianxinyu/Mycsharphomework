@@ -1,0 +1,689 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>jasonminghao - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/elf/bundle-elf.min.css?v=mpcef9xxdj1doWi6glkD6lMbmGclGCSPM_FSrhFRY-A" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/elf/bundle-elf-mobile.min.css?v=Lk2wjMMUJjSLadG0Xil7JdDLDWWAvcpQmxzjUgc7cAk" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/jasonminghao/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/jasonminghao/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/jasonminghao/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 513694;
+        var currentBlogApp = 'jasonminghao';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'elf';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/jasonminghao/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/jasonminghao/">jasonminghao</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/jasonminghao/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/jasonminghao">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/jasonminghao/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+80&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+3</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12716239.html">
+[置顶]    Kubernetes 完整二进制部署(精品)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、基础环境 1.安装epel release 2.保证系统内核版本为3.10.x以上 3.关闭防火墙和selinux 4.时间同步 5.内核优化 bash $ vim /etc/named.rfc1912.zones zone &quot;host.com&quot; IN { type master;             <a href="https://www.cnblogs.com/jasonminghao/p/12716239.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 22:14 jasonminghao 阅读 (314) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12716239" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/06.html">2020年4月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12640109.html">
+[置顶]    Devops运维交流群
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：我们创建了专门用来交流技术的群； 如果你热爱 Linux、Devops、kubernetes、网络、Python、数据库 可加入群中，一起交流和学习； 群号：926402931 注意：广告和推广的勿扰！！            <a href="https://www.cnblogs.com/jasonminghao/p/12640109.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-06 00:09 jasonminghao 阅读 (32) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12640109" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12769072.html">
+    Golang交付至Kubernetes
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 0、前言 如果还不知道kubernetes下如何实现jenkins slave可以参考我的另一个博文 &quot;Kubernetes Jenkins动态创建Slave&quot; 1、Go服务构建 我们需要通过自定义镜像底包，能够让该底包拥有启动go程序的基本功能和日志重定向输出到指定目录下，方便日志收集            <a href="https://www.cnblogs.com/jasonminghao/p/12769072.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 17:49 jasonminghao 阅读 (1) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12769072" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/23.html">2020年4月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12762187.html">
+    留1
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1            <a href="https://www.cnblogs.com/jasonminghao/p/12762187.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-23 17:14 jasonminghao 阅读 (3) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12762187" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12716239.html">
+    Kubernetes 完整二进制部署(精品)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、基础环境 1.安装epel release 2.保证系统内核版本为3.10.x以上 3.关闭防火墙和selinux 4.时间同步 5.内核优化 bash $ vim /etc/named.rfc1912.zones zone &quot;host.com&quot; IN { type master;             <a href="https://www.cnblogs.com/jasonminghao/p/12716239.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 22:14 jasonminghao 阅读 (314) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12716239" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12715018.html">
+    Prometheus 监控MySQL
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 0、简介 文中主要监控MySQL/MySQL主从信息 版本：mysql 5.7，mysql_exporter 0.12.1 &quot;mysql_exporter下载地址&quot; 1、mysql_exporter部署 1.下载mysql_exporter并解压 2.需要授权用户给exporter使用             <a href="https://www.cnblogs.com/jasonminghao/p/12715018.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 19:05 jasonminghao 阅读 (71) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12715018" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/11.html">2020年4月11日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12681352.html">
+    Kubernetes Pod钩子
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、Pod容器钩子最终目的 之前在生产环境中使用dubbo框架，由于服务更新的过程中，容器直接被停止了，部分请求仍会被分发到终止的容器，导致有用户会访问服务出现500错误，这部分错误请求数据占用的比较少，因为Pod是滚动一对一更新。由于这个问题出现了，考虑使用优雅的终止方式，将错误请求将            <a href="https://www.cnblogs.com/jasonminghao/p/12681352.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-11 18:09 jasonminghao 阅读 (174) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12681352" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/06.html">2020年4月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12640162.html">
+    自动化运维Ansible之变量使用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、Playbook 变量 ansible中使用变量，能够让我们的工作变得更加灵活 定义变量 变量名应该由字母、数字、下划线组成，变量名需要字母开头，ansible内置的关键字不能作为变量名使用 2、Playbook 变量定义 使用vars关键字可以在当前playbook中进行变量定义，            <a href="https://www.cnblogs.com/jasonminghao/p/12640162.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-06 00:30 jasonminghao 阅读 (35) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12640162" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12640109.html">
+    Devops运维交流群
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：我们创建了专门用来交流技术的群； 如果你热爱 Linux、Devops、kubernetes、网络、Python、数据库 可加入群中，一起交流和学习； 群号：926402931 注意：广告和推广的勿扰！！            <a href="https://www.cnblogs.com/jasonminghao/p/12640109.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-06 00:09 jasonminghao 阅读 (32) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12640109" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/05.html">2020年4月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12635616.html">
+    自动化运维Ansible之常用模块
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 0、Ansible模块语法 在ansible中是指需要快速执行一条命令，并且不需要保存的命令，对于复杂的命令则为playbook 查看模块帮助：ansible doc l Ansible模块语法： Ansible注意事项颜色信息： 绿色：对远程节点不进行相应修改，或者只是对远程节点信息进            <a href="https://www.cnblogs.com/jasonminghao/p/12635616.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-05 01:27 jasonminghao 阅读 (123) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12635616" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12635384.html">
+    自动化运维Ansible之安装部署
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、SSH分发 ansible自动化部署条件 1.建议基于ssh密钥方式建立远程连接 2.基于ssh口令方式建立远程连接（不建议） 在部署之前需要保证 和`受控主机 ssh密钥 远程连接` 生成SSH密钥（私钥和公钥），分发公钥到每台 ： 1.安装sshpass 2.生成密钥 3.分发密            <a href="https://www.cnblogs.com/jasonminghao/p/12635384.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-05 00:07 jasonminghao 阅读 (31) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12635384" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/04/02.html">2020年4月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12617313.html">
+    微服务交付至kubernetes流程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、微服务简介 微服务优点 服务组件化 每个服务独立开发、部署，有效避免一个服务的修改引起整个系统重新部署 技术栈灵活 约定通信方式，是得服务本身功能实现对技术要求不再那么铭感 独立部署 每个微服务独立部署，加快部署速度，方便扩展 扩展性强 每个微服务可以部署多个，并且有负载均衡能力 独            <a href="https://www.cnblogs.com/jasonminghao/p/12617313.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-02 07:07 jasonminghao 阅读 (448) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12617313" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12617312.html">
+    Active MQ 消息队列
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、前言 MQ是 ,是一种在 中`应用程序 传递消息 媒介`，常用的有ActiveMQ，RabbitMQ，kafka。 2、Active MQ简介 是Apache出品，最流行的，能力强劲的开源消息总线。 是一个完全支持 和`J2EE 1.4`规范的 JMS Provider实现,尽管JM            <a href="https://www.cnblogs.com/jasonminghao/p/12617312.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-02 07:05 jasonminghao 阅读 (20) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12617312" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/03/29.html">2020年3月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12595671.html">
+    Kubernetes核心存储之Etcd高可用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、基础环境 1.安装cfssl（只需在k8s master01节点即可） $ wget O /bin/cfssl https://pkg.cfssl.org/R1.2/cfssl_linux amd64 $ wget O /bin/cfssljson https://pkg.cfssl            <a href="https://www.cnblogs.com/jasonminghao/p/12595671.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-29 22:50 jasonminghao 阅读 (21) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12595671" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12584561.html">
+    Kubernetes之ConfigMap
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、何为configMap kubernetes中提供了一个叫 的概念，为的就是让镜像和配置文件之间解耦，不需要在镜像中打包配置文件，实现了镜像的灵活性，因为一个 就是一系列配置信息的集合，将来是可以直接注入到Pod中的容器供其使用。 2、创建configMap 你可以通过使用 或者 方            <a href="https://www.cnblogs.com/jasonminghao/p/12584561.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-27 21:40 jasonminghao 阅读 (119) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12584561" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jasonminghao/archive/2020/03/26.html">2020年3月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12575648.html">
+    Kubernetes中Pod资源控制
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、何为资源控制 Kubenetes中为Pod提供了资源请求和资源限制，当一个Pod被调度到某个k8s节点的中资源请求能够让该Pod至少拥有设定的资源，而资源限制是让该Pod占用资源不能超过其设定的值。通过 对象进行资源控制 如果k8s某台节点的资源不满足Pod的资源请求设置的值，则Po            <a href="https://www.cnblogs.com/jasonminghao/p/12575648.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-26 17:13 jasonminghao 阅读 (30) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12575648" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12575456.html">
+    Kubernetes中Pod健康检查
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[TOC] 1、何为健康检查 Kubernetes架构中，每个节点都会有 ，容器健康检查（Container Probe）的任务就是由 定期执行的。 Kubelet会通过调用Pod中容器的 来执行检查动作， 有以下三种类型： ExecAction：在容器中执行特定的命令，命令退出返回0(命令执行返回            <a href="https://www.cnblogs.com/jasonminghao/p/12575456.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-26 16:49 jasonminghao 阅读 (162) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12575456" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/jasonminghao/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 jasonminghao
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

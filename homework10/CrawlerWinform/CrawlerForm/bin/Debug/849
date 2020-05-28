@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>软件工程 - 网站分类 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite.min.css?v=8EtC3FW8b5CR9KEStS4W8Mzvu2IDuuo5LFe0q-dL2Zc" />
+        <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/blog/sitecateogry/108709/rss" />
+    <script src="//common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/js/aggsite.min.js?v=SMfb3cvJ_BVQu17ffdyLH0AsFTOFX87b871AzEvWXNo"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/A1', [468, 60], 'div-gpt-ad-1547816814884-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B1', [300, 250], 'div-gpt-ad-1546331539224-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B2', [300, 250], 'div-gpt-ad-1539007469525-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B3', [300, 250], 'div-gpt-ad-1546331252242-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B4', [300, 250], 'div-gpt-ad-1546331385104-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+        /**/</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hd_info">
+            <div id="cnts">
+                <div id="site_nav_top">代码改变世界</div>
+                <div id="login_area"><span id="span_userinfo"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <p class="h_r_3"></p><p class="h_r_2"></p><p class="h_r_1"></p>
+            <div id="header_block">
+                <div id="logo">
+                    <h1>
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo_small.gif" alt="博客园Logo" width="142" height="55" /></a>
+                    </h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <p class="h_r_1"></p><p class="h_r_2"></p><p class="h_r_3"></p>
+        </div>
+        <div id="nav_menu"><a href="https://home.cnblogs.com/">园子</a><a href="https://news.cnblogs.com">新闻</a><a href="https://q.cnblogs.com/">博问</a><a href="https://ing.cnblogs.com/">闪存</a><a href="https://group.cnblogs.com/">小组</a><a href="https://wz.cnblogs.com/">收藏</a><a href="https://job.cnblogs.com/">招聘</a><a href="https://edu.cnblogs.com/">班级</a><a href="http://zzk.cnblogs.com/">找找看</a></div>
+        <div id="main">
+            <div class="post_nav_block_wrapper">
+                <ul class="post_nav_block">
+                        <li><a href="/" id="tabnav_" class="" title="">首页</a></li>
+                        <li><a href="/cate/108709/" id="tabnav_cate108709" class="current_nav" title="">软件工程</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="rss_link" id="rss_block">
+<span id="posts_refresh_tips"></span><a id="posts_refresh" href="#" class="refresh" title="刷新博文列表" onclick="aggSite.loadCategoryPostList();return false">刷新</a><a href="http://feed.cnblogs.com/blog/sitecateogry/108709/rss"><img src="//common.cnblogs.com/images/icon_rss.gif" alt="点击订阅" style="position:relative;top:2px;" title="订阅博客园文章" /></a>            </div>
+                <div id="headline_block" class="headline"><ul><li class="editor_pick"><a href="https://www.cnblogs.com/jlion/p/12897923.html" id="editor_pick_lnk" target="_blank">【编辑推荐】.net core HttpClient 使用之消息管道解析<span id="editor_pick_count"></span></a> <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/fehoney/p/12962280.html" target="_blank" title="阅读245, 评论9, 推荐18">[最多推荐]要小心 JavaScript 的事件代理(9/245)</a> <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/tiger-wang/p/12966882.html" target="_blank" title="阅读885, 评论11, 推荐16">[最多评论].Net Core实现区块链初探(11/885)</a> <a href="/aggsite/topcommented24h" title="查看24小时评论排行" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662829/" target="_blank" title="阅读1565, 评论9, 推荐15">[新闻头条]1千万年仅误差一秒，这台钟直接影响北斗卫星的导航定位精度(9/1565)</a> <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662890/" target="_blank" title="阅读358, 评论0, 推荐1">[推荐新闻]成功登顶！为珠峰“量身高”进行时：5G 助力、中国北斗导航系统发威(0/358)</a> <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a></li></ul></div>
+
+            <div id="pager_top" style="display:none"></div>
+            <div id="post_list_tips" class="hide"></div>
+            
+            <div id="post_list">
+                <div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12977054,603087,1)"> 
+	<span class="diggnum" id="digg_count_12977054">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12977054" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/27/12977054.html" target="_blank">理顺软件开发各个环节-11（开发管理-总体设计-2）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    5.4.2软件总体设计文档模板 软件总体设计核心是设计思想，但表述形式也是重要的，好的文档组织方式条理清晰，便于阅读和理解，还能减少设计疏漏。 这里分享一下我之前使用的软件总体设计的文档模板，根据我的经验，按照这个文档模板来做软件总体设计，可以提高软件总体设计的质量。这个模板做一些裁剪，也可用于概要 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-27 22:19 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/27/12977054.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/27/12977054.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12975254,597999,1)"> 
+	<span class="diggnum" id="digg_count_12975254">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12975254" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12975254.html" target="_blank">如何讲好故事</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    我最近在申请EHF - 新西兰的创业移民项目，在写申请材料的过程当中，我深刻意识到了讲故事的重要性！ 下面跟大家分享一下我的例子。这里特别感谢我的好朋友丹尼尔(Daniel Bar)。以下的第2个版本就是我的好朋友丹尼尔帮我做的例子，受到这个讲故事手法的启发，我才写了这篇博客，也希望把好东西分享给有 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-27 18:24 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12975254.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12975254.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12973656,597999,1)"> 
+	<span class="diggnum" id="digg_count_12973656">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12973656" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12973656.html" target="_blank">Scrum培训感想</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    研究生期间，我在北京一家咨询公司做过三个月的实习生。当时负责的项目采用了敏捷方法进行项目管理，这让我对于敏捷有了一个粗略的认识。回到学校后，我总会在课堂中以及与项目小组成员讨论时，或多或少会听到敏捷以及Scrum的概念。所以我慢慢的认为敏捷项目管理一定是未来信息系统项目管理的发展方向，尤其是在这个科 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-27 15:58 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12973656.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12973656.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('moaiwa',12972945,403553,1)"> 
+	<span class="diggnum" id="digg_count_12972945">1</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12972945" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/moaiwa/archive/2020/05/27/12972945.html" target="_blank">gitlab服务器搭建</a></h3>               	
+    <p class="post_item_summary">
+    gitlab的下载与安装 首先在清华大学开源软件镜像站下载好所需的gitlab包 网址：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/ubuntu/pool/trusty/main/g/gitlab-ce/ 安装依赖包 sudo apt-get ins ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/moaiwa/" class="lightblue">Sam_mao</a> 
+    发布于 2020-05-27 14:35 
+    <span class="article_comment"><a href="https://www.cnblogs.com/moaiwa/archive/2020/05/27/12972945.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/moaiwa/archive/2020/05/27/12972945.html" class="gray">阅读(24)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12972543,597999,1)"> 
+	<span class="diggnum" id="digg_count_12972543">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12972543" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12972543.html" target="_blank">Scrum未完待续</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    把每件事都当作一个项目来推进，是我之前参加的一个线上课程的结束语，这句话在软件行业体现的尤为突出。过去我们关心的是如果快速的交付需求，很少考虑如何快速应对不断变化的需求。 还记得一开始学习软件工程的时候还只有瀑布模型、需求分析、系统设计等这些传统软件工程内容，但是经过十几年的发展，在软件项目中，敏捷 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-27 13:56 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12972543.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12972543.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12971912,597999,1)"> 
+	<span class="diggnum" id="digg_count_12971912">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12971912" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12971912.html" target="_blank">团队与领导力健康检查 | 体检表</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    查看原文 在此博客文章中，我想分享一个强大的工具Leadership Health Check。这将帮助您的管理团队变得更强大，并为积极的服务型领导团队揭示改进机会，从而更好地赋能您所支持的敏捷团队。 首先，让我们从头开始。 在敏捷教练的工具箱中，我最喜欢的一项练习是在Spotify工作期间学到的  ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-27 12:09 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12971912.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12971912.html" class="gray">阅读(12)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('lori',12971497,67785,1)"> 
+	<span class="diggnum" id="digg_count_12971497">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12971497" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/lori/archive/2020/05/27/12971497.html" target="_blank">jenkins~按模块进行构建</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/lori/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/118538/20180819124909.png" alt=""/></a>    事情的起因 对于maven项目来说，它可以包含很多子模块，比如你在一个maven项目里做了微服务的开发，很多服务都在一个大项目里（当然，我本人不建议这样设计，建议一个服务是一个项目），这时在jenkins构建时，由于要启动注册中心，配置中心和其它所有服务，在每次部署 时都需要消耗很长的时间，做了很多 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/lori/" class="lightblue">张占岭</a> 
+    发布于 2020-05-27 11:26 
+    <span class="article_comment"><a href="https://www.cnblogs.com/lori/archive/2020/05/27/12971497.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/lori/archive/2020/05/27/12971497.html" class="gray">阅读(20)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12970941,597999,1)"> 
+	<span class="diggnum" id="digg_count_12970941">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12970941" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12970941.html" target="_blank">再次强调完成的定义（DoD）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    之前我写过一篇文章，关于敏捷坑人系列不清晰的完成，在这篇文章当中，描述了完整的定义和验收标准之间的区别，但是最近的课程当中依然有不少小伙伴在提问关于完成的定义，那今天的来说一下，为什么我们要设定完成的定义（即其重要性） 完成？！ 在工作当中往往我们会说这个事情我完成了。当我们说完成的时候，每个人对于 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-27 10:23 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12970941.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/27/12970941.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12969056,603087,1)"> 
+	<span class="diggnum" id="digg_count_12969056">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12969056" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/26/12969056.html" target="_blank">理顺软件开发各个环节-10（开发管理-总体设计-1）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    5.3软件需求分析 参见需求管理关于软件需求分析的章节，此处不再赘述。 5.4软件总体设计 总体设计，又称为系统设计，其包括架构设计，是软件系统的顶层设计，是软件开发不可逾越的阶段。 总体设计最能体现分析人员的水平，不仅需要良好的综合能力，从总体上把握需求，还需要较宽广的知识面，对流行的架构、插件和 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-26 22:12 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/26/12969056.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/26/12969056.html" class="gray">阅读(15)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('dgt-factory',12965325,603675,1)"> 
+	<span class="diggnum" id="digg_count_12965325">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12965325" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/dgt-factory/archive/2020/05/26/12965325.html" target="_blank">智慧工厂解决方案——汽车行业数字化建设</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/dgt-factory/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2037652/20200514135706.png" alt=""/></a>    汽车行业经历了从大批量流水线生产到平台化生产，这种平台化生产模式既考虑了产品的共性，同时也兼顾了客户个性化需求和企业的生产能力，大幅度降低汽车制造成本。同时，平台化生产模式极大地提升了汽车模块化、标准化和柔性化生产能力。随着汽车产品“新四化”以及市场需求多样化性，汽车开发与制造越来越复杂，因此，大量 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/dgt-factory/" class="lightblue">迪基透科技</a> 
+    发布于 2020-05-26 14:20 
+    <span class="article_comment"><a href="https://www.cnblogs.com/dgt-factory/archive/2020/05/26/12965325.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/dgt-factory/archive/2020/05/26/12965325.html" class="gray">阅读(16)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cuipengfei',12964518,41661,1)"> 
+	<span class="diggnum" id="digg_count_12964518">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12964518" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cuipengfei/archive/2020/05/26/12964518.html" target="_blank">软件需求膨胀系数</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/cuipengfei/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u38093.jpg?id=03113825" alt=""/></a>    泡水膨胀球 这是一种小玩具，干燥时拿在手里，小巧紧致。 泡在水里，一段时间之后，浑圆饱满，一只手都未必能捧的住。 放在干燥通风的地方晾晒，一段时间过后，又可以恢复原本的大小。 软件需求 软件需求与泡水膨胀球也有类似之处。 一开始时看似简单明了且完备正交，做起来发现越做越大，越做越多。 原本一只手能抓 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cuipengfei/" class="lightblue">崔鹏飞</a> 
+    发布于 2020-05-26 11:35 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cuipengfei/archive/2020/05/26/12964518.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cuipengfei/archive/2020/05/26/12964518.html" class="gray">阅读(48)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12961308,603087,1)"> 
+	<span class="diggnum" id="digg_count_12961308">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12961308" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/25/12961308.html" target="_blank">理顺软件开发各个环节-9（开发管理-开发计划管理） </a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    5 开发管理 开发管理，是对开发团队开发活动的管理，开发活动占据整个研发工作量的50~70%，有的甚至更高，是研发活动的核心。因此，理顺开发管理工作，提高开发的效率，提升开发的工作质量，是开发管理者所追求的，也是见仁见智，这里把我的理解写出来，权当抛砖引玉。 5.1开发的主体活动 开发活动的范围很广 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-25 22:25 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/25/12961308.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/25/12961308.html" class="gray">阅读(17)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('goWithHappy',12956215,505621,1)"> 
+	<span class="diggnum" id="digg_count_12956215">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12956215" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/goWithHappy/archive/2020/05/25/change-commit.html" target="_blank">修改commit记录的常用方法</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/goWithHappy/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1633584/20200506172109.png" alt=""/></a>    本文主要总结了常用的修改commit记录的两种方法，当然可能不太全面。欢迎各位小伙伴补充，谢谢！！ ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/goWithHappy/" class="lightblue">vcjmhg</a> 
+    发布于 2020-05-25 12:21 
+    <span class="article_comment"><a href="https://www.cnblogs.com/goWithHappy/archive/2020/05/25/change-commit.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/goWithHappy/archive/2020/05/25/change-commit.html" class="gray">阅读(19)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('bobjiang',12954669,597999,1)"> 
+	<span class="diggnum" id="digg_count_12954669">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12954669" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/bobjiang/archive/2020/05/25/12954669.html" target="_blank">在远程 CSM 课程中体验线上工作坊</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/bobjiang/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2015065/20200420210026.png" alt=""/></a>    转载自 "诺普博客" 4.11 日周六，我参与了由 [Bob 老师]组织讲授的一期 Certified Scrum Master（即 CSM）课程，从中收获颇丰，特记于此，与君分享。 CSM 通常是现场授课，但本次由于疫情的限制导致人们不得不尽可能减少外出。而 Bob 老师也适时地将原本现场的授课改 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/bobjiang/" class="lightblue">BobJiang123</a> 
+    发布于 2020-05-25 08:27 
+    <span class="article_comment"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/25/12954669.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/bobjiang/archive/2020/05/25/12954669.html" class="gray">阅读(18)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12937110,603087,1)"> 
+	<span class="diggnum" id="digg_count_12937110">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12937110" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/22/12937110.html" target="_blank">理顺软件开发各个环节-8（需求管理-软件需求分析探讨） </a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    4.4.5软件需求分析探讨 本节探讨一下软件需求分析在实际操作中的几个问题。 4.4.5.1软件需求分析的必要性 我的看法，软件需求分析是十分必要的。 1）因为软件需求分析将产品需求转换为软件需求，即将用户（业务）语言表达的产品需求转换为开发人员语言表达的软件需求，使得开发、测试人员更能准确、完整地 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-22 14:49 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/22/12937110.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/22/12937110.html" class="gray">阅读(32)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12933811,603087,1)"> 
+	<span class="diggnum" id="digg_count_12933811">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12933811" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/21/12933811.html" target="_blank">理顺软件开发各个环节-7（需求管理-软件需求-4）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    4.4.4数据字典（DD）的编写要点及示例 数据字典（Data Dictionary，简称DD），对软件需求涉及的数据项进行定义。 数据字典的作用如下： 数据项的定义，便于澄清基本概念，俗话说，基础不牢，地动山摇；有了数据项定义，便于SRS的各个阅读者准确地理解需求； 为阅读软件需求规格书的各方提供 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-21 21:55 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/21/12933811.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/21/12933811.html" class="gray">阅读(24)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('codingdevops',12932039,490266,1)"> 
+	<span class="diggnum" id="digg_count_12932039">1</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12932039" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932039.html" target="_blank">CODING DevOps 系列课程重磅来袭！</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/codingdevops/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1594319/20190124164040.png" alt=""/></a>    在云时代的大背景下，市场环境瞬息万变，企业发展迅速，各项业务全面展开，产品线越来越多，团队也不断壮大。如何组建一支高效的研发团队，减少系统间的摩擦和浪费，让研发部门快速响应市场需求，持续交付高质量的产品，已成为企业弯道超车的关键所在。 DevOps 的本质是打破各个部门之间的隔阂，打通企业的前中后台 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/codingdevops/" class="lightblue">CODING_DevOps</a> 
+    发布于 2020-05-21 17:17 
+    <span class="article_comment"><a href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932039.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932039.html" class="gray">阅读(23)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('codingdevops',12932013,490266,1)"> 
+	<span class="diggnum" id="digg_count_12932013">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12932013" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932013.html" target="_blank">CODING 敏捷实战系列加餐课：CODING 做敏捷这一年 - 理解一站式 DevOps 产品思想</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/codingdevops/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1594319/20190124164040.png" alt=""/></a>    在数字化协同的大背景下，过去一年 CODING 以老牌代码托管工具为基础，华丽转型为一站式 DevOps 研发管理工具。本次课程 《CODING 做敏捷这一年：理解一站式 DevOps 产品思想》 由 CODING 运营及项目协同产品总监 张路宇 进行分享，主要分析数字化协同的工具对于敏捷的作用，并 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/codingdevops/" class="lightblue">CODING_DevOps</a> 
+    发布于 2020-05-21 17:14 
+    <span class="article_comment"><a href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932013.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/codingdevops/archive/2020/05/21/12932013.html" class="gray">阅读(25)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('alabo1999',12925762,603087,1)"> 
+	<span class="diggnum" id="digg_count_12925762">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12925762" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/alabo1999/archive/2020/05/20/12925762.html" target="_blank">理顺软件开发各个环节-6（需求管理-软件需求-3）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/alabo1999/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035175/20200515171642.png" alt=""/></a>    4.4.3 功能需求项的编写示例 上节软件需求规格书模板中，章节3是大头，其中涉及功能需求项的编写。使用Use Case方式进行描述。本节给出一个需求项编写示例，详细说明一下编写方法。 使用Use Case方式描述需求，除了正常过程外，还有可选过程和异常过程，还可以附加一些非功能需求，有助于将需求描 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/alabo1999/" class="lightblue">阿拉伯1999</a> 
+    发布于 2020-05-20 20:00 
+    <span class="article_comment"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/20/12925762.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/alabo1999/archive/2020/05/20/12925762.html" class="gray">阅读(22)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('spider008',12922735,586136,1)"> 
+	<span class="diggnum" id="digg_count_12922735">1</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12922735" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/spider008/archive/2020/05/20/mac-an-zhuangwireshark-xin-shou-jiao-cheng.html" target="_blank">mac安装WireShark2.0新手教程</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/spider008/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1962884/20200306191707.png" alt=""/></a>    ## 在你开始之前此版本的Wireshark需要macOS 10.12或更高版本。如果您运行的是macOS的早期版本，则可以使用其他打包系统（例如Homebrew或MacPorts）进行安装。## 快速设置要安装Wireshark，请将Wireshark应用程序捆绑包拖到Applications文件... ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/spider008/" class="lightblue">spider008</a> 
+    发布于 2020-05-20 11:49 
+    <span class="article_comment"><a href="https://www.cnblogs.com/spider008/archive/2020/05/20/mac-an-zhuangwireshark-xin-shou-jiao-cheng.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/spider008/archive/2020/05/20/mac-an-zhuangwireshark-xin-shou-jiao-cheng.html" class="gray">阅读(61)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+   
+
+            </div>
+            <script>editorPickStat(); aggSite.user.getUserInfo();</script>
+            <script type="text/javascript">
+                var aggSiteModel = {"CategoryType":"TopSiteCategory","ParentCategoryId":0,"CategoryId":108709,"PageIndex":1,"TotalPostCount":4000,"ItemListActionName":"AggSitePostList"};
+            </script>
+            <div id="pager_bottom"><div id="paging_block"><div class="pager"><a href="/cate/108709/" class="p_1 current" onclick="aggSite.loadCategoryPostList(1,20);buildPaging(1);return false;">1</a><a href="/cate/108709/2" class="p_2 middle" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">2</a><a href="/cate/108709/3" class="p_3 middle" onclick="aggSite.loadCategoryPostList(3,20);buildPaging(3);return false;">3</a><a href="/cate/108709/4" class="p_4 middle" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">4</a><a href="/cate/108709/5" class="p_5 middle" onclick="aggSite.loadCategoryPostList(5,20);buildPaging(5);return false;">5</a><a href="/cate/108709/6" class="p_6 middle" onclick="aggSite.loadCategoryPostList(6,20);buildPaging(6);return false;">6</a><a href="/cate/108709/7" class="p_7 middle" onclick="aggSite.loadCategoryPostList(7,20);buildPaging(7);return false;">7</a><a href="/cate/108709/8" class="p_8 middle" onclick="aggSite.loadCategoryPostList(8,20);buildPaging(8);return false;">8</a><a href="/cate/108709/9" class="p_9 middle" onclick="aggSite.loadCategoryPostList(9,20);buildPaging(9);return false;">9</a><a href="/cate/108709/10" class="p_10 middle" onclick="aggSite.loadCategoryPostList(10,20);buildPaging(10);return false;">10</a><a href="/cate/108709/11" class="p_11 middle" onclick="aggSite.loadCategoryPostList(11,20);buildPaging(11);return false;">11</a><span class="ellipsis">···</span><a href="/cate/108709/200" class="p_200 last" onclick="aggSite.loadCategoryPostList(200,20);buildPaging(200);return false;">200</a><a href="/cate/108709/2" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":4000,"PageIndex":1,"PageSize":20,"ShowPageCount":5,"SkipCount":0,"UrlFormat":"/cate/108709/{0}","OnClickJsFunc":"aggSite.loadCategoryPostList()","FirstPageLink":"/cate/108709/","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+</div>
+            <div id="side_nav">
+                
+    <div id="cate_title_block">
+<div id="cate_title_title"><div class="cate_title">网站分类</div></div>
+<ul id="cate_item">
+<li id="cate_item_108698" onmouseover="cateShow(108698)" onmouseout="cateHidden(108698)">
+<a href="/cate/108698/">.NET技术(0)</a>
+</li>
+<li id="cate_item_2" onmouseover="cateShow(2)" onmouseout="cateHidden(2)">
+<a href="/cate/2/">编程语言(0)</a>
+</li>
+<li id="cate_item_108701" onmouseover="cateShow(108701)" onmouseout="cateHidden(108701)">
+<a href="/cate/108701/">软件设计(0)</a>
+</li>
+<li id="cate_item_108703" onmouseover="cateShow(108703)" onmouseout="cateHidden(108703)">
+<a href="/cate/108703/">Web前端(0)</a>
+</li>
+<li id="cate_item_108704" onmouseover="cateShow(108704)" onmouseout="cateHidden(108704)">
+<a href="/cate/108704/">企业信息化(0)</a>
+</li>
+<li id="cate_item_108705" onmouseover="cateShow(108705)" onmouseout="cateHidden(108705)">
+<a href="/cate/108705/">手机开发(0)</a>
+</li>
+<li id="cate_item_108709" onmouseover="cateShow(108709)" onmouseout="cateHidden(108709)">
+<a href="/cate/108709/">软件工程(0)</a>
+</li>
+<li id="cate_item_108712" onmouseover="cateShow(108712)" onmouseout="cateHidden(108712)">
+<a href="/cate/108712/">数据库技术(0)</a>
+</li>
+<li id="cate_item_108724" onmouseover="cateShow(108724)" onmouseout="cateHidden(108724)">
+<a href="/cate/108724/">操作系统(0)</a>
+</li>
+<li id="cate_item_4" onmouseover="cateShow(4)" onmouseout="cateHidden(4)">
+<a href="/cate/4/">其他分类(0)</a>
+</li>
+<li id="cate_item_0" onmouseover="cateShow(0)" onmouseout="cateHidden(0)">
+<a href="/cate/all/">所有随笔(1)</a>
+</li>
+<li id="cate_item_-1" onmouseover="cateShow(-1)" onmouseout="cateHidden(-1)">
+<a href="/comment/">所有评论(0)</a>
+</li>
+</ul>
+<div class="cate_bottom"></div>
+<div id="cate_sub_block"></div>
+<script type="text/javascript">var cateIdList = '108698,2,108701,108703,108704,108705,108709,108712,108724,4';aggSite.loadSubCategories();</script>
+</div>
+        <div class="l_s"></div>
+<p class="r_l_3" /><p class="r_l_2" /><p class="r_l_1" />
+<div class="w_l">
+<h4>相关分类</h4>
+<ul>
+<li><a href="/cate/108698/">.NET技术</a></li>
+<li><a href="/cate/2/">编程语言</a></li>
+<li><a href="/cate/108701/">软件设计</a></li>
+<li><a href="/cate/108703/">Web前端</a></li>
+<li><a href="/cate/108704/">企业信息化</a></li>
+<li><a href="/cate/108705/">手机开发</a></li>
+<li><a href="/cate/108712/">数据库技术</a></li>
+<li><a href="/cate/108724/">操作系统</a></li>
+<li><a href="/cate/4/">其他分类</a></li>
+</ul>
+</div>
+<p class="r_l_1" /><p class="r_l_2" /><p class="r_l_3" />
+<div class="l_s"></div>
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">
+<h4>链接</h4>        
+<ul>
+    <li><a href="https://group.cnblogs.com/forum/public/" target="_blank">反馈或建议</a></li> 
+    <li><a href="//www.cnblogs.com/cmt/" target="_blank">官方博客</a></li>
+    <li><a href="/skins.aspx" target="_blank">博客模板</a></li>
+    <li><a href="http://www.blogjava.net/">Java博客</a></li>
+    <li><a href="http://www.cppblog.com/">C++博客</a></li>
+    <li><a href="//www.cnblogs.com/cmt/archive/2009/09/26/1574616.html">手机版</a></li>
+</ul>
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+<div class="l_s"></div>
+<div id="user_stats"></div>
+<div class="l_s"></div>        
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">                
+<h4>统计信息</h4>
+<div id="site_stats"></div>      
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+            </div>
+            <div id="side_right">
+                    <div id="search_block">
+                        <div class="side_search">
+                            <input type="text" id="zzk_q" class="search_input" onkeydown="return zzk_go_enter(event);" tabindex="3" /><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" />
+                        </div>
+                        <div id="google_search" class="side_search">
+                            <input type="text" id="google_search_q" class="search_input" onkeydown="return google_search_enter(event);" /><input type="button" value="Google" class="search_btn" onclick="return google_search();" />
+                        </div>
+                    </div>
+                <div id="cnblogs_a1">
+                    <div id='div-gpt-ad-1547816814884-0' style='height:60px; width:468px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1547816814884-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="cnblogs_b1" class="sidebar-image">
+                    <div id='div-gpt-ad-1546331539224-0' style='height:250px; width:300px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1546331539224-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="ad_right_text" class="ad_right_text"></div>
+                <div id="side_right_block"></div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div>Powered by .NET Core on Kubernetes</div>
+            <div><a href="https://about.cnblogs.com/">关于博客园</a><a href="https://about.cnblogs.com/contact">联系我们</a><a href="https://about.cnblogs.com/ad">广告服务</a><a href="https://about.cnblogs.com/job">人才服务</a>&copy;2004-2020<a href="https://www.cnblogs.com/">博客园</a>保留所有权利<a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备09004260号</a></div>
+            <div><a href="https://ss.knet.cn/verifyseal.dll?sn=e131108110100433392itm000000&amp;ct=df&amp;a=1&amp;pa=0.25787803245785335" rel="nofollow" target="_blank"><img id="cnnic_img" src="//common.cnblogs.com/images/cnnic.png" alt="" width="64" height="23" /></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001144" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//common.cnblogs.com/images/ghs.png" alt="" /><span style="float:left;height:20px;line-height:20px;margin: 0 5px 0 5px; color:#939393;">沪公网安备 31011502001144号</span></a></div>
+        </div>
+    </div>
+</body>
+</html>

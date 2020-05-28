@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="[TOC] 注册博客园账号有一个多月了, 一切都很好, 但就一直觉得自己的博客页面比较老土. 在首页浏览时候发现一位博主的页面挺干净整洁的, 而且他分享了制作的思路, 于是下定决心美化一番。 本文将介" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>记一次博客页面美化过程,分享代码. - 抑菌 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/tanshaoshenghao/custom.css?v=ETVPzQp9R3E93k6xfN48Z6r//zY=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/bluesky/bundle-bluesky-mobile.min.css?v=s2piIyFV3NYqZWTmizb6uafQjmZFRhUBr8YMAdV85mA" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/tanshaoshenghao/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/tanshaoshenghao/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/tanshaoshenghao/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 500766;
+        var currentBlogApp = 'tanshaoshenghao';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BlueSky';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <!--评论-->
+<link  type="text/css" rel="stylesheet" href="https://files.cnblogs.com/files/hafiz/feedback.css">
+
+<link  type="text/css" rel="stylesheet" href="https://files.cnblogs.com/files/miangao/maodian.css">
+
+<!--右上角的github标签-->
+<a href="https://github.com/liuyj24" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill: #333;color:#fff;position: absolute;top: 0;border: 0;right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<!-- 鼠标点击效果 -->
+<script src="https://blog-static.cnblogs.com/files/e-cat/cursor-effects.js" defer></script>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/tanshaoshenghao/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/tanshaoshenghao/">炭烧生蚝</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/tanshaoshenghao/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E6%8A%91%E8%8F%8C">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/tanshaoshenghao/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+44&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+82</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/tanshaoshenghao/p/10801547.html">记一次博客页面美化过程,分享代码.</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p><div class="toc"><div class="toc-container-header">目录</div><ul><li><a href="#感谢热心博主分享的攻略">感谢热心博主分享的攻略</a></li><li><a href="#1-markdown美化">1. Markdown美化</a></li><li><a href="#2-给博客页面加上鼠标停留响应">2. 给博客页面加上鼠标停留响应</a><ul><li><a href="#ⅰ-div容器的宽高发生改变">Ⅰ. div容器的宽高发生改变</a></li><li><a href="#ⅱ-字体大小font-size发生变化">Ⅱ. 字体大小font-size发生变化</a></li><li><a href="#ⅲ-给容器添加阴影效果">Ⅲ. 给容器添加阴影效果</a></li></ul></li><li><a href="#3-处理一些细节">3. 处理一些细节</a></li><li><a href="#4-源码分享">4. 源码分享</a><ul><li><a href="#点击此处跳转到github">点击此处跳转到Github</a></li></ul></li></ul></div></p>
+<blockquote>
+<p>注册博客园账号有一个多月了, 一切都很好, 但就一直觉得自己的博客页面比较老土. 在首页浏览时候发现一位博主的页面挺干净整洁的, 而且他分享了制作的思路, 于是下定决心美化一番。 本文将介绍美化的思路, 并贴上所有代码, 俗话说授之以鱼也要授之以渔。</p>
+</blockquote>
+<h1 id="感谢热心博主分享的攻略">感谢热心博主分享的攻略</h1>
+<ul>
+<li>致谢要写在前面, 这位博主把他博客的整套CSS代码都贡献出来了, 在此基础上进行修改变得十分容易. 秉承这种精神, 文章末尾也将奉献上我的所有定制代码, 如果哪位朋友想直接体验以下, 直接复制就行了.</li>
+<li><a href="https://www.cnblogs.com/hafiz/">该博主的博客地址</a></li>
+</ul>
+<h1 id="1-markdown美化">1. Markdown美化</h1>
+<ul>
+<li>首先要美化的就是<code>Markdown</code>的显示了. 第一次接触<code>Markdown</code>是在注册完Github创建一个新仓库的时候, 写<code>README</code>必须得用<code>Markdown</code>写, 当时就觉得怎么有这么好看的排版.</li>
+<li>后来在博客园上第一次用<code>Markdown</code>写博客, 点完发布回头一看...???...</li>
+<li>当时觉得这个估计是<code>Markdown</code>的变种, 也能凑合着用就没管了.</li>
+<li>现在知道了<code>Markdown</code>其实是使文字通过某种<code>CSS</code>样式美化后显示出来而已, 既然这样, 我们可以自己修改<code>Markdown</code>的显示样式.</li>
+<li>这里贴一段简单的代码演示修改的过程, 后面会贴上带有注释的完整代码.</li>
+</ul>
+<ol>
+<li>首先选中你要修改的地方, 然后在开发者工具中(谷歌浏览器快捷键F12)中直接对<code>CSS</code>样式进行修改. (博主是后端方向, 也没记得几个CSS样式, 基本都是边查边改哈)</li>
+</ol>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_%e6%96%87%e7%ab%a0_%e5%8d%9a%e5%ae%a2%e7%be%8e%e5%8c%96_%e5%9b%be4.png" alt="在这里插入图片描述"></p>
+<ol start="2">
+<li>修改得到满意的<code>CSS</code>样式后, 把他复制到<code>页面定制CSS代码</code>栏中, 可以通过<code>我的博客-&gt;管理-&gt;设置</code>找到该栏.</li>
+</ol>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_%e6%96%87%e7%ab%a0_%e5%8d%9a%e5%ae%a2%e7%be%8e%e5%8c%96_%e5%9b%be5.png" alt="在这里插入图片描述"></p>
+<ol start="3">
+<li>这样便完成了一个样式的美化。</li>
+</ol>
+<h1 id="2-给博客页面加上鼠标停留响应">2. 给博客页面加上鼠标停留响应</h1>
+<ul>
+<li>我觉得现代网页和十几年前的网页不同之处在于当你的鼠标滑过网页, 各种模块就不停的动, 交互感十足. 为了能让博客看起来更具科技性, 未来性(忍住别笑, 给后端小白一个装比的机会), 我决定给博客首页也加上这些效果.</li>
+<li>本博客制作这种特效目前有三种思路:</li>
+</ul>
+<h2 id="ⅰ-div容器的宽高发生改变">Ⅰ. <code>div</code>容器的宽高发生改变</h2>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_boke1.gif" alt="在这里插入图片描述"></p>
+<p> </p>
+<ul>
+<li>具体的<code>CSS</code>代码如下:</li>
+</ul>
+<pre><code class="language-java">#header #navigator ul li {
+    float: left;
+    width: 13%;	/*div原来的宽度为13%*/
+    text-align: center;
+    margin-right: 0px;
+    background: #9e9e9e14;
+    transition: width 0.5s; /*CSS3中引入的过渡功能, 意思是width属性将会发生变化, 变化时间为0.5秒*/
+    -moz-transition: width 0.5s; /*后面几个意思一样, 多写几个为了兼容不同的浏览器*/	
+    -webkit-transition: width 0.5s;
+    -o-transition: width 0.5s;
+}
+#header #navigator ul li:hover { /*hover即为鼠标停留时的样式*/
+    width: 20%;	/*宽度变为20%*/
+}
+</code></pre>
+<p> </p>
+<h2 id="ⅱ-字体大小font-size发生变化">Ⅱ. 字体大小<code>font-size</code>发生变化</h2>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_boke2.gif" alt="在这里插入图片描述"></p>
+<p> </p>
+<ul>
+<li>具体代码如下:</li>
+</ul>
+<pre><code class="language-java">.postTitle, .entrylistPosttitle {
+    font-family: &quot;Lato&quot;, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.8em;
+    padding: 20px 20px 15px 0px;
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: font-size 0.5s;	/*这里改变的是字体的大小*/
+    -moz-transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+}
+.postTitle:hover {
+    font-size: 2em; 
+}
+</code></pre>
+<p> </p>
+<h2 id="ⅲ-给容器添加阴影效果">Ⅲ. 给容器添加阴影效果</h2>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_boke3.gif" alt="在这里插入图片描述"></p>
+<ul>
+<li>具体代码如下</li>
+</ul>
+<pre><code class="language-java">.search, .newsItem, .catListPostCategory, .catListPostArchive, .catListTag, .catListView, .catListBlogRank {
+    background: #fff;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #9E9E9E;
+    transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+}
+/*添加阴影*/
+.newsItem:hover, .catListPostCategory:hover, .catListPostArchive:hover, .catListTag:hover, .catListView:hover, .catListBlogRank:hover {
+    /* border: 5px solid; */
+    box-shadow: 10px 10px 10px #9E9E9E;
+}
+</code></pre>
+<h1 id="3-处理一些细节">3. 处理一些细节</h1>
+<ul>
+<li>让点赞图标也能旋转起来.</li>
+<li>隐藏掉文章数量显示(感觉都是写随笔, 百度了一下文章的功能, 但还是没有搞懂)</li>
+<li>修改了一些文本的颜色.</li>
+<li>在页面右上角添加<code>Github</code>标签. (如果你打算使用这套模板, 别忘了在页首的html代码中把<code>Github</code>地址修改为自己的<code>Github</code>)</li>
+</ul>
+<p> </p>
+<h1 id="4-源码分享">4. 源码分享</h1>
+<h2 id="点击此处跳转到github"><a href="https://github.com/liuyj24/CnblogStyle">点击此处跳转到Github</a></h2>
+<ul>
+<li>体验该皮肤你只需要在<code>个人博客页面-&gt;管理-&gt;设置</code>中禁用模板默认CSS, 然后把各部分代码复制到相应的地方即可.</li>
+<li><a href="https://github.com/liuyj24/CnblogStyle/blob/master/%E9%A1%B5%E9%9D%A2%E5%AE%9A%E5%88%B6CSS%E4%BB%A3%E7%A0%81.css">页面定制CSS代码</a></li>
+</ul>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_%e6%96%87%e7%ab%a0_%e5%8d%9a%e5%ae%a2%e7%be%8e%e5%8c%96_%e5%9b%be1.png" alt="在这里插入图片描述"></p>
+<ul>
+<li><a href="https://github.com/liuyj24/CnblogStyle/blob/master/%E9%A1%B5%E8%84%9Ahtml%E4%BB%A3%E7%A0%81.html">页脚html代码</a></li>
+</ul>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_%e6%96%87%e7%ab%a0_%e5%8d%9a%e5%ae%a2%e7%be%8e%e5%8c%96_%e5%9b%be2.png" alt="在这里插入图片描述"></p>
+<ul>
+<li><a href="https://github.com/liuyj24/CnblogStyle/blob/master/%E9%A1%B5%E9%A6%96Html%E4%BB%A3%E7%A0%81.html">页首Html代码</a></li>
+</ul>
+<p><img src="https://www.cnblogs.com/images/cnblogs_com/tanshaoshenghao/1426602/o_%e6%96%87%e7%ab%a0_%e5%8d%9a%e5%ae%a2%e7%be%8e%e5%8c%96_%e5%9b%be3.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>温馨提示: 为了让<code>JS</code>代码生效你需要申请代码权限.</li>
+</ul>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2019-05-02 07:41</span>&nbsp;
+<a href="https://www.cnblogs.com/tanshaoshenghao/">抑菌</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10801547" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(10801547);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 500766, cb_blogApp = 'tanshaoshenghao', cb_blogUserGuid = 'b06e60fc-4ddf-4901-ed73-08d6a695d280';
+    var cb_entryId = 10801547, cb_entryCreatedDate = '2019-05-02 07:41', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 抑菌
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <script type="text/javascript">
+$(function(){
+    $('#blogTitle h1').addClass('bounceInLeft animated');
+    $('#blogTitle h2').addClass('bounceInRight animated');
+    // 删除反对按钮
+    $('.buryit').remove();
+    initCommentData();
+});
+function initCommentData() {
+    $('.feedbackItem').each(function() {
+        var text = $(this).find('.feedbackListSubtitle .layer').text();
+        // 将楼层信息放到data里面
+        // $(this).find('.blog_comment_body').attr('data-louceng', text.replace(/^#/g, ''));
+        if($(this).find('.feedbackListSubtitle .louzhu').length>0) $(this).addClass('myself');
+        var avatar = $(this).find('> .feedbackCon > span').html() || 'http://pic.cnitblog.com/face/sample_face.gif';
+        $(this).find('> .feedbackCon > .blog_comment_body').append('<img class="user-avatar" src="'+avatar+'"/>')
+    });
+}
+$(document).ajaxComplete(function(event, xhr, settings) {
+  // 监听获取评论ajax事件
+  if(settings.url.indexOf('/mvc/blog/GetComments.aspx') >= 0) {
+    initCommentData();
+  }
+});
+</script>
+
+<script src="https://files.cnblogs.com/files/hafiz/jquery-migrate-1.2.1.js"></script>
+<div id="scrollTop" style="display:none;">
+      <div class="level-2"></div>
+      <div class="level-3"></div>
+</div>
+<script src="https://files.cnblogs.com/files/hafiz/scroll2top.js"></script>
+<script type="text/javascript">
+    UI.global_search();
+    var uvOptions = {};
+    // !important
+    (function() {
+        initScrollTop();
+    })();
+</script>
+
+<script src="https://files.cnblogs.com/files/miangao/bootstrap.min.js"></script>
+
+<!--图片放大功能-->
+<script type="text/javascript" src="https://blog-static.cnblogs.com/files/jajian/img.enlarge.js"></script>
+<div id="outerdiv" style="text-align: center;position: fixed;z-index: 1000;top: 0;left: 0;
+    width: 100%;height: 100%;background-color: rgba(255,255,255,.9);">
+    <img id="bigimg" style="height: auto;width: 65%;border: 5px solid #7e8c8d; 
+        margin: auto;position: absolute;top: 0;bottom: 0;left: 0;right: 0;" src="" />
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,909 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>E-iceblue - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip.min.css?v=4KE41eS1YQSSwl64fGzzTUj6ijs-YQFat4AaN-g_jxc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip-mobile.min.css?v=0pGk3D9Ik_jI4q1TALBT2ybOjIePHS_80_0J4DDOQiY" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/Yesi/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/Yesi/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/Yesi/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 209708;
+        var currentBlogApp = 'Yesi';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'darkgreentrip';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/Yesi/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/Yesi/">E-iceblue</a>
+</h1>
+<h2>
+C#/VB.NET Excel，Word，PowerPoint，PDF component
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/Yesi/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/E-iceblue">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/Yesi/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+267&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+355</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12711432.html">
+[置顶]    Spire.Cloud 私有化部署教程（二）- Ubuntu 18.04 系统
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本教程主要介绍如何在Ubuntu 18.04系统上实现Spire.Cloud私有化部署。CentOS 7系统部署请参考&#160;这篇教程。 详细步骤如下： 一、环境配置 1、关闭防火墙 1）首先查看防火墙状态 ufw status verbose （非管理员需在最前面加sudo） 默认情况下，防火墙状态是i            <a href="https://www.cnblogs.com/Yesi/p/12711432.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 11:17 E-iceblue 阅读 (38) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12711432" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/14.html">2020年4月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12698624.html">
+[置顶]    Spire.Cloud 私有化部署教程（一） - CentOS 7 系统
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spire.Cloud支持的Linux服务器系统包括CentOS和Ubuntu（推荐使用CentOS 7和Ubuntu 18版本），本教程主要介绍如何在CentOS 7系统上实现Spire.Cloud私有化部署。 详细步骤如下： 一、安装CentOS 7系统 首先，需要在服务器上安装CentOS 7            <a href="https://www.cnblogs.com/Yesi/p/12698624.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-14 16:10 E-iceblue 阅读 (43) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12698624" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/01/02.html">2020年1月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12133971.html">
+[置顶]    C# 将PDF转为Word、Html、XPS、SVG、PCL、PS——基于Spire.Cloud.PDF
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spire.Cloud.PDF提供了接口PdfConvertApi可用于将PDF文档转换为其他格式文档，如Word（docx/doc）、Html、XPS、SVG、PCL、PS、Png以及XPS转成PDF。本文将选取其中几种格式为例，介绍具体转换方法。 必要步骤： 步骤一：dll文件获取及导入。 方法            <a href="https://www.cnblogs.com/Yesi/p/12133971.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-01-02 17:03 E-iceblue 阅读 (1680) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12133971" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2019/12/13.html">2019年12月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12034407.html">
+[置顶]    C# 设置、删除、读取Word文档背景——基于Spire.Cloud.Word
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spire.Cloud.Word.Sdk提供了接口SetBackgroudColor()、SetBackgroudImage()、DeleteBackground()、GetBackgroudColor()用于设置、删除及读取Word文档背景。本文将以C#程序为例演示如何来调用API接口实现以上内容            <a href="https://www.cnblogs.com/Yesi/p/12034407.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-13 12:07 E-iceblue 阅读 (325) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12034407" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2019/12/10.html">2019年12月10日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12016626.html">
+[置顶]    Java 基于Spire.Cloud.Excel 将Excel转为PDF
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spire.Cloud.Excel Sdk 提供GeneralApi接口和WorkbookApi接口，支持将本地Excel和云端Excel文档转换为ODS, PDF, XPS, PCL, PS等格式。本文以将Excel表格转为PDF为例，介绍实现格式转换的步骤及方法。 所需工具：Spire.Clou            <a href="https://www.cnblogs.com/Yesi/p/12016626.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-10 14:50 E-iceblue 阅读 (271) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12016626" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2019/12/05.html">2019年12月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/11989195.html">
+[置顶]    Spire.Cloud.Word 添加Word水印（文本水印、图片水印）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：概述 Spire.Cloud.Word提供了watermarksApi接口可用于添加水印，包括添加文本水印（SetTextWatermark）、图片水印（SetImageWatermark），本文将对此做详细介绍。 关于Spire.Cloud Spire.Cloud是云端 Office 文档处理软件            <a href="https://www.cnblogs.com/Yesi/p/11989195.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-05 14:41 E-iceblue 阅读 (325) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11989195" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2019/11/29.html">2019年11月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/11958432.html">
+[置顶]    Spire.Cloud 在线编辑
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：简介 Spire.Cloud 在线编辑器是一款基于网页的 Office 文件编辑工具，支持在网页中打开、编辑、打印 Word、Excel、PPT 文件，支持将文档保存到私有云盘。支持 IE、Chrome、FireFox、搜狗、遨游、360 等常见浏览器。 关于Spire.Cloud Web API             <a href="https://www.cnblogs.com/Yesi/p/11958432.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-29 16:17 E-iceblue 阅读 (181) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11958432" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12768142.html">
+    Java 复制Word文档
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍在Java程序中如何复制Word文档。复制方法均以带格式复制，代码示例将从以下要点展示： 复制Word正文内容，可支持包括文本、图片、表格、超链接、书签、批注、形状、编号列表、脚注、尾注等在内的多种元素。复制时，可复制整篇文档内容和复制指定段落内容 复制Word页眉页脚，包括页眉页脚中的文本            <a href="https://www.cnblogs.com/Yesi/p/12768142.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:12 E-iceblue 阅读 (16) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768142" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/21.html">2020年4月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12744094.html">
+    C# 在Word中添加Latex 数学公式和符号
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本篇内容介绍使用Spire.Doc for .NET在Word中添加Latex数学公式和符号的方法。编辑代码前，将Spire.Doc.dll文件添加引用至VS程序。dll文件包可通过官网下载导入（如果下载的是pack包，需要将Spire.Doc for .NET包解压安装到指定路径，dll文件可在安            <a href="https://www.cnblogs.com/Yesi/p/12744094.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-21 13:47 E-iceblue 阅读 (58) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12744094" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12711432.html">
+    Spire.Cloud 私有化部署教程（二）- Ubuntu 18.04 系统
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本教程主要介绍如何在Ubuntu 18.04系统上实现Spire.Cloud私有化部署。CentOS 7系统部署请参考&#160;这篇教程。 详细步骤如下： 一、环境配置 1、关闭防火墙 1）首先查看防火墙状态 ufw status verbose （非管理员需在最前面加sudo） 默认情况下，防火墙状态是i            <a href="https://www.cnblogs.com/Yesi/p/12711432.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 11:17 E-iceblue 阅读 (38) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12711432" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/14.html">2020年4月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12698624.html">
+    Spire.Cloud 私有化部署教程（一） - CentOS 7 系统
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Spire.Cloud支持的Linux服务器系统包括CentOS和Ubuntu（推荐使用CentOS 7和Ubuntu 18版本），本教程主要介绍如何在CentOS 7系统上实现Spire.Cloud私有化部署。 详细步骤如下： 一、安装CentOS 7系统 首先，需要在服务器上安装CentOS 7            <a href="https://www.cnblogs.com/Yesi/p/12698624.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-14 16:10 E-iceblue 阅读 (43) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12698624" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/13.html">2020年4月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12690985.html">
+    C# 添加OLE到PPT幻灯片
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍通过C#程序代码来添加OLE对象到PPT幻灯片的方法。这里以将Excel文档为对象插入到PPT幻灯片中的指定位置；添加时，将Excel中的单元格范围保存为图片，将图片以嵌入的方式添加到幻灯片，添加成功后，可通过双击图片来编辑、打开等动作对Excel源文档进行操作。 使用工具：Free Spi            <a href="https://www.cnblogs.com/Yesi/p/12690985.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-13 13:56 E-iceblue 阅读 (58) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12690985" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/07.html">2020年4月7日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12653027.html">
+    Java 在PPT中添加文本、图片超链接
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍通过Java程序在PPT幻灯片中添加超链接的方法，可以给文本或者图片设置超链接，设置超链接时，可设置包括网页链接、邮件地址链接、幻灯片跳转链接等不同指向对象的链接。文中方法使用了免费版PPT类库（Free Spire.Presentation for Java），可在官网下载jar包，并解压            <a href="https://www.cnblogs.com/Yesi/p/12653027.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-07 13:56 E-iceblue 阅读 (40) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12653027" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/03.html">2020年4月3日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12626100.html">
+    C# 添加、修改、删除PPT中的超链接
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍通过C# 编程如何在PPT幻灯片中添加超链接的方法，添加链接时，可给文本或者图片添加超链接，链接对象可指向网页地址、邮件地址、指定幻灯片等，此外，也可以参考文中编辑、删除幻灯片中已有超链接的方法。 程序使用类库：Free Spire.Presentation for .NET （免费版） d            <a href="https://www.cnblogs.com/Yesi/p/12626100.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-03 14:00 E-iceblue 阅读 (104) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12626100" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/04/01.html">2020年4月1日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12610905.html">
+    Java 添加、删除Excel表单控件
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：通过表单控件，用户可以快速地将数据填写到模板文档中，轻松引用单元格数据并与其进行交互。本文通过Java代码示例介绍如何在Excel表格中添加表单控件，包括文本框、单选按钮、复选框、组合框、微调按钮等；以及如何删除Excel中的指定表单控件。 程序运行环境：Java、IDEA、jdk1.8.0、无需安            <a href="https://www.cnblogs.com/Yesi/p/12610905.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-01 10:37 E-iceblue 阅读 (64) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12610905" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12580233.html">
+    Java 创建/编辑/删除Excel迷你图表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：迷你图是Excel工作表单元格中表示数据的微型图表。使用迷你图可以非常直观的显示数据变化趋势，突出最大值、最小值，放在数据表格中可起到很好的数据分析效果。本文将通过Java代码示例介绍如何在Excel中创建迷你图表，以及编辑和删除表格中的迷你图表。 程序运行环境：Java、IDEA、jdk1.8.0            <a href="https://www.cnblogs.com/Yesi/p/12580233.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-27 11:34 E-iceblue 阅读 (39) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12580233" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/23.html">2020年3月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12551201.html">
+    Java 插入、隐藏/显示、删除Excel行或列
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：概述 操作Excel工作表时，对表格中的行或列数据可执行，包括插入、隐藏、显示、删除等在内的多种操作需求，本文将通过Java代码示例演示每种操作的具体实现方法。文中方法使用了Java Excel类库（Free Spire.XLS for Java 免费版），可通过官网下载包，解压，并将lib文件中的            <a href="https://www.cnblogs.com/Yesi/p/12551201.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-23 11:41 E-iceblue 阅读 (197) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12551201" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/18.html">2020年3月18日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12517045.html">
+    Java 创建、编辑、删除Excel命名区域
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Excel命名区域，即对指定单元格区域进行命名，以便对单元格区域引用，如在公式运用中可以引用指定命名区域进行公式操作。在创建命名区域时，可针对整个工作簿来创建，即workbook.getNameRanges().add()，在引用时该命名区域对整个工作簿有效；或者针对指定工作表来创建，即sheet.            <a href="https://www.cnblogs.com/Yesi/p/12517045.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-18 13:58 E-iceblue 阅读 (58) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12517045" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/16.html">2020年3月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12502529.html">
+    Java 添加、读取、删除Excel文本框
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍通过Java程序添加文本框到Excel的方法，添加文本框时，可以添加文本、设置文本方向、文本对齐方式、设置文本框大小、位置、填充色/填充图片、文本框旋转角度、文本框名称、可选文本、文本框隐藏或显示等操作。对已有文本框，可实现读取文本框中的文本、填充色、填充图片、文本框名称以及删除不需要的文本            <a href="https://www.cnblogs.com/Yesi/p/12502529.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-16 11:07 E-iceblue 阅读 (209) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12502529" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/09.html">2020年3月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12448959.html">
+    Java 读取Word中的脚注、尾注
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文介绍读取Word中的脚注及尾注的方法，添加脚注、尾注可以参考这篇文章。 注：本文使用了Word类库（Free Spire.Doc for Java 免费版）来读取，获取该类库可通过官网下载，并解压文件，将lib文件夹下的Spire.Doc.jar导入java程序；或者通过maven仓库安装导入。            <a href="https://www.cnblogs.com/Yesi/p/12448959.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-09 15:26 E-iceblue 阅读 (125) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12448959" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/05.html">2020年3月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12419023.html">
+    Java 在PDF中添加表格
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文将介绍通过Java编程在PDF文档中添加表格的方法。添加表格时，可设置表格边框、单元格对齐方式、单元格背景色、单元格合并、插入图片、设置行高、列宽、字体、字号等。 使用工具：Free Spire.PDF for Java （免费版） Jar文件获取及导入： 方法1：通过官网下载jar文件包。下载            <a href="https://www.cnblogs.com/Yesi/p/12419023.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-05 11:04 E-iceblue 阅读 (177) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12419023" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Yesi/archive/2020/03/03.html">2020年3月3日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Yesi/p/12402429.html">
+    Java 设置Excel数据验证
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：数据验证是Excel 2013版本中，数据功能组下面的一个功能，在Excel2013之前的版本，包含Excel2010 Excel2007称为数据有效性。通过在excel表格中设置数据验证可有效规范数据输入。设置数据类型时，可设置如验证数字（数字区间/数字类型）、日期、文本长度等。下面通过Java程            <a href="https://www.cnblogs.com/Yesi/p/12402429.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-03 15:07 E-iceblue 阅读 (227) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12402429" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/Yesi/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 E-iceblue
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

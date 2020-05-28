@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="前一段时间，和大家分享了&amp;#160;ASP.NET Core技术研究-探秘Host主机启动过程 但是没有深入说明主机的设计。今天整理了一下主机的一些知识，结合先前的博文，完整地介绍一下.NET Cor" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>.NET Core技术研究-主机Host - Eric zhou - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue.min.css?v=MH15aYd6DmX-6TABpA2xkiKENy3GAhiM2dh5rOPH89I" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue-mobile.min.css?v=X7swQJ1TyCJAf6FMVjDPbYhUAiMdNFddEy1-m0_TbFQ" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/tianqing/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/tianqing/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/tianqing/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 27084;
+        var currentBlogApp = 'tianqing';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleBlue';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/tianqing/">I love .net</a>
+</div>
+<div class="subtitle">
+
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/tianqing/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Eric%20zhou">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/tianqing/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+101&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+397</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                <div id="post_detail">
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/tianqing/p/12726181.html">.NET Core技术研究-主机Host</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>前一段时间，和大家分享了&nbsp;<a class="postTitle2" href="https://www.cnblogs.com/tianqing/p/12640739.html">ASP.NET Core技术研究-探秘Host主机启动过程</a></p>
+<p>但是没有深入说明主机的设计。今天整理了一下主机的一些知识，结合先前的博文，完整地介绍一下.NET Core的主机的设计和构建启动过程。</p>
+<p><span style="font-size: 18px;"><strong>一、什么是主机</strong></span></p>
+<p>&nbsp; 主机是一个封装了应用资源的对象，即：主机封装了一堆应用资源，封装了哪些应用资源呢？</p>
+<ul>
+<li><span style="font-size: 16px;">依赖注入框架 DI&nbsp;</span></li>
+<li><span style="font-size: 16px;">Logging日志</span></li>
+<li><span style="font-size: 16px;">Configuration 配置</span></li>
+<li><span style="font-size: 16px;">托管服务：IHostedService服务接口的实现</span></li>
+</ul>
+<p><span style="font-size: 18px;"><strong>二、Web主机和通用主机</strong></span></p>
+<p>&nbsp; &nbsp; 先说<strong>Web主机</strong>：即ASP.NET Core Web主机，概括的讲就是<strong>托管Web程序的Host</strong>。在低于 3.0 的 ASP.NET Core 版本中，<strong>Web 主机用于 HTTP 工作负载</strong>。</p>
+<p>&nbsp; &nbsp; 我们新建一个ASP.NET Core2.2的Web应用程序，在Program类的Main函数中我们可以看到整个WebHost的构造、启动过程：</p>
+<p>&nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200418152846341-271848415.jpg" alt="" width="717" height="497"></p>
+<p>&nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200418152806086-1156804928.jpg" alt=""></p>
+<p>&nbsp; &nbsp;.NET Core提供Web主机的同时，还提供了一个通用主机的概念。</p>
+<p>&nbsp; &nbsp;通用主机Host和Web主机提供了类似的架构和功能，包含依赖注入框架DI、日志、配置、各类应用（托管服务）。通用主机的出现，给了我们更多开发的选择，比如说后台处理任务场景。</p>
+<p>&nbsp; &nbsp;在.NET Core3.1版本后，微软不再建议将 Web 主机用于 Web 应用，直接使用Host通用主机来替换WebHost，</p>
+<p>&nbsp; &nbsp;一句话：<strong>通用主机可以托管任何类型的应用，包括 Web 应用</strong>。 通用主机将替换 Web 主机。为了向下兼容，WebHost依然可以使用。</p>
+<p>&nbsp; &nbsp;&nbsp;我们新建一个ASP.NET Core3.1的Web应用程序，在Program类的Main函数中我们可以看到整个WebHost的构造、启动过程：</p>
+<p>&nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200418153202274-438425465.jpg" alt=""></p>
+<p>&nbsp; &nbsp;接下来，我们将以ASP.NET Core 3.1这个版本，介绍一下主机的构建过程和启动过程</p>
+<p><strong><span style="font-size: 18px;">三、主机是如何构建的</span></strong></p>
+<p>&nbsp; &nbsp;从上述代码可以看到，Main函数中首先调用CreateHostBuilder方法，返回一个IHostBuilder。然后调用IHostBuilder.Build()方法完成</p>
+<p><strong>&nbsp; 1. 通过Host.CreateDefaultBuilder(args): 构造IHostBuilder的默认实现HostBuilder</strong></p>
+<p>&nbsp;&nbsp;&nbsp;在CreateHostBuilder方法内部，首先调用了Host.CreateDefaultBuilder构造了一个<strong>HostBuilder</strong>，这个我们先看下源码，看看到底Host类内部做了什么操作：</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;">public static IHostBuilder CreateDefaultBuilder(string[] args)
+        {
+            var builder = new HostBuilder();
+ 
+            builder.UseContentRoot(Directory.GetCurrentDirectory());
+            builder.ConfigureHostConfiguration(config =&gt;
+            {
+                config.AddEnvironmentVariables(prefix: "DOTNET_");
+                if (args != null)
+                {
+                    config.AddCommandLine(args);
+                }
+            });
+ 
+            builder.ConfigureAppConfiguration((hostingContext, config) =&gt;
+            {
+                var env = hostingContext.HostingEnvironment;
+ 
+                config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                      .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+ 
+                if (env.IsDevelopment() &amp;&amp; !string.IsNullOrEmpty(env.ApplicationName))
+                {
+                    var appAssembly = Assembly.Load(new AssemblyName(env.ApplicationName));
+                    if (appAssembly != null)
+                    {
+                        config.AddUserSecrets(appAssembly, optional: true);
+                    }
+                }
+ 
+                config.AddEnvironmentVariables();
+ 
+                if (args != null)
+                {
+                    config.AddCommandLine(args);
+                }
+            })
+            .ConfigureLogging((hostingContext, logging) =&gt;
+            {
+                var isWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
+ 
+                // IMPORTANT: This needs to be added *before* configuration is loaded, this lets
+                // the defaults be overridden by the configuration.
+                if (isWindows)
+                {
+                    // Default the EventLogLoggerProvider to warning or above
+                    logging.AddFilter&lt;EventLogLoggerProvider&gt;(level =&gt; level &gt;= LogLevel.Warning);
+                }
+ 
+                logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                logging.AddConsole();
+                logging.AddDebug();
+                logging.AddEventSourceLogger();
+ 
+                if (isWindows)
+                {
+                    // Add the EventLogLoggerProvider on windows machines
+                    logging.AddEventLog();
+                }
+            })
+            .UseDefaultServiceProvider((context, options) =&gt;
+            {
+                var isDevelopment = context.HostingEnvironment.IsDevelopment();
+                options.ValidateScopes = isDevelopment;
+                options.ValidateOnBuild = isDevelopment;
+            });
+ 
+            return builder;
+        }
+</pre>
+</div>
+<p>　　从<a href="https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Hosting/src/Host.cs" target="_blank">上述.NET Core源代码</a>中，可以看到CreateDefaultBuilder内部构造了一个HostBuilder，同时设置了：</p>
+<ul>
+<li>将内容根目录（contentRootPath）设置为由 GetCurrentDirectory 返回的路径。</li>
+<li>通过以下源加载主机配置
+<ul>
+<li>环境变量（DOTNET_前缀）配置</li>
+<li>命令行参数配置</li>
+</ul>
+</li>
+<li>&nbsp; &nbsp; &nbsp;通过以下对象加载应用配置
+<ul>
+<li>appsettings.json&nbsp;</li>
+<li>appsettings.{Environment}.json</li>
+<li>密钥管理器 当应用在 Development 环境中运行时</li>
+<li>环境变量</li>
+<li>命令行参数</li>
+</ul>
+</li>
+<li>&nbsp; &nbsp; &nbsp;添加日志记录提供程序
+<ul>
+<li>控制台</li>
+<li>调试</li>
+<li>EventSource</li>
+<li>EventLog（ Windows环境下）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>当环境为&ldquo;开发&rdquo;时，启用范围验证和依赖关系验证。</li>
+</ul>
+<p>&nbsp; &nbsp;以上构造完成了HostBuilder，针对ASP.NET Core应用，代码继续调用了<strong>HostBuilder.ConfigureWebHostDefaults</strong>方法。</p>
+<p><strong>&nbsp; &nbsp;2.&nbsp;IHostBuilder.ConfigureWebHostDefaults：通过GenericWebHostBuilder对HostBuilder增加ASP.NET Core的运行时设置</strong></p>
+<p>&nbsp; &nbsp;构造完成HostBuilder之后，针对ASP.NET Core应用，继续调用了HostBuilder.ConfigureWebHostDefaults方法。这是一个ASP.NET Core的一个扩展方法：</p>
+<p>&nbsp; &nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406110931669-1304044276.png" alt="" width="897" height="166"></p>
+<p>&nbsp; &nbsp;我们继续看ConfigureWebHostDefaults扩展方法内部做了哪些事情：</p>
+<p>&nbsp; &nbsp;ASP.NET Core源码连接：<a href="https://github.com/dotnet/aspnetcore/blob/master/src/DefaultBuilder/src/GenericHostBuilderExtensions.cs">https://github.com/dotnet/aspnetcore/blob/master/src/DefaultBuilder/src/GenericHostBuilderExtensions.cs</a>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>&nbsp; &nbsp;</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;">using System;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore;
+ 
+namespace Microsoft.Extensions.Hosting
+{
+    /// &lt;summary&gt;
+    /// Extension methods for configuring the IWebHostBuilder.
+    /// &lt;/summary&gt;
+    public static class GenericHostBuilderExtensions
+    {
+        /// &lt;summary&gt;
+        /// Initializes a new instance of the &lt;see cref="IWebHostBuilder"/&gt; class with pre-configured defaults.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        ///   The following defaults are applied to the &lt;see cref="IWebHostBuilder"/&gt;:
+        ///     use Kestrel as the web server and configure it using the application's configuration providers,
+        ///     adds the HostFiltering middleware,
+        ///     adds the ForwardedHeaders middleware if ASPNETCORE_FORWARDEDHEADERS_ENABLED=true,
+        ///     and enable IIS integration.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="builder"&gt;The &lt;see cref="IHostBuilder" /&gt; instance to configure&lt;/param&gt;
+        /// &lt;param name="configure"&gt;The configure callback&lt;/param&gt;
+        /// &lt;returns&gt;The &lt;see cref="IHostBuilder"/&gt; for chaining.&lt;/returns&gt;
+        public static IHostBuilder ConfigureWebHostDefaults(this IHostBuilder builder, Action&lt;IWebHostBuilder&gt; configure)
+        {
+            return builder.ConfigureWebHost(webHostBuilder =&gt;
+            {
+                WebHost.ConfigureWebDefaults(webHostBuilder);
+ 
+                configure(webHostBuilder);
+            });
+        }
+    }
+}
+&copy; 2020 GitHub, Inc.
+</pre>
+</div>
+<p>　 首先，通过类<strong>GenericHostWebHostBuilderExtensions</strong>，对IHostBuilder扩展一个方法：<strong>ConfigureWebHost：<em>builder.ConfigureWebHost</em></strong></p>
+<p><strong>&nbsp; &nbsp; &nbsp;在这个扩展方法中实现了对IWebHostBuilder的依赖注入：即将GenericWebHostBuilder实例传入方法ConfigureWebHostDefaults内部</strong></p>
+<p><strong>&nbsp; &nbsp; &nbsp;</strong>代码连接：<a href="https://github.com/dotnet/aspnetcore/blob/release/3.1/src/Hosting/Hosting/src/GenericHostWebHostBuilderExtensions.cs">https://github.com/dotnet/aspnetcore/blob/release/3.1/src/Hosting/Hosting/src/GenericHostWebHostBuilderExtensions.cs</a>&nbsp; &nbsp;&nbsp;</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;">using System;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+ 
+namespace Microsoft.Extensions.Hosting
+{
+    public static class GenericHostWebHostBuilderExtensions
+    {
+        public static IHostBuilder ConfigureWebHost(this IHostBuilder builder, Action&lt;IWebHostBuilder&gt; configure)
+        {
+            var webhostBuilder = new GenericWebHostBuilder(builder);
+            configure(webhostBuilder);
+            builder.ConfigureServices((context, services) =&gt; services.AddHostedService&lt;GenericWebHostService&gt;());
+            return builder;
+        }
+    }
+}
+</pre>
+</div>
+<p>　通过GenericWebHostBuilder的构造函数GenericWebHostBuilder（buillder），将已有的HostBuilder增加了ASP.NET Core运行时设置。</p>
+<p>&nbsp; &nbsp;可以参考ASP.NET Core源代码：<a href="https://github.com/dotnet/aspnetcore/blob/release/3.1/src/Hosting/Hosting/src/GenericHost/GenericWebHostBuilder.cs">https://github.com/dotnet/aspnetcore/blob/release/3.1/src/Hosting/Hosting/src/GenericHost/GenericWebHostBuilder.cs</a></p>
+<p><strong>&nbsp; &nbsp;先看到这，让我们回到ConfigureWebHostDefaults：</strong></p>
+<p>&nbsp; &nbsp;将上面两段代码合并一下进行理解：ConfigureWebHostDefaults做了两件事情：</p>
+<p>&nbsp; &nbsp;①.&nbsp;<strong>扩展IHostBuilder增加ConfigureWebHost</strong>，引入IWebHostBuilder的实现GenericWebHostBuilder，<strong>将已有的HostBuilder增加ASP.NET Core运行时的设置。</strong></p>
+<p>&nbsp; &nbsp;②&nbsp;&nbsp;<strong>ConfigureWebHost代码中的configure(webhostBuilder)：</strong>对注入的IWebHostBuilder，调用&nbsp;WebHost.ConfigureWebDefaults(webHostBuilder)，启用各类设置，如下代码解读：&nbsp;</p>
+<p>&nbsp;&nbsp;</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;">internal static void ConfigureWebDefaults(IWebHostBuilder builder)
+       {
+           builder.ConfigureAppConfiguration((ctx, cb) =&gt;
+           {
+               if (ctx.HostingEnvironment.IsDevelopment())
+               {
+                   StaticWebAssetsLoader.UseStaticWebAssets(ctx.HostingEnvironment, ctx.Configuration);
+               }
+           });
+           builder.UseKestrel((builderContext, options) =&gt;
+           {
+               options.Configure(builderContext.Configuration.GetSection("Kestrel"));
+           })
+           .ConfigureServices((hostingContext, services) =&gt;
+           {
+               // Fallback
+               services.PostConfigure&lt;HostFilteringOptions&gt;(options =&gt;
+               {
+                   if (options.AllowedHosts == null || options.AllowedHosts.Count == 0)
+                   {
+                       // "AllowedHosts": "localhost;127.0.0.1;[::1]"
+                       var hosts = hostingContext.Configuration["AllowedHosts"]?.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
+                       // Fall back to "*" to disable.
+                       options.AllowedHosts = (hosts?.Length &gt; 0 ? hosts : new[] { "*" });
+                   }
+               });
+               // Change notification
+               services.AddSingleton&lt;IOptionsChangeTokenSource&lt;HostFilteringOptions&gt;&gt;(
+                           new ConfigurationChangeTokenSource&lt;HostFilteringOptions&gt;(hostingContext.Configuration));
+ 
+               services.AddTransient&lt;IStartupFilter, HostFilteringStartupFilter&gt;();
+ 
+               if (string.Equals("true", hostingContext.Configuration["ForwardedHeaders_Enabled"], StringComparison.OrdinalIgnoreCase))
+               {
+                   services.Configure&lt;ForwardedHeadersOptions&gt;(options =&gt;
+                   {
+                       options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+                       // Only loopback proxies are allowed by default. Clear that restriction because forwarders are
+                       // being enabled by explicit configuration.
+                       options.KnownNetworks.Clear();
+                       options.KnownProxies.Clear();
+                   });
+ 
+                   services.AddTransient&lt;IStartupFilter, ForwardedHeadersStartupFilter&gt;();
+               }
+ 
+               services.AddRouting();
+           })
+           .UseIIS()
+           .UseIISIntegration();
+       }
+</pre>
+</div>
+<p>　　其内部实现了：</p>
+<ul>
+<li>前缀为 ASPNETCORE_ 的环境变量加载主机配置。</li>
+<li>将<a href="https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1" target="_blank">&nbsp;Kestrel作为默认的Web服务器</a></li>
+<li>添加HostFiltering中间件（<a href="https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1#host-filtering" target="_blank">主机筛选中间件</a>）</li>
+<li>如果ASPNETCORE_FORWARDEDHEADERS_ENABLED=true，添加<a href="https://docs.microsoft.com/zh-cn/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-3.1#forwarded-headers" target="_blank">转接头中间件ForwardedHeaders</a>&nbsp;</li>
+<li><a href="https://docs.microsoft.com/zh-cn/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1#iis-options" target="_blank">启用IIS集成</a></li>
+</ul>
+<p>&nbsp;&nbsp;<strong>3. 返回ConfigureWebHostDefaults代码中的configure(webHostBuilder)：执行Program类中的webBuilder.UseStartup&lt;Startup&gt;();</strong></p>
+<p><strong>&nbsp; &nbsp;</strong>以上过程完成了IHostBuilder.ConfigureWebHostDefaults，通过GenericWebHostBuilder对HostBuilder增加ASP.NET Core的运行时设置。</p>
+<p>&nbsp; &nbsp;接下来就是主机的Build过程了：</p>
+<p><strong>&nbsp; 4.&nbsp;CreateHostBuilder(args).Build()</strong></p>
+<p><strong>&nbsp;&nbsp;</strong>CreateHostBuilder返回的IHostBuilder，我们通过代码Debug，看一下具体的类型：Microsoft.Extensions.Hosting.HostBuilder。</p>
+<p>&nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406114155236-51029908.jpg" alt="" width="1111" height="327"></p>
+<p>&nbsp; &nbsp;具体的Build过程是怎么样的？先看下Build的源码：<a href="https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Hosting/src/HostBuilder.cs">https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Hosting/src/HostBuilder.cs</a></p>
+<p>&nbsp; &nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406115410820-795612178.jpg" alt="" width="605" height="414">&nbsp; &nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; 主机Build的过程主要完成了：</p>
+<ul>
+<li>BuildHostConfiguration： 构造配置系统，初始化&nbsp;<span class="pl-k"><span class="pl-en">IConfiguration&nbsp;<span class="pl-smi">_hostConfiguration;</span></span></span></li>
+<li><span class="pl-k"><span class="pl-en"><span class="pl-smi">CreateHostingEnvironment：构建主机HostingEnvironment环境信息，包含<span class="pl-smi">ApplicationName、<span class="pl-smi">EnvironmentName、<span class="pl-smi">ContentRootPath等</span></span></span></span></span></span></li>
+<li><span class="pl-k"><span class="pl-en"><span class="pl-smi"><span class="pl-smi"><span class="pl-smi"><span class="pl-smi">CreateHostBuilderContext：创建主机Build上下文HostBuilderContext，上下文中包含：<span class="pl-smi">HostingEnvironment和<span class="pl-smi">Configuration</span></span></span></span></span></span></span></span></li>
+<li>BuildAppConfiguration：构建应用程序配置</li>
+<li>CreateServiceProvider：创建依赖注入服务提供程序，&nbsp; 即依赖注入容器</li>
+</ul>
+<p><strong><span style="font-size: 18px;">四、主机是如何启动运行的</span></strong></p>
+<p>&nbsp; &nbsp;我们先通过Debug，看一下Host的信息：Microsoft.Extensions.Hosting.Internal.Host</p>
+<p>&nbsp; &nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406120504252-1392265079.jpg" alt="" width="1127" height="349"></p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;这个Run方法也是一个扩展方法：HostingAbstractionsHostExtensions.Run</p>
+<p>&nbsp; &nbsp; &nbsp; ASP.NET Core源代码链接：<a href="https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Abstractions/src/HostingAbstractionsHostExtensions.cs">https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Abstractions/src/HostingAbstractionsHostExtensions.cs</a></p>
+<p>&nbsp; &nbsp; &nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406121440423-206729095.png" alt="" width="866" height="735"></p>
+<p>&nbsp; &nbsp;&nbsp;&nbsp;其实内部转调的还是Host.StartAsync方法，在内部启动了DI依赖注入容器中所有注册的服务。</p>
+<p>&nbsp; &nbsp; &nbsp;.NET Core代码链接：<a href="https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Hosting/src/Internal/Host.cs">https://github.com/dotnet/extensions/blob/release/3.1/src/Hosting/Hosting/src/Internal/Host.cs</a></p>
+<p>&nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200406121636320-1320847789.jpg" alt="" width="820" height="494"></p>
+<p><span style="font-size: 18px;"><strong>五、主机中注册一个托管服务</strong></span></p>
+<p>&nbsp; 以一个后台自更新（每隔5s 检查一次程序变更、进行输出）场景作为Demo，我们看一下如何在主机中注册一个托管服务。</p>
+<p>&nbsp; 自更新服务UpdateService，需要继承接口IHostService。</p>
+<p>&nbsp;&nbsp;</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;"> public class UpdateService : IHostedService
+    {
+        Task updateTask = null;
+
+        CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+
+        public Task StartAsync(CancellationToken cancellationToken)
+        {
+            updateTask = Task.Run(() =&gt;
+            {
+                while (cancellationTokenSource.Token.IsCancellationRequested==false)
+                {<br />                    //Check new data...
+                    Console.WriteLine(DateTime.Now + ": Executed");
+                    Task.Delay(5000).Wait();
+                }
+            });
+
+            return Task.CompletedTask;
+        }
+
+        public Task StopAsync(CancellationToken cancellationToken)
+        {
+            cancellationTokenSource.Cancel();
+
+            return Task.CompletedTask;
+        }
+    }
+</pre>
+</div>
+<p>　　同时，我们需要在ConfigureServices方法中，将UpdateService添加到IoC服务容器中</p>
+<div class="cnblogs_Highlighter">
+<pre class="brush:csharp;gutter:true;">        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddSingleton&lt;IHostedService, UpdateService&gt;();
+            services.AddControllers();
+        }
+</pre>
+</div>
+<p>　　程序启动后，可以看到以下输出：</p>
+<p>&nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/23525/202004/23525-20200418155650429-1066118691.jpg" alt=""></p>
+<p>&nbsp; &nbsp;以上是对.NET Core主机的概念、设计初衷、构建过程、启动运行过程、服务注册的整理和分享。</p>
+<p>&nbsp;</p>
+<p>周国庆</p>
+<p>2020/4/18</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-18 15:58</span>&nbsp;
+<a href="https://www.cnblogs.com/tianqing/">Eric zhou</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12726181" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12726181);return false;">收藏</a></div>
+        </div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 27084, cb_blogApp = 'tianqing', cb_blogUserGuid = 'ea753d0b-63cf-dd11-9e4d-001cf0cd104b';
+    var cb_entryId = 12726181, cb_entryCreatedDate = '2020-04-18 15:58', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>    </div>
+</div>
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 Eric zhou
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    
+</body>
+</html>

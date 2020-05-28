@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>q303248153 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/anothereon001/bundle-anothereon001.min.css?v=vmUk-3Bh8LDsKXwjNHs2GDiFna-ZMTUgOJzjUaXTlPA" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/anothereon001/bundle-anothereon001-mobile.min.css?v=cJiDsI1JAuHHd-OAUWJeyE5JMXXsG4mmuUi2rVmEK1c" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/zkweb/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/zkweb/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/zkweb/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 263597;
+        var currentBlogApp = 'zkweb';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'AnotherEon001';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <div id="wrapper">
+<div id="header">
+
+<div id="top">
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/zkweb/">zkweb</a>
+</h1>
+<div id="subtitle">
+介绍ZKWeb框架和其他.Net技术 QQ群: 522083886
+</div>
+</div>
+<div id="sub"><div class="BlogStats">随笔 - 
+49, 文章 - 
+0, 评论 - 
+318, 引用 - 
+0</div>
+
+</div>
+
+
+
+
+</div>
+<div id="main_container">
+<div id="main_content">
+<div id="content">
+	
+
+
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2020/04/23.html">2020年4月23日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/12761743.html">
+    写给程序员的机器学习入门 (三) - 线性模型，激活函数与多层线性模型
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：生物神经元与人工神经元 在了解神经元网络之前，我们先简单的看看生物学上的神经元是什么样子的，下图摘自维基百科： （因为我不是专家，这里的解释只用于理解人工神经元模拟了生物神经元的什么地方，不一定完全准确） 神经元主要由细胞体和细胞突组成，而细胞突分为树突 (Dendrites) 和轴突 (Axon)            <a href="https://www.cnblogs.com/zkweb/p/12761743.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2020-04-23 16:39 q303248153 阅读 (674) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12761743" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2020/04/10.html">2020年4月10日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/12674473.html">
+    写给程序员的机器学习入门 (二) - pytorch 与矩阵计算入门
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：pytorch 简介 pytorch 是目前世界上最流行的两个机器学习框架的其中之一，与 tensoflow 并峙双雄。它提供了很多方便的功能，例如根据损失自动微分计算应该怎样调整参数，提供了一系列的数学函数封装，还提供了一系列现成的模型，以及把模型组合起来进行训练的框架。pytorch 的前身是             <a href="https://www.cnblogs.com/zkweb/p/12674473.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2020-04-10 16:58 q303248153 阅读 (345) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12674473" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2020/04/06.html">2020年4月6日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/12642710.html">
+    写给程序员的机器学习入门 (一) - 从基础说起
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：前段时间因为店铺不能开门，我花了一些空余时间看了很多机器学习相关的资料，我发现目前的机器学习入门大多要不门槛比较高，要不过于着重使用而忽视基础原理，所以我决定开一个新的系列针对程序员讲讲机器学习。这个系列会从机器学习的基础原理开始一直讲到如何应用，看懂这个系列需要一定的编程知识（主要会使用 pyth            <a href="https://www.cnblogs.com/zkweb/p/12642710.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2020-04-06 16:35 q303248153 阅读 (2170) 评论 (9)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12642710" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2020/02/07.html">2020年2月7日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/12273151.html">
+    编译调试 .NET Core 5.0 Preview 并分析 Span 的实现原理
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：很久没有写过 .NET Core 相关的文章了，目前关店在家休息所以有些时间写一篇新的&#129315;。这次的文章主要介绍如何在 Linux 上编译调试最新的 .NET Core 5.0 Preview 与简单分析 Span 的实现原理。微软从 .NET Core 5.0 开始把 GIT 仓库 coreclr             <a href="https://www.cnblogs.com/zkweb/p/12273151.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2020-02-07 15:24 q303248153 阅读 (2297) 评论 (7)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12273151" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2019/10/24.html">2019年10月24日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/11730661.html">
+    cpv framework 0.1 正式发布 (C++ 网页框架)
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：项目地址 https://github.com/cpv project/cpv framework 项目介绍 cpv framework 是一个 C++ 编写的网页框架，基于 &quot;seastar framework&quot; ，主要着重性能与模块化。 seastar framework 是一个网络应用框架，支            <a href="https://www.cnblogs.com/zkweb/p/11730661.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-10-24 11:09 q303248153 阅读 (203) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11730661" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/11730278.html">
+    ZKWeb网页框架3.0正式发布
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：3.0 更新的内容有 更新 .NET 框架 替换项目模版的 netcoreapp2.2 到 netcoreapp3.0 目前支持的 .NET 框架有: net461, netcoreapp2.0, netcoreapp3.0 注意: efcore 3.0 只支持 netcoreapp3.0, 如果使            <a href="https://www.cnblogs.com/zkweb/p/11730278.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-10-24 09:12 q303248153 阅读 (284) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11730278" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2019/10/07.html">2019年10月7日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/11630228.html">
+    使用 .NET Core 3.0 的 AssemblyLoadContext 实现插件热加载
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：一般情况下，一个 .NET 程序集加载到程序中以后，它的类型信息以及原生代码等数据会一直保留在内存中，.NET 运行时无法回收它们，如果我们要实现插件热加载 (例如 Razor 或 Aspx 模版的热更新) 则会造成内存泄漏。在以往，我们可以使用 .NET Framework 的 AppDomain            <a href="https://www.cnblogs.com/zkweb/p/11630228.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-10-07 14:10 q303248153 阅读 (5213) 评论 (17)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11630228" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2019/09/13.html">2019年9月13日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/11516062.html">
+    .NET Core 3.0 可卸载程序集原理简析
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：因为最近在群里被问到如何理解 .NET Core 3.0 可卸载程序集，所以就写了这篇简单的分析。 因为时间实在很少，这篇文章只简单的罗列了相关的代码，请配合官方说明文档理解。 另外，书籍《.NET Core 底层原理》预计 11 月出版，出版社比较拖 :O。 链接 可卸载程序集的官方说明文档如下:            <a href="https://www.cnblogs.com/zkweb/p/11516062.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-09-13 09:25 q303248153 阅读 (849) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11516062" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<span>		  
+	<a href="https://www.cnblogs.com/zkweb/archive/2019/05/28.html">2019年5月28日</a>
+	</span>
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/10936736.html">
+    ZKWeb 官网与演示站点的部署步骤 (Linux + Nginx + Certbot)
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：因为没有给域名续费，加上私人时间不足，ZKWeb 的官网和演示站点已经停止了几个月的时间。 最近时间开始变多，所以重新购买了别的域名和服务器把官网和演示站点重新部署上去。 在此前站点是托管在共享主机上的 Windows + IIS 上的，而现在已经换为了 Linux + Nginx，费用比使用共享主            <a href="https://www.cnblogs.com/zkweb/p/10936736.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-05-28 13:42 q303248153 阅读 (265) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10936736" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/zkweb/p/10936729.html">
+    ZKWeb网页框架2.2.1正式发布
+</a>
+</h2>
+			<div class="postbody">
+			
+
+    <div class="c_b_p_desc">
+摘要：2.2.1 更新的内容有 改进 EFCore 支持 支持自动 json 序列化字段 (通过 WithSerialization 选项) 支持懒加载 更新后 EFCore 可以使用所有默认插件 (ZKWeb.Plugins)，但由于缺乏自动多对多支持部分功能会受影响， 因此目前仍然推荐使用 NHibe            <a href="https://www.cnblogs.com/zkweb/p/10936729.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			</div>
+			<p class="postfoot">		
+			
+
+posted @ 2019-05-28 13:41 q303248153 阅读 (175) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10936729" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/zkweb/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div id="leftmenu">
+
+
+<h3>导航</h3>
+<ul>
+    <li>
+        <a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+
+    </li>
+    <li>
+        
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/zkweb/">
+首页</a>
+
+    </li>
+    <li>
+        
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+
+    </li>
+    <li>
+        
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/q303248153">
+联系</a>
+    </li>
+    <li>
+        
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/zkweb/rss/">
+订阅</a>
+        
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/zkweb/rss/">
+    <img src="/skins/anothereon001/images/xml.gif" alt="订阅" />
+</a>
+    </li>
+    <li>
+        
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+
+    </li>
+</ul>
+
+
+<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+
+</div>
+</div>
+<div class="clear"></div>
+<div id="footer">
+<p id="footer">
+	Powered by: 
+	<br />
+	
+	
+<a href="https://www.cnblogs.com/" id="Footer1_Hyperlink3" style="font-size: 12px; font-family: Verdana">博客园</a>
+	<br />
+	Copyright &copy; 2020 q303248153
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+
+
+</div>
+</div>
+
+
+    
+</body>
+</html>

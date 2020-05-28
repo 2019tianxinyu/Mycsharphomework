@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="[TOC] 0、前言 如果还不知道kubernetes下如何实现jenkins slave可以参考我的另一个博文 &amp;quot;Kubernetes Jenkins动态创建Slave&amp;quot; 1、G" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Golang交付至Kubernetes - jasonminghao - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/elf/bundle-elf.min.css?v=mpcef9xxdj1doWi6glkD6lMbmGclGCSPM_FSrhFRY-A" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/elf/bundle-elf-mobile.min.css?v=Lk2wjMMUJjSLadG0Xil7JdDLDWWAvcpQmxzjUgc7cAk" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/jasonminghao/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/jasonminghao/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/jasonminghao/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 513694;
+        var currentBlogApp = 'jasonminghao';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'elf';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/jasonminghao/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/jasonminghao/">jasonminghao</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/jasonminghao/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/jasonminghao">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/jasonminghao/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+80&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+3</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/jasonminghao/p/12769072.html">Golang交付至Kubernetes</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p><div class="toc"><div class="toc-container-header">目录</div><ul><li><a href="#0、前言">0、前言</a></li><li><a href="#1、go服务构建">1、Go服务构建</a><ul><li><a href="#11、制作go服务镜像底包">1.1、制作Go服务镜像底包</a></li><li><a href="#12、制作slave基础镜像底包">1.2、制作slave基础镜像底包</a><ul><li><a href="#121、golang镜像">1.2.1、Golang镜像</a></li><li><a href="#122、docker镜像">1.2.2、Docker镜像</a></li></ul></li></ul></li><li><a href="#2、创建golang流水线">2、创建golang流水线</a></li><li><a href="#3、流水线构建">3、流水线构建</a></li><li><a href="#4、golang资源配置清单">4、golang资源配置清单</a><ul><li><a href="#41、准备资源配置清单">4.1、准备资源配置清单</a></li><li><a href="#42、应用资源配置清单">4.2、应用资源配置清单</a></li><li><a href="#43、浏览器访问golang业务">4.3、浏览器访问golang业务</a></li></ul></li></ul></div></p>
+<h1 id="0、前言">0、前言</h1>
+<p>如果还不知道kubernetes下如何实现jenkins slave可以参考我的另一个博文<a href="https://www.cnblogs.com/jasonminghao/p/12468407.html">Kubernetes Jenkins动态创建Slave</a></p>
+<h1 id="1、go服务构建">1、Go服务构建</h1>
+<p>我们需要通过自定义镜像底包，能够让该底包拥有启动go程序的基本功能和日志重定向输出到指定目录下，方便日志收集，编辑完相关文件后，我们需要通过<code>docker</code>命令去构建镜像，构建完毕后将其推送到harbor base仓库，该名为base的仓库需要手动去harbor上创建。</p>
+<h2 id="11、制作go服务镜像底包">1.1、制作Go服务镜像底包</h2>
+<p>1.编写Dockerfile以及相关的启动脚本</p>
+<ul>
+<li>Dcokerfile</li>
+</ul>
+<pre><code class="language-dockerfile">FROM alpine
+USER root
+RUN apk add tzdata &amp;&amp; /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime &amp;&amp;\
+    echo 'Asia/Shanghai' &gt;/etc/timezone &amp;&amp;\
+    mkdir /opt/logs 
+WORKDIR /opt/project_dir/
+ADD entrypoint.sh /entrypoint.sh
+CMD [&quot;/entrypoint.sh&quot;]
+</code></pre>
+<ul>
+<li>entrypoint.sh</li>
+</ul>
+<pre><code class="language-bash">#!/bin/sh
+APP_NAME=${APP_NAME:-&quot;app&quot;}
+exec ${APP_NAME} &gt;&gt; /opt/logs/stdout.log 2&gt;&amp;1
+</code></pre>
+<p>APP_NAME：启动的二进制文件名，这个可以手动传入或者默认为名为app</p>
+<p>2.构建镜像并上传到harbor仓库</p>
+<pre><code class="language-bash">$ docker build ./ -t harbor.od.com/base/go-run:1.14.2-1
+Sending build context to Docker daemon  3.072kB
+Step 1/6 : FROM alpine
+ ---&gt; a187dde48cd2
+Step 2/6 : USER root
+ ---&gt; Using cache
+ ---&gt; f0673624a0e0
+Step 3/6 : RUN apk add tzdata &amp;&amp; /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime &amp;&amp;    echo 'Asia/Shanghai' &gt;/etc/timezone &amp;&amp;    mkdir /opt/logs
+ ---&gt; Using cache
+ ---&gt; e91f2e8a4919
+Step 4/6 : WORKDIR /opt/project_dir/
+ ---&gt; Using cache
+ ---&gt; 6afa8e9ddd43
+Step 5/6 : ADD entrypoint.sh /entrypoint.sh
+ ---&gt; Using cache
+ ---&gt; 7a7efe533a5f
+Step 6/6 : CMD [&quot;/entrypoint.sh&quot;]
+ ---&gt; Using cache
+ ---&gt; 17d85fd60af3
+Successfully built 17d85fd60af3
+Successfully tagged harbor.od.com/base/go-run:1.14.2-1
+
+$ docker push harbor.od.com/base/go-run:1.14.2-1
+The push refers to repository [harbor.od.com/base/go-run]
+20c042b1ca31: Mounted from base/go-test 
+98e20bd596b3: Mounted from base/go-test 
+f4ee0579d5d8: Mounted from base/go-test 
+beee9f30bc1f: Mounted from base/go-test 
+1.14.2-1: digest: sha256:49dda47c11a3148fdfd60fe4850ada128e6550fb33c1a6284caadf0e6ea8016d size: 1153
+</code></pre>
+<h2 id="12、制作slave基础镜像底包">1.2、制作slave基础镜像底包</h2>
+<p>我们是基于jenkins slave方式去构建项目，并且使用pipeline来实现流程化，我们都知道slave运行的是一个pod，那么pod里可以有多个容器，而这些一个一个的容器就是执行我们对应操作的环境，所以我们需要通过制作一些镜像来满足我们的需求。</p>
+<p>镜像需求：<br>
+1、编译golang应用：golang:v1.14.2<br>
+2、打包镜像并推送到harbor：</p>
+<h3 id="121、golang镜像">1.2.1、Golang镜像</h3>
+<p>该镜像主要用于构建golang应用，我们是在基于golang v1.14.2环境下开发的golang程序，所以这里镜像版本就选择：golang:v1.14.2</p>
+<pre><code class="language-bash">$ docker pull golang:v1.14.2
+$ docker tag a1c86c0786 harbor.od.com/public/golang:v1.14.2
+$ docker push harbor.od.com/public/golang:v1.14.2
+</code></pre>
+<h3 id="122、docker镜像">1.2.2、Docker镜像</h3>
+<p>该镜像主要用于将编译好的golang项目打包成镜像并推送到harbor，但需要定制化一下镜像，需要将一台已经实现docker login 登录到harbor仓库所生成的配置文件，路径为：/root/.docker/config.json，与原始Docker镜像一起打包生成新的Docker镜像并推送到本地仓库。<br>
+1.准备镜像文件</p>
+<pre><code class="language-bash">$ docker pull docker:19.03
+$ docker tag e036013d6d10 harbor.od.com/public/docker:v19.03
+$ docker push harbor.od.com/public/docker:v19.03
+</code></pre>
+<p>2.准备Dockerfile和config.json</p>
+<ul>
+<li>Dockerfile</li>
+</ul>
+<pre><code class="language-dockerfile">FROM harbor.od.com/public/docker:v19.03
+USER root
+ADD config.json /root/.docker/config.json
+</code></pre>
+<p>3.将/root/.docker/config.json文件拷贝到Dockerfile目录下</p>
+<pre><code class="language-json">{
+	&quot;auths&quot;: {
+		&quot;harbor.od.com&quot;: {
+			&quot;auth&quot;: &quot;YWRtaW46SGFyYm9yMTIzNDU=&quot;
+		}
+	},
+	&quot;HttpHeaders&quot;: {
+		&quot;User-Agent&quot;: &quot;Docker-Client/19.03.6 (linux)&quot;
+	}
+}
+</code></pre>
+<p>4.制作并推送镜像</p>
+<pre><code class="language-bash">$ docker build ./ -t harbor.od.com/public/docker:v19.03
+$ docker push  harbor.od.com/public/docker:v19.0
+</code></pre>
+<h1 id="2、创建golang流水线">2、创建golang流水线</h1>
+<p>1.添加参数化构建</p>
+<pre><code class="language-bash">- Choice Parameterr：app_project
+  Value：zj-skyquery
+  Describe：项目名必须和git仓库名一致
+
+- Choice Parameterr：image_name
+  Value：app/skyquery
+  Describe：镜像名称：仓库名/镜像名
+
+- String Parameterr：git_ver
+  Value：zmaster
+  Describe：Git仓库分支或Commit ID
+
+- String Parameterr：add_tag
+  Value：
+  Describe：打包镜像tag，一般为日期时间
+
+- Choice Parameterr：git_repo
+  Value：https://gitee.com/jasonminghao/zj-skyquery.git
+  Describe：代码仓库地址
+
+- Choice Parameterr：base_image
+  Value：base/go-run:1.14.2-1
+  Describe：基础镜像底包
+</code></pre>
+<p>2.pipeline代码</p>
+<pre><code class="language-pipeline">podTemplate(cloud:'kubernetes',containers: [
+    containerTemplate(
+       name: 'go-build', 
+       envVars: [
+         envVar(key: 'GO111MODULE', value: 'on'), 
+         envVar(key: 'GOPROXY', value: 'https://goproxy.io'),
+         envVar(key: 'CGO_ENABLED', value: '0'),
+         envVar(key: 'GOOS', value: 'linux')
+       ],
+       image: 'harbor.od.com/infra/golang:v1.14.2', 
+       ttyEnabled: true,
+       command: 'cat'),
+    containerTemplate(
+       name: 'docker',
+      ttyEnabled: true,
+      image: 'harbor.od.com/public/docker:v19.03'),
+    ],
+    volumes: [
+       nfsVolume(mountPath: '/go/pkg/mod', readOnly: false, serverAddress: 'hdss7-200.host.com', serverPath: '/data/nfs-volume/go-pkg/'),
+       hostPathVolume(hostPath: '/run/docker.sock', mountPath: '/run/docker.sock')
+            ]
+ ){
+    node(POD_LABEL) {
+        stage('Get a Go project') {
+        // 从git仓库拉取代码
+        checkout([$class: 'GitSCM', branches: [[name: &quot;${params.git_ver}&quot;]], browser: [$class: 'GitLab', repoUrl: ''], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'git', name: 'git', refspec: 'refs/changes/*:refs/changes/*', url: &quot;${params.git_repo}&quot;]]])
+
+            container('go-build') {
+                stage('Build a go project') {
+                  // 将go应用构建名为app的可执行二进制文件
+                  sh &quot;go build -o app&quot;
+                }
+            }
+        }
+        stage('Docker build') {
+            container('docker') {
+                stage('create dir'){
+                  sh &quot;mkdir -p /tmp/${params.app_project}/project_dir &amp;&amp; mv ./app /tmp/${params.app_project}/project_dir&quot;
+                stage('build docker iamge'){
+                 sh &quot;&quot;&quot;
+                   echo &quot;FROM harbor.od.com/${params.base_image}&quot; &gt;/tmp/${params.app_project}/Dockerfile
+                   echo &quot;ADD ./project_dir /opt/project_dir&quot; &gt;&gt;/tmp/${params.app_project}/Dockerfile
+                  &quot;&quot;&quot;
+                  sh &quot;cd /tmp/${params.app_project}/ &amp;&amp; pwd &amp;&amp; docker build ./ -t harbor.od.com/${params.image_name}:${params.git_ver}_${params.add_tag} &amp;&amp; docker push harbor.od.com/${params.image_name}:${params.git_ver}_${params.add_tag} &quot;                              
+
+                 }
+              }
+            }
+        }
+    }
+}
+</code></pre>
+<p>我们在podTemplate里需要导入以下几个变量(pipeline已通过env实现)</p>
+<pre><code class="language-bash">// 如果运行的golang镜像没有以下变量会导致无法执行go build以及可执行文件无法在linux上运行
+GO111MODULE =  on
+GOPROXY = &quot;https://goproxy.io&quot;
+CGO_ENABLED = 0 
+GOOS = linux 
+</code></pre>
+<p>之前我们遇到过一个问题，golang应用构建成功，也有二进制文件，但是我们将其通过deployment交付到k8s的时候容器会启动失败，并且报错是 not found，但是把编译的文件拿到linux上可正常运行，就是在docker里运行失败，最后我们去网上查了一些资料，通过增加CGO_ENABLED=0 参数重新编译即可解决该问题。</p>
+<h1 id="3、流水线构建">3、流水线构建</h1>
+<p>1.填写参数构建<br>
+<img src="https://img2020.cnblogs.com/blog/1679739/202004/1679739-20200424172556861-1560552944.png" alt=""></p>
+<p>2.构建后的结果<br>
+<img src="https://img2020.cnblogs.com/blog/1679739/202004/1679739-20200424173412653-935985118.png" alt=""></p>
+<h1 id="4、golang资源配置清单">4、golang资源配置清单</h1>
+<h2 id="41、准备资源配置清单">4.1、准备资源配置清单</h2>
+<p>1.deployment</p>
+<pre><code class="language-yaml">kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: sky-query
+  namespace: app
+  labels: 
+    name: sky-query
+spec:
+  replicas: 1
+  selector:
+    matchLabels: 
+      name: sky-query
+  template:
+    metadata:
+      labels: 
+        app: sky-query
+        name: sky-query
+    spec:
+      containers:
+      - name: sky-query
+        image: harbor.od.com/app/skyquery:master_20200424_1725
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        imagePullPolicy: IfNotPresent
+      imagePullSecrets:
+      - name: harbor
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      securityContext: 
+        runAsUser: 0
+      schedulerName: default-scheduler
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: 
+      maxUnavailable: 1
+      maxSurge: 1
+  revisionHistoryLimit: 7
+  progressDeadlineSeconds: 600
+</code></pre>
+<p>2.svc</p>
+<pre><code class="language-yaml">kind: Service
+apiVersion: v1
+metadata: 
+  name: sky-query
+  namespace: app
+spec:
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  selector: 
+    name: sky-query
+</code></pre>
+<p>3.ingress</p>
+<pre><code class="language-yaml">kind: Ingress
+apiVersion: extensions/v1beta1
+metadata: 
+  name: sky-query
+  namespace: app
+spec:
+  rules:
+  - host: sk-query.od.com
+    http:
+      paths:
+      - path: /
+        backend: 
+          serviceName: sky-query
+          servicePort: 80
+</code></pre>
+<h2 id="42、应用资源配置清单">4.2、应用资源配置清单</h2>
+<pre><code class="language-bash">$ kubectl  apply -f ./
+deployment.extensions/sky-query created
+ingress.extensions/sky-query created
+service/sky-query created
+</code></pre>
+<p>查看pod运行状态</p>
+<pre><code class="language-bash">$ kubectl get pods -n app
+NAME                         READY   STATUS    RESTARTS   AGE
+sky-query-55474c768d-x8qj5   1/1     Running   0          2m10s
+</code></pre>
+<h2 id="43、浏览器访问golang业务">4.3、浏览器访问golang业务</h2>
+<p>我们是通过ingress实现域名访问golang业务，以为是实验环境，我部署了内部自建dns，那我就直接将A记录添加到dns中，那么各位如果没有自建dns，直接将解析添加到hosts文件中。</p>
+<p>1.域名解析</p>
+<pre><code class="language-bash">$ vim /var/named/od.com.zone 
+sk-query           A    10.4.7.10
+
+$ systemctl restart named
+</code></pre>
+<p>2.浏览器访问<br>
+<img src="https://img2020.cnblogs.com/blog/1679739/202004/1679739-20200424174757427-724089992.png" alt=""></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 17:49</span>&nbsp;
+<a href="https://www.cnblogs.com/jasonminghao/">jasonminghao</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12769072" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12769072);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 513694, cb_blogApp = 'jasonminghao', cb_blogUserGuid = '51e9a174-8a37-4ffe-f220-08d6d1bc5bde';
+    var cb_entryId = 12769072, cb_entryCreatedDate = '2020-04-24 17:49', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 jasonminghao
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

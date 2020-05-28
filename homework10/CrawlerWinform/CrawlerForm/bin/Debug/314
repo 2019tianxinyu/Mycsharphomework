@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="使用websocket开发智能聊天机器人" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>使用websocket开发智能聊天机器人 - 虫师 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/minyx2_lite/bundle-minyx2_lite.min.css?v=mxJZfspzqgmSFSdBbMH8zU83VuawcFZooz2hdrdyHlI" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/fnng/custom.css?v=LfcVDbX80919KwJm7jT6CZkrcrc=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/minyx2_lite/bundle-minyx2_lite-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/fnng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/fnng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/fnng/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 91739;
+        var currentBlogApp = 'fnng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Minyx2_Lite';
+    </script>
+    
+    
+    <script src="/skins/minyx2_lite/bundle-minyx2_lite.min.js?v=z_XLIOc5JYwRKqTPu9fAWp7D8tchhGxVWGYvlAiigUQ" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<div id="container">
+    <a class="minyx" href="https://www.cnblogs.com/">代码改变世界</a>
+    <ul id="topMnu">
+        <!-- 统计数据 -->
+        <li>
+            Posts - 
+349, 
+Articles - 
+1, 
+Comments - 
+3689
+<!---->
+
+
+        </li>
+        <!-- 这边可以增加一些链接 -->
+        <!-- 博客园 -->
+        <li><a href="https://www.cnblogs.com/">Cnblogs</a></li>
+        <!-- 管理 -->
+        <li id="topMnu-dashboard">
+            <a id="lnkDashboard" href="https://i.cnblogs.com/">Dashboard</a>
+        </li>
+        <li>
+            
+    <a id="lnkLogin" href="https://account.cnblogs.com/signin/?returnUrl=https://www.cnblogs.com/fnng/">Login</a>
+
+
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        var m = window.__blog.topMenuRendered;
+        if (m) { m(__$("topMnu")); }
+    </script>
+
+    <div id="header">
+        <ul id="menu">
+            <!-- 首页，当前section加上current类 -->
+            <li id="menu-home" class="current">
+                <a id="lnkHome" href="https://www.cnblogs.com/fnng/">Home</a></li>
+            <!-- 联系 -->
+            <li id="menu-contact">
+                <a id="lnkContact" href="https://msg.cnblogs.com/send/%E8%99%AB%E5%B8%88">Contact</a></li>
+            <!-- 相册 -->
+            <li id="menu-gallary">
+                <a id="lnkGallery" href="https://www.cnblogs.com/fnng/gallery.html">Gallery</a></li>
+            <!-- 订阅 -->
+            <li id="menu-subscribe">
+                <a id="blog_nav_rss" href="javascript:void(0);" data-rss="https://www.cnblogs.com/fnng/rss/">Subscribe</a></li>
+            <!-- Rss订阅 -->
+            <li id="rss">
+                <a id="lnkRss" href="https://www.cnblogs.com/fnng/rss/">RSS</a></li>
+        </ul>
+        <div id="newmsg"></div>
+        <h1>
+            <!-- 主标题 -->
+            <a id="lnkBlogTitle" href="https://www.cnblogs.com/fnng/">虫师</a>
+            <!-- 子标题 -->
+            <small>
+                大人不华，君子务实。
+            </small>
+        </h1>
+    </div>
+
+    <script type="text/javascript">
+        var m = window.__blog.headerRendered;
+        if (m) { m(__$("header")); }
+    </script>
+
+    <div id="wrapper">
+        <div id="content">
+            <script type="text/javascript">
+                var m = window.__blog.preRenderPosts;
+                if (m) { m(); }
+            </script>
+            <div id="post_detail">
+<div class="post" id="post">
+    <a name="top"></a>
+    <h2>
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/fnng/p/12977422.html">使用websocket开发智能聊天机器人</a>
+</h2>
+    <small>
+<span id="post-date">2020-05-27 23:25</span>&nbsp;
+<a href="https://www.cnblogs.com/fnng/">虫师</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12977422" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12977422);return false;">收藏</a></small>
+    <div class="entry">
+        
+    <div id="cnblogs_post_description" style="display: none">
+        使用websocket开发智能聊天机器人
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p>前面我们学习了异步web框架（sanic）和http异步调用库httpx，今天我们学习websocket技术。</p>
+<h2 id="websocket简介">websocket简介</h2>
+<p>我们知道HTTP协议是：请求-&gt;响应，如果没有响应就一直等着，直到超时；但是有时候后台的处理需要很长时间才能给到结果，比如30分钟，那HTTP的请求不可能等这么久，所以，可以通过 Ajax 轮询来解决。那就是每间隔一段时间就请求一次。</p>
+<p><img src="https://img2020.cnblogs.com/blog/311516/202005/311516-20200527232150811-1418372604.png" alt=""></p>
+<p>这种传统的模式带来很明显的缺点，即浏览器需要不断的向服务器发出请求，然而HTTP请求可能包含较长的头部，其中真正有效的数据可能只是很小的一部分，显然这样会浪费很多的带宽等资源。</p>
+<p>HTML5 定义的 WebSocket 协议，能更好的节省服务器资源和带宽，并且能够更实时地进行通讯。</p>
+<p><img src="https://img2020.cnblogs.com/blog/311516/202005/311516-20200527232207001-1802404090.png" alt=""></p>
+<p>浏览器通过 JavaScript 向服务器发出建立 WebSocket 连接的请求，连接建立以后，客户端和服务器端就可以通过 TCP 连接直接交换数据。</p>
+<p>好了，WebSocket就是为了解决这个问题的，感兴趣去看其他资料！</p>
+<h2 id="智能聊天机器人">智能聊天机器人</h2>
+<p>我一开始只是为了学习WebSocket找个例子，不少例子使用了聊天功能。我稍加改进就变成了智能聊天功能了。</p>
+<p><img src="https://img2020.cnblogs.com/blog/311516/202005/311516-20200527232225345-59516780.png" alt=""></p>
+<p>通过异步sanic异步框架实现Web功能。官方文档里面给个WebSocket使用的例子。</p>
+<p><a href="https://sanic.readthedocs.io/en/latest/sanic/websocket.html">https://sanic.readthedocs.io/en/latest/sanic/websocket.html</a></p>
+<p>snaic部分核心代码如下：</p>
+<pre><code class="language-python">import sanic
+import httpx
+from sanic import Sanic
+from sanic.response import json
+from sanic.websocket import WebSocketProtocol
+from sanic.exceptions import NotFound
+from sanic.response import html
+from jinja2 import Environment, PackageLoader
+
+
+env = Environment(loader=PackageLoader('app', 'templates'))
+
+app = Sanic(__name__)
+
+
+@app.route('/')
+async def index(request):
+    &quot;&quot;&quot;
+    聊天页面
+    &quot;&quot;&quot;
+    template = env.get_template('index.html')
+    html_content = template.render(title='聊天机器人')
+    return html(html_content)
+
+
+@app.websocket('/chat')
+async def chat(request, ws):
+    &quot;&quot;&quot;
+    处理聊天信息，并返回消息
+    &quot;&quot;&quot;
+    while True:
+        user_msg = await ws.recv()
+        print('Received: ' + user_msg)
+        intelligence_data = {&quot;key&quot;: &quot;free&quot;, &quot;appid&quot;: 0, &quot;msg&quot;: user_msg}
+        r = httpx.get(&quot;http://api.qingyunke.com/api.php&quot;, params=intelligence_data)
+        chat_msg = r.json()[&quot;content&quot;]
+        print('Sending: ' + chat_msg)
+        await ws.send(chat_msg)
+
+
+if __name__ == &quot;__main__&quot;:
+    app.error_handler.add(
+        NotFound,
+        lambda r, e: sanic.response.empty(status=404)
+    )
+    app.run(host=&quot;192.168.0.7&quot;, port=8000, protocol=WebSocketProtocol, debug=True)
+</code></pre>
+<ul>
+<li>index() 函数，返回聊天页面。这里用到了jinja2 模板渲染库。</li>
+<li>chat() 函数，通过webSocket实现消息的接收、处理和返回。</li>
+</ul>
+<p>智能聊天是怎么做到的，这里要感谢 青云客网络，他们提供了免费的接口。（我当时也只是抱着试试看的态度，没想到，duang~! ）</p>
+<pre><code>user_msg = &quot;你好！&quot;
+intelligence_data = {&quot;key&quot;: &quot;free&quot;, &quot;appid&quot;: 0, &quot;msg&quot;: user_msg}
+r = httpx.get(&quot;http://api.qingyunke.com/api.php&quot;, params=intelligence_data)
+chat_msg = r.json()[&quot;content&quot;]
+print(chat_msg)
+</code></pre>
+<p>是不是超简单。</p>
+<p>再来看前端代码，主要部分：</p>
+<pre><code class="language-HTML">  &lt;div class=&quot;container theme-showcase&quot; role=&quot;main&quot; style=&quot;margin-top: 80px;&quot;&gt;
+      &lt;div id=&quot;contents&quot; style=&quot;height: 600px; background-color:#eee;&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;
+          &lt;textarea class=&quot;form-control&quot; id=&quot;msg&quot;&gt;&lt;/textarea&gt;
+          &lt;button class=&quot;btn btn-lg btn-info&quot; onclick=&quot;sendMsg()&quot; style=&quot;float: right;&quot;&gt;发送&lt;/button&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src=&quot;http://code.jquery.com/jquery-2.1.1.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+
+          var ws = new WebSocket(&quot;ws://192.168.0.7:8000/chat&quot;);
+          ws.onmessage = function(e) {
+              $(&quot;#contents&quot;).append('&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot; style=&quot;float: left;&quot;&gt;' + &quot;机器人: &quot; + e.data + &quot;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&quot;);
+          }
+          function sendMsg() {
+              var msg = $(&quot;#msg&quot;).val();
+              $(&quot;#contents&quot;).append('&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot; style=&quot;float:right&quot;&gt;' + msg + &quot;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&quot;);
+              ws.send(msg);
+              $(&quot;#msg&quot;).val(&quot;&quot;);
+          }
+
+  &lt;/script&gt;
+</code></pre>
+<p>这里使用到了 bootstrap 前端框架，主要 调用部分在：</p>
+<pre><code class="language-js">var Socket = new WebSocket(url, [protocol] );
+</code></pre>
+<ul>
+<li>Socket.send(msg): 使用连接发送数据。</li>
+<li>Socket.onmessage: 客户端接收服务端数据时触发。</li>
+</ul>
+<p>我知道，你迫不及待想要完整的代码了：</p>
+<p><a href="https://github.com/defnngj/learning-API-test">https://github.com/defnngj/learning-API-test</a></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+        <div class="clear"></div>
+        <div id="blog_post_info_block">
+        <div id="blog_post_info">
+        </div>
+        <div class="clear"></div>
+        <div id="post_next_prev"></div>
+    </div>
+</div>
+    <ul class="postmetadata">
+        
+<li class="icon_cat" id="BlogPostCategory">
+分类            <a href="https://www.cnblogs.com/fnng/category/454439.html" target="_blank">python</a>
+,            <a href="https://www.cnblogs.com/fnng/category/581256.html" target="_blank">django</a>
+</li>
+<li class="icon_bullet" id="EntryTag">
+&nbsp;</li>
+    </ul>
+</div>
+<script type="text/javascript">
+    var m = window.__blog.postRendered;
+    if (m) { m(__$("post")); }
+</script>
+<script type="text/javascript">
+    var m = window.__blog.postRenderPosts;
+    if (m) { m(); }
+</script>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 91739, cb_blogApp = 'fnng', cb_blogUserGuid = 'f93e222f-6da1-e011-a53f-842b2b196315';
+    var cb_entryId = 12977422, cb_entryCreatedDate = '2020-05-27 23:25', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+        </div>
+
+        <script type="text/javascript">
+            var m = window.__blog.contentRendered;
+            if (m) { m(__$("content")); }
+        </script>
+
+        <div id="sidebar">
+            <div id="about">
+                <div>
+                    <h2 id="about_title">About</h2>
+                    <div id="about_body">
+                        <div id="sidebar_news"></div>
+                        <script type="text/javascript">loadBlogNews();</script>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var m = window.__blog.aboutRendered;
+                if (m) { m(__$("about")); }
+            </script>
+            <div id="mySearchWrapper">
+                <div id="mySearch">
+                    <input type="image" src="/skins/minyx2_lite/images/btnsearch.gif" id="btnZzk"  class="submit" onclick="zzk_go();return false;"/>
+                    <label class="lb_search"><input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="keyword" /></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var m = window.__blog.searchFormRendered;
+                if (m) { m(__$("searchform")); }
+            </script>
+            <div id="sideMain">
+            </div>
+            <div id="sideRight">
+            </div>
+            <div id="sideLeft">
+            </div>            
+                <div id="sideContainer">
+                </div>
+                <script type="text/javascript">
+                    $.ajax({
+                        url: '/' + currentBlogApp + '/ajax/Minyx2_Lite_SideColumn.aspx',
+                        data: '{}',
+                        type: 'post',
+                        dataType: 'text',
+                        contentType: 'application/json; charset=utf-8',
+                        success: function (data) {
+                            if (data) {
+                                $("#sideContainer").html(data);
+                                $.ajax({
+                                    url: getAjaxBaseUrl() + 'TopLists.aspx',
+                                    type: 'get',
+                                    dataType: 'text',
+                                    success: function (topLists) {
+                                        if (topLists) {
+                                            $("#sideContainer").append(topLists);
+                                        }
+                                        var m = window.__blog.sideContainerRendered;
+                                        if (m) { m(__$("sideContainer")); }
+                                        window.__blog.sidebar.__layout();
+                                    }
+                                });
+                            }
+                        }
+                    });
+
+                </script>
+        </div>
+
+        <script type="text/javascript">
+            var m = window.__blog.sidebarRendered;
+            if (m) { m(__$("sidebar")); }
+        </script>
+
+        <div id="footer">
+            <p id="logoFoot">
+    <a href="http://www.spiga.com.mx/" title="Agencia Interactiva Spiga">www.spiga.com.mx</a>
+</p>
+<div class="footText">
+<p>
+Copyright &copy; 2020 虫师
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+<p>
+<a href="http://www.cnblogs.com">博客园</a>
+</p>
+</div>
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var m = window.__blog.wrapperRendered;
+        if (m) { m(__$("wrapper")); }
+    </script>
+
+</div>
+<script type="text/javascript">
+    var m = window.__blog.containerRendered;
+    if (m) { m(__$("container")); }
+</script>
+
+
+    <div id="page_end_html">
+        <script src="https://s13.cnzz.com/stat.php?id=3347352&web_id=3347352&show=pic2" language="JavaScript">
+</script>
+<div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="https://cc.amazingcounters.com/counter.php?i=3064217&c=9192964" alt="Web Page Counters"></a><br><a href="http://www.coupons-coupon-codes.com/staples/">Computer Desks</a></div>
+
+
+<!--评论，生成气泡效果标签代码-->
+  <script type="text/javascript" language="javascript"> 
+      $(document).ready(function() {
+          var commentTime = setInterval(function(){if($("#comments_pager_bottom").length>0){CommentBubble();clearTimeout(commentTime);}},50);
+      }); 
+      function CommentBubble()
+      {
+  var w1 = '<div class="list">' +
+          '<table class="out" border="0" cellspacing="0" cellpadding="0"> ' +
+             '<tr>' +
+                 '<td class="icontd" align="right" valign="bottom">' +
+                     '<img src="" width="70px" height="57px"/>' +
+                 '</td>' +
+                 '<td align="left" valign="bottom" class="q">' +
+                     '<table border="0" cellpadding="0" cellspacing="0" style=""> ' +
+                         '<tr><td class="topleft"></td><td class="top"></td><td class="topright"></td></tr> ' +
+                         '<tr><td class="left"></td> <td align="left" class="conmts"><p>';
+  
+  
+         var w2 = '</p> </td> <td class="right"></td></tr> ' +
+                         '<tr><td class="bottomleft"></td><td class="bottom"></td><td class="bottomright"></td></tr> ' +
+                     '</table>' +
+                 '</td> ' +
+             '</tr> ' +
+         '</table> ' +
+     '</div>';
+  
+         $.each($(".blog_comment_body"), function(i, t) {
+             $(t).html(w1 + $(t).html() + w2);
+         });
+ $(".louzhu").closest(".feedbackItem").find(".out").removeClass("out").addClass("inc");
+         /*.find(".q").attr("align","right");*/
+         }
+ </script>
+    </div>
+</body>
+</html>

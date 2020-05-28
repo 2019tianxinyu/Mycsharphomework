@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="面试连环炮系列汇总，涉及Java基础、数据库、分布式理论、中间件等等" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>面试连环炮系列汇总 - 编码砖家 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue.min.css?v=MH15aYd6DmX-6TABpA2xkiKENy3GAhiM2dh5rOPH89I" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/xiaoyangjia/custom.css?v=G3&#x2B;tSsp9vi7/XyXAHqEke7MJuD4=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue-mobile.min.css?v=X7swQJ1TyCJAf6FMVjDPbYhUAiMdNFddEy1-m0_TbFQ" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/xiaoyangjia/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/xiaoyangjia/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/xiaoyangjia/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 34640;
+        var currentBlogApp = 'xiaoyangjia';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleBlue';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <a class="git-link" target="_blank" href="https://github.com/xiaoyangjia"></a>
+    </div>
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/xiaoyangjia/">编码砖家</a>
+</div>
+<div class="subtitle">
+既是专家也是砖家，分享编程经验、系统架构、程序员成长等知识
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/xiaoyangjia/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E7%BC%96%E7%A0%81%E7%A0%96%E5%AE%B6">
+联系</a></li>
+    <li id="nav_rss">
+</li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+71&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+160</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                <div id="post_detail">
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/xiaoyangjia/p/11577091.html">面试连环炮系列汇总</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+    <div id="cnblogs_post_description" style="display: none">
+        面试连环炮系列汇总，涉及Java基础、数据库、分布式理论、中间件等等
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h4 id="java">Java</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11457994.html" target="_blank">面试连环炮系列（三）：synchronized怎么用的</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11549908.html" target="_blank">面试连环炮系列（七）：HashMap的put操作做了什么</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11582670.html" target="_blank">面试连环炮系列（八）：服务器CPU飙升100%怎么排查</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11598094.html" target="_blank">面试连环炮系列（九）：为什么ConcurrentHashMap是线程安全的</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11601914.html" target="_blank">面试连环炮系列（十）：一个线程调用两次start会怎么样</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11624351.html" target="_blank">面试连环炮系列（十二）：说说Atomiclnteger的使用场景</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11633684.html" target="_blank">面试连环炮系列（十三）：实现一个线程有几种方法</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11662123.html" target="_blank">面试连环炮系列（十六）：线程池的使用场景有哪些</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11736420.html" target="_blank">面试连环炮系列（二十二）：常用的设计模式有哪些</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11833857.html" target="_blank">面试连环炮系列（二十三）： StringBuffer与StringBuild的区别</a></li>
+</ul>
+<h4 id="网络">网络</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11463565.html" target="_blank">面试连环炮系列（四）：说说TCP的三次握手过程</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11635965.html" target="_blank">面试连环炮系列（十四）： HTTP状态码302的跳转逻辑</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11690664.html" target="_blank">面试连环炮系列（二十）：TCP的滑动窗口协议是什么</a></li>
+</ul>
+<h4 id="消息队列">消息队列</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11468456.html" target="_blank">面试连环炮系列（五）：你们的项目为什么要用RabbitMQ</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11713238.html" target="_blank">面试连环炮系列（二十一）：你们的项目怎么使用kafka</a></li>
+</ul>
+<h3 id="缓存">缓存</h3>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11447651.html" target="_blank">面试连环炮系列（一）：如何保证Redis高可用和高并发</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11454334.html" target="_blank">面试连环炮系列（二）：你们的项目Redis做了集群部署吗</a></li>
+</ul>
+<h4 id="分布式">分布式</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11498643.html" target="_blank">面试连环炮系列（六）：Dubbo应用为什么要部署Zookeeper</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11607361.html" target="_blank">面试连环炮系列（十一）：说说你们的分布式ID设计方案</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11639997.html" target="_blank">面试连环炮系列（十五）：说说Eureka的高可用方案</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11676587.html" target="_blank">面试连环炮系列（十八）：了解康威定律吗</a></li>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11684310.html" target="_blank">面试连环炮系列（十九）：分布式锁的实现方案</a></li>
+</ul>
+<h4 id="数据库">数据库</h4>
+<ul>
+<li><a href="https://www.cnblogs.com/xiaoyangjia/p/11460070.html" target="_blank">面试连环炮系列（十七）：你们的项目为什么要分库分表</a><br>
+<a href="" target="_blank"></a></li>
+</ul>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2019-10-08 16:08</span>&nbsp;
+<a href="https://www.cnblogs.com/xiaoyangjia/">编码砖家</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11577091" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(11577091);return false;">收藏</a></div>
+        </div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 34640, cb_blogApp = 'xiaoyangjia', cb_blogUserGuid = 'da30420b-63cf-dd11-9e4d-001cf0cd104b';
+    var cb_entryId = 11577091, cb_entryCreatedDate = '2019-10-08 16:08', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>    </div>
+</div>
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 编码砖家
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    <div id="page_end_html">
+        <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1278093327&web_id=1278093327"></script>
+    </div>
+</body>
+</html>

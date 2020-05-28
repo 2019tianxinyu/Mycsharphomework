@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_迷茫中守候</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:81160fd1-0930-4f2f-ab4e-c8169964ae05;id=607</id>
+  <updated>2020-04-24T09:38:32Z</updated>
+  <author>
+    <name>迷茫中守候</name>
+    <uri>http://www.cnblogs.com/teach/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12766760.html</id>
+    <title type="text">mybatis源码配置文件解析之三：解析typeAliases标签 - 迷茫中守候</title>
+    <summary type="text">在前边的博客在分析了mybatis解析settings标签，《mybatis源码配置文件解析之二：解析settings标签》。下面来看解析typeAliases标签的过程。 一、概述 在mybatis核心配置文件（mybatis-config.xml）中有关typeAliases的配置如下， &lt;ty</summary>
+    <published>2020-04-24T09:39:00Z</published>
+    <updated>2020-04-24T09:39:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12766760.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12766760.html" />
+    <content type="html">【摘要】在前边的博客在分析了mybatis解析settings标签，《mybatis源码配置文件解析之二：解析settings标签》。下面来看解析typeAliases标签的过程。 一、概述 在mybatis核心配置文件（mybatis-config.xml）中有关typeAliases的配置如下， &lt;ty &lt;a href="http://www.cnblogs.com/teach/p/12766760.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12755586.html</id>
+    <title type="text">mybatis源码分析：Mapper接口是什么 - 迷茫中守候</title>
+    <summary type="text">在《mybatis源码分析：启动过程》中分析了mybatis的启动过程，mybatis的启动过程主要集中在解析其核心配置文件（mybatis-config.xml）上，把配置文件中的配置全部解析到Configuration类中，每个配置在Configuration中均能找到其设置。本文分析mybat</summary>
+    <published>2020-04-22T12:13:00Z</published>
+    <updated>2020-04-22T12:13:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12755586.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12755586.html" />
+    <content type="html">【摘要】在《mybatis源码分析：启动过程》中分析了mybatis的启动过程，mybatis的启动过程主要集中在解析其核心配置文件（mybatis-config.xml）上，把配置文件中的配置全部解析到Configuration类中，每个配置在Configuration中均能找到其设置。本文分析mybat &lt;a href="http://www.cnblogs.com/teach/p/12755586.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12753756.html</id>
+    <title type="text">mybatis源码配置文件解析之二：解析settings标签 - 迷茫中守候</title>
+    <summary type="text">在前边的博客中分析了mybatis解析properties标签，《mybatis源码配置文件解析之一：解析properties标签》。下面来看解析settings标签的过程。 一、概述 在mybatis的核心配置文件（mybatis-config.xml）文件中，有关于settings标签的配置，如</summary>
+    <published>2020-04-22T09:51:00Z</published>
+    <updated>2020-04-22T09:51:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12753756.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12753756.html" />
+    <content type="html">【摘要】在前边的博客中分析了mybatis解析properties标签，《mybatis源码配置文件解析之一：解析properties标签》。下面来看解析settings标签的过程。 一、概述 在mybatis的核心配置文件（mybatis-config.xml）文件中，有关于settings标签的配置，如 &lt;a href="http://www.cnblogs.com/teach/p/12753756.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12724707.html</id>
+    <title type="text">spring中BeanPostProcessor之三：InitDestroyAnnotationBeanPostProcessor（01） - 迷茫中守候</title>
+    <summary type="text">在《spring中BeanPostProcessor之二：CommonAnnotationBeanPostProcessor（01）》一文中，分析到在调用CommonAnnotationBeanPostProcessor类的postProcessMeredBeanDefinition方法时会先调用其</summary>
+    <published>2020-04-18T15:07:00Z</published>
+    <updated>2020-04-18T15:07:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12724707.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12724707.html" />
+    <content type="html">【摘要】在《spring中BeanPostProcessor之二：CommonAnnotationBeanPostProcessor（01）》一文中，分析到在调用CommonAnnotationBeanPostProcessor类的postProcessMeredBeanDefinition方法时会先调用其 &lt;a href="http://www.cnblogs.com/teach/p/12724707.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12697660.html</id>
+    <title type="text">mybatis源码分析：启动过程 - 迷茫中守候</title>
+    <summary type="text">mybatis在开发中作为一个ORM框架使用的比较多，所谓ORM指的是Object Relation Mapping，直译过来就是对象关系映射，这个映射指的是java中的对象和数据库中的记录的映射，也就是一个java对象映射数据库中的一条记录。了解了mybatis的背景及作用下面看mybatis的使</summary>
+    <published>2020-04-14T11:05:00Z</published>
+    <updated>2020-04-14T11:05:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12697660.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12697660.html" />
+    <content type="html">【摘要】mybatis在开发中作为一个ORM框架使用的比较多，所谓ORM指的是Object Relation Mapping，直译过来就是对象关系映射，这个映射指的是java中的对象和数据库中的记录的映射，也就是一个java对象映射数据库中的一条记录。了解了mybatis的背景及作用下面看mybatis的使 &lt;a href="http://www.cnblogs.com/teach/p/12697660.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12693588.html</id>
+    <title type="text">mybatis源码配置文件解析之一：解析properties标签 - 迷茫中守候</title>
+    <summary type="text">mybatis作为日常开发的常用ORM框架，在开发中起着很重要的作用，了解其源码对日常的开发有很大的帮助。源码版本为：3-3.4.x，可执行到github进行下载。 从这篇文章开始逐一分析mybatis的核心配置文件（mybatis-config.xml），今天先来看properties标签的解析过</summary>
+    <published>2020-04-13T12:03:00Z</published>
+    <updated>2020-04-13T12:03:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12693588.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12693588.html" />
+    <content type="html">【摘要】mybatis作为日常开发的常用ORM框架，在开发中起着很重要的作用，了解其源码对日常的开发有很大的帮助。源码版本为：3-3.4.x，可执行到github进行下载。 从这篇文章开始逐一分析mybatis的核心配置文件（mybatis-config.xml），今天先来看properties标签的解析过 &lt;a href="http://www.cnblogs.com/teach/p/12693588.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12688608.html</id>
+    <title type="text">spring中BeanPostProcessor之二：CommonAnnotationBeanPostProcessor（01） - 迷茫中守候</title>
+    <summary type="text">在上篇博客中分享了InstantiationAwareBeanPostProcessor接口中的四个方法，分别对其进行了详细的介绍，在文末留下了一个问题，那就是postProcessProperties方法，说到此方法是用来进行属性填充的，并且引出了CommonAnnotationBeanPostP</summary>
+    <published>2020-04-13T02:03:00Z</published>
+    <updated>2020-04-13T02:03:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12688608.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12688608.html" />
+    <content type="html">【摘要】在上篇博客中分享了InstantiationAwareBeanPostProcessor接口中的四个方法，分别对其进行了详细的介绍，在文末留下了一个问题，那就是postProcessProperties方法，说到此方法是用来进行属性填充的，并且引出了CommonAnnotationBeanPostP &lt;a href="http://www.cnblogs.com/teach/p/12688608.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12686580.html</id>
+    <title type="text">spring中BeanPostProcessor之一：InstantiationAwareBeanPostProcessor（03） - 迷茫中守候</title>
+    <summary type="text">前面介绍了InstantiationAwareBeanPostProcessor后置处理器的postProcessBeforeInstantiation和postProcessAfterInstantiation两个方法的用法和使用场景等。在InstantiationAwareBeanPostPro</summary>
+    <published>2020-04-12T09:54:00Z</published>
+    <updated>2020-04-12T09:54:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12686580.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12686580.html" />
+    <content type="html">【摘要】前面介绍了InstantiationAwareBeanPostProcessor后置处理器的postProcessBeforeInstantiation和postProcessAfterInstantiation两个方法的用法和使用场景等。在InstantiationAwareBeanPostPro &lt;a href="http://www.cnblogs.com/teach/p/12686580.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12660541.html</id>
+    <title type="text">排查tomcat服务器CPU使用率过高 - 迷茫中守候</title>
+    <summary type="text">tomcat要运行依赖于JDK，tomcat服务器的CPU使用率过高，大多都是因为部署的web程序的问题。 一、现象描述 在一次线上环境，前台访问页面的速度越来越慢，从浏览器F12中看到发出的请求都是pengding的状态。 二、排查过程 我这里tomcat部署在linux环境中。下面的排查过程均在</summary>
+    <published>2020-04-08T08:03:00Z</published>
+    <updated>2020-04-08T08:03:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12660541.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12660541.html" />
+    <content type="html">【摘要】tomcat要运行依赖于JDK，tomcat服务器的CPU使用率过高，大多都是因为部署的web程序的问题。 一、现象描述 在一次线上环境，前台访问页面的速度越来越慢，从浏览器F12中看到发出的请求都是pengding的状态。 二、排查过程 我这里tomcat部署在linux环境中。下面的排查过程均在 &lt;a href="http://www.cnblogs.com/teach/p/12660541.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/teach/p/12642349.html</id>
+    <title type="text">spring中BeanPostProcessor之一：InstantiationAwareBeanPostProcessor（02）  - 迷茫中守候</title>
+    <summary type="text">在上篇博客中写道了bean后置处理器InstantiationAwareBeanPostProcessor，只介绍了其中一个方法的作用及用法，现在来看postProcessBeforeInstantiation方法。 一、概述 postProcessBeforeInstantiation方法定义在I</summary>
+    <published>2020-04-06T07:35:00Z</published>
+    <updated>2020-04-06T07:35:00Z</updated>
+    <author>
+      <name>迷茫中守候</name>
+      <uri>http://www.cnblogs.com/teach/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/teach/p/12642349.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/teach/p/12642349.html" />
+    <content type="html">【摘要】在上篇博客中写道了bean后置处理器InstantiationAwareBeanPostProcessor，只介绍了其中一个方法的作用及用法，现在来看postProcessBeforeInstantiation方法。 一、概述 postProcessBeforeInstantiation方法定义在I &lt;a href="http://www.cnblogs.com/teach/p/12642349.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

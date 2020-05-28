@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>FuturexGO - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simplememory/bundle-simplememory.min.css?v=OL4qeo1LNGlN1rKIhv5UctANvt0M6Nx6kLzr_ffx3Xk" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/FuturexGO/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/FuturexGO/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/FuturexGO/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 496056;
+        var currentBlogApp = 'FuturexGO';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;v=20200504"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/FuturexGO/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/FuturexGO/">FuturexGO</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/FuturexGO/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/FuturexGO">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/FuturexGO/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+10&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+20</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12976656.html">
+    【软工】[技术博客] 用Monaco Editor打造接近vscode体验的浏览器IDE
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：[技术博客] 用Monaco Editor打造接近vscode体验的浏览器IDE 官方文档与重要参考资料 官方demo 官方API调用样例 Playground 官方API Doc，但其搜索框不支持模糊匹配 官方GitHub Issues，可搜索相关问题 CSDN优秀博客 带主题颜色选择的demo             <a href="https://www.cnblogs.com/FuturexGO/p/12976656.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 21:16
+FuturexGO
+<span class="post-view-count">阅读(72)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976656" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/03/25.html">2020年3月25日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12563679.html">
+    【软工】个人博客作业——软件案例分析与产品经理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：| 项目 | 内容 | | | | | 班级：北航2020春软件工程 006班（罗杰、任健 周五） | &quot;博客园班级博客&quot; | | 作业：分析软件产品，提出建议和规划 | &quot;个人博客作业 软件案例分析&quot; | | 个人课程目标 | 系统学习软件工程，训练软件开发能力 | | 这个作业在哪个具体方面帮助            <a href="https://www.cnblogs.com/FuturexGO/p/12563679.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-25 20:30
+FuturexGO
+<span class="post-view-count">阅读(65)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12563679" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/03/24.html">2020年3月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12556456.html">
+    【软工】结对项目作业——第一次正式的软件开发流程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：| 项目 | 内容 | | | | | 班级：北航2020春软件工程 006班（罗杰、任健 周五） | &quot;博客园班级博客&quot; | | 作业：设计程序求几何对象的交点集合，支持命令行和GUI | &quot;结对项目作业&quot; | | 个人课程目标 | 系统学习软件工程，训练软件开发能力 | | 这个作业在哪个具体方            <a href="https://www.cnblogs.com/FuturexGO/p/12556456.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-24 16:25
+FuturexGO
+<span class="post-view-count">阅读(89)</span><text> </text>
+<span class="post-comment-count">评论(4)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12556456" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/03/10.html">2020年3月10日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12457831.html">
+    【软工】个人项目作业——个人软件流程(PSP)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：【软工】个人项目作业——个人软件流程(PSP) | 项目 | 内容 | | | | | 班级：北航2020春软件工程 006班（罗杰、任健 周五） | &quot;博客园班级博客&quot; | | 作业：设计程序求几何对象的交点集合 | &quot;个人项目作业&quot; | | 个人课程目标 | 系统学习软件工程，训练软件开发能力             <a href="https://www.cnblogs.com/FuturexGO/p/12457831.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-10 18:49
+FuturexGO
+<span class="post-view-count">阅读(212)</span><text> </text>
+<span class="post-comment-count">评论(5)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12457831" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/03/06.html">2020年3月6日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12424861.html">
+    【软工】个人博客作业——软件与软件工程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：【软工】个人博客作业 | 项目 | 内容 | | | | | 课程：北航2020春软件工程 | &quot;博客园班级博客&quot; | | 作业：阅读《构建之法》, 回答关于软件和软工的问题 | &quot;个人博客作业&quot; | | 个人课程目标 | 系统学习软件工程，训练软件开发能力 | | 这个作业在哪个具体方面帮助我实现            <a href="https://www.cnblogs.com/FuturexGO/p/12424861.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-03-06 09:29
+FuturexGO
+<span class="post-view-count">阅读(104)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12424861" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2020/02/27.html">2020年2月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/12370226.html">
+    【软工热身作业】我与计算机：昨天、今天、明天
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：我与计算机：昨天、今天、明天 | 项目 | 内容 | | | | | 课程：北航2020春软件工程 | &quot;博客园班级博客&quot; | | 作业：阅读并撰写博客回答问题 | &quot;第一次作业 热身！&quot; | | 个人课程目标 | 补全自己在软件开发方面的能力和经验 | | 这个作业在哪个具体方面帮助我实现目标 |            <a href="https://www.cnblogs.com/FuturexGO/p/12370226.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-27 21:58
+FuturexGO
+<span class="post-view-count">阅读(214)</span><text> </text>
+<span class="post-comment-count">评论(6)</span><text> </text>
+<span class="post-digg-count">推荐(3)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12370226" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2019/06/24.html">2019年6月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/11075059.html">
+    第四单元和课程总结：简单的架构设计意识
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、第四单元架构设计总结 第一次作业 由于需要按名查找类图模型，于是建立&quot;Class&quot;类进行管理 由于方法具有参数导致类中存在二级结构，于是建立&quot;Operation&quot;类进行管理，再将其作为Class类的成员 对重名情况的处理：不同对象的ID不同，对象实体也不同，但Name(String)相同，这是一            <a href="https://www.cnblogs.com/FuturexGO/p/11075059.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-06-24 20:34
+FuturexGO
+<span class="post-view-count">阅读(87)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11075059" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2019/05/21.html">2019年5月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/10884454.html">
+    第三单元总结：JML规格定义下的程序设计、验证与测试
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：JML语言及工具 JML语言理论 JML语言利用前置条件、后置条件、不变式等约束语法，描述了Java程序的数据、方法、类的规格，是一种契约式程序设计的实现工具。 \result：表示方法的返回值。 \old(expr)：表示在方法执行前的值。一般将所关心的表达式取值整体括起来。 \forall：全称            <a href="https://www.cnblogs.com/FuturexGO/p/10884454.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-05-21 23:45
+FuturexGO
+<span class="post-view-count">阅读(325)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10884454" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2019/04/23.html">2019年4月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/10754808.html">
+    第二单元总结：基于synchronize锁的简单多线程设计
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：单元统一的多线程设计策略 类的设计 电梯 每部电梯为一个线程。 电梯从调度器接收原子指令，知晓自己的状态（内部的人/服务的人、运行方向、所在楼层） 原子指令包括且仅包括： 向上走一层 / 向下走一层 让哪些人进电梯 让哪些人出电梯 而电梯不可见其他电梯的状态、不可见调度队列的内容 相当于电梯只是一个            <a href="https://www.cnblogs.com/FuturexGO/p/10754808.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-04-23 20:45
+FuturexGO
+<span class="post-view-count">阅读(111)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10754808" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/FuturexGO/archive/2019/03/23.html">2019年3月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/FuturexGO/p/10585564.html">
+    第一单元总结：基于基础语言、继承和接口的简单OOP
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前情提要 到目前为止，OO课程已经完成了前三次的作业，分别为： 第一次作业 功能介绍 对某种格式的多项式进行parsing，之后计算其导数，按相同格式输出。 多项式由项组成，项有且仅有系数和x的幂。不存在多于两个因子的项。 类图 程序的大致结构如下图： 第一次作业程序结构比较简单，Main中构造一个            <a href="https://www.cnblogs.com/FuturexGO/p/10585564.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-03-23 21:02
+FuturexGO
+<span class="post-view-count">阅读(156)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(3)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10585564" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 FuturexGO
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

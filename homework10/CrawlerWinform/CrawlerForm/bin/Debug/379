@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="目录 序言 Function.prototype.bind() 方法 箭头函数 参考 1.序言 在 深入理解JS：执行上下文中的this（一） 中，我们主要深入分析全局环境和函数环境中函数调用的 th" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>深入理解JS：执行上下文中的this（二） - forcheng - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/summergarden/bundle-summergarden.min.css?v=PLBkMGouGIdma65PPHnfQmphsbyGuIrnWQ-UochvQcc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/summergarden/bundle-summergarden-mobile.min.css?v=qqfeWJjwG2yHc4G3o4D_aAh8NdA2Uspy5vjuqwOEq0c" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/forcheng/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/forcheng/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/forcheng/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 268575;
+        var currentBlogApp = 'forcheng';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'summerGarden';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/forcheng/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/forcheng/">forcheng</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+			<ul id="navList">
+				<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+				<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/forcheng/">
+首页</a>
+</li>
+				<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+				<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/forcheng">
+联系</a></li>
+				<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+				<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/forcheng/rss/">
+订阅</a>
+				
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/forcheng/rss/">
+    <img src="/skins/summergarden/images/xml.gif" alt="订阅" />
+</a></li>
+			</ul>
+
+
+
+		<div class="blogStats">
+			
+			<!--done-->
+随笔 - 
+56&nbsp;
+文章 - 
+1&nbsp;
+评论 - 
+14&nbsp;
+
+
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class = "postTitle">
+			
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/forcheng/p/12977048.html">深入理解JS：执行上下文中的this（二）</a>
+
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p><strong>目录</strong></p>
+<ul>
+<li>序言</li>
+<li>Function.prototype.bind() 方法</li>
+<li>箭头函数</li>
+<li>参考</li>
+</ul>
+<br />
+<p><strong>1.序言</strong></p>
+<p>在 <a href="https://www.cnblogs.com/forcheng/p/12960972.html">深入理解JS：执行上下文中的this（一）</a> 中，我们主要深入分析全局环境和函数环境中函数调用的 this，还留下 bind 方法以及箭头函数的 this 尚未分析，因此我们将在这篇文章进行讲解。</p>
+<br />
+<p><strong>2.Function.prototype.bind() 方法</strong></p>
+<p>bind() 方法将会创建返回一个新的函数。在  bind() 被调用时，这个新函数的 this 将被指定为 bind() 的第一个参数，而其余参数将作为新函数的参数，供调用时使用。</p>
+<blockquote>
+<p>ES5 引入了 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind">bind</a> 方法来设置函数的 this 值，而不用考虑函数如何被调用的。</p>
+</blockquote>
+<p>这里给出一种 bind() 的实现算法：</p>
+<pre><code class="language-js">var slice = Array.prototype.slice;
+Function.prototype.bind = function() {
+  var thatFunc = this, thatArg = arguments[0];
+  var args = slice.call(arguments, 1);
+  if (typeof thatFunc !== 'function') {
+    throw new TypeError('Function.prototype.bind called on incompatible ' + thatFunc);
+  }
+  return function(){
+    var funcArgs = args.concat(slice.call(arguments))
+    return thatFunc.apply(thatArg, funcArgs);
+  };
+};
+</code></pre>
+<p><em>注：上述代码并没有完全按照ES5规范实现，只是作为一种实现参考，更加完善的解决方案可以参考 <a href="https://github.com/Raynos/function-bind">function-bind</a></em></p>
+<p>但不论哪种实现，其实质上都是通过类似 <code>Function.prototype.apply(thisArg, argArray)</code> 来是实现指定调用函数 this 的。</p>
+<br />
+<p><strong>3.箭头函数</strong></p>
+<p>箭头函数表达式的语法比<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/function">函数表达式</a>更简洁，并且没有自己的 this，arguments，super 或 new.target。它很适合用作匿名函数，并且不能用作构造函数（为什么呢？<a href="https://www.cnblogs.com/forcheng/p/12883983.html">详情点击查看</a>）。</p>
+<blockquote>
+<p>ES6 引入了支持 this 词法解析的<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions">箭头函数</a>（它在闭合的执行环境内设置 this 的值）。</p>
+</blockquote>
+<p>如何理解箭头函数在闭合的执行环境内设置 this 的值？</p>
+<p>简单理解，箭头函数不会创建自己的 this，它的 this 与封闭词法环境的 this 保持一致，即如果箭头函数在全局环境中，那么它的 this 就指向全局对象，如果箭头函数在某一个函数中，那么它的 this 就指向所在函数的 this。</p>
+<br />
+<p>我们来看几个示例：</p>
+<p>（1）全局环境</p>
+<pre><code class="language-js">var global = this
+
+var foo = () =&gt; { return this }
+
+var value = 1
+
+var bar = {
+  value: 2,
+  getValueByArrowFunc: () =&gt; {
+    return this.value
+  },
+  getValue: function (){
+    return this.value
+  },
+}
+
+console.log(foo() === global) // true
+
+// 箭头函数 this =&gt; global
+console.log(bar.getValueByArrowFunc()) // 1
+
+// 普通函数 this =&gt; bar
+console.log(bar.getValue()) // 2
+</code></pre>
+<br />
+<p>（2）函数环境</p>
+<p>ES6的语法：</p>
+<pre><code class="language-js">function foo() {
+  this.value = 1
+  
+  // 箭头函数表达式
+  var arr = () =&gt; {
+    console.log(this.value)
+  }
+  
+  arr()
+}
+</code></pre>
+<p>转化为ES5:</p>
+<pre><code class="language-js">function foo() {
+  var _this = this;
+
+  this.value = 1;
+
+  // 转化为普通函数表达式
+  var arr = function arr() {
+    console.log(_this.value);
+  };
+
+  arr();
+}
+</code></pre>
+<p>对比转化前后的代码可以看出：箭头函数会转化为一个普通函数，通过一个临时变量 _this 来传递，它之前的 this 就是所在函数的 this</p>
+<br />
+<p>（3）call() 、 apply() 或 bind() 方法</p>
+<pre><code class="language-js">var global = this
+
+var foo = {
+	bar: () =&gt; {
+    return this
+  }
+}
+
+var obj = { value : 1 }
+
+console.log(foo.bar() === global) // true
+console.log(foo.bar.call(obj) === global) // true
+console.log(foo.bar.apply(obj) === global) // true
+
+var bind = foo.bar.bind(obj)
+console.log(bind() === global) // true
+</code></pre>
+<p>由于箭头函数不会创建自己的 this，那么通过 call() 、 apply() 或 bind() 方法调用一个箭头函数时，只能传递参数，第一个参数会被忽略。</p>
+<br />
+<p><strong>4.参考</strong></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/this">this 关键字 - JavaScript | MDN - Mozilla</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind">Function.prototype.bind() - JavaScript - MDN - Mozilla</a></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions">箭头函数- JavaScript | MDN</a></p>
+<p><a href="https://yanhaijing.com/es5">ECMAScript5.1中文版</a></p>
+<p><a href="https://exploringjs.com/es6/ch_arrow-functions.html">ES6 - Arrow functions</a></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+		</div>
+		<div class="postDesc">posted @ 
+<span id="post-date">2020-05-27 22:17</span>&nbsp;
+<a href="https://www.cnblogs.com/forcheng/">forcheng</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12977048" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12977048);return false;">收藏</a></div>
+	</div>
+	
+	
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 268575, cb_blogApp = 'forcheng', cb_blogUserGuid = 'e7786e4b-5cdc-e511-9fc1-ac853d9f53cc';
+    var cb_entryId = 12977048, cb_entryCreatedDate = '2020-05-27 22:17', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 forcheng
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

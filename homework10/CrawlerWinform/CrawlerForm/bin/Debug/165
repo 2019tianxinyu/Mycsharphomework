@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>她的开呀 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/lovegiveheart/bundle-lovegiveheart.min.css?v=AqT1EK144wxWiVmkpKx9KBe-fWsZg1Jwd6iFUglG2h8" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/lovegiveheart/bundle-lovegiveheart-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/yloved/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/yloved/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/yloved/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 532979;
+        var currentBlogApp = 'yloved';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'LoveGiveHeart';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <!--done-->
+<div id="banner">
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/yloved/">她的开呀</a>
+<br>
+		<div class="headerDis">
+
+</div>
+	</div>
+</div>
+
+</div>
+<div id="main">
+	<!-- right starts -->
+	<div id="right">
+		<div id="right_content">
+			<div id="mylinks">
+				<DIV id="mystats">
+					
+						<!--done-->
+<div class="blogStats">
+随笔- 
+42&nbsp;
+文章- 
+0&nbsp;
+评论- 
+0&nbsp;
+
+</div>
+
+
+					
+				</DIV>
+				
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+&nbsp;&nbsp;
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/yloved/">
+首页</a>
+&nbsp;&nbsp;
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+&nbsp;&nbsp;
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%A5%B9%E7%9A%84%E5%BC%80%E5%91%80">
+联系</a>&nbsp;&nbsp;
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+&nbsp;&nbsp;
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/yloved/rss/">
+订阅</a>&nbsp;
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/yloved/rss/">
+    <img src="/skins/lovegiveheart/images/xml.gif" alt="订阅" />
+</a>
+
+
+			</div>
+			<div id="topics">
+				
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/28.html">2020年5月28日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12977680.html">
+    Scrapy 实现需要登录简单网站的爬取（以登录人人网为例）
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Scrapy 实现需要登录简单网站的爬取（以登录人人网为例） 有些网站登录时需要验证码等操作，登录思想都差不多，知识逻辑复杂一些 scrapy的基本使用参考 scrapy 实现人人网登录两种思路 1. 使用 Post请求 + 登录需要的数据（用户名、密码等），代码如下 import scrapy &amp;quot;            <a href="https://www.cnblogs.com/yloved/p/12977680.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-28 00:22
+她的开呀
+<span class="post-view-count">阅读(0)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12977680" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12976371.html">
+    Crawl Spider 爬取微信小程序社区信息
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Crawl Spider 爬取微信小程序社区信息 yls 2020/5/27 需要使用 LinkExtractor Rule来决定爬虫的具体走向 Crawl Spider介绍 1. 创建项目 scrapy startproject wxapp 2. 创建爬虫 cd wxapp scrapy gens            <a href="https://www.cnblogs.com/yloved/p/12976371.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-27 20:33
+她的开呀
+<span class="post-view-count">阅读(5)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976371" rel="nofollow">
+    编辑
+</a>
+</div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12974294.html">
+    python3.8 安装scrapy及其使用 ，爬取糗事百科小案例
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/27 安装scrapy之前，先安装 twisted，否则会报错 在 https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted 中下载与python对应版本的 Twisted ,cp38对应py3.8，自行选择32 or 64位。 找            <a href="https://www.cnblogs.com/yloved/p/12974294.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-27 16:54
+她的开呀
+<span class="post-view-count">阅读(10)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12974294" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/23.html">2020年5月23日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12940630.html">
+    netty的基本使用
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/23 有了NIO,为什么还要有netty? 1. NIO类库和和API繁杂，需要熟练掌握 Selector,ServerSocketChannel,SocketChannel,ByteBuffer等 2. 需要具备其它额外的技能，要熟悉java多线程编程，因为NIO涉及到Rea            <a href="https://www.cnblogs.com/yloved/p/12940630.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-23 00:22
+她的开呀
+<span class="post-view-count">阅读(8)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12940630" rel="nofollow">
+    编辑
+</a>
+</div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12940619.html">
+    netty 实现简单的rpc调用
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/23 netty 实现简单rpc准备 1. 使用netty传输java bean对象，可以使用protobuf，也可以通过json转化 2. 客户端要将调用的接口名称，方法名称，参数列表的类型和值传输到服务端， 可以用动态代理 3. 服务端要对接口和实现类进行映射（或者自定义名            <a href="https://www.cnblogs.com/yloved/p/12940619.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-23 00:18
+她的开呀
+<span class="post-view-count">阅读(113)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(2)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12940619" rel="nofollow">
+    编辑
+</a>
+</div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12940606.html">
+     NIO 的基本使用
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/23 NIO中buffer的使用 2.客户端 NIO中Scattering、Gathering的使用 1.服务端 2.客户端使用上边 Socket通信实例 中的就可以（改一下端口号） NIO 使用 Socket通信实现一个群发系统 1.服务端 2.客户端            <a href="https://www.cnblogs.com/yloved/p/12940606.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-23 00:11
+她的开呀
+<span class="post-view-count">阅读(4)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12940606" rel="nofollow">
+    编辑
+</a>
+</div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12940597.html">
+    BIO实现 Socket 通信
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/23 1.服务端 2.客户端            <a href="https://www.cnblogs.com/yloved/p/12940597.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-23 00:09
+她的开呀
+<span class="post-view-count">阅读(7)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12940597" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/14.html">2020年5月14日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12888138.html">
+    springboot使用ElasticSearch
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：springboot使用ElasticSearch 使用ES官方自带的 &quot;java客户端(Java High Level REST Client)&quot; 进行操作，不使用spring data 封装好的模板。 因为没有人比ES官方更了解自己的产品 1. 导入依赖包 2. 创建application.ym            <a href="https://www.cnblogs.com/yloved/p/12888138.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-14 13:43
+她的开呀
+<span class="post-view-count">阅读(62)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12888138" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/11.html">2020年5月11日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12868892.html">
+    docker-compose安装rabbitmq集群(主从集群---》镜像集群)
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：docker compose安装rabbitmq集群(主从集群 》镜像集群) yls 2020/5/11 创建docker compose.yml 文件 创建 rabbitmqnet 子网 创建 rabbitmq.sh 脚本 如果想用ram存储就用第一个shell文件,用硬盘存储就用第二个shell            <a href="https://www.cnblogs.com/yloved/p/12868892.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-11 14:17
+她的开呀
+<span class="post-view-count">阅读(54)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12868892" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/yloved/archive/2020/05/10.html">2020年5月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/yloved/p/12864289.html">
+    Spring Boot整合rabbitmq
+</a>
+
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：yls 2020/5/10 Spring Boot整合rabbitmq rabbitmq的基本概念和其它相关知识请自主去官网学习 &quot;rabbitmq官网&quot; ， 本文只介绍rabbitmq在springboot中如何使用 添加依赖包 添加配置文件 rabbitmq五种模式的使用 1. 简单队列 1.             <a href="https://www.cnblogs.com/yloved/p/12864289.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="postDesc">posted @ 2020-05-10 17:35
+她的开呀
+<span class="post-view-count">阅读(163)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12864289" rel="nofollow">
+    编辑
+</a>
+</div>
+    <script>$('.postTitle2').removeClass('postTitle2').addClass('postTitle1');</script>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/yloved/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+			</div>
+			<div id="footer">
+				<!--done-->
+Copyright &copy; 2020 她的开呀
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+			</div>
+		</div>
+	</div>
+	<!-- right ends -->
+	<!-- left starts -->
+	<div id="left">
+		<!-- 左侧工具部分 -->
+		<div id="left_content">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script></div>
+			
+				<DIV id="leftcontentcontainer">
+					<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+				</DIV>
+			
+		</div>
+		<!-- //右侧工具部分 -->
+	</div>
+	<!-- left ends -->	
+	<div class="clear"></div>
+</div>
+
+
+    
+</body>
+</html>

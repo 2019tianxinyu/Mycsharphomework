@@ -1,0 +1,1622 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>张永清 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/facebook/bundle-facebook.min.css?v=aB-82CpKPCn7GTh6duXr6GCfZ_O6f24jHmUsEi_Kloc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/facebook/bundle-facebook-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/laoqing/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/laoqing/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/laoqing/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 367528;
+        var currentBlogApp = 'laoqing';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'facebook';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        作者的原创文章，转载须注明出处。原创文章归作者所有，欢迎转载，但是保留版权。对于转载了博主的原创文章，不标注出处的，作者将依法追究版权，请尊重作者的成果。
+    </div>
+    <div id="home">
+<div id="header">
+	<div id="blogTitle">
+        
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/laoqing/">张永清</a>
+</h1>
+<h2>
+人生是一个不断觉悟的过程
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+			<ul id="navList">
+				<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+				<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/laoqing/">
+首页</a>
+</li>
+				<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+				<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%BC%A0%E6%B0%B8%E6%B8%85">
+联系</a></li>
+				<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+				<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/laoqing/rss/">
+订阅</a>
+				
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/laoqing/rss/">
+    <img src="/skins/facebook/images/xml.gif" alt="订阅" />
+</a></li>
+			</ul>
+
+
+
+		<div class="blogStats">
+            <div class="blog_stats">
+                <!--done-->
+随笔- 
+95&nbsp;
+文章- 
+1&nbsp;
+评论- 
+25&nbsp;
+
+
+
+            </div>
+        </div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/03/10.html">2020年3月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12458808.html">
+[置顶]    如何做好性能测试分析诊断调优-暨《性能测试、分析诊断与调优实践之路》-赠书。
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一个系统或者软件性能的重要性自然是无需多说，永远没有哪个用户可以忍受打开一个网站或者软件需要很久才能响应，性能是评估一个系统或者软件最实在的指标，如果一个网站做得再好看、再漂亮，但是性能上不去，那也只是华而不实。 笔者在离开测试岗进入研发岗已经有好几个年头了，按理说不应该再去写关于软件测试的书籍了而            <a href="https://www.cnblogs.com/laoqing/p/12458808.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-10 21:26 张永清 阅读 (625) 评论 (4)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12458808" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/04/28.html">2019年4月28日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/10787593.html">
+[置顶]    三年磨一剑，robot framework 自动化测试框架核心指南，真正讲透robot framework自动化测试框架(笔者新书上架)。
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：序 关于自动化测试的工具和框架其实有很多。自动化测试在测试IT行业中扮演着越来越重要的角色，不管是在传统的IT行业还是高速发展的互联网行业或是如今的大数据和大热的人工智能领域，都离不开测试，也更加离不开自动化测试。自动化测试已经发展了很多年，在很多大的互联网公司里他们不但有自己的自动化测试框架，甚至            <a href="https://www.cnblogs.com/laoqing/p/10787593.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-04-28 22:59 张永清 阅读 (1916) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10787593" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12768298.html">
+    curator-framework 使用采坑记之org.apache.zookeeper.ClientCnxn - Opening socket connection to server..........Will not attempt to authenticate using SASL (unknown error)报错解决
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、curator-framework 简介 curator-framework 是对zookeeper做的分二次分布式封装处理，目前代码也是apache 开源社区维护，如下所示。 github地址：https://github.com/apache/curator curator-framewor            <a href="https://www.cnblogs.com/laoqing/p/12768298.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 16:28 张永清 阅读 (2) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12768298" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/04/19.html">2020年4月19日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12731950.html">
+    【转载】很遗憾，没有一篇文章能讲清楚ZooKeeper
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：作为分布式系统解决方案的 ZooKeeper，被广泛应用于多个分布式场景。例如：数据发布/订阅，负载均衡，命名服务，集群管理等等。 因此，ZooKeeper 在分布式系统中扮演着重要的角色，今天通过一个简单的例子来看看它的实现原理。 从一个简单的例子开始 在分布式系统中经常会遇到这种情况，多个应用读            <a href="https://www.cnblogs.com/laoqing/p/12731950.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-19 16:06 张永清 阅读 (44) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12731950" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/04/13.html">2020年4月13日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12692566.html">
+    紫金大数据平台架构之路（一）----大数据任务开发和调度平台架构设计
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、总体设计 初来公司时，公司还没有大数据，我是作为大数据架构师招入的，结合公司的线上和线下业务，制定了如下的大数据架构路线图。 二、大数据任务开发和调度平台架构设计 在设计完总体架构后，并且搭建完hadoop/yarn的大数据底层计算平台后， 按照总体架构设计思路， 首先需要构建的就是大数据开发平            <a href="https://www.cnblogs.com/laoqing/p/12692566.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-13 17:13 张永清 阅读 (288) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12692566" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/04/10.html">2020年4月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12674762.html">
+    apache-atlas 深度剖析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：atlas 是apache下的大数据的元数据管理和数据治理平台，是Hadoop社区为解决Hadoop生态系统的元数据治理问题而产生的开源项目，它为Hadoop集群提供了包括数据分类、集中策略引擎、数据血缘、安全和生命周期管理在内的元数据治理核心能力。支持对hive、storm、kafka、hbase            <a href="https://www.cnblogs.com/laoqing/p/12674762.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-10 17:25 张永清 阅读 (399) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12674762" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/04/02.html">2020年4月2日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12620747.html">
+    Flume数据采集结合etcd作为配置中心在爬虫大数据采集处理中的架构实践。
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Apache&#160;Flume是一个分布式的、可靠的、可用的系统,用于有效地收集、 聚合和将大量日志数据从许多不同的源移动到一个集中的数据存储，但是其本身是以本地properties作为配置的，配置无法做到动态监听和更新。 一、Flume和ETCD的结合，使用ETCD作为flume 数据采集的配置中心。             <a href="https://www.cnblogs.com/laoqing/p/12620747.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-02 16:30 张永清 阅读 (250) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12620747" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/03/10.html">2020年3月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12458808.html">
+    如何做好性能测试分析诊断调优-暨《性能测试、分析诊断与调优实践之路》-赠书。
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一个系统或者软件性能的重要性自然是无需多说，永远没有哪个用户可以忍受打开一个网站或者软件需要很久才能响应，性能是评估一个系统或者软件最实在的指标，如果一个网站做得再好看、再漂亮，但是性能上不去，那也只是华而不实。 笔者在离开测试岗进入研发岗已经有好几个年头了，按理说不应该再去写关于软件测试的书籍了而            <a href="https://www.cnblogs.com/laoqing/p/12458808.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-10 21:26 张永清 阅读 (625) 评论 (4)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12458808" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2020/02/21.html">2020年2月21日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12341442.html">
+    Robot Framework自动化测试框架核心指南-如何使用Java编写自定义的RobotFramework Lib
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如何使用Java编写自定义的RobotFramework Lib 本文包括2个章节 1、&#160;Robot Frdamwork中如何调用java Lib库 2、使用 java编写自定义的Lib 本文作者为：张永清，转载请注明出处，版权归作者所有。Robot Framework自动化测试框架核心指南-如何使            <a href="https://www.cnblogs.com/laoqing/p/12341442.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-02-21 15:08 张永清 阅读 (363) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12341442" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/12/24.html">2019年12月24日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12091471.html">
+    Hbase架构剖析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：HBase隶属于hadoop生态系统，它参考了谷歌的BigTable建模，实现的编程语言为 Java, 建立在hdfs之上，提供高可靠性、高性能、列存储、可伸缩、实时读写的数据库系统。它仅能通过主键(row key)和主键的range来检索数据，主要用来存储非结构化和半结构化的松散数据。与hadoo            <a href="https://www.cnblogs.com/laoqing/p/12091471.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-24 14:50 张永清 阅读 (288) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12091471" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/12/12.html">2019年12月12日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/12028615.html">
+    Mysql 执行计划以及常见索引问题总结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Mysql 执行计划以及常见索引问题总结 ppt 下载地址：Mysql 执行计划以及常见索引问题总结 ppt内容展示：            <a href="https://www.cnblogs.com/laoqing/p/12028615.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-12 13:30 张永清 阅读 (283) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12028615" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/12/01.html">2019年12月1日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11966769.html">
+    RobotFramework自动化测试框架-Selenium Web自动化(三)关于在RobotFramework中如何使用Selenium很全的总结（下）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本文紧接着RobotFramework自动化测试框架-Selenium Web自动化(二)关于在RobotFramework中如何使用Selenium很全的总结（上）继续分享RobotFramework中如何使用Selenium进行自动化测试。 本文章节目录： 1、Get Value 2、Get W            <a href="https://www.cnblogs.com/laoqing/p/11966769.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-01 17:40 张永清 阅读 (490) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11966769" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/11/25.html">2019年11月25日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11927958.html">
+    kafka connector 使用总结以及自定义connector开发
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Kafaka connect 是一种用于在Kafka和其他系统之间可扩展的、可靠的流式传输数据的工具。它使得能够快速定义将大量数据集合移入和移出Kafka的连接器变得简单。Kafka Connect可以从数据库或应用程序服务器收集数据到Kafka topic，使数据可用于低延迟的流处理。导出作业可以            <a href="https://www.cnblogs.com/laoqing/p/11927958.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-25 16:08 张永清 阅读 (2782) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11927958" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/11/19.html">2019年11月19日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11890929.html">
+    flink 流式处理中如何集成mybatis框架
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：flink 中自身虽然实现了大量的connectors，如下图所示，也实现了jdbc的connector，可以通过jdbc 去操作数据库，但是flink-jdbc包中对数据库的操作是以ROW来操作并且对数据库事务的控制比较死板，有时候操作关系型数据库我们会非常怀念在java web应用开发中的非常优            <a href="https://www.cnblogs.com/laoqing/p/11890929.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-19 17:32 张永清 阅读 (956) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11890929" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/11/10.html">2019年11月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11831022.html">
+    RobotFramework自动化测试框架-Selenium Web自动化(二)关于在RobotFramework中如何使用Selenium很全的总结（上）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：好久没有继续分享关于自动化测试相关的东西了，自动化在现今的测试领域已经越来越重要了，大部分公司在测试岗位招聘中都需要会相关的自动化测试知识。而&#160;RobotFramework自动化测试框架 是自动化测试中 用的最多一个框架，基于Python编程语言设计的可扩展的关键字驱动模式的测试自动化框架，具备良好            <a href="https://www.cnblogs.com/laoqing/p/11831022.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-10 17:29 张永清 阅读 (683) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11831022" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/11/07.html">2019年11月7日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11813554.html">
+    一次flume exec source采集日志到kafka因为单条日志数据非常大同步失败的踩坑带来的思考
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本次遇到的问题描述，日志采集同步时，当单条日志（日志文件中一行日志）超过2M大小，数据无法采集同步到kafka，分析后，共踩到如下几个坑。1、flume采集时，通过shell+EXEC（tail -F xxx.log 的方式） source来获取日志时，当单条日志过大超过1M时，source端无法从            <a href="https://www.cnblogs.com/laoqing/p/11813554.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-07 17:26 张永清 阅读 (954) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11813554" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/11/04.html">2019年11月4日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11792578.html">
+    MongoDB Java API操作很全的整理以及共享分片模式下的常见操作整理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：MongoDB&#160;是一个基于分布式文件存储的数据库。由 C++ 语言编写，一般生产上建议以共享分片的形式来部署。 但是MongoDB官方也提供了其它语言的客户端操作API。如下图所示： 提供了C、C++、C#、.net、GO、java、Node.js、PHP、python、scala等各种语言的版本，            <a href="https://www.cnblogs.com/laoqing/p/11792578.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-04 16:07 张永清 阅读 (1023) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11792578" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/10/17.html">2019年10月17日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11693144.html">
+    Elasticsearch Java API 很全的整理以及架构剖析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Elasticsearch 的API 分为 REST Client API（http请求形式）以及 transportClient API两种。相比来说transportClient API效率更高，transportClient 是通过Elasticsearch内部RPC的形式进行请求的，连接可以            <a href="https://www.cnblogs.com/laoqing/p/11693144.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-10-17 16:55 张永清 阅读 (5441) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11693144" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/10/10.html">2019年10月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11649593.html">
+    java最全的获取某个接口或者某个类所有对应的所有实现类和继承类的工具类--反射动态获取、非动态获取、按照路径获取等总结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：我们直接上代码吧，代码中有注释说明。            <a href="https://www.cnblogs.com/laoqing/p/11649593.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-10-10 17:49 张永清 阅读 (716) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11649593" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/10/07.html">2019年10月7日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11629941.html">
+    性能测试分析与性能调优诊断--史上最全的服务器性能分析监控调优篇
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一个系统或者网站在功能开发完成后一般最终都需要部署到服务器上运行，那么服务器的性能监控和分析就显得非常重要了，选用什么配置的服务器、如何对服务器进行调优、如何从服务器监控中发现程序的性能问题、如何判断服务器的瓶颈在哪里等 就成为了服务器性能监控和分析时重点需要去解决的问题了。 本文章节目录： 1 服            <a href="https://www.cnblogs.com/laoqing/p/11629941.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-10-07 14:07 张永清 阅读 (2031) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11629941" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/09/19.html">2019年9月19日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11546774.html">
+    Phoenix核心功能原理及应用场景介绍以及Calcite 查询计划生成框架介绍
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Phoenix是一个开源的HBase SQL层。它不仅可以使用标准的JDBC API替代HBase Client API创建表，插入和查询HBase，也支持二级索引、事物以及多种SQL层优化。 此系列文章将会从Phoenix的语法和功能特性、相关工具、实践经验以及应用案例多方面从浅入深的阐述。希望对            <a href="https://www.cnblogs.com/laoqing/p/11546774.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-09-19 08:57 张永清 阅读 (199) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11546774" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/09/16.html">2019年9月16日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11530988.html">
+    人工智能-智能创意平台架构成长之路(四)-丰富多彩的banner图生成解密第一部分--如何做出阿里鹿班一样的banner图
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：人工智能-智能创意平台架构成长之路(一)--长篇开篇 人工智能-智能创意平台架构成长之路(二)--大数据架构篇 人工智能-智能创意平台架构成长之路(三)--机器学习算法工程服务化 人工智能-智能创意平台架构成长之路(四)-丰富多彩的banner图生成解密第一部分（对标阿里鹿班的设计） (成长之路序列            <a href="https://www.cnblogs.com/laoqing/p/11530988.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-09-16 23:26 张永清 阅读 (619) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11530988" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11509042.html">
+    RobotFramework自动化测试框架-MongoDBLibrary库的使用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：笔者接着&#160;RobotFramework自动化测试框架-DatabaseLibrary库的使用(对数据库的操作) 继续分享robotframework 对数据库中的MongoDB的详细操作。这是笔者第二篇关于robotframework 对数据库的操作的分享介绍。 MongoDB是非常常用的一个非关系            <a href="https://www.cnblogs.com/laoqing/p/11509042.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-09-16 09:02 张永清 阅读 (1023) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11509042" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/08/16.html">2019年8月16日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11364435.html">
+    人工智能-智能创意平台架构成长之路(三)--机器学习算法工程服务化
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：人工智能-智能创意平台架构成长之路(一)--长篇开篇 人工智能-智能创意平台架构成长之路(二)--大数据架构篇 人工智能-智能创意平台架构成长之路(三)--机器学习算法工程服务化 人工智能-智能创意平台架构成长之路(四)-丰富多彩的banner图生成解密第一部分（对标阿里鹿班的设计） 我们接着&#160;人工            <a href="https://www.cnblogs.com/laoqing/p/11364435.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-16 15:53 张永清 阅读 (837) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11364435" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11362899.html">
+    Impala基于内存的SQL引擎的详细介绍
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、简介 1、概述 Impala是Cloudera公司推出，提供对HDFS、Hbase数据的高性能、低延迟的交互式SQL查询功能。 •基于Hive使用内存计算，兼顾数据仓库、具有实时、批处理、多并发等优点 impala使用hive的元数据, 完全在内存中计算 •是CDH平台首选的PB级大数据实时查询            <a href="https://www.cnblogs.com/laoqing/p/11362899.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-16 11:37 张永清 阅读 (677) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11362899" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11362441.html">
+    【转载】Java中的多线程超详细的总结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：引 如果对什么是线程、什么是进程仍存有疑惑，请先Google之，因为这两个概念不在本文的范围之内。 用多线程只有一个目的，那就是更好的利用cpu的资源，因为所有的多线程代码都可以用单线程来实现。说这个话其实只有一半对，因为反应“多角色”的程序代码，最起码每个角色要给他一个线程吧，否则连实际场景都无法            <a href="https://www.cnblogs.com/laoqing/p/11362441.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-16 10:42 张永清 阅读 (154) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11362441" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/08/15.html">2019年8月15日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11359224.html">
+    大数据时代，数据实时同步解决方案的思考—最全的数据同步总结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1、 早期关系型数据库之间的数据同步 1）、全量同步 比如从oracle数据库中同步一张表的数据到Mysql中，通常的做法就是 分页查询源端的表，然后通过 jdbc的batch 方式插入到目标表，这个地方需要注意的是，分页查询时，一定要按照主键id来排序分页，避免重复插入。 2）、基于数据文件导出和            <a href="https://www.cnblogs.com/laoqing/p/11359224.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-15 17:12 张永清 阅读 (10138) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11359224" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/08/09.html">2019年8月9日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11327403.html">
+    人工智能-智能创意平台架构成长之路(二)--大数据架构篇
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：人工智能-智能创意平台架构成长之路(一)--长篇开篇 人工智能-智能创意平台架构成长之路(二)--大数据架构篇 人工智能-智能创意平台架构成长之路(三)--机器学习算法工程服务化 人工智能-智能创意平台架构成长之路(四)-丰富多彩的banner图生成解密第一部分（对标阿里鹿班的设计） 人工智能-智能            <a href="https://www.cnblogs.com/laoqing/p/11327403.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-09 17:02 张永清 阅读 (825) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11327403" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11326132.html">
+    人工智能-智能创意平台架构成长之路(一)--长篇开篇
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：(这是第一篇开篇，成长之路序列会包含多篇，笔者作为这个平台的架构兼技术经理，充分讲述其中的迭代心酸之路以及中间遇到的问题和解决方案) 声明：文章不涉及公司内部技术资料的外泄，涉及的图片都是重画的简易架构图，主要通过架构的演进，讲述分享技术的迭代之路和过程，进行技术交流和探讨。 人工智能-智能创意平台            <a href="https://www.cnblogs.com/laoqing/p/11326132.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-08-09 11:28 张永清 阅读 (1607) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11326132" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/07/16.html">2019年7月16日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11195324.html">
+    关于爬虫平台的架构设计实现和框架的选型(二)--scrapy的内部实现以及实时爬虫的实现
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：运行结果如下 D:\python\Python3\python.exe D:/project/python/zj_scrapy/zj_scrapy/SyncCrawlSjqq.py [&#39;宜人贷借款&#39;, &#39;大智慧&#39;, &#39;中国建设银行&#39;, &#39;同花顺手机炒股股票软件&#39;, &#39;随手记理财记账&#39;, &#39;平安金管家            <a href="https://www.cnblogs.com/laoqing/p/11195324.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-16 17:36 张永清 阅读 (663) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11195324" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11193425.html">
+    关于爬虫平台的架构设计实现和框架的选型(一)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：关于爬虫平台的架构设计实现和框架的选型(一) 关于爬虫平台的架构设计实现和框架的选型(二)--scrapy的内部实现以及实时爬虫的实现 首先来看一下一个爬虫平台的设计，作为一个爬虫平台，需要支撑多种不同的爬虫方式，所以一般爬虫平台需要包括 1、 爬虫规则的维护，平台在接收到爬虫请求时，需要能按照匹配            <a href="https://www.cnblogs.com/laoqing/p/11193425.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-16 10:45 张永清 阅读 (983) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11193425" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/07/10.html">2019年7月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11161792.html">
+    【转载】HBase Region重点剖析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Region的概念 Region是HBase数据管理的基本单位。数据的move,数据的balance，数据的split，都是按照region来进行操作的。 region中存储这用户的真实数据，而为了管理这些数据，HBase使用了RegionSever来管理region。 一个表中可以包含一个或多个R            <a href="https://www.cnblogs.com/laoqing/p/11161792.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-10 09:23 张永清 阅读 (251) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11161792" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/07/02.html">2019年7月2日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/11122730.html">
+    【转载】Kafka史上最详细原理总结
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Kafka是最初由Linkedin公司开发，是一个分布式、支持分区的（partition）、多副本的（replica），基于zookeeper协调的分布式消息系统，它的最大的特性就是可以实时的处理大量数据以满足各种需求场景：比如基于hadoop的批处理系统、低延迟的实时系统、storm/Spark流            <a href="https://www.cnblogs.com/laoqing/p/11122730.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-02 19:29 张永清 阅读 (206) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11122730" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/04/28.html">2019年4月28日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/10787593.html">
+    三年磨一剑，robot framework 自动化测试框架核心指南，真正讲透robot framework自动化测试框架(笔者新书上架)。
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：序 关于自动化测试的工具和框架其实有很多。自动化测试在测试IT行业中扮演着越来越重要的角色，不管是在传统的IT行业还是高速发展的互联网行业或是如今的大数据和大热的人工智能领域，都离不开测试，也更加离不开自动化测试。自动化测试已经发展了很多年，在很多大的互联网公司里他们不但有自己的自动化测试框架，甚至            <a href="https://www.cnblogs.com/laoqing/p/10787593.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-04-28 22:59 张永清 阅读 (1916) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10787593" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/04/07.html">2019年4月7日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/10665712.html">
+    性能测试和性能分析的基础概念
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1.1. 性能测试的基础概念 性能可以理解为一个系统实现其功能的能力，从宏观上可以描述为系统能够稳定运行，高并发访问时系统不会出现宕机，系统处理完成用户请求需要的时间，系统能够同时支撑的并发访问量，系统每秒可以处理完成的事物数等，从微观上可以描述为处理每个事务的资源开销，资源的开销可以包括CPU，磁            <a href="https://www.cnblogs.com/laoqing/p/10665712.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-04-07 15:59 张永清 阅读 (1559) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10665712" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/02/14.html">2019年2月14日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/10380536.html">
+    Java_JVM参数-XX:MaxDirectMemorySize 与 两种 ByteBuffer: heap,direct ByteBuffer
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：ByteBuffer有两种: heap ByteBuffer -&gt; -XX:Xmx 1.一种是heap ByteBuffer,该类对象分配在JVM的堆内存里面，直接由Java虚拟机负责垃圾回收， direct&#160;ByteBuffer -&gt;&#160;-XX:MaxDirectMemorySize 2.一种是di            <a href="https://www.cnblogs.com/laoqing/p/10380536.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-02-14 20:24 张永清 阅读 (1390) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10380536" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2019/01/02.html">2019年1月2日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/10206931.html">
+    springcloud采坑--Zuul上传文件报java.nio.charset.IllegalCharsetNameException: UTF-8;boundary=sqgzzmMxl1UPdIp0IAYnQgUIAr9yNewVAzKIX
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：报错日志： 2018-12-17 10:01:19,688 ERROR [io.undertow.request] (default task-3) UT005023: Exception handling request to /xxx/app/bannerMaterialManager/uplo            <a href="https://www.cnblogs.com/laoqing/p/10206931.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-01-02 09:13 张永清 阅读 (998) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10206931" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2018/11/07.html">2018年11月7日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/9923020.html">
+    【转载】DRuid 大数据分析之查询
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：转载自http://yangyangmyself.iteye.com/blog/2321759 1、Druid 查询概述 上一节完成数据导入后，接下来讲讲Druid如何查询及统计分析导入的数据。 Druid的查询是使用REST风格的HTTP请求查询服务节点（Broker、Historical、Rea            <a href="https://www.cnblogs.com/laoqing/p/9923020.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-11-07 15:53 张永清 阅读 (237) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9923020" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2018/10/03.html">2018年10月3日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/9741215.html">
+    【转载】阻塞队列之三：SynchronousQueue同步队列 阻塞算法的3种实现
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、SynchronousQueue简介 Java 6的并发编程包中的SynchronousQueue是一个没有数据缓冲的BlockingQueue，生产者线程对其的插入操作put必须等待消费者的移除操作take，反过来也一样。 不像ArrayBlockingQueue或LinkedListBloc            <a href="https://www.cnblogs.com/laoqing/p/9741215.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-10-03 23:08 张永清 阅读 (228) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9741215" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2018/10/02.html">2018年10月2日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/9738872.html">
+    性能测试系列-java gc调优
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：性能测试中除了需要做好性能测试外，我们还需要做性能测试后的，性能调优，需要发现性能问题，也需要做性能调优，在做性能调优中，jvm的性能调优是经常遇到的一个。 随着jdk版本的迅速变化，jdk里面的GC算法也是发生了很多变化，新版的jdk中，G1的已经成了jdk的默认算法了，性能测试中，我们经常关注的            <a href="https://www.cnblogs.com/laoqing/p/9738872.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-10-02 23:29 张永清 阅读 (501) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9738872" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2018/09/07.html">2018年9月7日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/9607061.html">
+    Spring Boot属性文件配置文档（全部）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：This sample file is meant as a guide only. Do not copy/paste the entire content into your application; rather pick only the properties that you need.             <a href="https://www.cnblogs.com/laoqing/p/9607061.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-09-07 21:03 张永清 阅读 (227) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9607061" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/laoqing/archive/2018/07/22.html">2018年7月22日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/laoqing/p/9350416.html">
+    jmeter系列-如何实现像loadrunner一样，多个并发用户先通过登录初始化，然后做并发的接口性能压测
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：自动转开发后，就很少关注性能测试方面的东西，最近在帮朋友做一个性能压测，由于朋友那边的公司比较小，环境比较简单，而且是对http服务进行的压测，所以最终 选用了jmeter来实现这个压测。 如下就是我们的场景，多个并发用户，每个用户需要先登录，而且只需要登录一次，每个并发登录成功后，会产生一个acc            <a href="https://www.cnblogs.com/laoqing/p/9350416.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-07-22 16:11 张永清 阅读 (3834) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9350416" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/laoqing/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+		<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+			
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 张永清
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        作者的原创文章，转载须注明出处。原创文章归作者所有，欢迎转载，但是保留版权。对于转载了博主的原创文章，不标注出处的，作者将依法追究版权，请尊重作者的成果。
+    </div>
+</body>
+</html>

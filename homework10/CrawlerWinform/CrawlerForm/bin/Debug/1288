@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="这是关于领域驱动设计的一个系列博文，目的是在学习之后能够使用领域驱动设计的知识来开发应用。领域驱动设计是目前比较火的概念，其实早在2004年的时候 **Eric Evans** 就提出了领域驱动设计。" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>《如何运用领域驱动设计》汇总 - 句幽 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/uoyo/custom.css?v=TZbXpieXQG/10X3L0iBgILcLZKA=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/custom/bundle-custom-mobile.min.css?v=-Yh290MhQyDeXLmvKTSses9H6-49lqbpXFh55zvS0w8" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/uoyo/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/uoyo/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/uoyo/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 401017;
+        var currentBlogApp = 'uoyo';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'Custom';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/uoyo/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/uoyo/">句幽</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/uoyo/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%8F%A5%E5%B9%BD">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/uoyo/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+27&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+406</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/uoyo/p/12167224.html">《如何运用领域驱动设计》汇总</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+    <div id="cnblogs_post_description" style="display: none">
+        这是关于领域驱动设计的一个系列博文，目的是在学习之后能够使用领域驱动设计的知识来开发应用。领域驱动设计是目前比较火的概念，其实早在2004年的时候 **Eric Evans** 就提出了领域驱动设计。但是直到后期才被大家所认识，特别是随着现在微服务的兴起，许许多多的人意识到了领域驱动设计的好处，认为它是指导微服务设计的一把利器。
+    </div>
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h2 id="概述"><strong>概述</strong></h2>
+<p>这是关于领域驱动设计的一个系列博文，目的是在学习之后能够使用领域驱动设计的知识来开发应用。</p>
+<p>领域驱动设计是目前比较火的概念，其实早在2004年的时候 <strong>Eric Evans</strong> 就提出了领域驱动设计。但是直到后期才被大家所认识，特别是随着现在微服务的兴起，许许多多的人意识到了领域驱动设计的好处，认为它是指导微服务设计的一把利器。</p>
+<p>还记得最初接触到DDD的时候，还是在软考的时候，系统架构设计师教材的某一处提及到了这个词语，然后我就利用搜索引擎一顿查找，想看看这到底是个什么东西。后来，看了 <strong>Eric Evans</strong> 所写的 <a href="https://book.douban.com/subject/5344973/">《领域驱动设计》</a> 一书，当时感觉书中很多内容有点难懂，整个过程就像囫囵吞枣，以至于后来也踩了不少的坑。</p>
+<p>所以就想着能不能将学习的过程记录下来，这也是我写这些博文的初衷。</p>
+<p>该系列文章以一个旅行记账的案例为线索，然后慢慢的让它与领域驱动设计思想所融合，最后编写为确确实实的应用程序。哦对了，该系列的代码都是基于 DotNet Core。它最终将呈现为一个Aspnet Core所开发的单体应用，而后期在另外的系列中，我们会尝试将它演变为微服务应用。</p>
+<p>因为时间的关系，所以这些文章我尽可能的保证一周更新一篇吧。还有就是鄙人的能力有限，可能文章中有许多错误的地方或者错误的观点，还请您多多包涵，不吝赐教。</p>
+<p>下面是为大家提供的博文目录，可能计划博文和实际博文有些差异，还请大家谅解。</p>
+<h2 id="目录"><strong>目录</strong></h2>
+<ul>
+<li><a href="https://www.cnblogs.com/uoyo/p/11951840.html">如何运用领域驱动设计 - 值对象</a>    【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/11984311.html">如何运用领域驱动设计 - 实体</a>【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12023896.html">如何运用领域驱动设计 - 领域服务</a>【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12061334.html">如何运用领域驱动设计 - 聚合</a>【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12097737.html">如何运用领域驱动设计 - 仓储</a> 【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12129344.html">如何运用领域驱动设计 - 工作单元</a> 【Finish】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12167360.html">[DDD]持久化领域对象的方法实践</a>【Finish】【番外】</li>
+<li><a href="https://www.cnblogs.com/uoyo/p/12421553.html">如何运用领域驱动设计 - 领域事件</a> 【Finish】</li>
+<li>如何运用领域驱动设计 - 事件溯源</li>
+<li>如何运用领域驱动设计 - CQRS</li>
+<li>如何运用领域驱动设计 - 新的篇章</li>
+<li>使用 VS Code + Vue 开发跨全平台应用</li>
+<li>米蛋糕 - .Net Core下超轻柔的DDD组件</li>
+<li>使用米蛋糕开发第一个DDD应用</li>
+<li>如何运用领域驱动设计 - 案例实践（旅人帐）</li>
+<li>如何运用领域驱动设计 - 总结</li>
+<li>【番外】领域驱动设计是神话吗？为什么要使用它？</li>
+</ul>
+<p>以下是后期计划的 <strong>《分布式中的领域驱动设计》</strong> 的文章，但是目前还没有详细规划，仅供参考：</p>
+<ul>
+<li>分布式中的领域驱动设计 - 集成上下文</li>
+<li>分布式中的领域驱动设计 - 消息传递</li>
+<li>分布式中的领域驱动设计 - 分布式事务</li>
+<li>分布式中的领域驱动设计 - CQRS</li>
+<li>分布式中的领域驱动设计 - 微服务</li>
+<li>分布式中的领域驱动设计 - 案例</li>
+</ul>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-01-08 16:13</span>&nbsp;
+<a href="https://www.cnblogs.com/uoyo/">句幽</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12167224" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12167224);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 401017, cb_blogApp = 'uoyo', cb_blogUserGuid = '4660842a-34b1-4866-476c-08d52fc34315';
+    var cb_entryId = 12167224, cb_entryCreatedDate = '2020-01-08 16:13', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 句幽
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <div class="Snow">
+    <canvas id="Snow"></canvas>
+</div>
+
+<!--下雪特效-->
+<script src="https://blog-static.cnblogs.com/files/uoyo/snoweffects.js"></script>
+
+<script type="text/javascript" language="javascript"> 
+//为右下角推荐推荐区域添加关注按钮
+window.onload = function () {
+    $('#div_digg').prepend('<div style="padding-bottom: 5px" id="please_follow"><span class="icon_favorite" style="padding-top: 2px"></span><a onclick="follow(\'4660842a-34b1-4866-476c-08d52fc34315\');" href="javascript:void(0);" style="font-weight: bold; padding-left:5px;font-size: 14px; vertical-align: super;color: #ff5d47;">关注一下楼主吧</a> </div>');
+}
+</script>
+
+<!--代码复制-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+<!--主题-->
+<script src="https://blog-static.cnblogs.com/files/uoyo/gshang.2019.10.27.1.js"></script>
+
+<!-- zoom.js 的样式 -->
+<link rel="stylesheet" type="text/css" href="https://blog-static.cnblogs.com/files/uoyo/zoom.css">
+<!-- Bootstrap 的 transition.js cdn（过渡动画插件）-->
+<script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/transition.js"></script>
+<!-- zoom.js 核心代码 -->
+<script src="https://blog-static.cnblogs.com/files/uoyo/zoom.js"></script>
+<script type='text/javascript'>$('#cnblogs_post_body img').attr('data-action', 'zoom');</script>
+    </div>
+</body>
+</html>

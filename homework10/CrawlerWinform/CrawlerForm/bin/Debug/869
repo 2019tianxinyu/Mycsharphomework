@@ -1,0 +1,652 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>精华区 - 第3页 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite.min.css?v=FRR6qbd_vc7TQxxV0n1kBxwFAKoajo20N8gkufL2xuk" />
+        <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/blog/picked/rss" />
+    <script src="//common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/js/aggsite.min.js?v=pF9WYZrlQXxT2TvAo3ctCaa3IJ8YXeHpSWGGmRU2OV8"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/A1', [468, 60], 'div-gpt-ad-1547816814884-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B1', [300, 250], 'div-gpt-ad-1546331539224-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B2', [300, 250], 'div-gpt-ad-1539007469525-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B3', [300, 250], 'div-gpt-ad-1546331252242-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B4', [300, 250], 'div-gpt-ad-1546331385104-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+        /**/</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hd_info">
+            <div id="cnts">
+                <div id="site_nav_top">代码改变世界</div>
+                <div id="login_area"><span id="span_userinfo"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <p class="h_r_3"></p><p class="h_r_2"></p><p class="h_r_1"></p>
+            <div id="header_block">
+                <div id="logo">
+                    <h1>
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo_small.gif" alt="博客园Logo" width="142" height="55" /></a>
+                    </h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <p class="h_r_1"></p><p class="h_r_2"></p><p class="h_r_3"></p>
+        </div>
+        <div id="nav_menu"><a href="https://home.cnblogs.com/">园子</a><a href="https://news.cnblogs.com">新闻</a><a href="https://q.cnblogs.com/">博问</a><a href="https://ing.cnblogs.com/">闪存</a><a href="https://group.cnblogs.com/">小组</a><a href="https://wz.cnblogs.com/">收藏</a><a href="https://job.cnblogs.com/">招聘</a><a href="https://edu.cnblogs.com/">班级</a><a href="http://zzk.cnblogs.com/">找找看</a></div>
+        <div id="main">
+            <div class="post_nav_block_wrapper">
+                <ul class="post_nav_block">
+                        <li><a href="/" class="" title="">首页</a></li>
+                        <li><a href="/pick/" class="current_nav" title="编辑精选博文">精华</a></li>
+                        <li><a href="/candidate/" class="" title="候选区的博文">候选</a></li>
+                        <li><a href="/news/" class="" title="新闻频道最新新闻">新闻</a></li>
+                        <li><a href="/following" class="" title="我关注博客的最新博文">关注</a></li>
+                        <li><a href="/aggsite/mycommented" class="" title="我评论过的博文">我评</a></li>
+                        <li><a href="/aggsite/mydigged" class="" title="我推荐过的博文">我赞</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="rss_link" id="rss_block">
+<span id="posts_refresh_tips"></span><a id="posts_refresh" href="#" class="refresh" title="刷新博文列表" onclick="aggSite.loadCategoryPostList();return false">刷新</a><a href="http://feed.cnblogs.com/blog/picked/rss"><img src="//common.cnblogs.com/images/icon_rss.gif" alt="点击订阅" style="position:relative;top:2px;" title="订阅博客园文章" /></a>            </div>
+                <div id="headline_block" class="headline"><ul><li class="editor_pick"><a href="https://www.cnblogs.com/zkweb/p/12761743.html" id="editor_pick_lnk" target="_blank">【编辑推荐】写给程序员的机器学习入门 - 线性模型，激活函数与多层线性模型<span id="editor_pick_count"></span></a> <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/tianqing/p/12764404.html" target="_blank" title="阅读1511, 评论8, 推荐30">[最多推荐]ASP.NET Core技术研究-全面认识Web服务器Kestrel(8/1511)</a> <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/huangxincheng/p/12764925.html" target="_blank" title="阅读1183, 评论29, 推荐22">[最多评论]用了这么多年的泛型，你对它到底有多了解？(29/1183)</a> <a href="/aggsite/topcommented24h" title="查看24小时评论排行" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/660491/" target="_blank" title="阅读1169, 评论12, 推荐3">[新闻头条]人造肉的意义我们都懂，但它可能走错了路(12/1169)</a> <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/660501/" target="_blank" title="阅读271, 评论0, 推荐6">[推荐新闻]新AI算法能监测全球海洋塑料垃圾，平均准确率达86%(0/271)</a> <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a></li></ul></div>
+
+            <div id="pager_top" style="display:none"></div>
+            <div id="post_list_tips" class="hide"></div>
+            
+            <div id="post_list">
+                <div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('rjzheng',9041659,216504,1)"> 
+	<span class="diggnum" id="digg_count_9041659">186</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_9041659" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/rjzheng/p/9041659.html" target="_blank">【原创】分布式之数据库和缓存双写一致性方案解析</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/rjzheng/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/725429/20180618002343.png" alt=""/></a>    引言 为什么写这篇文章？ 首先，缓存由于其高并发和高性能的特性，已经在项目中被广泛使用。在读取缓存方面，大家没啥疑问，都是按照下图的流程来进行业务操作。 但是在更新缓存方面，对于更新完数据库，是更新缓存呢，还是删除缓存。又或者是先删除缓存，再更新数据库，其实大家存在很大的争议。目前没有一篇全面的博客 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/rjzheng/" class="lightblue">孤独烟</a> 
+    发布于 2018-05-15 17:15 
+    <span class="article_comment"><a href="https://www.cnblogs.com/rjzheng/p/9041659.html#commentform" title="" class="gray">
+        评论(130)</a></span><span class="article_view"><a href="https://www.cnblogs.com/rjzheng/p/9041659.html" class="gray">阅读(42274)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('rjzheng',8994962,216504,1)"> 
+	<span class="diggnum" id="digg_count_8994962">281</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8994962" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/rjzheng/p/8994962.html" target="_blank">【原创】分布式之消息队列复习精讲</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/rjzheng/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/725429/20180618002343.png" alt=""/></a>    引言 为什么写这篇文章? 博主有两位朋友分别是小A和小B: 1. 小A，工作于传统软件行业(某社保局的软件外包公司)，每天工作内容就是和产品聊聊需求，改改业务逻辑。再不然就是和运营聊聊天，写几个SQL，生成下报表。又或者接到客服的通知，某某功能故障了，改改数据，然后下班部署上线。每天过的都是这种生活 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/rjzheng/" class="lightblue">孤独烟</a> 
+    发布于 2018-05-06 16:31 
+    <span class="article_comment"><a href="https://www.cnblogs.com/rjzheng/p/8994962.html#commentform" title="" class="gray">
+        评论(111)</a></span><span class="article_view"><a href="https://www.cnblogs.com/rjzheng/p/8994962.html" class="gray">阅读(28409)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('lanxiaoke',8971301,81648,1)"> 
+	<span class="diggnum" id="digg_count_8971301">79</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8971301" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/lanxiaoke/p/8971301.html" target="_blank">.net环境下跨进程、高频率读写数据</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/lanxiaoke/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/254672/20181226144040.png" alt=""/></a>    一、需求背景 1、最近项目要求高频次地读写数据，数据量也不是很大，多表总共加起来在百万条上下。 单表最大的也在25万左右，历史数据表因为不涉及所以不用考虑， 难点在于这个规模的热点数据，变化非常频繁。 数据来源于一些检测设备的采集数据，一些大表，有可能在极短时间内（如几秒钟）可能大部分都会变化， 而 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/lanxiaoke/" class="lightblue">漂亮的猫</a> 
+    发布于 2018-04-29 18:04 
+    <span class="article_comment"><a href="https://www.cnblogs.com/lanxiaoke/p/8971301.html#commentform" title="" class="gray">
+        评论(69)</a></span><span class="article_view"><a href="https://www.cnblogs.com/lanxiaoke/p/8971301.html" class="gray">阅读(15793)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('163yun',8867738,386785,1)"> 
+	<span class="diggnum" id="digg_count_8867738">120</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8867738" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/163yun/p/8867738.html" target="_blank">微服务化的基石——持续集成</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/163yun/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1253350/20180419172350.png" alt=""/></a>    本文由 网易云 发布。 作者：刘超，网易云解决方案架构师 一、持续集成对于微服务的意义：拆之前要先解决合的问题 在很多微服务化的文章中，很少会把持续集成放在第一篇，因为大多数的文章都会将如何拆的问题，例如拆的粒度，拆的时机，拆的方式。 为什么需要拆呢？因为这是人类处理问题的本质方式：将一个大的复杂问 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/163yun/" class="lightblue">网易云</a> 
+    发布于 2018-04-17 16:50 
+    <span class="article_comment"><a href="https://www.cnblogs.com/163yun/p/8867738.html#commentform" title="" class="gray">
+        评论(33)</a></span><span class="article_view"><a href="https://www.cnblogs.com/163yun/p/8867738.html" class="gray">阅读(15689)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('savorboard',8853734,120552,1)"> 
+	<span class="diggnum" id="digg_count_8853734">83</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8853734" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/savorboard/p/8853734.html" target="_blank">在 .NET Core 中使用 DiagnosticSource 记录跟踪信息</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/savorboard/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/250417/20160816172634.png" alt=""/></a>    前言 最新一直在忙着项目上的事情，很久没有写博客了，在这里对关注我的粉丝们说声抱歉，后面我可能更多的分享我们在微服务落地的过程中的一些经验。那么今天给大家讲一下在 .NET Core 2 中引入的全新 DiagnosticSource 事件机制，为什么说是全新呢？ 在以前的 .NET Framewo ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/savorboard/" class="lightblue">Savorboard</a> 
+    发布于 2018-04-16 09:08 
+    <span class="article_comment"><a href="https://www.cnblogs.com/savorboard/p/8853734.html#commentform" title="" class="gray">
+        评论(20)</a></span><span class="article_view"><a href="https://www.cnblogs.com/savorboard/p/8853734.html" class="gray">阅读(11186)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('hodge01',8658538,315906,1)"> 
+	<span class="diggnum" id="digg_count_8658538">39</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8658538" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/hodge01/p/8658538.html" target="_blank">阿里云ECS的CPU100%排查</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/hodge01/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1057174/20180326180444.png" alt=""/></a>    一、背景和现象 初创公司，架构lanmp，web前端和后端分开服务器，业务驱动主要是nginx和apache，nginx主要是处理静态文件和反向代理，前后端、搜索引擎、缓存、队列等附加的服务都是用docker容器部署。因为比较初级，上传文件和采集文件都是直接写在硬盘上，涉及到的目录共享，就在其中一台 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/hodge01/" class="lightblue">一夕如环</a> 
+    发布于 2018-03-27 17:07 
+    <span class="article_comment"><a href="https://www.cnblogs.com/hodge01/p/8658538.html#commentform" title="" class="gray">
+        评论(34)</a></span><span class="article_view"><a href="https://www.cnblogs.com/hodge01/p/8658538.html" class="gray">阅读(11316)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('kismetv',8654978,358560,1)"> 
+	<span class="diggnum" id="digg_count_8654978">214</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8654978" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/kismetv/p/8654978.html" target="_blank">深入学习Redis（1）：Redis内存模型</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/kismetv/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1174710/20180329153616.png" alt=""/></a>    前言 Redis是目前最火爆的内存数据库之一，通过在内存中读写数据，大大提高了读写速度，可以说Redis是实现网站高并发不可或缺的一部分。 我们使用Redis时，会接触Redis的5种对象类型（字符串、哈希、列表、集合、有序集合），丰富的类型是Redis相对于Memcached等的一大优势。在了解R ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/kismetv/" class="lightblue">编程迷思</a> 
+    发布于 2018-03-27 08:53 
+    <span class="article_comment"><a href="https://www.cnblogs.com/kismetv/p/8654978.html#commentform" title="" class="gray">
+        评论(79)</a></span><span class="article_view"><a href="https://www.cnblogs.com/kismetv/p/8654978.html" class="gray">阅读(48865)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('sskyy',8613393,109914,1)"> 
+	<span class="diggnum" id="digg_count_8613393">87</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8613393" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/sskyy/p/8613393.html" target="_blank">十倍效能提升——Web 基础研发体系的建立</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/sskyy/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/379494/20131030215128.png" alt=""/></a>    1 导读 web 基础研发体系指的是， web 研发中一线工程师所直接操作的技术、工具，以及所属组织架构的总和。在过去提升企业研发效能的讨论中，围绕的主题基本都是——”通过云计算、云存储等方式将底层核心技术封装成基础设施“。而我们在实践中发现，在 互联网渗入到各行各业，业务爆发 企业竞争白热化，对速 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/sskyy/" class="lightblue">侯振宇</a> 
+    发布于 2018-03-20 23:07 
+    <span class="article_comment"><a href="https://www.cnblogs.com/sskyy/p/8613393.html#commentform" title="" class="gray">
+        评论(36)</a></span><span class="article_view"><a href="https://www.cnblogs.com/sskyy/p/8613393.html" class="gray">阅读(17743)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('ants',8601947,114951,1)"> 
+	<span class="diggnum" id="digg_count_8601947">73</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8601947" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/ants/p/8601947.html" target="_blank">Golang的CSP很酷？其实.NET也可以轻松完成</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/ants/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/384997/20161114161534.png" alt=""/></a>    说起Golang（后面统称为Go），就想到他的高并发特性，在深入一些就是 Goroutine。在大家被它优雅的语法和简洁的代码实现的高并发程序所折服时，其实C#/.NET也可以很容易的做到。今天我们来参照Go，来用C#实现它所采用的的CSP并发模型。CSP（Communicating sequent... ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/ants/" class="lightblue">KAnts</a> 
+    发布于 2018-03-19 14:43 
+    <span class="article_comment"><a href="https://www.cnblogs.com/ants/p/8601947.html#commentform" title="" class="gray">
+        评论(35)</a></span><span class="article_view"><a href="https://www.cnblogs.com/ants/p/8601947.html" class="gray">阅读(11680)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('popsuper1982',8505203,186637,1)"> 
+	<span class="diggnum" id="digg_count_8505203">240</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8505203" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/popsuper1982/p/8505203.html" target="_blank">不是技术也能看懂云计算，大数据，人工智能</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/popsuper1982/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/635909/20180308223604.png" alt=""/></a>    我今天要讲这三个话题，一个是云计算，一个大数据，一个人工智能，我为什么要讲这三个东西呢？因为这三个东西现在非常非常的火，它们之间好像互相有关系，一般谈云计算的时候也会提到大数据，谈人工智能的时候也会提大数据，谈人工智能的时候也会提云计算。所以说感觉他们又相辅相成不可分割，如果是非技术的人员来讲可能比 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/popsuper1982/" class="lightblue">popsuper1982</a> 
+    发布于 2018-03-04 17:43 
+    <span class="article_comment"><a href="https://www.cnblogs.com/popsuper1982/p/8505203.html#commentform" title="" class="gray">
+        评论(56)</a></span><span class="article_view"><a href="https://www.cnblogs.com/popsuper1982/p/8505203.html" class="gray">阅读(39470)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('superfj',8474288,355938,1)"> 
+	<span class="diggnum" id="digg_count_8474288">66</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8474288" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/superfj/p/8474288.html" target="_blank">记一次内存溢出的分析经历——thrift带给我的痛orz</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/superfj/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1167080/20180606091435.png" alt=""/></a>    说在前面的话 朋友，你经历过部署好的服务突然内存溢出吗？ 你经历过没有看过Java虚拟机，来解决内存溢出的痛苦吗？ 你经历过一个BUG，百思不得其解，头发一根一根脱落的烦恼吗？ 我知道，你有过！ 但是我还是要来说说我的故事.................. 背景： 有一个项目做一个系统，分客户端和 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/superfj/" class="lightblue">Janti</a> 
+    发布于 2018-03-01 21:55 
+    <span class="article_comment"><a href="https://www.cnblogs.com/superfj/p/8474288.html#commentform" title="" class="gray">
+        评论(23)</a></span><span class="article_view"><a href="https://www.cnblogs.com/superfj/p/8474288.html" class="gray">阅读(9977)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('supersayajin',8453070,411830,1)"> 
+	<span class="diggnum" id="digg_count_8453070">15</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8453070" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/supersayajin/p/8453070.html" target="_blank">机器学习漫游(1) 基本设定</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/supersayajin/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1333838/20180306133334.png" alt=""/></a>    最近的十几年机器学习很是火热，尤其是其中的一个分支深度学习在工业界取得很好应用，吸引了很多眼球。不过从其历程来看，机器学习的历史并不短暂~从早期的感知机到八十年代火热的神经网络，再到九十年代被提出的经典算法集成学习和支持向量机；而最近的十年算得上是机器学习发展的黄金年代，软、硬件计算条件大幅提高，尤 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/supersayajin/" class="lightblue">supersayajin</a> 
+    发布于 2018-02-28 17:23 
+    <span class="article_comment"><a href="https://www.cnblogs.com/supersayajin/p/8453070.html#commentform" title="" class="gray">
+        评论(3)</a></span><span class="article_view"><a href="https://www.cnblogs.com/supersayajin/p/8453070.html" class="gray">阅读(4156)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('xuning',8464625,162928,1)"> 
+	<span class="diggnum" id="digg_count_8464625">71</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8464625" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/xuning/p/8464625.html" target="_blank">高可用Redis服务架构分析与搭建</a></h3>               	
+    <p class="post_item_summary">
+    基于内存的Redis应该是目前各种web开发业务中最为常用的key-value数据库了，我们经常在业务中用其存储用户登陆态（Session存储），加速一些热数据的查询（相比较mysql而言，速度有数量级的提升），做简单的消息队列（LPUSH和BRPOP）、订阅发布（PUB/SUB）系统等等。规模比较 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/xuning/" class="lightblue">Horstxu</a> 
+    发布于 2018-02-24 11:08 
+    <span class="article_comment"><a href="https://www.cnblogs.com/xuning/p/8464625.html#commentform" title="" class="gray">
+        评论(28)</a></span><span class="article_view"><a href="https://www.cnblogs.com/xuning/p/8464625.html" class="gray">阅读(19472)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cr330326',8419899,97441,1)"> 
+	<span class="diggnum" id="digg_count_8419899">14</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8419899" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cr330326/p/8419899.html" target="_blank">Android组件化框架设计与实践</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/cr330326/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/331079/20160909115136.png" alt=""/></a>    在目前移动互联网时代，每个 APP 就是流量入口，与过去 PC Web 浏览器时代不同的是，APP 的体验与迭代速度影响着用户的粘性，这同时也对从事移动开发人员提出更高要求，进而移动端框架也层出不穷。 上图显示的是传统的服务端架构和客户端 App 架构对比。传统的服务端架构中最底下是一个 OS，一般 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cr330326/" class="lightblue">cryAllen</a> 
+    发布于 2018-02-05 23:40 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cr330326/p/8419899.html#commentform" title="" class="gray">
+        评论(8)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cr330326/p/8419899.html" class="gray">阅读(8921)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('nullllun',8350178,333531,1)"> 
+	<span class="diggnum" id="digg_count_8350178">159</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8350178" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/nullllun/p/8350178.html" target="_blank">科普：String hashCode 方法为什么选择数字31作为乘子</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/nullllun/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1058327/20180815072606.png" alt=""/></a>    1. 背景 某天，我在写代码的时候，无意中点开了 String hashCode 方法。然后大致看了一下 hashCode 的实现，发现并不是很复杂。但是我从源码中发现了一个奇怪的数字，也就是本文的主角31。这个数字居然不是用常量声明的，所以没法从字面意思上推断这个数字的用途。后来带着疑问和好奇心， ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/nullllun/" class="lightblue">田小波⊰</a> 
+    发布于 2018-01-25 10:49 
+    <span class="article_comment"><a href="https://www.cnblogs.com/nullllun/p/8350178.html#commentform" title="" class="gray">
+        评论(49)</a></span><span class="article_view"><a href="https://www.cnblogs.com/nullllun/p/8350178.html" class="gray">阅读(8843)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('leegent',8207246,269479,1)"> 
+	<span class="diggnum" id="digg_count_8207246">34</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8207246" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/leegent/p/8207246.html" target="_blank">漫话JavaScript与异步&#183;第三话——Generator：化异步为同步</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/leegent/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/900937/20170909233728.png" alt=""/></a>    ES6新增的特性中，Generator无疑是最为强大者之一，它与Promise结合起来，为令前端头疼的异步回调难题提供了终极解决方案！ ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/leegent/" class="lightblue">大唐西域都护</a> 
+    发布于 2018-01-10 00:53 
+    <span class="article_comment"><a href="https://www.cnblogs.com/leegent/p/8207246.html#commentform" title="" class="gray">
+        评论(15)</a></span><span class="article_view"><a href="https://www.cnblogs.com/leegent/p/8207246.html" class="gray">阅读(7767)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('lulianqi',8167526,242630,1)"> 
+	<span class="diggnum" id="digg_count_8167526">275</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8167526" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/lulianqi/p/8167526.html" target="_blank">超高性能管线式HTTP请求（实践&#183;原理&#183;实现）</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/lulianqi/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/209007/20150914192924.png" alt=""/></a>    这里的高性能指的就是网卡有多快请求发送就能有多快，基本上一般的服务器在一台客户端的压力下就会出现明显延时。
+该篇实际是介绍pipe管线的原理，下面主要通过其高性能的测试实践，解析背后数据流量及原理。最后附带一个简单的实现
+pipe之所以能比常规请求方式性能高出这么多，主要有以下几点
+1：管线式发送，... ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/lulianqi/" class="lightblue">lulianqi15</a> 
+    发布于 2018-01-01 18:09 
+    <span class="article_comment"><a href="https://www.cnblogs.com/lulianqi/p/8167526.html#commentform" title="" class="gray">
+        评论(30)</a></span><span class="article_view"><a href="https://www.cnblogs.com/lulianqi/p/8167526.html" class="gray">阅读(24449)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('buptzym',8059121,88579,1)"> 
+	<span class="diggnum" id="digg_count_8059121">267</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8059121" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/buptzym/p/8059121.html" target="_blank">深度工作：充分使用每一份脑力</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/buptzym/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u287060.jpg?id=12172023" alt=""/></a>    浮躁已经成了普遍的社会现象。判断一个人是否浮躁非常容易，看他一天主动拿起手机的次数就可以了。据TED的演讲者说，这个值一般是50次，除了8小时的睡觉之外，基本上每20分钟就要去翻翻手机。 你会去用手机做什么？看微信，票圈，微博，知乎，淘宝，或只是来回刷首页。我们不是名人，没人关心你在社交网络上的行动 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/buptzym/" class="lightblue">FerventDesert</a> 
+    发布于 2017-12-18 19:05 
+    <span class="article_comment"><a href="https://www.cnblogs.com/buptzym/p/8059121.html#commentform" title="" class="gray">
+        评论(121)</a></span><span class="article_view"><a href="https://www.cnblogs.com/buptzym/p/8059121.html" class="gray">阅读(21873)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('wayfarer',8053509,819,1)"> 
+	<span class="diggnum" id="digg_count_8053509">39</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_8053509" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/wayfarer/p/8053509.html" target="_blank">DDD峰会归来话DDD</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/wayfarer/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/526/20171217215722.png" alt=""/></a>    一场大戏落幕，首届DDD中国峰会如大会主题色一般的红。或许在12月9日这一天，全中国的DDD粉丝大约有一半都汇聚在了国家会议中心。听起来是幸，其实是不幸，因为DDD在中国的人群基数实在是太少了。 因为要负责大会的其中一个Track，期间又要接受采访，另外还有朋友到访，所以除了前面的两个keynote ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/wayfarer/" class="lightblue">张逸</a> 
+    发布于 2017-12-17 21:51 
+    <span class="article_comment"><a href="https://www.cnblogs.com/wayfarer/p/8053509.html#commentform" title="" class="gray">
+        评论(29)</a></span><span class="article_view"><a href="https://www.cnblogs.com/wayfarer/p/8053509.html" class="gray">阅读(11380)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('liuche',7955462,109586,1)"> 
+	<span class="diggnum" id="digg_count_7955462">108</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_7955462" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/liuche/p/7955462.html" target="_blank">分布式、服务化的ERP系统架构设计</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/liuche/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/371129/20170615154227.png" alt=""/></a>    ERP之痛 曾几何时，我混迹于电商、珠宝行业4年多，为这两个行业开发过两套大型业务系统（ERP）。作为一个ERP系统，系统主要功能模块无非是订单管理、商品管理、生产采购、仓库管理、物流管理、财务管理等等。作为一个管理系统，大家的一般开发习惯就是使用.Net或Java技术，建立一个单块（单进程）架构的 ...
+    </p>              
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/liuche/" class="lightblue">刘彻</a> 
+    发布于 2017-12-02 20:23 
+    <span class="article_comment"><a href="https://www.cnblogs.com/liuche/p/7955462.html#commentform" title="" class="gray">
+        评论(97)</a></span><span class="article_view"><a href="https://www.cnblogs.com/liuche/p/7955462.html" class="gray">阅读(21861)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+   
+
+            </div>
+            <script>editorPickStat(); aggSite.user.getUserInfo();</script>
+            <script type="text/javascript">
+                var aggSiteModel = {"CategoryType":"Picked","ParentCategoryId":0,"CategoryId":-2,"PageIndex":3,"TotalPostCount":1621,"ItemListActionName":"AggSitePostList"};
+            </script>
+            <div id="pager_bottom"><div id="paging_block"><div class="pager"><a href="/pick/2/" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">&lt; Prev</a><a href="/pick/" class="p_1 first" onclick="aggSite.loadCategoryPostList(1,20);buildPaging(1);return false;">1</a><a href="/pick/2/" class="p_2 middle" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">2</a><a href="/pick/3/" class="p_3 current" onclick="aggSite.loadCategoryPostList(3,20);buildPaging(3);return false;">3</a><a href="/pick/4/" class="p_4 middle" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">4</a><a href="/pick/5/" class="p_5 middle" onclick="aggSite.loadCategoryPostList(5,20);buildPaging(5);return false;">5</a><a href="/pick/6/" class="p_6 middle" onclick="aggSite.loadCategoryPostList(6,20);buildPaging(6);return false;">6</a><a href="/pick/7/" class="p_7 middle" onclick="aggSite.loadCategoryPostList(7,20);buildPaging(7);return false;">7</a><a href="/pick/8/" class="p_8 middle" onclick="aggSite.loadCategoryPostList(8,20);buildPaging(8);return false;">8</a><a href="/pick/9/" class="p_9 middle" onclick="aggSite.loadCategoryPostList(9,20);buildPaging(9);return false;">9</a><a href="/pick/10/" class="p_10 middle" onclick="aggSite.loadCategoryPostList(10,20);buildPaging(10);return false;">10</a><a href="/pick/11/" class="p_11 middle" onclick="aggSite.loadCategoryPostList(11,20);buildPaging(11);return false;">11</a><span class="ellipsis">···</span><a href="/pick/82/" class="p_82 last" onclick="aggSite.loadCategoryPostList(82,20);buildPaging(82);return false;">82</a><a href="/pick/4/" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":1621,"PageIndex":3,"PageSize":20,"ShowPageCount":5,"SkipCount":40,"UrlFormat":"/pick/{0}/","OnClickJsFunc":"aggSite.loadCategoryPostList()","FirstPageLink":"/pick/","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+</div>
+            <div id="side_nav">
+                
+    <div id="cate_title_block">
+<div id="cate_title_title"><div class="cate_title">网站分类</div></div>
+<ul id="cate_item">
+<li id="cate_item_108698" onmouseover="cateShow(108698)" onmouseout="cateHidden(108698)">
+<a href="/cate/108698/">.NET技术(11)</a>
+</li>
+<li id="cate_item_2" onmouseover="cateShow(2)" onmouseout="cateHidden(2)">
+<a href="/cate/2/">编程语言(43)</a>
+</li>
+<li id="cate_item_108701" onmouseover="cateShow(108701)" onmouseout="cateHidden(108701)">
+<a href="/cate/108701/">软件设计(0)</a>
+</li>
+<li id="cate_item_108703" onmouseover="cateShow(108703)" onmouseout="cateHidden(108703)">
+<a href="/cate/108703/">Web前端(8)</a>
+</li>
+<li id="cate_item_108704" onmouseover="cateShow(108704)" onmouseout="cateHidden(108704)">
+<a href="/cate/108704/">企业信息化(0)</a>
+</li>
+<li id="cate_item_108705" onmouseover="cateShow(108705)" onmouseout="cateHidden(108705)">
+<a href="/cate/108705/">手机开发(3)</a>
+</li>
+<li id="cate_item_108709" onmouseover="cateShow(108709)" onmouseout="cateHidden(108709)">
+<a href="/cate/108709/">软件工程(3)</a>
+</li>
+<li id="cate_item_108712" onmouseover="cateShow(108712)" onmouseout="cateHidden(108712)">
+<a href="/cate/108712/">数据库技术(5)</a>
+</li>
+<li id="cate_item_108724" onmouseover="cateShow(108724)" onmouseout="cateHidden(108724)">
+<a href="/cate/108724/">操作系统(4)</a>
+</li>
+<li id="cate_item_4" onmouseover="cateShow(4)" onmouseout="cateHidden(4)">
+<a href="/cate/4/">其他分类(23)</a>
+</li>
+<li id="cate_item_0" onmouseover="cateShow(0)" onmouseout="cateHidden(0)">
+<a href="/cate/all/">所有随笔(2395)</a>
+</li>
+<li id="cate_item_-1" onmouseover="cateShow(-1)" onmouseout="cateHidden(-1)">
+<a href="/comment/">所有评论(532)</a>
+</li>
+</ul>
+<div class="cate_bottom"></div>
+<div id="cate_sub_block"></div>
+<script type="text/javascript">var cateIdList = '108698,2,108701,108703,108704,108705,108709,108712,108724,4';aggSite.loadSubCategories();</script>
+</div>
+<div class="l_s"></div>
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">
+<h4>链接</h4>        
+<ul>
+    <li><a href="https://group.cnblogs.com/forum/public/" target="_blank">反馈或建议</a></li> 
+    <li><a href="//www.cnblogs.com/cmt/" target="_blank">官方博客</a></li>
+    <li><a href="/skins.aspx" target="_blank">博客模板</a></li>
+    <li><a href="http://www.blogjava.net/">Java博客</a></li>
+    <li><a href="http://www.cppblog.com/">C++博客</a></li>
+    <li><a href="//www.cnblogs.com/cmt/archive/2009/09/26/1574616.html">手机版</a></li>
+</ul>
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+<div class="l_s"></div>
+<div id="user_stats"></div>
+<div class="l_s"></div>        
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">                
+<h4>统计信息</h4>
+<div id="site_stats"></div>      
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+            </div>
+            <div id="side_right">
+                    <div id="search_block">
+                        <div class="side_search">
+                            <input type="text" id="zzk_q" class="search_input" onkeydown="return zzk_go_enter(event);" tabindex="3" /><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" />
+                        </div>
+                        <div id="google_search" class="side_search">
+                            <input type="text" id="google_search_q" class="search_input" onkeydown="return google_search_enter(event);" /><input type="button" value="Google" class="search_btn" onclick="return google_search();" />
+                        </div>
+                    </div>
+                <div id="cnblogs_a1">
+                    <div id='div-gpt-ad-1547816814884-0' style='height:60px; width:468px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1547816814884-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="cnblogs_b1" class="sidebar-image">
+                    <div id='div-gpt-ad-1546331539224-0' style='height:250px; width:300px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1546331539224-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="ad_right_text" class="ad_right_text"></div>
+                <div id="side_right_block"></div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div>Powered by .NET Core on Kubernetes</div>
+            <div><a href="https://about.cnblogs.com/">关于博客园</a><a href="https://about.cnblogs.com/contact">联系我们</a><a href="https://about.cnblogs.com/ad">广告服务</a><a href="https://about.cnblogs.com/job">人才服务</a>&copy;2004-2020<a href="https://www.cnblogs.com/">博客园</a>保留所有权利<a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备09004260号</a></div>
+            <div><a href="https://ss.knet.cn/verifyseal.dll?sn=e131108110100433392itm000000&amp;ct=df&amp;a=1&amp;pa=0.25787803245785335" rel="nofollow" target="_blank"><img id="cnnic_img" src="//common.cnblogs.com/images/cnnic.png" alt="" width="64" height="23" /></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001144" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//common.cnblogs.com/images/ghs.png" alt="" /><span style="float:left;height:20px;line-height:20px;margin: 0 5px 0 5px; color:#939393;">沪公网安备 31011502001144号</span></a></div>
+        </div>
+    </div>
+</body>
+</html>

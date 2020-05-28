@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="【 数组与指针 】 1. 指向整型变量的指针 指针变量，表示指向某变量地址的变量，即内存所指向变量的地址。Eg. int a = 1;&amp;#160;int *p = &amp;amp;a; =&amp;gt; *p =" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>【 C/C++ 】指针小节 - Yx_xixi - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/en_summergarden/bundle-en_summergarden.min.css?v=eJPbnlR84uox-N8Y1kMPtN4OnGKJuv0XEEgil80ofFA" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/en_summergarden/bundle-en_summergarden-mobile.min.css?v=qqfeWJjwG2yHc4G3o4D_aAh8NdA2Uspy5vjuqwOEq0c" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/xiyang2020/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/xiyang2020/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/xiyang2020/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 585636;
+        var currentBlogApp = 'xiyang2020';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'En_summerGarden';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/xiyang2020/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="Return Home" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/xiyang2020/">Yx2020</a>
+</h1>
+<h2>
+日积跬步，以致千里
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+CnBlogs</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/xiyang2020/">
+Home</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+New Post</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Yx_xixi">
+Contact</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+Admin</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/xiyang2020/rss/">
+Rss</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/xiyang2020/rss/">
+    <img src="/skins/en_summergarden/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+		<div class="blogStats">
+			
+			<!--done-->
+Posts - 
+4&nbsp;
+Articles - 
+0&nbsp;
+Comments - 
+0&nbsp;
+
+
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+<!--done-->
+<div id="topics">
+	<div class="post">
+		<h1 class = "postTitle">
+			
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/xiyang2020/p/12763645.html">【 C/C++ 】指针小节</a>
+
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p><span style="font-size: 16px;"><strong>【 数组与指针 】</strong></span></p>
+<p><strong>1. 指向整型变量的指针</strong></p>
+<p>指针变量，表示指向某变量地址的变量，即内存所指向变量的地址。Eg. int a = 1;&nbsp;int *p = &amp;a; &nbsp; =&gt; *p = 1;</p>
+<p>p和*p的值都是可以改变的（在没有const修饰的情况下）:</p>
+<p>p的值该表表示p指向了其他元素，而*p的值改变，表示*p指向的元素的值改变（要先给p赋值才可以给*p赋值，否则p指向未知的地址)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="https://img2020.cnblogs.com/blog/1969524/202004/1969524-20200423200133178-461240634.png" alt=""></p>
+<p>&nbsp;</p>
+<p><strong>2. 指向一维整型数组的指针</strong></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 对于一个数组而言，数组名可看做指向数组起始位置的指针： &nbsp; &nbsp; &nbsp;<img style="float: left" src="https://img2020.cnblogs.com/blog/1969524/202004/1969524-20200423204942937-1092600279.png" alt=""></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;假设我们有一组数组， int a[5] = {1,2,3,4,5}, 我们有：</p>
+<p><span style="background-color: #ffff00;"><span style="background-color: #ffffff;">&nbsp; &nbsp; &nbsp; &nbsp;</span> &nbsp;a == &amp;a[0]; a+i == &amp;a[i], *(a+i) == a[i]</span></p>
+<p><span style="background-color: #ffffff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;由此可以把a赋值给一个整型指针，并通过该指针访问数组：</span></p>
+<p><span style="background-color: #ffff00;"><span style="background-color: #ffffff;">&nbsp; &nbsp; &nbsp; &nbsp;</span> &nbsp;int *p = a; =&gt;<br /></span></p>
+<p><span style="background-color: #ffff00;"><span style="background-color: #ffffff;">&nbsp; &nbsp; &nbsp; &nbsp;</span> &nbsp;p+i == a+i == &amp;a[i] =&gt; *(p+i) == a[i]</span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;可以通过p++来遍历整个数组，效率会比数组名遍历高。</p>
+<p>&nbsp;</p>
+<p><strong>3. 指向多维整形数组的指针</strong></p>
+<p>对于多维数组，我们可以通过下图来理解；假设有二维数组： int a[2][3] = {{1,2,3}, {4,5,6}};</p>
+<p>一维数组数组名可看做指向该数组第一个元素的起始地址；</p>
+<p>二维数组数组名可看做指向该数组行维度里的第一个元素（即第一行）的起始地址；</p>
+<p>&nbsp;</p>
+<p><img style="float: left" src="https://img2020.cnblogs.com/blog/1969524/202004/1969524-20200423205758532-88279760.png" alt="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a: &amp;a[0] 第0行起始位置；</p>
+<p><span id="__mceDel">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><em>a+i: &amp;a[i] 第i行起始位置；</em></p>
+<p>　　　　*(a+i): a[i] 第i行第0个元素起始位置;</p>
+<p>　　　　*(a+i)+j: a[i]+j 第i行第j个元素起始位置；</p>
+<p>　　　　*(*(a+i)+j): a[i][j] 第i行第j个元素起始位置</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>可以定义一个指向该多维数组某行的指针：<span style="background-color: #ffff00;">int (*p)[3] =</span> a+i; <span style="background-color: #ffff00;">p指向第i行起始位置</span>, p++操作可指向数组下一行起始位置，</p>
+<p>*p表示a[i], *p+j, 表示第i行第j个元素起始位置</p>
+<p><span style="background-color: #ffff00;">注意需要括号 (*p)</span>, 表示是一个指向有3个int元素数组的指针；</p>
+<p>若写成 int *p[3], 则表示有3个元素的整型指针数组；</p>
+<p>&nbsp;</p>
+<p><strong>4. 字符数组</strong></p>
+<p><span style="color: #000000; background-color: #ffff00;">字符数组是比较特殊的一类数组，可以用来表示一个字符串</span></p>
+<p>char str[] = {"I love C++"};</p>
+<p>也可定义为： char *str2 = "I love C++"; （*str2 == str[0] == 'I', str2 == str == "I love C++")</p>
+<p>&nbsp;</p>
+<p>如果是定义一个<span style="background-color: #ffff00;">二维字符数组，一般可用一个指针数组定义</span>：</p>
+<p><img style="float: left" src="https://img2020.cnblogs.com/blog/1969524/202004/1969524-20200424103711169-834826494.png" alt=""></p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p><br />char *str[] = { {"I"}, {"love"}, {"C++"}};</p>
+<p>str[0] = "I", str[1] = "love", str[2] = "C++"</p>
+<p><span style="background-color: #ccffcc;">之所以用指针数组来定义二维字符数组，因为一般情况下这样的数组列数不一致无法确定长度。</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>5. 指向指针的指针</strong></p>
+<p>指向指针的指针，常用来定义一个指针数组：</p>
+<p><span style="background-color: #ffff00;">int **p1 =&gt; int *p2[ ];</span> (p2是一个指针数组数组名，指向该数组第一个指针的起始地址）</p>
+<p>char **str1 =&gt; char *str2[ ];</p>
+<p>=&gt; p1 = p2: p1+i == p2+i == &amp;p2[i] (数组中第i个指针的地址); *(p1+i) == *(p2+i) == p2[i](第i个指针，即第i个指针指向的元素地址);</p>
+<p>　　**(p1+i) == **(p2+i) == *p2[i] (数组中第i个指针指向的数值)</p>
+<p>=&gt; str1 = str2: str1+i == str2+i == &amp;(str2[i]) (数组中第i个指针的地址); *(str1+i) == *(str2+i)==str2[i](第i个指针，即第i个字符串）；</p>
+<p>　 **(str1+i) == **(str2+i) == *str2[i] (数组中第i个指针指向的字符串的第一个字符）</p>
+<p>【区分】</p>
+<p>二维数组数组名 =&gt; 对应指向二维数组某行的指针； <span style="background-color: #ffff00;">int a1[3][4] =&gt; int (*p1)[4]</span></p>
+<p>一维指针数组名 =&gt; 对应指向指针的指针; <span style="background-color: #ffff00;">int *a2[4] =&gt; int **p2</span></p>
+<table style="height: 333px; width: 709px;" border="0">
+<tbody>
+<tr>
+<td>指针值</td>
+<td>对应数组值</td>
+<td>表示</td>
+</tr>
+<tr>
+<td>p1</td>
+<td>a1/&amp;a1[0]</td>
+<td>第0行起始地址</td>
+</tr>
+<tr>
+<td>p2</td>
+<td>a2/&amp;a1[0]</td>
+<td>第0个指针起始地址</td>
+</tr>
+<tr>
+<td>p1+i</td>
+<td>a1+i/&amp;a1[i]</td>
+<td>第i行起始地址</td>
+</tr>
+<tr>
+<td>p2+i</td>
+<td>a2+i/&amp;a1[i]</td>
+<td>第i个指针起始地址</td>
+</tr>
+<tr>
+<td>*(p1+i)</td>
+<td>*(a1+i)/a1[i]</td>
+<td>第i行第0个元素起始地址</td>
+</tr>
+<tr>
+<td>*(p2+i)</td>
+<td>*(a2+i)/a2[i]</td>
+<td>
+<p>第i个指针值，第i个指针指向的元素的起始地址</p>
+<p>若为字符类型，也可表示第i个字符串</p>
+</td>
+</tr>
+<tr>
+<td>*(p1+i)+j</td>
+<td>*(a1+i)+j/&amp;a1[i][j]</td>
+<td>第i行第j个元素起始地址</td>
+</tr>
+<tr>
+<td>*(p2+i)+j</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>*(*(p1+i)+j)</td>
+<td>*(*(a1+i)+j)/a[i][j]</td>
+<td>第i行第j个元素的值</td>
+</tr>
+<tr>
+<td>*(*(p2+i)+j)</td>
+<td>NA</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>**p2</td>
+<td>**a2/*a2[0]</td>
+<td>第0个指针指向的元素的值</td>
+</tr>
+<tr>
+<td>**(p2+i)</td>
+<td>**(a2+i)/*a2[i]</td>
+<td>第i个指针指向的元素的值</td>
+</tr>
+<tr>
+<td>**p1/**(p1+i)</td>
+<td>NA</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>代码示例：</p>
+<div class="cnblogs_code">
+<pre>#include &lt;iostream&gt;
+  
+<span style="color: #0000ff;">using</span> <span style="color: #0000ff;">namespace</span><span style="color: #000000;"> std;
+
+</span><span style="color: #0000ff;">int</span><span style="color: #000000;"> main() {
+    </span><span style="color: #0000ff;">int</span> a1[<span style="color: #800080;">3</span>][<span style="color: #800080;">4</span>] = {{<span style="color: #800080;">1</span>,<span style="color: #800080;">2</span>,<span style="color: #800080;">3</span>,<span style="color: #800080;">4</span>}, {<span style="color: #800080;">5</span>,<span style="color: #800080;">6</span>,<span style="color: #800080;">7</span>,<span style="color: #800080;">8</span>}, {<span style="color: #800080;">9</span>,<span style="color: #800080;">10</span>,<span style="color: #800080;">11</span>,<span style="color: #800080;">12</span><span style="color: #000000;">}};
+    </span><span style="color: #0000ff;">int</span> *a2[<span style="color: #800080;">4</span><span style="color: #000000;">];
+    </span><span style="color: #0000ff;">for</span>(<span style="color: #0000ff;">int</span> i = <span style="color: #800080;">0</span>; i &lt; <span style="color: #800080;">4</span>; ++i) a2[i] = &amp;a1[<span style="color: #800080;">0</span><span style="color: #000000;">][i];
+    </span><span style="color: #0000ff;">int</span> (*p1)[<span style="color: #800080;">4</span>] =<span style="color: #000000;"> a1;
+    </span><span style="color: #0000ff;">int</span> **p2 =<span style="color: #000000;"> a2;
+    cout </span>&lt;&lt; *(*(p1+<span style="color: #800080;">1</span>)+<span style="color: #800080;">2</span>) &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">, </span><span style="color: #800000;">"</span> &lt;&lt; a1[<span style="color: #800080;">1</span>][<span style="color: #800080;">2</span>] &lt;&lt;<span style="color: #000000;"> endl;
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">第1行第2列元素的值</span>
+    cout &lt;&lt; **(p2+<span style="color: #800080;">1</span>) &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">, </span><span style="color: #800000;">"</span> &lt;&lt; *a2[<span style="color: #800080;">1</span>] &lt;&lt;<span style="color: #000000;"> endl;
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">第1个指针指向的元素的值</span>
+    <span style="color: #0000ff;">char</span> *str[] = {<span style="color: #800000;">"</span><span style="color: #800000;">Hello</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">World</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">I</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">Love</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">C++</span><span style="color: #800000;">"</span><span style="color: #000000;">};
+    </span><span style="color: #0000ff;">char</span> **sp =<span style="color: #000000;"> str;
+    cout </span>&lt;&lt; *(sp+<span style="color: #800080;">1</span>) &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">, </span><span style="color: #800000;">"</span> &lt;&lt; str[<span style="color: #800080;">1</span>] &lt;&lt;<span style="color: #000000;"> endl;
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">第1个字符串</span>
+    cout &lt;&lt; **(sp+<span style="color: #800080;">1</span>) &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">, </span><span style="color: #800000;">"</span> &lt;&lt; *str[<span style="color: #800080;">1</span>] &lt;&lt;<span style="color: #000000;"> endl;
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">第1个字符串的第0个字符</span>
+}</pre>
+</div>
+<p>输出结果：</p>
+<div class="cnblogs_code">
+<pre><span style="color: #800080;">7</span>, <span style="color: #800080;">7</span>
+<span style="color: #800080;">2</span>, <span style="color: #800080;">2</span><span style="color: #000000;">
+World, World
+W, W</span></pre>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;【 指向函数的指针 】</p>
+<p>int (*p)(int, int): 表示指针p是一个可以指向函数原型为 int func(int a, int b)一类的函数，为简化代码以及提高代码可维护性。</p>
+<p>当给p赋值： p = func, p指向函数func的入口处；可通过p来调用指针func</p>
+<div class="cnblogs_code">
+<pre>#include &lt;iostream&gt;
+  
+<span style="color: #0000ff;">using</span> <span style="color: #0000ff;">namespace</span><span style="color: #000000;"> std;
+
+</span><span style="color: #0000ff;">int</span> minNum(<span style="color: #0000ff;">int</span> a, <span style="color: #0000ff;">int</span><span style="color: #000000;"> b) {
+    </span><span style="color: #0000ff;">return</span> (a &lt; b)?<span style="color: #000000;">a:b;
+}
+
+</span><span style="color: #0000ff;">int</span> maxNum(<span style="color: #0000ff;">int</span> a, <span style="color: #0000ff;">int</span><span style="color: #000000;"> b) {
+    </span><span style="color: #0000ff;">return</span> (a &gt; b)?<span style="color: #000000;">a:b;
+}
+
+</span><span style="color: #0000ff;">int</span><span style="color: #000000;"> main() {
+    </span><span style="color: #0000ff;">int</span> x = <span style="color: #800080;">3</span>, y = <span style="color: #800080;">5</span><span style="color: #000000;">;
+    </span><span style="color: #0000ff;">int</span> (*p)(<span style="color: #0000ff;">int</span>, <span style="color: #0000ff;">int</span><span style="color: #000000;">);
+    p </span>=<span style="color: #000000;"> maxNum;
+    cout </span>&lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">The bigger number of </span><span style="color: #800000;">"</span> &lt;&lt; x &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;"> and </span><span style="color: #800000;">"</span> &lt;&lt; y &lt;&lt; <span style="color: #800000;">" </span><span style="color: #800000;">is: </span><span style="color: #800000;">"</span> &lt;&lt; p(x, y) &lt;&lt;<span style="color: #000000;"> endl;
+    p </span>=<span style="color: #000000;"> minNum;
+    cout </span>&lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;">The smaller number of </span><span style="color: #800000;">"</span> &lt;&lt; x &lt;&lt; <span style="color: #800000;">"</span><span style="color: #800000;"> and </span><span style="color: #800000;">"</span> &lt;&lt; y &lt;&lt; <span style="color: #800000;">" </span><span style="color: #800000;">is: </span><span style="color: #800000;">"</span> &lt;&lt; p(x, y) &lt;&lt;<span style="color: #000000;"> endl;
+}</span></pre>
+</div>
+<p>输出：</p>
+<div class="cnblogs_code">
+<pre>The bigger number of <span style="color: #800080;">3</span> and 5 <span style="color: #0000ff;">is</span>: <span style="color: #800080;">5</span><span style="color: #000000;">
+The smaller number of </span><span style="color: #800080;">3</span> and 5 <span style="color: #0000ff;">is</span>: <span style="color: #800080;">3</span></pre>
+</div>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+		</div>
+		<div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 16:40</span>&nbsp;
+<a href="https://www.cnblogs.com/xiyang2020/">Yx_xixi</a>&nbsp;
+Views(<span id="post_view_count">...</span>)&nbsp;
+Comments(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12763645" rel="nofollow">Edit</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12763645);return false;">收藏</a></div>
+	</div>
+	
+	
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 585636, cb_blogApp = 'xiyang2020', cb_blogUserGuid = 'a14a632d-00f5-45cc-ebff-08d7c32fea35';
+    var cb_entryId = 12763645, cb_entryCreatedDate = '2020-04-24 16:40', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 Yx_xixi
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

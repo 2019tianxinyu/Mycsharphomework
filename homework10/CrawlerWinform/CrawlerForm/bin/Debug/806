@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_一线码农</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:c3fe8589-0afc-4c28-96ac-dfc851986f01;id=426</id>
+  <updated>2020-04-23T17:14:55Z</updated>
+  <author>
+    <name>一线码农</name>
+    <uri>http://www.cnblogs.com/huangxincheng/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12764925.html</id>
+    <title type="text">用了这么多年的泛型，你对它到底有多了解？ - 一线码农</title>
+    <summary type="text">现代程序员写代码没有人敢说自己没用过泛型，这个泛型模板T可以被任何你想要的类型替代，确实很魔法很神奇，很多人也习以为常了，但就是这么有趣的泛型T底层到底是怎么帮你实现的，不知道有多少人清楚底层玩法，这篇我就试着来分享一下，不一定全对哈。。。 一：没有泛型前 现在的netcore 3.1和最新的.ne</summary>
+    <published>2020-04-23T17:11:00Z</published>
+    <updated>2020-04-23T17:11:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12764925.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12764925.html" />
+    <content type="html">【摘要】现代程序员写代码没有人敢说自己没用过泛型，这个泛型模板T可以被任何你想要的类型替代，确实很魔法很神奇，很多人也习以为常了，但就是这么有趣的泛型T底层到底是怎么帮你实现的，不知道有多少人清楚底层玩法，这篇我就试着来分享一下，不一定全对哈。。。 一：没有泛型前 现在的netcore 3.1和最新的.ne &lt;a href="http://www.cnblogs.com/huangxincheng/p/12764925.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12752849.html</id>
+    <title type="text">async,await执行流看不懂？看完这篇以后再也不会了 - 一线码农</title>
+    <summary type="text">昨天有朋友在公众号发消息说看不懂await，async执行流，其实看不懂太正常了，因为你没经过社会的毒打，没吃过牢饭就不知道自由有多重要，没生过病就不知道健康有多重要，没用过ContinueWith就不知道await,async有多重要，下面我举两个案例佐证一下？ 一：案例一 【嵌套下的异步】 写了</summary>
+    <published>2020-04-22T08:17:00Z</published>
+    <updated>2020-04-22T08:17:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12752849.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12752849.html" />
+    <content type="html">【摘要】昨天有朋友在公众号发消息说看不懂await，async执行流，其实看不懂太正常了，因为你没经过社会的毒打，没吃过牢饭就不知道自由有多重要，没生过病就不知道健康有多重要，没用过ContinueWith就不知道await,async有多重要，下面我举两个案例佐证一下？ 一：案例一 【嵌套下的异步】 写了 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12752849.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12746038.html</id>
+    <title type="text">我是如何一步步的在并行编程中将lock锁次数降到最低实现无锁编程 - 一线码农</title>
+    <summary type="text">在并行编程中，经常会遇到多线程间操作共享集合的问题，很多时候大家都很难逃避这个问题做到一种无锁编程状态，你也知道一旦给共享集合套上lock之后，并发和伸缩能力往往会造成很大影响，这篇就来谈谈如何尽可能的减少lock锁次数甚至没有。 一：缘由 1. 业务背景 昨天在review代码的时候，看到以前自己</summary>
+    <published>2020-04-21T09:20:00Z</published>
+    <updated>2020-04-21T09:20:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12746038.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12746038.html" />
+    <content type="html">【摘要】在并行编程中，经常会遇到多线程间操作共享集合的问题，很多时候大家都很难逃避这个问题做到一种无锁编程状态，你也知道一旦给共享集合套上lock之后，并发和伸缩能力往往会造成很大影响，这篇就来谈谈如何尽可能的减少lock锁次数甚至没有。 一：缘由 1. 业务背景 昨天在review代码的时候，看到以前自己 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12746038.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12739752.html</id>
+    <title type="text">同步异步多线程这三者关系，你能给面试官一个满意的回答吗？ - 一线码农</title>
+    <summary type="text">前几天一位朋友去面试，面试官问了他同步，异步，多线程之间是什么关系，异步比同步高效在哪？多线程比单线程高效在哪？由于回答的不好，让我帮他捋一下，其实回答这个问题不难，难就难在只对别人说理论，而没有现杀的例子。 一：异步 1. 到底解放了谁？ 从基础的同步说起 要说解放了谁，一定得有几个参与者，举个例</summary>
+    <published>2020-04-20T10:57:00Z</published>
+    <updated>2020-04-20T10:57:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12739752.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12739752.html" />
+    <content type="html">【摘要】前几天一位朋友去面试，面试官问了他同步，异步，多线程之间是什么关系，异步比同步高效在哪？多线程比单线程高效在哪？由于回答的不好，让我帮他捋一下，其实回答这个问题不难，难就难在只对别人说理论，而没有现杀的例子。 一：异步 1. 到底解放了谁？ 从基础的同步说起 要说解放了谁，一定得有几个参与者，举个例 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12739752.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12719931.html</id>
+    <title type="text">Linq中带有迭代索引的Select扩展方法，为啥知道的人不多呢？ - 一线码农</title>
+    <summary type="text">一：背景 昨天在看C 函数式编程这本书的时候，有一处让我干着急，需求是这样： 给多行文字加上数字列表项。 针对这个需求你会如何快捷高效的给每个项目加上数字编号呢？ 我看书中是这样实现的，如下代码 怎么说呢，需求能实现没有问题，但这里还是累赘了，因使用到了拉链函数Zip 和生成范围的Range，全纠缠</summary>
+    <published>2020-04-17T06:44:00Z</published>
+    <updated>2020-04-17T06:44:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12719931.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12719931.html" />
+    <content type="html">【摘要】一：背景 昨天在看C 函数式编程这本书的时候，有一处让我干着急，需求是这样： 给多行文字加上数字列表项。 针对这个需求你会如何快捷高效的给每个项目加上数字编号呢？ 我看书中是这样实现的，如下代码 怎么说呢，需求能实现没有问题，但这里还是累赘了，因使用到了拉链函数Zip 和生成范围的Range，全纠缠 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12719931.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12716163.html</id>
+    <title type="text">一个lock锁就可以分出低中高水平的程序员对问题的处置方式 - 一线码农</title>
+    <summary type="text">说到lock锁，我相信在座的各位没有不会用的，而且还知道怎么用不会出错，但让他们聊一聊为什么可以锁住，都说人以群分，大概就有了下面低中高水平的三类人吧。 第一类人 将lock对象定义成static，这样就能让多个线程看到同一个对象，以此实现线程间互斥和保证同步，如果再深问为什么？就怕遮遮掩掩的说好像</summary>
+    <published>2020-04-16T14:01:00Z</published>
+    <updated>2020-04-16T14:01:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12716163.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12716163.html" />
+    <content type="html">【摘要】说到lock锁，我相信在座的各位没有不会用的，而且还知道怎么用不会出错，但让他们聊一聊为什么可以锁住，都说人以群分，大概就有了下面低中高水平的三类人吧。 第一类人 将lock对象定义成static，这样就能让多个线程看到同一个对象，以此实现线程间互斥和保证同步，如果再深问为什么？就怕遮遮掩掩的说好像 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12716163.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12706458.html</id>
+    <title type="text">多角度让你彻底明白yield语法糖的用法和原理及在C#函数式编程中的作用 - 一线码农</title>
+    <summary type="text">如果大家读过dapper源码，你会发现这内部有很多方法都用到了yield关键词，那yield到底是用来干嘛的，能不能拿掉，拿掉与不拿掉有多大的差别，首先上一段dapper中精简后的Query方法，先让大家眼见为实。 一：yield探究 1. 骨架代码猜想 骨架代码其实很简单，方法的返回值是IEnum</summary>
+    <published>2020-04-15T08:55:00Z</published>
+    <updated>2020-04-15T08:55:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12706458.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12706458.html" />
+    <content type="html">【摘要】如果大家读过dapper源码，你会发现这内部有很多方法都用到了yield关键词，那yield到底是用来干嘛的，能不能拿掉，拿掉与不拿掉有多大的差别，首先上一段dapper中精简后的Query方法，先让大家眼见为实。 一：yield探究 1. 骨架代码猜想 骨架代码其实很简单，方法的返回值是IEnum &lt;a href="http://www.cnblogs.com/huangxincheng/p/12706458.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12697403.html</id>
+    <title type="text">Linq下有一个非常实用的SelectMany方法，很多人却不会用 - 一线码农</title>
+    <summary type="text">在平时开发中经常会看到有些朋友或者同事在写代码时会充斥着各种for，foreach，这种程式代码太多的话阅读性特别差，而且还显得特别累赘，其实在FCL中有很多帮助我们提高阅读感的方法，而现实中很多人不会用或者说不知道，这篇我就跟大家聊一聊。 一：SelectMany 这个方法绝对是提高开发速度的一大</summary>
+    <published>2020-04-14T05:25:00Z</published>
+    <updated>2020-04-14T05:25:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12697403.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12697403.html" />
+    <content type="html">【摘要】在平时开发中经常会看到有些朋友或者同事在写代码时会充斥着各种for，foreach，这种程式代码太多的话阅读性特别差，而且还显得特别累赘，其实在FCL中有很多帮助我们提高阅读感的方法，而现实中很多人不会用或者说不知道，这篇我就跟大家聊一聊。 一：SelectMany 这个方法绝对是提高开发速度的一大 &lt;a href="http://www.cnblogs.com/huangxincheng/p/12697403.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12684317.html</id>
+    <title type="text">当模板方法遇到了委托函数，你的代码又可以精简了 - 一线码农</title>
+    <summary type="text">现如今当你翻看一些开源项目源码的时候，你会发现现在到处充斥着委托函数，如Func,Action,Predicate，确实现在的C 在函数式编程的路上越来越成为主流，越来越显示威力，曾经的一些经典设计模式写法，在函数式下可以稍微优化一下了，这篇我们就来说说模板方法。 一：实际场景 1. 模板方法定义 </summary>
+    <published>2020-04-12T03:26:00Z</published>
+    <updated>2020-04-12T03:26:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12684317.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12684317.html" />
+    <content type="html">【摘要】现如今当你翻看一些开源项目源码的时候，你会发现现在到处充斥着委托函数，如Func,Action,Predicate，确实现在的C 在函数式编程的路上越来越成为主流，越来越显示威力，曾经的一些经典设计模式写法，在函数式下可以稍微优化一下了，这篇我们就来说说模板方法。 一：实际场景 1. 模板方法定义  &lt;a href="http://www.cnblogs.com/huangxincheng/p/12684317.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/huangxincheng/p/12679226.html</id>
+    <title type="text">为什么要用内插字符串代替string.format - 一线码农</title>
+    <summary type="text">知道为什么要用内插字符串，只有踩过坑的人才能明白，如果你曾今使用string.format超5个以上占位符，那其中的痛苦我想你肯定是能够共鸣的。 一：痛苦经历 先上一段曾今写过的一段代码，大家来体会一下： 这里拥有多达8个占位符，当年写这个的时候，会有三个痛点。 1. 占位符不能写错了 比如这里的 </summary>
+    <published>2020-04-11T05:40:00Z</published>
+    <updated>2020-04-11T05:40:00Z</updated>
+    <author>
+      <name>一线码农</name>
+      <uri>http://www.cnblogs.com/huangxincheng/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/huangxincheng/p/12679226.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/huangxincheng/p/12679226.html" />
+    <content type="html">【摘要】知道为什么要用内插字符串，只有踩过坑的人才能明白，如果你曾今使用string.format超5个以上占位符，那其中的痛苦我想你肯定是能够共鸣的。 一：痛苦经历 先上一段曾今写过的一段代码，大家来体会一下： 这里拥有多达8个占位符，当年写这个的时候，会有三个痛点。 1. 占位符不能写错了 比如这里的  &lt;a href="http://www.cnblogs.com/huangxincheng/p/12679226.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

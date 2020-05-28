@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="Vim文本编辑器的使用 Vim的工作模式 1.命令模式 2.输入模式 3.编辑模式 进入Vim 1.使用Vim打开文件 2.直接进入指定位置 Vim基本命令 1.插入命令 2.光标移动命令 3.使用V" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Linux学习笔记（九）Vim文本编辑器的使用 - LRainner - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/LRainner/custom.css?v=BJE9Mly77MA6esabncjwocGWjG8=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/LRainner/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/LRainner/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/LRainner/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 595812;
+        var currentBlogApp = 'LRainner';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/LRainner/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/LRainner/">LRainner</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/LRainner/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/LRainner">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/LRainner/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+9&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+0</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/LRainner/p/12769020.html">Linux学习笔记（九）Vim文本编辑器的使用</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h1 id="vim文本编辑器的使用">Vim文本编辑器的使用</h1>
+<ul>
+<li>Vim的工作模式<br>
+1.命令模式<br>
+2.输入模式<br>
+3.编辑模式</li>
+<li>进入Vim<br>
+1.使用Vim打开文件<br>
+2.直接进入指定位置</li>
+<li>Vim基本命令<br>
+1.插入命令<br>
+2.光标移动命令<br>
+3.使用Vim进行编辑</li>
+<li>保存退出命令</li>
+</ul>
+<h2 id="vim的工作模式">Vim的工作模式</h2>
+<ul>
+<li>
+<p>命令模式</p>
+</li>
+<li>
+<p>输入模式</p>
+</li>
+<li>
+<p>编辑模式</p>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/22820163-5bedc58c9fa0c596.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2-1Q00Q41T01J.jpg"></p>
+<h3 id="命令模式">命令模式</h3>
+<p>在使用Vim编辑文件时，默认处于命令模式。在命令模式下，可以使用上、下、左、右键或者k、j、h、l命令来移动光标，还可以对文件内容进行复制、粘贴、替换、删除等操作</p>
+<h3 id="输入模式">输入模式</h3>
+<p>在输入模式下可以对文件进行写操作。进入输入模式的方法是在命令模式输入i、a、o等插入命令，编写完成后按Esc键即可返回命令模式</p>
+<h3 id="编辑模式">编辑模式</h3>
+<p>如果要保存、查找或者替换一些内容等，就需要进入编辑模式。进入编辑模式的方法是在命令模式输入 &quot;:&quot; 符号，指令执行后会自动返回命令模式</p>
+<h2 id="进入vim">进入Vim</h2>
+<h3 id="使用vim打开文件">使用Vim打开文件</h3>
+<p>使用命令 <code>vim 文件目录</code> 即可使用Vim打开文件</p>
+<h3 id="直接进入指定位置">直接进入指定位置</h3>
+<pre><code>vim +20 文件目录    直接进入文件第20航
+
+vim +/hello 文件目录    直接进入第一个&quot;hello&quot;字符串所在行
+</code></pre>
+<h2 id="vim基本命令">Vim基本命令</h2>
+<h3 id="插入命令">插入命令</h3>
+<p>在命令模式下输入i、I、a、A、o、O等进入输入模式，不同的键只是光标所处的位置不同。</p>
+<p>在Vim编辑器的左下角会出现&quot;插入&quot;字样，这就代表我们可以执行写入操作</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/22820163-b5e8dca5986fae74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="12.png"></p>
+<h3 id="常用的插入命令：">常用的插入命令：</h3>
+<pre><code>i    在当前光标所在位置插入随后输入的文本，光标后的文本相应的向右移动
+
+I    在光标所在的行首插入随后输入的文本，行首是改行的第一个非空白字符，相当于光标移动到行首再执行i命令
+
+a    在当前光标所在位置之后插入随后输入的文本
+
+A    在光标所在的行首插入随后输入的文本，相当于光标移动到行尾再执行a命令
+
+o    在光标所在行的下面插入新的一行，光标停在空行行首，等待输入文本
+
+O    在光标所在行的下面插入新的一行，光标停在空行行首，等待输入文本
+</code></pre>
+<h2 id="光标移动命令">光标移动命令</h2>
+<h3 id="以字符为单位移动">以字符为单位移动</h3>
+<pre><code>上、下、左、右方向键    移动光标
+
+h、j、k、l键    向左、向下、向上、向右移动光标
+</code></pre>
+<h3 id="以单词为单位的移动">以单词为单位的移动</h3>
+<pre><code>w    移动光标到下一个单词的单词首
+
+b    移动光标到上一个单词的单词首
+
+e    移动光标到下一个单词的单词尾
+</code></pre>
+<h3 id="移动到行首或行尾">移动到行首或行尾</h3>
+<pre><code>$或End    移动光标到行尾
+
+0或^或Home    移动光标到行首
+</code></pre>
+<h3 id="移动到一行的指定字符处">移动到一行的指定字符处</h3>
+<pre><code>f字符    移动光标到第一个符合条件的字符处，使用条件是光标要在指定字符前
+</code></pre>
+<h3 id="移动到匹配的括号处">移动到匹配的括号处</h3>
+<pre><code>%    在匹配的括号间切换
+</code></pre>
+<h3 id="移动到指定行数">移动到指定行数</h3>
+<pre><code>nG或:n    移动光标到指定的行
+</code></pre>
+<h2 id="使用vim进行编辑">使用Vim进行编辑</h2>
+<h3 id="查找指定字符串">查找指定字符串</h3>
+<pre><code>/要查找的字符串    从光标所在行开始向下查找字符串
+
+?要查找的字符串    从光标所在行开始向上查找字符串
+
+:set ic    查找时忽略大小写
+
+:set noic    查找时区分大小写
+</code></pre>
+<h3 id="使用vim进行替换">使用Vim进行替换</h3>
+<pre><code>r    替换光标所在处的字符
+
+R    从光标所在处开始替换，按Esc结束
+
+:替换起始处,替换结束处s/源字符串/替换的字符串/g    替换范围内的字符串
+
+:%s/源字符串/替换的字符串/g    替换整篇文档的字符串
+
+:1,$s/root/ROOT/g    将整篇文档的root替换为ROOT
+</code></pre>
+<h3 id="使用vim进行删除、粘贴、复制">使用Vim进行删除、粘贴、复制</h3>
+<pre><code>x    删除光标所在的字符
+
+nx    从光标所在位置向后删除n个字符
+
+dd    删除整行，如果之后粘贴，则此命令的作用是剪切
+
+ndd    删除多行
+
+dG    删除从光标开始到文件末尾的内容
+
+D    删除从光标开始到这行行尾的内容
+
+:开始行,中止行d    删除指定范围的行
+
+yy或Y    复制单行
+
+nyy或nY    复制多行
+
+p    粘贴到当前光标所在行下
+
+P    粘贴到当前光标所在行上
+
+dd命令删除的内容都临时放到内存里，将光标移动到指定位置，按下p，就能将刚才删除的内容又粘贴到此处
+</code></pre>
+<h3 id="使用vim撤销上一步操作">使用Vim撤销上一步操作</h3>
+<pre><code>u    撤销
+</code></pre>
+<h2 id="保存退出命令">保存退出命令</h2>
+<pre><code>:w    保存不退出
+
+:q    不保存退出
+
+!    强制性操作
+
+:wq    保存并退出
+
+:w!    强制保存
+
+:wq!    强制保存退出
+
+:q!    不保存退出
+
+:w新文件名    另存为其他文件，配合:q!使用
+
+ZZ    如果文件没有修改，就是不保存退出；如果文件已经修改，就是保存退出
+</code></pre>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-24 17:43</span>&nbsp;
+<a href="https://www.cnblogs.com/LRainner/">LRainner</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12769020" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12769020);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 595812, cb_blogApp = 'LRainner', cb_blogUserGuid = 'c76f86dd-cfdc-4e8c-9cb6-08d7d7b52bb0';
+    var cb_entryId = 12769020, cb_entryCreatedDate = '2020-04-24 17:43', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 LRainner
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>
